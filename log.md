@@ -1,0 +1,4 @@
+- 11/1/2023
+    - worked on window conversions - found out data is missing some minutes. can't divide by 10 gto get 10m candles. bummer
+- 11/2/2023
+    - partition 
