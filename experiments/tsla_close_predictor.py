@@ -6,10 +6,14 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
+
+import add_indicators as ind
+
 # Load the data
 # columns: timestamp,open,high,low,close,volume,date,time
 print("Loading data... ",)
 df = pd.read_csv('data/cleaned_tsla.csv')
+df = ind.add_indicators(df, ['RSI_14', 'EMA_50'])
 print("Loaded")
 
 # PREPROCESSING
