@@ -9,14 +9,20 @@ from sklearn.metrics import mean_squared_error
 
 import add_indicators as ind
 
+filename = "TSLA_1min_firstratedata.csv"
+
 # Load the data
 # columns: timestamp,open,high,low,close,volume,date,time
 print("Loading data... ",)
-df = pd.read_csv('data/cleaned_tsla.csv')
+df = pd.read_csv('data/' + filename)
 df = ind.add_indicators(df, ['RSI_14', 'EMA_50'])
 print("Loaded")
 
 # PREPROCESSING
+# Split timestamp into date and time
+df['date'] = df['timestamp'].str.split(' ', expand=True)[0]
+df['time'] = df['timestamp'].str.split(' ', expand=True)[1]
+
 # delete any data with a time of 15:30:00 to 15:59:00, and all post-market data
 df = df[~df['time'].between('00:01:00', '09:00:00')]
 df = df[~df['time'].between('16:00:00', '23:59:00')]
@@ -29,7 +35,6 @@ df['datetime'] = df['date'] * 1440 + df['time']
 df = df.drop(['timestamp'], axis=1)
 df = df.drop(['date'], axis=1)
 df = df.drop(['time'], axis=1)
-
 
 print("Preprocessing Complete of ", len(df), "rows")
 print(df.head())

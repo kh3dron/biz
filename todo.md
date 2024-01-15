@@ -1,13 +1,10 @@
 TODO 
 
-- other chart data
-
-
-
-- Graphics library with different charting options
-- partition data into different candle lengths
-- testing model 
-
-- Transformer model
-- giant, dumb prediction model 
-- 3 candle quadrant model
+- [ ] Preprocessing
+  - [ ] Add indicators
+    - [ ] EMA
+    - [ ] RSI
+  - [ ] Crop by time 
+- [ ] Charting
+  - [ ] End of day price movement 
+- [ ] 
