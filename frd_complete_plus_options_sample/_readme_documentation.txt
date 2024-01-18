@@ -1,4 +1,4 @@
-Complete Bundle (Stocks, ETFs, Futures, Indices, Crypto) Historical Datasets
+Complete Bundle (Stocks, Options, ETFs, Futures, Indices, Crypto) Historical Datasets
 ============================================================================
 
 NOTE: Only minutes with trading volume are included. Bars with zero volume are excluded.
@@ -9,7 +9,9 @@ Timeframes : 1-minute, 5-minutes, 30-minutes, 1-hour, 1-day
 This bundle contains historical intraday data for :
 
 - 7492 most liquid US stocks 
-  [includes all active Russell 3000, S&P500, Nasdaq 100, and DJI stocks)
+  [includes all active Russell 3000, S&P500, Nasdaq 100, and DJI stocks) 
+- Options for over 5800 active US equities and indices (only end-of-day data)
+- Options for over 4000 delisted equities (only end-of-day data)
 - 2518 most liquid US ETFs  
 - 259 most actively traded futures contracts
 - 117 most popular US indices
@@ -26,6 +28,14 @@ Unadjusted - actual historic traded prices with no adjustments (only the 1-minut
 Split Adjusted - prices adjusted for stock splits and reverse splits only
 Split+Dividend Adjusted - prices adjusted for both splits and dividends
 
+
+
+Options Data
+-----------------
+
+All options for over 5800 US equities and indices from 2010.
+
+Full historical option chains, including closing price, bid/ask quotes, implied volatilities (for both put and ask), Greeks (delta, gamma, vega, theta and rho) for both puts and calls.
 
 
 Futures Data 
@@ -75,6 +85,7 @@ Notes
 Included Sample Files (2 weeks data):
 
 Stock : AMZN (Amazon), MSFT (Microsoft)   
+Options : AAPL, META, TSLA (one day complete options chain)
 ETF : SPY (SPDR S&P 500 ETF), QQQ (Invesco QQQ Trust) 
 Futures : ES(S&P 500 E-Mini) 
 Crypto : BTC (Bitcoin) 
@@ -15618,3 +15629,10027 @@ USDTHB Start Date:2010-01-01
 USDTRY Start Date:2010-01-01
 USDZAR Start Date:2010-01-01
 
+
+
+Options Tickers (starting 2010-01-03 -> 2023-07-06)
+---------------------------------------------------
+AAC First Date:2018-01-02
+AADI First Date:2021-12-06
+AAIC First Date:2020-11-25
+AAL First Date:2018-01-02
+AAN First Date:2010-01-04
+AAOI First Date:2018-01-02
+AAON First Date:2012-07-30
+AAPB First Date:2022-09-21
+AAPD First Date:2022-09-21
+AAPL First Date:2010-01-04
+AAPU First Date:2022-09-21
+AAP First Date:2010-01-04
+AAT First Date:2011-02-08
+AAU First Date:2011-01-06
+AAXJ First Date:2010-10-27
+AA First Date:2010-01-04
+ABBNY First Date:2023-06-22
+ABBV First Date:2018-01-02
+ABCB First Date:2012-10-17
+ABCL First Date:2021-04-09
+ABCM First Date:2022-11-22
+ABC First Date:2010-01-04
+ABEO First Date:2018-01-02
+ABEV First Date:2018-01-02
+ABG First Date:2010-01-04
+ABIO First Date:2020-12-15
+ABM First Date:2010-01-04
+ABNB First Date:2020-12-24
+ABOS First Date:2022-04-06
+ABR First Date:2012-10-17
+ABSI First Date:2022-02-09
+ABST First Date:2021-05-05
+ABT First Date:2010-01-04
+ABUS First Date:2018-01-02
+AB First Date:2010-01-04
+ACAD First Date:2010-01-04
+ACA First Date:2018-11-29
+ACB First Date:2018-11-29
+ACCD First Date:2020-10-20
+ACCO First Date:2012-05-01
+ACDC First Date:2022-11-16
+ACEL First Date:2020-08-06
+ACER First Date:2020-09-30
+ACES First Date:2020-04-30
+ACET First Date:2010-02-05
+ACGL First Date:2010-01-04
+ACHC First Date:2012-06-01
+ACHR First Date:2021-09-28
+ACHV First Date:2017-08-03
+ACIU First Date:2020-02-28
+ACIW First Date:2010-01-04
+ACI First Date:2010-01-04
+ACLS First Date:2011-01-03
+ACLX First Date:2022-08-19
+ACMR First Date:2020-01-29
+ACM First Date:2010-01-04
+ACNB First Date:2023-05-11
+ACNT First Date:2022-09-19
+ACN First Date:2010-01-04
+ACOR First Date:2010-01-04
+ACRE First Date:2012-05-14
+ACRS First Date:2018-01-02
+ACRX First Date:2018-01-02
+ACR First Date:2021-04-07
+ACTG First Date:2010-01-04
+ACT First Date:2013-01-24
+ACVA First Date:2021-05-05
+ACWI First Date:2011-09-20
+ACWV First Date:2018-01-02
+ACWX First Date:2012-12-12
+ACXP First Date:2022-03-24
+ADAP First Date:2018-01-02
+ADBE First Date:2010-01-04
+ADCT First Date:2010-01-04
+ADC First Date:2010-08-20
+ADEA First Date:2022-10-27
+ADES First Date:2012-03-23
+ADIL First Date:2021-09-28
+ADI First Date:2010-01-04
+ADMA First Date:2018-08-15
+ADMP First Date:2018-01-02
+ADM First Date:2010-01-04
+ADNT First Date:2018-01-02
+ADN First Date:2021-02-17
+ADPT First Date:2015-06-24
+ADP First Date:2010-01-04
+ADSK First Date:2010-01-04
+ADTN First Date:2010-01-04
+ADTX First Date:2021-02-17
+ADT First Date:2012-10-02
+ADUS First Date:2018-01-02
+ADVM First Date:2018-01-02
+ADV First Date:2020-12-15
+AEE First Date:2010-01-04
+AEG First Date:2010-01-04
+AEHR First Date:2021-08-10
+AEIS First Date:2010-01-04
+AEL First Date:2010-01-04
+AEMD First Date:2021-07-15
+AEM First Date:2010-01-04
+AEO First Date:2010-01-04
+AEP First Date:2010-01-04
+AER First Date:2010-01-04
+AESI First Date:2023-04-19
+AES First Date:2010-01-04
+AEVA First Date:2021-04-07
+AEYE First Date:2021-11-15
+AEZS First Date:2018-01-02
+AFCG First Date:2022-02-09
+AFG First Date:2010-01-04
+AFIB First Date:2021-04-13
+AFK First Date:2021-08-11
+AFL First Date:2010-01-04
+AFMD First Date:2018-01-02
+AFRM First Date:2021-02-04
+AFTY First Date:2018-01-02
+AFYA First Date:2019-09-25
+AGCO First Date:2010-01-04
+AGEN First Date:2012-03-15
+AGGY First Date:2023-01-19
+AGG First Date:2010-01-04
+AGIO First Date:2018-01-02
+AGI First Date:2018-01-02
+AGLE First Date:2018-11-29
+AGL First Date:2010-01-04
+AGM First Date:2010-01-04
+AGNC First Date:2010-01-04
+AGNG First Date:2022-03-23
+AGO First Date:2010-01-04
+AGQ First Date:2010-01-04
+AGRI First Date:2022-04-12
+AGRO First Date:2011-02-14
+AGR First Date:2018-01-02
+AGS First Date:2019-06-07
+AGTI First Date:2022-10-04
+AGX First Date:2012-12-18
+AGYS First Date:2010-01-04
+AGZ First Date:2021-07-16
+AG First Date:2011-03-07
+AHCO First Date:2020-12-15
+AHH First Date:2018-01-02
+AHOY First Date:2022-10-05
+AHT First Date:2010-01-04
+AIA First Date:2018-11-29
+AIEQ First Date:2021-09-16
+AIG First Date:2010-01-04
+AIN First Date:2010-01-04
+AIP First Date:2022-07-14
+AIQ First Date:2010-01-04
+AIRC First Date:2021-02-04
+AIRG First Date:2018-01-02
+AIRR First Date:2021-06-22
+AIRS First Date:2022-12-14
+AIR First Date:2010-01-04
+AIT First Date:2010-01-04
+AIVI First Date:2023-04-17
+AIVL First Date:2022-02-02
+AIV First Date:2010-01-04
+AIZ First Date:2010-01-04
+AI First Date:2012-11-05
+AJG First Date:2010-01-04
+AJRD First Date:2018-01-02
+AJX First Date:2020-11-25
+AKAM First Date:2010-01-04
+AKA First Date:2022-02-02
+AKBA First Date:2018-01-02
+AKLI First Date:2022-09-19
+AKRO First Date:2020-02-28
+AKR First Date:2010-01-04
+AKTS First Date:2019-07-26
+AKYA First Date:2022-02-23
+ALB First Date:2010-01-04
+ALC First Date:2012-05-23
+ALDX First Date:2018-02-23
+ALEC First Date:2020-01-17
+ALEX First Date:2010-01-04
+ALE First Date:2010-01-04
+ALGM First Date:2021-02-17
+ALGN First Date:2010-01-04
+ALGS First Date:2021-08-10
+ALGT First Date:2010-01-04
+ALG First Date:2018-01-02
+ALHC First Date:2021-05-05
+ALIT First Date:2021-07-15
+ALKS First Date:2010-01-04
+ALKT First Date:2021-11-17
+ALK First Date:2010-01-04
+ALLE First Date:2018-01-02
+ALLG First Date:2022-08-19
+ALLK First Date:2019-06-07
+ALLO First Date:2018-12-24
+ALLT First Date:2011-03-01
+ALLY First Date:2018-01-02
+ALL First Date:2010-01-04
+ALNY First Date:2010-01-04
+ALPN First Date:2021-02-04
+ALPP First Date:2021-11-17
+ALRM First Date:2018-01-02
+ALRS First Date:2022-02-02
+ALSN First Date:2012-03-30
+ALTG First Date:2020-08-06
+ALTL First Date:2022-11-16
+ALTO First Date:2021-02-16
+ALTR First Date:2010-01-04
+ALTU First Date:2021-09-28
+ALTY First Date:2021-06-22
+ALT First Date:2018-01-02
+ALVR First Date:2010-01-04
+ALV First Date:2010-01-04
+ALXO First Date:2020-12-24
+ALZN First Date:2021-08-10
+AL First Date:2011-05-04
+AMAL First Date:2022-02-02
+AMAM First Date:2022-04-06
+AMAT First Date:2010-01-04
+AMBA First Date:2018-01-02
+AMBC First Date:2018-01-02
+AMBP First Date:2021-09-28
+AMCR First Date:2019-07-26
+AMCX First Date:2011-07-01
+AMC First Date:2018-01-02
+AMD First Date:2010-01-04
+AMED First Date:2010-01-04
+AMEH First Date:2021-07-15
+AME First Date:2010-01-04
+AMGN First Date:2010-01-04
+AMG First Date:2010-01-04
+AMH First Date:2018-01-02
+AMJ First Date:2010-05-28
+AMKR First Date:2010-01-04
+AMK First Date:2022-02-09
+AMLP First Date:2010-09-01
+AMLX First Date:2022-04-06
+AMNB First Date:2018-01-02
+AMN First Date:2010-01-04
+AMOM First Date:2023-04-17
+AMOT First Date:2018-01-02
+AMPH First Date:2018-01-02
+AMPL First Date:2021-11-17
+AMPS First Date:2021-12-16
+AMPX First Date:2022-10-27
+AMPY First Date:2019-08-07
+AMP First Date:2010-01-04
+AMRC First Date:2010-09-24
+AMRK First Date:2021-11-17
+AMRN First Date:2010-10-27
+AMRS First Date:2011-01-25
+AMRX First Date:2018-05-08
+AMR First Date:2010-01-04
+AMSC First Date:2010-01-04
+AMSF First Date:2010-01-04
+AMSWA First Date:2011-09-01
+AMTB First Date:2022-07-14
+AMTI First Date:2021-04-13
+AMTX First Date:2020-12-15
+AMT First Date:2010-01-04
+AMWD First Date:2012-10-17
+AMWL First Date:2020-10-20
+AMX First Date:2010-01-04
+AMZA First Date:2018-01-02
+AMZN First Date:2010-01-04
+AM First Date:2010-01-04
+ANAB First Date:2018-01-02
+ANDE First Date:2010-01-04
+ANET First Date:2018-01-02
+ANEW First Date:2023-05-26
+ANF First Date:2010-01-04
+ANGI First Date:2011-11-30
+ANGL First Date:2018-01-02
+ANGO First Date:2010-01-04
+ANIK First Date:2018-01-02
+ANIP First Date:2018-01-02
+ANIX First Date:2021-04-13
+ANNX First Date:2021-09-28
+ANSS First Date:2010-01-04
+ANY First Date:2018-01-02
+AN First Date:2010-01-04
+AOA First Date:2023-05-26
+AOM First Date:2023-05-26
+AON First Date:2010-01-04
+AORT First Date:2022-02-08
+AOR First Date:2023-05-26
+AOSL First Date:2011-09-12
+AOS First Date:2010-01-04
+AOUT First Date:2020-09-30
+APAM First Date:2018-01-02
+APA First Date:2010-01-04
+APDN First Date:2018-01-02
+APD First Date:2010-01-04
+APEI First Date:2010-01-04
+APGN First Date:2022-09-19
+APG First Date:2020-08-06
+APH First Date:2010-01-04
+API First Date:2020-08-06
+APLD First Date:2023-06-15
+APLE First Date:2018-01-02
+APLS First Date:2019-04-10
+APLT First Date:2020-09-30
+APOG First Date:2010-01-04
+APO First Date:2011-04-08
+APPF First Date:2018-11-28
+APPH First Date:2021-02-17
+APPN First Date:2018-08-15
+APPS First Date:2018-01-02
+APP First Date:2010-01-04
+APRE First Date:2021-04-09
+APRN First Date:2018-01-02
+APTO First Date:2018-08-15
+APTV First Date:2018-01-02
+APT First Date:2010-02-05
+APYX First Date:2019-04-04
+AP First Date:2018-01-02
+AQB First Date:2020-10-20
+AQMS First Date:2018-01-02
+AQN First Date:2020-12-15
+AQST First Date:2020-02-28
+AQWA First Date:2021-10-11
+ARAV First Date:2018-11-29
+ARAY First Date:2010-01-04
+ARBE First Date:2022-03-08
+ARBK First Date:2021-12-01
+ARCB First Date:2018-01-02
+ARCC First Date:2010-01-04
+ARCE First Date:2021-10-08
+ARCH First Date:2018-01-02
+ARCO First Date:2011-04-25
+ARCT First Date:2012-06-01
+ARC First Date:2011-05-23
+ARDS First Date:2021-11-15
+ARDX First Date:2018-01-02
+AREC First Date:2021-04-13
+AREN First Date:2022-12-14
+ARES First Date:2018-01-02
+ARE First Date:2010-01-04
+ARGO First Date:2022-11-22
+ARGT First Date:2018-01-02
+ARGX First Date:2018-11-28
+ARHS First Date:2022-06-03
+ARIS First Date:2022-06-03
+ARI First Date:2010-01-04
+ARKF First Date:2020-08-06
+ARKG First Date:2020-08-06
+ARKK First Date:2018-03-09
+ARKO First Date:2021-07-15
+ARKQ First Date:2020-08-06
+ARKW First Date:2018-04-12
+ARKX First Date:2021-04-13
+ARLO First Date:2018-11-28
+ARLP First Date:2010-01-04
+ARMK First Date:2018-01-02
+ARMP First Date:2022-02-02
+ARNC First Date:2018-01-02
+AROC First Date:2018-01-02
+AROW First Date:2018-01-02
+ARQQ First Date:2021-11-15
+ARQT First Date:2021-02-04
+ARRY First Date:2010-01-04
+ARR First Date:2011-03-07
+ARVL First Date:2021-04-13
+ARVN First Date:2019-07-26
+ARVR First Date:2022-06-10
+ARWR First Date:2018-01-02
+ARW First Date:2010-01-04
+AR First Date:2018-01-02
+ASAI First Date:2021-06-11
+ASAN First Date:2020-10-20
+ASA First Date:2010-01-04
+ASB First Date:2018-01-02
+ASC First Date:2018-01-02
+ASEA First Date:2021-06-22
+ASGN First Date:2011-03-23
+ASHR First Date:2018-01-02
+ASHS First Date:2018-01-02
+ASHX First Date:2022-02-14
+ASH First Date:2010-01-04
+ASIX First Date:2018-01-02
+ASLE First Date:2021-09-15
+ASLN First Date:2021-07-15
+ASMB First Date:2018-01-02
+ASML First Date:2010-01-04
+ASND First Date:2018-04-05
+ASO First Date:2020-12-15
+ASPN First Date:2020-11-25
+ASPS First Date:2010-01-04
+ASPU First Date:2021-05-05
+ASPY First Date:2021-09-16
+ASRT First Date:2018-01-22
+ASRV First Date:2018-01-02
+ASR First Date:2010-08-05
+ASTE First Date:2010-01-04
+ASTI First Date:2010-01-04
+ASTL First Date:2022-05-10
+ASTR First Date:2021-07-15
+ASTS First Date:2021-04-12
+ASUR First Date:2018-01-02
+ASXC First Date:2021-04-13
+ASX First Date:2010-07-13
+ASYS First Date:2010-10-07
+ATAI First Date:2021-07-15
+ATEC First Date:2011-06-01
+ATEN First Date:2018-01-02
+ATER First Date:2021-06-04
+ATEX First Date:2019-09-25
+ATGE First Date:2018-01-02
+ATHA First Date:2021-04-13
+ATHM First Date:2018-01-02
+ATHX First Date:2010-01-12
+ATIP First Date:2021-07-14
+ATI First Date:2010-01-04
+ATKR First Date:2018-01-02
+ATLC First Date:2012-12-03
+ATLO First Date:2022-12-08
+ATMP First Date:2021-06-22
+ATNF First Date:2021-02-17
+ATNI First Date:2010-04-29
+ATNM First Date:2018-01-02
+ATOM First Date:2020-08-06
+ATOS First Date:2019-06-07
+ATO First Date:2010-01-04
+ATRA First Date:2018-01-02
+ATRC First Date:2018-01-02
+ATRO First Date:2012-07-30
+ATR First Date:2010-01-04
+ATSG First Date:2010-06-02
+ATUS First Date:2018-01-02
+ATVI First Date:2010-01-04
+ATXS First Date:2021-09-28
+AUB First Date:2019-06-07
+AUDC First Date:2010-01-04
+AUGX First Date:2023-06-15
+AULT First Date:2023-01-24
+AUMN First Date:2010-10-28
+AUPH First Date:2018-01-02
+AURA First Date:2023-04-19
+AUR First Date:2021-11-16
+AUTL First Date:2021-08-10
+AU First Date:2010-01-04
+AVAH First Date:2021-06-11
+AVAV First Date:2010-01-04
+AVA First Date:2010-01-04
+AVB First Date:2010-01-04
+AVDE First Date:2022-08-17
+AVDL First Date:2018-01-02
+AVDV First Date:2021-09-16
+AVDX First Date:2021-11-17
+AVD First Date:2010-01-04
+AVEM First Date:2022-08-17
+AVGO First Date:2010-01-04
+AVID First Date:2010-01-04
+AVIR First Date:2018-01-02
+AVLV First Date:2022-11-16
+AVNS First Date:2018-01-22
+AVNT First Date:2020-08-05
+AVNW First Date:2010-02-01
+AVO First Date:2021-04-13
+AVPT First Date:2021-07-14
+AVRE First Date:2022-12-15
+AVRO First Date:2019-09-25
+AVTA First Date:2023-04-17
+AVTR First Date:2010-05-27
+AVT First Date:2010-01-04
+AVUS First Date:2021-09-16
+AVUV First Date:2021-09-16
+AVXL First Date:2018-01-02
+AVY First Date:2010-01-04
+AWAY First Date:2011-07-14
+AWH First Date:2010-01-04
+AWI First Date:2010-01-04
+AWK First Date:2010-01-04
+AWRE First Date:2018-01-02
+AWR First Date:2011-08-25
+AXDX First Date:2018-01-02
+AXGN First Date:2018-01-02
+AXLA First Date:2021-07-15
+AXL First Date:2010-01-04
+AXNX First Date:2019-09-25
+AXON First Date:2018-01-02
+AXP First Date:2010-01-04
+AXSM First Date:2018-01-02
+AXS First Date:2010-01-04
+AXTA First Date:2018-01-02
+AXTI First Date:2010-07-01
+AX First Date:2018-11-29
+AYI First Date:2010-01-04
+AYRO First Date:2020-08-06
+AYX First Date:2018-01-02
+AY First Date:2018-01-02
+AZEK First Date:2020-08-06
+AZN First Date:2010-01-04
+AZO First Date:2010-01-04
+AZPN First Date:2010-09-24
+AZRE First Date:2021-09-15
+AZTA First Date:2021-12-16
+AZUL First Date:2018-01-02
+AZZ First Date:2010-01-04
+A First Date:2010-01-04
+BABA First Date:2018-01-02
+BAB First Date:2021-06-30
+BAC First Date:2010-01-04
+BAD First Date:2022-06-10
+BAH First Date:2010-12-08
+BALL First Date:2022-06-03
+BALT First Date:2010-03-23
+BALY First Date:2020-12-15
+BAM First Date:2010-01-04
+BANC First Date:2018-01-02
+BAND First Date:2018-11-28
+BANF First Date:2020-08-04
+BANR First Date:2010-01-04
+BANX First Date:2022-03-08
+BAP First Date:2010-01-04
+BARK First Date:2021-07-14
+BASE First Date:2022-01-05
+BATRA First Date:2018-01-02
+BATRK First Date:2018-01-02
+BATT First Date:2021-04-16
+BAX First Date:2010-01-04
+BA First Date:2010-01-04
+BBAI First Date:2021-12-16
+BBAR First Date:2019-07-25
+BBAX First Date:2021-04-16
+BBCA First Date:2020-12-16
+BBCP First Date:2021-08-10
+BBC First Date:2021-11-17
+BBDC First Date:2018-01-22
+BBD First Date:2010-01-04
+BBEU First Date:2020-12-16
+BBH First Date:2010-01-04
+BBIG First Date:2021-04-09
+BBIN First Date:2021-04-16
+BBIO First Date:2020-02-28
+BBJP First Date:2021-04-16
+BBP First Date:2021-10-11
+BBSI First Date:2018-01-02
+BBUC First Date:2022-10-27
+BBUS First Date:2022-11-16
+BBU First Date:2018-04-13
+BBVA First Date:2010-01-04
+BBWI First Date:2021-09-14
+BBW First Date:2010-01-04
+BBY First Date:2010-01-04
+BB First Date:2018-01-02
+BCAB First Date:2021-07-15
+BCBP First Date:2018-01-02
+BCC First Date:2018-01-02
+BCDA First Date:2021-02-17
+BCD First Date:2022-02-02
+BCEL First Date:2020-08-17
+BCE First Date:2010-01-04
+BCH First Date:2023-01-20
+BCIM First Date:2022-04-14
+BCI First Date:2019-06-07
+BCLI First Date:2018-01-02
+BCML First Date:2023-06-15
+BCOV First Date:2012-07-30
+BCO First Date:2010-01-04
+BCPC First Date:2010-11-23
+BCRX First Date:2010-01-04
+BCSF First Date:2019-09-25
+BCS First Date:2010-01-04
+BCTX First Date:2021-11-15
+BCYC First Date:2021-08-10
+BC First Date:2010-01-04
+BDC First Date:2010-01-04
+BDN First Date:2010-01-04
+BDRY First Date:2021-07-16
+BDSX First Date:2021-06-11
+BDTX First Date:2020-12-24
+BDX First Date:2010-01-04
+BEAM First Date:2011-10-05
+BECN First Date:2010-01-04
+BEDZ First Date:2022-02-10
+BEEM First Date:2021-02-04
+BEKE First Date:2020-09-30
+BELFB First Date:2018-01-02
+BEN First Date:2010-01-04
+BEPC First Date:2020-08-17
+BEP First Date:2021-02-04
+BERY First Date:2012-10-23
+BEST First Date:2019-04-04
+BETZ First Date:2020-08-06
+BE First Date:2018-12-24
+BFAM First Date:2018-01-02
+BFH First Date:2022-04-12
+BFIN First Date:2013-04-04
+BFIT First Date:2021-09-16
+BFIX First Date:2022-06-07
+BFI First Date:2021-02-04
+BFLY First Date:2021-03-08
+BFOR First Date:2018-01-02
+BFRI First Date:2022-06-03
+BFST First Date:2023-01-20
+BFS First Date:2023-03-29
+BFTR First Date:2021-10-11
+BF First Date:2018-01-02
+BGC First Date:2010-01-04
+BGFV First Date:2010-01-04
+BGNE First Date:2018-01-02
+BGRY First Date:2021-08-05
+BGSF First Date:2021-09-15
+BGS First Date:2010-02-05
+BGXX First Date:2022-07-14
+BG First Date:2010-01-04
+BHB First Date:2023-03-29
+BHC First Date:2018-01-22
+BHE First Date:2010-01-04
+BHF First Date:2018-01-02
+BHG First Date:2021-08-10
+BHIL First Date:2021-10-08
+BHLB First Date:2018-01-02
+BHP First Date:2010-01-04
+BHR First Date:2018-01-22
+BHVN First Date:2018-01-02
+BIBL First Date:2023-04-17
+BIB First Date:2018-01-02
+BIDU First Date:2010-01-04
+BIGB First Date:2023-04-17
+BIGC First Date:2020-09-30
+BIGT First Date:2023-05-10
+BIG First Date:2010-01-04
+BIIB First Date:2010-01-04
+BILI First Date:2018-08-15
+BILL First Date:2020-02-28
+BILS First Date:2023-01-19
+BIL First Date:2012-08-13
+BIOC First Date:2018-01-02
+BIOR First Date:2022-06-03
+BIOX First Date:2021-06-11
+BIO First Date:2010-01-04
+BIPC First Date:2021-06-11
+BIP First Date:2010-01-04
+BIRD First Date:2021-11-17
+BIS First Date:2018-01-02
+BITF First Date:2021-07-15
+BITI First Date:2022-07-15
+BITO First Date:2021-10-27
+BITQ First Date:2021-07-16
+BITS First Date:2021-12-17
+BIVI First Date:2023-01-20
+BIV First Date:2011-01-06
+BIZD First Date:2021-05-06
+BJK First Date:2012-07-24
+BJRI First Date:2010-01-04
+BJ First Date:2010-01-04
+BKCC First Date:2010-08-20
+BKCH First Date:2021-09-23
+BKD First Date:2010-01-04
+BKE First Date:2010-01-04
+BKF First Date:2010-01-04
+BKH First Date:2010-01-04
+BKI First Date:2010-01-04
+BKKT First Date:2021-10-26
+BKLN First Date:2018-01-02
+BKNG First Date:2018-01-22
+BKR First Date:2019-11-29
+BKSY First Date:2021-09-28
+BKU First Date:2011-02-11
+BKX First Date:2010-01-04
+BKYI First Date:2021-04-09
+BK First Date:2010-01-04
+BLBD First Date:2021-09-15
+BLCN First Date:2018-01-29
+BLCO First Date:2022-07-14
+BLDE First Date:2021-06-04
+BLDP First Date:2010-01-04
+BLDR First Date:2010-01-04
+BLD First Date:2018-01-02
+BLFS First Date:2019-06-07
+BLFY First Date:2022-07-14
+BLKB First Date:2010-01-04
+BLK First Date:2010-01-04
+BLMN First Date:2012-08-17
+BLND First Date:2021-11-15
+BLNK First Date:2018-08-15
+BLOK First Date:2018-01-25
+BLPH First Date:2023-06-15
+BLRX First Date:2021-06-11
+BLUE First Date:2018-01-02
+BLV First Date:2012-08-31
+BLX First Date:2011-09-01
+BLZE First Date:2021-12-16
+BL First Date:2018-01-02
+BMA First Date:2018-01-02
+BMBL First Date:2021-03-08
+BMEA First Date:2022-03-24
+BMED First Date:2021-10-11
+BMI First Date:2010-01-04
+BMO First Date:2010-01-04
+BMRA First Date:2020-08-06
+BMRC First Date:2023-03-29
+BMRN First Date:2010-01-04
+BMTX First Date:2021-07-15
+BMY First Date:2010-01-04
+BNDD First Date:2022-03-07
+BNDX First Date:2018-01-02
+BND First Date:2010-01-04
+BNED First Date:2018-01-02
+BNGE First Date:2022-06-10
+BNGO First Date:2021-02-04
+BNL First Date:2020-11-25
+BNMV First Date:2023-04-17
+BNO First Date:2011-06-16
+BNRE First Date:2023-01-24
+BNS First Date:2010-01-04
+BNTC First Date:2021-07-15
+BNTX First Date:2020-08-06
+BN First Date:2023-01-19
+BOAT First Date:2021-11-17
+BOC First Date:2022-06-03
+BODY First Date:2012-01-10
+BOH First Date:2010-01-04
+BOIL First Date:2012-02-06
+BOKF First Date:2010-01-04
+BOND First Date:2012-04-04
+BOOM First Date:2010-01-04
+BOOT First Date:2018-01-02
+BORR First Date:2022-06-03
+BOSS First Date:2022-03-08
+BOTZ First Date:2018-01-02
+BOWL First Date:2022-05-10
+BOX First Date:2011-06-06
+BPMC First Date:2018-01-02
+BPOP First Date:2010-01-04
+BPTH First Date:2022-08-19
+BPT First Date:2010-01-04
+BP First Date:2010-01-04
+BRAG First Date:2021-11-15
+BRBR First Date:2020-01-17
+BRBS First Date:2022-10-04
+BRCC First Date:2022-02-23
+BRC First Date:2010-01-04
+BRDG First Date:2021-12-06
+BRDS First Date:2021-11-22
+BREZ First Date:2021-04-13
+BRFS First Date:2010-09-03
+BRF First Date:2010-01-04
+BRKL First Date:2010-08-02
+BRKR First Date:2010-01-04
+BRK First Date:2010-11-22
+BRLT First Date:2022-01-05
+BROS First Date:2021-10-08
+BRO First Date:2010-01-04
+BRP First Date:2013-08-29
+BRSP First Date:2021-07-14
+BRT First Date:2021-11-10
+BRX First Date:2018-01-02
+BRY First Date:2010-01-04
+BRZE First Date:2022-04-12
+BRZU First Date:2018-01-02
+BR First Date:2010-01-04
+BSAC First Date:2012-04-12
+BSBR First Date:2010-01-04
+BSEA First Date:2021-12-28
+BSET First Date:2012-10-17
+BSGM First Date:2019-04-10
+BSIG First Date:2020-11-25
+BSM First Date:2018-01-02
+BSQR First Date:2011-01-03
+BSRR First Date:2018-01-02
+BSVO First Date:2023-06-14
+BSV First Date:2018-01-02
+BSX First Date:2010-01-04
+BSY First Date:2021-02-04
+BTAI First Date:2020-02-28
+BTAL First Date:2023-06-14
+BTBT First Date:2021-02-04
+BTCM First Date:2021-06-04
+BTCY First Date:2021-11-15
+BTEK First Date:2021-10-11
+BTE First Date:2010-01-04
+BTF First Date:2021-10-27
+BTG First Date:2018-01-02
+BTI First Date:2010-03-16
+BTTR First Date:2021-09-28
+BTTX First Date:2021-12-16
+BTU First Date:2010-01-04
+BTWN First Date:2021-02-04
+BUD First Date:2010-01-04
+BUG First Date:2021-02-05
+BURL First Date:2018-01-02
+BURU First Date:2023-04-17
+BUR First Date:2020-12-15
+BUSE First Date:2010-01-04
+BUYZ First Date:2021-10-11
+BUZZ First Date:2021-04-12
+BVH First Date:2021-10-08
+BVN First Date:2010-01-04
+BVS First Date:2021-09-15
+BV First Date:2012-04-17
+BWAC First Date:2021-04-09
+BWA First Date:2010-01-04
+BWB First Date:2022-10-04
+BWEN First Date:2010-01-04
+BWET First Date:2023-06-14
+BWMX First Date:2022-06-10
+BWXT First Date:2018-01-02
+BWX First Date:2010-01-04
+BW First Date:2010-01-04
+BXC First Date:2018-04-19
+BXMT First Date:2018-01-02
+BXP First Date:2010-01-04
+BXSL First Date:2022-11-22
+BX First Date:2010-01-04
+BYD First Date:2010-01-04
+BYFC First Date:2021-10-08
+BYND First Date:2019-05-09
+BYOB First Date:2022-09-19
+BYRN First Date:2021-09-15
+BYSI First Date:2020-12-24
+BYTE First Date:2021-12-03
+BY First Date:2022-02-02
+BZFD First Date:2021-12-16
+BZH First Date:2010-01-04
+BZQ First Date:2010-01-04
+BZUN First Date:2018-01-02
+BZ First Date:2010-01-04
+B First Date:2010-01-04
+CAAP First Date:2021-02-04
+CAAS First Date:2010-05-19
+CABA First Date:2021-02-17
+CACC First Date:2018-01-02
+CACI First Date:2010-01-04
+CAC First Date:2018-01-02
+CADE First Date:2018-03-09
+CAE First Date:2019-06-06
+CAF First Date:2018-01-02
+CAG First Date:2010-01-04
+CAH First Date:2010-01-04
+CAKE First Date:2010-01-04
+CALF First Date:2021-09-16
+CALM First Date:2010-01-04
+CALT First Date:2021-12-06
+CALX First Date:2011-02-08
+CAL First Date:2010-01-04
+CAMP First Date:2011-11-01
+CAMT First Date:2018-01-02
+CANE First Date:2019-04-10
+CANO First Date:2021-07-14
+CAN First Date:2021-02-04
+CAPL First Date:2018-01-02
+CAPR First Date:2020-08-06
+CARA First Date:2018-01-02
+CARE First Date:2021-09-15
+CARG First Date:2018-02-08
+CARR First Date:2020-05-11
+CARS First Date:2018-01-02
+CARZ First Date:2021-09-24
+CAR First Date:2010-01-04
+CASA First Date:2018-08-15
+CASH First Date:2018-01-26
+CASI First Date:2022-10-04
+CASS First Date:2018-01-02
+CASY First Date:2010-01-04
+CATC First Date:2023-06-22
+CATH First Date:2021-08-11
+CATO First Date:2010-01-04
+CATY First Date:2010-01-04
+CAT First Date:2010-01-04
+CBAN First Date:2022-10-04
+CBAT First Date:2020-12-15
+CBAY First Date:2018-01-02
+CBD First Date:2010-03-16
+CBIO First Date:2015-08-24
+CBL First Date:2010-01-04
+CBNK First Date:2022-12-20
+CBOE First Date:2010-06-23
+CBRE First Date:2018-03-21
+CBRL First Date:2010-01-04
+CBSH First Date:2010-01-04
+CBT First Date:2010-01-04
+CBU First Date:2010-01-04
+CBZ First Date:2010-01-04
+CB First Date:2010-01-04
+CCAP First Date:2021-12-08
+CCBG First Date:2023-03-29
+CCB First Date:2021-12-16
+CCCC First Date:2021-04-09
+CCCS First Date:2021-09-14
+CCEP First Date:2018-11-29
+CCF First Date:2021-08-11
+CCI First Date:2010-01-04
+CCJ First Date:2010-01-04
+CCK First Date:2010-01-04
+CCLD First Date:2023-01-24
+CCLP First Date:2018-01-02
+CCL First Date:2010-01-04
+CCNE First Date:2018-01-02
+CCOI First Date:2010-01-04
+CCOR First Date:2022-11-16
+CCO First Date:2010-01-04
+CCRN First Date:2010-01-04
+CCRV First Date:2022-04-14
+CCSI First Date:2021-11-15
+CCS First Date:2018-01-02
+CCU First Date:2022-12-30
+CCV First Date:2021-04-13
+CC First Date:2018-01-02
+CDAY First Date:2018-08-15
+CDC First Date:2022-03-07
+CDEI First Date:2023-04-17
+CDE First Date:2010-01-04
+CDLX First Date:2019-11-29
+CDMO First Date:2018-01-08
+CDNA First Date:2018-01-02
+CDNS First Date:2010-01-04
+CDRE First Date:2022-05-10
+CDTX First Date:2018-08-15
+CDW First Date:2018-01-02
+CDXC First Date:2018-01-02
+CDXS First Date:2011-06-16
+CDZI First Date:2010-10-07
+CD First Date:2020-11-25
+CECO First Date:2010-01-04
+CEG First Date:2010-01-04
+CEIX First Date:2018-01-02
+CEI First Date:2021-11-15
+CELC First Date:2021-11-15
+CELH First Date:2019-04-10
+CELL First Date:2010-01-04
+CELU First Date:2021-08-05
+CEMB First Date:2019-07-26
+CENN First Date:2022-02-02
+CENTA First Date:2010-01-04
+CENT First Date:2010-01-04
+CENX First Date:2010-01-04
+CEPU First Date:2022-12-14
+CEQP First Date:2018-01-02
+CERE First Date:2021-06-11
+CERS First Date:2010-01-15
+CERT First Date:2021-02-04
+CEVA First Date:2010-06-08
+CEW First Date:2010-01-04
+CE First Date:2010-01-04
+CFA First Date:2019-09-25
+CFB First Date:2021-06-11
+CFFN First Date:2010-01-04
+CFG First Date:2018-01-02
+CFLT First Date:2021-07-15
+CFO First Date:2022-08-17
+CFR First Date:2010-01-04
+CF First Date:2010-01-04
+CGAU First Date:2021-06-11
+CGA First Date:2010-01-04
+CGBD First Date:2018-01-02
+CGC First Date:2010-09-24
+CGDV First Date:2022-06-10
+CGEM First Date:2021-09-15
+CGEN First Date:2010-01-05
+CGGR First Date:2022-06-10
+CGNT First Date:2015-04-01
+CGNX First Date:2010-01-04
+CGRN First Date:2021-06-04
+CGUS First Date:2022-06-10
+CGW First Date:2021-07-14
+CG First Date:2012-05-15
+CHAT First Date:2023-06-14
+CHAU First Date:2018-01-02
+CHB First Date:2022-01-27
+CHCO First Date:2010-01-04
+CHCT First Date:2023-04-19
+CHDN First Date:2011-01-25
+CHD First Date:2010-01-04
+CHEF First Date:2012-10-01
+CHE First Date:2010-01-04
+CHGG First Date:2018-01-02
+CHH First Date:2010-01-04
+CHIC First Date:2019-09-03
+CHIE First Date:2022-02-02
+CHIH First Date:2022-02-10
+CHII First Date:2010-01-04
+CHIK First Date:2021-06-22
+CHIM First Date:2022-02-02
+CHIQ First Date:2010-01-04
+CHIR First Date:2022-02-02
+CHIS First Date:2022-02-11
+CHIU First Date:2022-02-10
+CHIX First Date:2010-01-04
+CHKP First Date:2010-01-04
+CHK First Date:2010-01-04
+CHMI First Date:2021-08-10
+CHPT First Date:2021-03-08
+CHRD First Date:2010-01-04
+CHRS First Date:2010-01-04
+CHRW First Date:2010-01-04
+CHS First Date:2010-01-04
+CHTR First Date:2011-07-27
+CHT First Date:2010-01-04
+CHUY First Date:2018-01-02
+CHWY First Date:2019-07-26
+CHX First Date:2020-08-05
+CIA First Date:2010-01-04
+CIBR First Date:2018-01-02
+CIB First Date:2010-01-04
+CIEN First Date:2010-01-04
+CIFR First Date:2021-11-15
+CIGI First Date:2021-06-11
+CIG First Date:2010-01-04
+CIM First Date:2010-01-04
+CINF First Date:2010-01-04
+CINT First Date:2022-07-14
+CION First Date:2022-06-03
+CIO First Date:2018-01-02
+CIR First Date:2010-01-04
+CISO First Date:2022-03-24
+CIVB First Date:2018-05-02
+CIVI First Date:2018-01-02
+CI First Date:2010-01-04
+CKPT First Date:2021-04-09
+CLAR First Date:2018-01-02
+CLBK First Date:2018-08-15
+CLBT First Date:2021-09-15
+CLB First Date:2010-01-04
+CLDL First Date:2021-09-16
+CLDT First Date:2012-06-22
+CLDX First Date:2010-01-13
+CLFD First Date:2018-01-02
+CLF First Date:2010-01-04
+CLGN First Date:2021-09-28
+CLH First Date:2010-01-04
+CLIR First Date:2018-01-02
+CLIX First Date:2023-05-26
+CLLS First Date:2018-01-02
+CLMT First Date:2010-01-04
+CLNE First Date:2010-01-04
+CLNN First Date:2021-09-15
+CLOU First Date:2020-08-06
+CLOV First Date:2021-02-05
+CLPR First Date:2021-09-15
+CLPS First Date:2021-07-15
+CLPT First Date:2021-04-09
+CLSA First Date:2023-04-17
+CLSC First Date:2023-01-19
+CLSD First Date:2018-01-02
+CLSK First Date:2020-08-17
+CLS First Date:2010-01-04
+CLVR First Date:2021-02-04
+CLVT First Date:2021-02-16
+CLW First Date:2010-01-04
+CLX First Date:2010-01-04
+CL First Date:2010-01-04
+CMAX First Date:2022-07-14
+CMA First Date:2010-01-04
+CMBM First Date:2021-12-01
+CMBS First Date:2021-09-16
+CMCL First Date:2021-09-15
+CMCM First Date:2018-01-02
+CMCO First Date:2010-01-04
+CMCSA First Date:2010-01-04
+CMCT First Date:2021-09-15
+CMC First Date:2010-01-04
+CMDY First Date:2022-04-14
+CME First Date:2010-01-04
+CMF First Date:2021-08-18
+CMG First Date:2010-01-04
+CMI First Date:2010-01-04
+CMLS First Date:2011-06-06
+CMPR First Date:2018-01-02
+CMPS First Date:2020-11-25
+CMP First Date:2010-01-04
+CMRE First Date:2010-11-17
+CMRX First Date:2018-01-02
+CMS First Date:2010-01-04
+CMTG First Date:2022-10-04
+CMTL First Date:2010-01-04
+CM First Date:2010-01-04
+CNA First Date:2010-01-04
+CNBS First Date:2021-05-06
+CNC First Date:2010-01-04
+CNDT First Date:2018-01-02
+CNET First Date:2018-08-15
+CNHI First Date:2018-01-02
+CNI First Date:2010-01-04
+CNK First Date:2010-01-04
+CNMD First Date:2010-01-04
+CNM First Date:2021-09-15
+CNNE First Date:2018-01-02
+CNOB First Date:2018-01-02
+CNO First Date:2010-01-04
+CNP First Date:2010-01-04
+CNQ First Date:2010-01-04
+CNSL First Date:2010-01-04
+CNS First Date:2010-06-08
+CNTA First Date:2022-07-14
+CNTB First Date:2021-11-15
+CNTY First Date:2018-01-02
+CNXC First Date:2021-02-04
+CNXN First Date:2018-01-02
+CNXT First Date:2010-02-09
+CNX First Date:2010-01-04
+CNYA First Date:2018-01-02
+CN First Date:2022-06-10
+COCO First Date:2010-01-04
+CODI First Date:2010-07-15
+CODX First Date:2020-04-30
+COF First Date:2010-01-04
+COGT First Date:2010-01-04
+COHR First Date:2010-01-04
+COHU First Date:2010-01-04
+COIN First Date:2021-04-22
+COLB First Date:2010-01-04
+COLD First Date:2020-01-17
+COLL First Date:2018-01-02
+COLM First Date:2010-01-04
+COMB First Date:2022-04-14
+COMM First Date:2018-01-02
+COMP First Date:2021-05-05
+COMS First Date:2010-01-04
+COMT First Date:2021-05-06
+COM First Date:2022-04-14
+CONL First Date:2022-09-21
+CONN First Date:2010-01-04
+CONX First Date:2021-04-09
+COOK First Date:2021-09-15
+COOP First Date:2018-11-29
+COO First Date:2010-01-04
+COPX First Date:2011-01-13
+COP First Date:2010-01-04
+CORN First Date:2010-11-09
+CORR First Date:2018-01-02
+CORT First Date:2010-08-20
+COSM First Date:2023-05-11
+COST First Date:2010-01-04
+COTY First Date:2018-01-02
+COUR First Date:2021-04-13
+COWZ First Date:2020-04-30
+CPA First Date:2010-01-04
+CPB First Date:2010-01-04
+CPER First Date:2020-12-16
+CPE First Date:2010-01-04
+CPF First Date:2010-01-04
+CPG First Date:2018-01-02
+CPII First Date:2022-07-29
+CPIX First Date:2011-01-07
+CPK First Date:2018-01-02
+CPLP First Date:2010-01-04
+CPNG First Date:2021-04-09
+CPRI First Date:2019-04-04
+CPRT First Date:2010-01-04
+CPRX First Date:2018-01-02
+CPSH First Date:2021-04-09
+CPSI First Date:2010-01-04
+CPSS First Date:2018-01-02
+CPS First Date:2018-01-02
+CPT First Date:2010-01-04
+CPUH First Date:2021-06-11
+CP First Date:2010-01-04
+CQP First Date:2010-01-04
+CQQQ First Date:2010-01-08
+CRAI First Date:2012-09-11
+CRAK First Date:2021-09-17
+CRBG First Date:2022-11-22
+CRBN First Date:2021-08-11
+CRBP First Date:2018-01-02
+CRBU First Date:2021-11-15
+CRCT First Date:2021-08-10
+CRC First Date:2018-01-02
+CRDF First Date:2020-08-05
+CRDL First Date:2021-11-15
+CRDO First Date:2022-08-19
+CRD First Date:2018-01-02
+CRESY First Date:2018-01-02
+CRGE First Date:2022-05-10
+CRGY First Date:2022-01-05
+CRH First Date:2010-09-03
+CRIS First Date:2011-04-07
+CRIT First Date:2022-06-10
+CRI First Date:2010-01-04
+CRK First Date:2010-01-04
+CRL First Date:2010-01-04
+CRMD First Date:2018-01-02
+CRMT First Date:2010-01-04
+CRM First Date:2010-01-04
+CRNC First Date:2019-11-29
+CRNT First Date:2010-01-04
+CRNX First Date:2021-08-10
+CRON First Date:2018-03-09
+CROX First Date:2010-01-04
+CRPT First Date:2021-12-17
+CRSP First Date:2018-01-02
+CRSR First Date:2020-11-25
+CRS First Date:2010-01-04
+CRTO First Date:2018-01-02
+CRUS First Date:2010-01-04
+CRUZ First Date:2021-10-11
+CRVL First Date:2018-01-02
+CRVS First Date:2019-09-25
+CRWD First Date:2019-07-26
+CRWS First Date:2018-01-02
+CR First Date:2010-01-04
+CSBR First Date:2021-06-11
+CSB First Date:2022-08-17
+CSCO First Date:2010-01-04
+CSD First Date:2018-01-02
+CSGP First Date:2010-01-04
+CSGS First Date:2010-01-04
+CSIQ First Date:2010-01-04
+CSL First Date:2010-01-04
+CSM First Date:2010-09-24
+CSR First Date:2010-01-04
+CSSE First Date:2021-11-15
+CSTE First Date:2018-01-02
+CSTL First Date:2020-08-06
+CSTM First Date:2018-01-02
+CSTR First Date:2010-01-04
+CSV First Date:2012-10-17
+CSWC First Date:2018-01-02
+CSWI First Date:2022-02-02
+CSX First Date:2010-01-04
+CTAS First Date:2010-01-04
+CTBI First Date:2018-01-02
+CTEC First Date:2021-06-22
+CTEX First Date:2023-05-26
+CTG First Date:2018-01-02
+CTKB First Date:2022-07-14
+CTLP First Date:2021-05-05
+CTLT First Date:2018-01-02
+CTMX First Date:2018-01-02
+CTOS First Date:2021-04-12
+CTO First Date:2022-10-19
+CTRA First Date:2019-04-10
+CTRE First Date:2018-01-02
+CTRM First Date:2021-07-15
+CTRN First Date:2010-01-04
+CTSH First Date:2010-01-04
+CTSO First Date:2018-01-02
+CTS First Date:2010-07-13
+CTVA First Date:2019-07-26
+CTXR First Date:2021-07-15
+CUBE First Date:2011-09-19
+CUBI First Date:2018-01-02
+CUE First Date:2020-04-30
+CUK First Date:2010-01-04
+CULP First Date:2018-01-02
+CURE First Date:2018-01-02
+CURI First Date:2021-02-04
+CURO First Date:2018-08-15
+CURV First Date:2021-09-15
+CUTR First Date:2010-01-04
+CUT First Date:2021-06-22
+CUZ First Date:2010-01-04
+CVAC First Date:2020-09-30
+CVBF First Date:2010-01-04
+CVCO First Date:2018-01-02
+CVCY First Date:2018-01-02
+CVEO First Date:2018-01-02
+CVE First Date:2010-01-04
+CVGI First Date:2011-03-25
+CVGW First Date:2012-07-30
+CVIE First Date:2023-04-17
+CVII First Date:2022-08-19
+CVI First Date:2010-01-04
+CVLC First Date:2023-04-17
+CVLG First Date:2020-08-05
+CVLT First Date:2010-01-04
+CVMC First Date:2023-04-17
+CVM First Date:2018-11-29
+CVNA First Date:2018-01-02
+CVRX First Date:2022-07-14
+CVSE First Date:2023-04-19
+CVS First Date:2010-01-04
+CVU First Date:2012-09-11
+CVX First Date:2010-01-04
+CVY First Date:2018-01-02
+CWAN First Date:2021-11-17
+CWB First Date:2018-01-02
+CWCO First Date:2012-02-08
+CWEB First Date:2018-01-02
+CWEN First Date:2018-11-29
+CWH First Date:2010-07-02
+CWI First Date:2018-01-02
+CWK First Date:2018-11-28
+CWST First Date:2010-01-04
+CWT First Date:2010-01-04
+CW First Date:2010-01-04
+CXDO First Date:2021-09-15
+CXM First Date:2021-09-28
+CXSE First Date:2021-07-16
+CXT First Date:2023-05-10
+CXW First Date:2010-01-04
+CX First Date:2010-01-04
+CYBR First Date:2018-01-02
+CYB First Date:2010-01-04
+CYCC First Date:2012-11-02
+CYCN First Date:2020-02-28
+CYD First Date:2010-01-04
+CYH First Date:2010-01-04
+CYN First Date:2010-01-04
+CYRX First Date:2018-01-02
+CYTK First Date:2010-01-04
+CYXT First Date:2021-09-14
+CZNC First Date:2018-01-02
+CZOO First Date:2021-09-14
+CZR First Date:2012-02-16
+DAC First Date:2020-02-28
+DADA First Date:2021-02-04
+DAIO First Date:2021-09-28
+DAKT First Date:2010-01-04
+DAL First Date:2010-01-04
+DAN First Date:2010-01-04
+DAO First Date:2020-11-25
+DAPP First Date:2021-09-16
+DAR First Date:2010-01-04
+DASH First Date:2020-12-23
+DAT First Date:2023-05-26
+DAVA First Date:2021-09-15
+DAVE First Date:2010-01-04
+DAWN First Date:2022-04-06
+DAX First Date:2021-09-29
+DBA First Date:2010-01-04
+DBB First Date:2010-01-04
+DBC First Date:2010-01-04
+DBEF First Date:2018-01-02
+DBEM First Date:2022-12-15
+DBEU First Date:2018-01-02
+DBE First Date:2010-01-04
+DBI First Date:2019-07-25
+DBJP First Date:2018-01-02
+DBMF First Date:2022-11-16
+DBO First Date:2010-01-04
+DBP First Date:2010-01-04
+DBRG First Date:2021-07-14
+DBTX First Date:2021-09-28
+DBVT First Date:2018-01-02
+DBX First Date:2018-03-29
+DB First Date:2010-01-04
+DCBO First Date:2021-07-15
+DCFC First Date:2022-02-23
+DCGO First Date:2022-02-02
+DCI First Date:2010-01-04
+DCOM First Date:2010-01-04
+DCO First Date:2010-01-04
+DCPH First Date:2018-11-28
+DCTH First Date:2010-01-04
+DC First Date:2022-10-04
+DDD First Date:2011-05-26
+DDLS First Date:2022-12-15
+DDL First Date:2023-01-20
+DDM First Date:2010-01-04
+DDOG First Date:2019-11-29
+DDWM First Date:2022-12-15
+DD First Date:2010-01-04
+DEA First Date:2018-01-02
+DECK First Date:2010-01-04
+DEEP First Date:2021-09-28
+DEF First Date:2021-08-11
+DEI First Date:2010-01-04
+DELL First Date:2010-01-04
+DEM First Date:2011-08-02
+DENN First Date:2010-03-24
+DEN First Date:2021-04-09
+DEO First Date:2010-01-04
+DESP First Date:2018-11-29
+DES First Date:2018-01-02
+DEUS First Date:2022-03-07
+DE First Date:2010-01-04
+DFAC First Date:2021-09-16
+DFAI First Date:2021-09-16
+DFAR First Date:2022-06-10
+DFAS First Date:2021-09-16
+DFAT First Date:2021-09-16
+DFAU First Date:2021-05-06
+DFAX First Date:2021-12-17
+DFEN First Date:2018-01-02
+DFE First Date:2018-01-02
+DFGR First Date:2023-05-10
+DFH First Date:2021-04-09
+DFIC First Date:2023-01-19
+DFIN First Date:2018-01-02
+DFIP First Date:2022-08-17
+DFIS First Date:2023-05-10
+DFIV First Date:2022-08-17
+DFJ First Date:2011-03-31
+DFLI First Date:2023-01-20
+DFLV First Date:2023-05-10
+DFNL First Date:2023-05-10
+DFSU First Date:2023-05-10
+DFSV First Date:2022-06-10
+DFS First Date:2010-01-04
+DFUS First Date:2021-09-16
+DFUV First Date:2022-08-17
+DGICA First Date:2018-01-02
+DGII First Date:2011-07-07
+DGLY First Date:2019-06-07
+DGRO First Date:2018-08-15
+DGRS First Date:2021-09-16
+DGRW First Date:2018-01-02
+DGS First Date:2011-11-14
+DGT First Date:2013-03-11
+DGX First Date:2010-01-04
+DG First Date:2010-01-04
+DHC First Date:2020-01-15
+DHI First Date:2010-01-04
+DHR First Date:2010-01-04
+DHS First Date:2021-07-28
+DHT First Date:2010-01-04
+DHX First Date:2011-01-12
+DH First Date:2022-01-05
+DIA First Date:2010-01-04
+DIBS First Date:2022-06-03
+DICE First Date:2022-04-06
+DIG First Date:2010-01-04
+DIHP First Date:2023-05-10
+DINO First Date:2022-03-24
+DIN First Date:2010-01-04
+DIOD First Date:2010-01-04
+DISH First Date:2010-01-04
+DISV First Date:2023-06-14
+DIS First Date:2010-01-04
+DIVB First Date:2021-09-16
+DIVI First Date:2023-05-26
+DIVO First Date:2021-05-06
+DIV First Date:2021-04-16
+DJD First Date:2021-09-16
+DJIA First Date:2022-06-10
+DJP First Date:2010-06-01
+DJX First Date:2010-01-04
+DKL First Date:2012-11-20
+DKNG First Date:2020-06-17
+DKS First Date:2010-01-04
+DK First Date:2010-01-04
+DLB First Date:2010-01-04
+DLHC First Date:2021-02-04
+DLNG First Date:2018-01-02
+DLN First Date:2011-06-16
+DLO First Date:2021-07-15
+DLPN First Date:2021-08-10
+DLR First Date:2010-01-04
+DLS First Date:2018-01-02
+DLTH First Date:2018-01-02
+DLTR First Date:2010-01-04
+DLX First Date:2010-01-04
+DMAC First Date:2021-02-04
+DMAT First Date:2022-06-10
+DMLP First Date:2010-01-04
+DMRC First Date:2018-01-02
+DMTK First Date:2020-12-15
+DM First Date:2010-01-04
+DNA First Date:2021-09-28
+DNB First Date:2010-01-04
+DNLI First Date:2018-02-09
+DNL First Date:2021-09-09
+DNMR First Date:2021-02-04
+DNN First Date:2010-01-04
+DNOW First Date:2018-01-02
+DNUT First Date:2021-07-15
+DOCN First Date:2021-05-05
+DOCS First Date:2021-07-15
+DOCU First Date:2018-05-04
+DOC First Date:2018-01-02
+DOGZ First Date:2021-11-15
+DOG First Date:2010-01-04
+DOLE First Date:2010-01-04
+DOL First Date:2022-10-19
+DOMA First Date:2021-08-06
+DOMO First Date:2018-08-15
+DON First Date:2018-01-02
+DOOO First Date:2021-06-11
+DOOR First Date:2018-01-02
+DORM First Date:2012-07-10
+DOUG First Date:2022-02-02
+DOV First Date:2010-01-04
+DOW First Date:2010-01-04
+DOX First Date:2010-01-04
+DOYU First Date:2019-09-25
+DO First Date:2010-01-04
+DPRO First Date:2021-09-28
+DPST First Date:2020-12-16
+DPZ First Date:2010-01-04
+DQ First Date:2011-06-16
+DRD First Date:2018-01-02
+DRH First Date:2010-01-04
+DRIO First Date:2021-04-09
+DRIP First Date:2018-01-02
+DRIV First Date:2010-01-04
+DRI First Date:2010-01-04
+DRLL First Date:2022-11-16
+DRN First Date:2010-01-04
+DRQ First Date:2010-01-04
+DRRX First Date:2010-01-04
+DRSK First Date:2023-06-14
+DRS First Date:2022-12-14
+DRTT First Date:2021-08-10
+DRVN First Date:2021-04-09
+DRV First Date:2010-01-04
+DSGN First Date:2022-04-06
+DSGX First Date:2021-05-05
+DSHK First Date:2023-01-25
+DSI First Date:2010-01-04
+DSKE First Date:2018-01-05
+DSL First Date:2018-01-02
+DSP First Date:2021-09-15
+DSTL First Date:2022-01-06
+DSX First Date:2010-01-04
+DTC First Date:2022-04-25
+DTD First Date:2022-11-09
+DTEC First Date:2020-04-30
+DTE First Date:2010-01-04
+DTH First Date:2022-11-09
+DTIL First Date:2019-12-11
+DTM First Date:2021-08-10
+DT First Date:2010-01-04
+DUDE First Date:2022-11-16
+DUG First Date:2010-01-04
+DUHP First Date:2022-08-17
+DUK First Date:2010-01-04
+DUOL First Date:2021-09-15
+DURA First Date:2022-12-15
+DUSL First Date:2020-12-16
+DUST First Date:2010-12-16
+DVAX First Date:2011-01-13
+DVA First Date:2010-01-04
+DVN First Date:2010-01-04
+DVOL First Date:2021-09-23
+DVYE First Date:2021-06-22
+DVY First Date:2010-01-04
+DV First Date:2010-01-04
+DWAC First Date:2021-11-15
+DWAS First Date:2018-01-02
+DWM First Date:2021-09-09
+DWX First Date:2010-01-04
+DXCM First Date:2010-01-04
+DXC First Date:2018-01-02
+DXD First Date:2010-01-04
+DXJS First Date:2018-01-02
+DXJ First Date:2011-03-31
+DXLG First Date:2012-12-05
+DXPE First Date:2010-01-04
+DXYN First Date:2018-01-02
+DX First Date:2011-03-17
+DYAI First Date:2019-11-29
+DYN First Date:2010-01-04
+DY First Date:2010-01-04
+DZSI First Date:2016-09-12
+D First Date:2010-01-04
+EAF First Date:2018-11-28
+EAGG First Date:2021-10-11
+EARN First Date:2021-08-10
+EAR First Date:2021-02-04
+EAST First Date:2021-09-15
+EATV First Date:2022-08-17
+EATZ First Date:2022-02-22
+EAT First Date:2010-01-04
+EA First Date:2011-12-20
+EBAY First Date:2010-01-04
+EBC First Date:2020-12-15
+EBET First Date:2022-02-09
+EBF First Date:2011-07-18
+EBIX First Date:2010-01-04
+EBIZ First Date:2020-12-16
+EBLU First Date:2022-01-06
+EBND First Date:2018-01-02
+EBON First Date:2021-02-04
+EBS First Date:2010-01-04
+EBTC First Date:2023-04-05
+EB First Date:2018-11-29
+ECH First Date:2010-01-04
+ECLN First Date:2021-10-11
+ECL First Date:2010-01-04
+ECNS First Date:2018-01-02
+ECON First Date:2018-01-02
+ECPG First Date:2011-04-21
+ECVT First Date:2021-09-28
+EC First Date:2010-08-20
+EDAP First Date:2010-01-04
+EDC First Date:2010-01-04
+EDIT First Date:2018-01-02
+EDIV First Date:2018-01-02
+EDOC First Date:2020-12-16
+EDOW First Date:2022-03-23
+EDR First Date:2010-01-04
+EDUT First Date:2021-09-16
+EDU First Date:2010-01-04
+EDV First Date:2021-01-28
+EDZ First Date:2010-01-04
+ED First Date:2010-01-04
+EEFT First Date:2010-01-04
+EELV First Date:2013-09-18
+EEMA First Date:2021-06-22
+EEMS First Date:2021-09-16
+EEMV First Date:2018-01-02
+EEMX First Date:2022-02-22
+EEM First Date:2010-01-04
+EES First Date:2021-08-11
+EET First Date:2010-01-04
+EEV First Date:2010-01-04
+EEX First Date:2018-01-02
+EE First Date:2010-09-03
+EFAS First Date:2021-10-11
+EFAV First Date:2018-01-02
+EFAX First Date:2022-03-23
+EFA First Date:2010-01-04
+EFC First Date:2012-09-05
+EFG First Date:2010-01-04
+EFO First Date:2023-06-14
+EFSC First Date:2018-01-02
+EFTR First Date:2022-03-08
+EFV First Date:2010-01-04
+EFXT First Date:2022-11-22
+EFX First Date:2010-01-04
+EFZ First Date:2011-11-01
+EGAN First Date:2011-11-04
+EGBN First Date:2018-01-02
+EGHT First Date:2011-06-06
+EGIO First Date:2022-07-14
+EGLE First Date:2010-01-04
+EGLX First Date:2021-06-11
+EGO First Date:2010-01-04
+EGP First Date:2010-01-04
+EGRX First Date:2018-01-02
+EGY First Date:2010-01-04
+EHAB First Date:2022-10-04
+EHC First Date:2018-01-02
+EHTH First Date:2010-01-04
+EH First Date:2021-04-09
+EIDO First Date:2018-01-02
+EIGR First Date:2016-03-23
+EIG First Date:2011-05-16
+EINC First Date:2020-01-17
+EIX First Date:2010-01-04
+EKG First Date:2022-06-10
+EKSO First Date:2016-12-01
+ELAN First Date:2018-11-29
+ELA First Date:2021-09-15
+ELDN First Date:2021-06-04
+ELD First Date:2011-11-14
+ELF First Date:2018-01-02
+ELMD First Date:2020-11-25
+ELME First Date:2022-10-31
+ELMSQ First Date:2022-11-29
+ELP First Date:2010-01-04
+ELS First Date:2010-01-04
+ELVN First Date:2023-06-22
+ELV First Date:2022-07-01
+ELYS First Date:2021-07-15
+EL First Date:2010-01-04
+EMAN First Date:2010-12-06
+EMBC First Date:2022-04-12
+EMBD First Date:2022-03-23
+EMBK First Date:2021-12-16
+EMB First Date:2011-10-03
+EME First Date:2010-01-04
+EMFM First Date:2022-03-23
+EMFQ First Date:2022-02-22
+EMGF First Date:2021-09-16
+EMKR First Date:2010-01-04
+EMLC First Date:2012-09-05
+EMLP First Date:2018-01-02
+EMN First Date:2010-01-04
+EMQQ First Date:2020-12-16
+EMR First Date:2010-01-04
+EMTY First Date:2021-09-16
+EMXC First Date:2021-02-17
+EMX First Date:2021-06-11
+ENB First Date:2010-01-04
+ENFN First Date:2022-06-03
+ENFR First Date:2021-09-16
+ENG First Date:2010-01-04
+ENIC First Date:2018-01-02
+ENLC First Date:2018-01-02
+ENLV First Date:2020-11-25
+ENOB First Date:2021-07-15
+ENOV First Date:2022-04-12
+ENPH First Date:2012-04-17
+ENRG First Date:2022-11-01
+ENR First Date:2010-01-04
+ENSG First Date:2010-01-04
+ENSV First Date:2014-09-09
+ENS First Date:2010-01-04
+ENTA First Date:2018-01-02
+ENTG First Date:2010-01-04
+ENTX First Date:2021-04-13
+ENVA First Date:2018-01-02
+ENVX First Date:2021-08-06
+ENV First Date:2018-01-02
+ENZL First Date:2018-01-02
+ENZ First Date:2010-01-04
+EOG First Date:2010-01-04
+EOLS First Date:2018-11-28
+EOSE First Date:2020-12-15
+EPAC First Date:2019-11-29
+EPAM First Date:2018-01-02
+EPC First Date:2018-01-02
+EPD First Date:2010-01-04
+EPIX First Date:2021-08-25
+EPI First Date:2010-01-04
+EPM First Date:2010-09-24
+EPP First Date:2010-01-04
+EPRT First Date:2018-08-15
+EPR First Date:2010-01-04
+EPSN First Date:2022-08-19
+EPS First Date:2021-08-11
+EPV First Date:2010-05-27
+EQAL First Date:2021-09-16
+EQBK First Date:2023-04-19
+EQC First Date:2018-01-02
+EQH First Date:2018-08-15
+EQIX First Date:2010-01-04
+EQL First Date:2023-05-10
+EQNR First Date:2018-01-22
+EQRX First Date:2022-01-05
+EQR First Date:2010-01-04
+EQT First Date:2010-01-04
+EQWL First Date:2021-09-16
+EQX First Date:2020-04-30
+EQ First Date:2021-04-13
+ERAS First Date:2022-07-14
+ERF First Date:2010-01-04
+ERIC First Date:2010-01-04
+ERIE First Date:2018-01-02
+ERII First Date:2010-01-04
+ERJ First Date:2010-01-04
+ERO First Date:2022-04-12
+ERTH First Date:2021-08-06
+ERX First Date:2010-01-04
+ERY First Date:2010-01-04
+ESAB First Date:2022-04-12
+ESCA First Date:2018-01-02
+ESE First Date:2010-01-04
+ESGD First Date:2021-11-17
+ESGE First Date:2020-05-08
+ESGR First Date:2021-08-11
+ESGU First Date:2020-06-15
+ESI First Date:2010-01-04
+ESLT First Date:2010-01-04
+ESMT First Date:2021-12-16
+ESNT First Date:2018-01-02
+ESPO First Date:2020-08-06
+ESPR First Date:2018-01-02
+ESRT First Date:2018-01-02
+ESSA First Date:2022-02-24
+ESS First Date:2010-01-04
+ESTA First Date:2020-10-20
+ESTC First Date:2018-12-05
+ESTE First Date:2021-04-09
+ES First Date:2010-01-04
+ETD First Date:2021-09-14
+ETNB First Date:2020-12-15
+ETN First Date:2010-01-04
+ETON First Date:2021-04-13
+ETRN First Date:2018-12-24
+ETR First Date:2010-01-04
+ETSY First Date:2018-01-02
+ETWO First Date:2021-02-16
+ET First Date:2012-04-04
+EUFN First Date:2018-01-02
+EUM First Date:2018-01-02
+EUO First Date:2010-01-04
+EURL First Date:2018-01-02
+EURN First Date:2018-01-02
+EUSA First Date:2021-09-16
+EVAV First Date:2022-11-01
+EVAX First Date:2021-12-06
+EVA First Date:2018-01-02
+EVBG First Date:2018-01-02
+EVCM First Date:2022-08-19
+EVC First Date:2018-01-02
+EVER First Date:2012-05-15
+EVEX First Date:2022-06-03
+EVGN First Date:2021-02-17
+EVGO First Date:2021-07-14
+EVH First Date:2018-01-02
+EVLO First Date:2021-02-17
+EVLV First Date:2018-01-02
+EVMT First Date:2022-08-17
+EVRG First Date:2018-08-15
+EVRI First Date:2018-01-02
+EVR First Date:2010-01-04
+EVTC First Date:2018-01-02
+EVTL First Date:2022-01-05
+EVTV First Date:2022-10-27
+EVX First Date:2021-07-22
+EWA First Date:2010-01-04
+EWBC First Date:2010-01-04
+EWCZ First Date:2022-07-14
+EWC First Date:2010-01-04
+EWD First Date:2010-01-04
+EWEB First Date:2021-09-16
+EWGS First Date:2021-09-16
+EWG First Date:2010-01-04
+EWH First Date:2010-01-04
+EWI First Date:2010-07-13
+EWJ First Date:2010-01-04
+EWK First Date:2018-01-02
+EWL First Date:2011-09-20
+EWMC First Date:2022-03-08
+EWM First Date:2010-01-04
+EWN First Date:2018-01-02
+EWP First Date:2010-01-04
+EWQ First Date:2011-08-11
+EWS First Date:2010-01-04
+EWTX First Date:2022-09-19
+EWT First Date:2010-01-04
+EWUS First Date:2021-09-16
+EWU First Date:2010-01-04
+EWV First Date:2011-04-07
+EWW First Date:2010-01-04
+EWX First Date:2018-01-02
+EWY First Date:2010-01-04
+EWZS First Date:2022-12-15
+EWZ First Date:2010-01-04
+EW First Date:2010-01-04
+EXAI First Date:2022-04-06
+EXAS First Date:2010-01-27
+EXC First Date:2010-01-04
+EXEL First Date:2010-01-04
+EXFY First Date:2022-04-12
+EXI First Date:2021-09-16
+EXK First Date:2010-01-04
+EXLS First Date:2012-01-19
+EXPD First Date:2010-01-04
+EXPE First Date:2010-01-04
+EXPI First Date:2020-08-06
+EXPO First Date:2018-01-02
+EXPR First Date:2010-05-27
+EXP First Date:2010-01-04
+EXR First Date:2010-01-04
+EXTR First Date:2010-01-04
+EYEN First Date:2020-12-15
+EYE First Date:2018-04-13
+EYPT First Date:2018-01-22
+EZA First Date:2010-01-04
+EZJ First Date:2018-01-02
+EZM First Date:2021-08-11
+EZPW First Date:2010-01-04
+EZU First Date:2010-01-04
+E First Date:2010-07-21
+FAB First Date:2021-09-23
+FAD First Date:2022-03-07
+FAF First Date:2010-01-04
+FALN First Date:2020-06-23
+FANG First Date:2018-01-02
+FANH First Date:2018-01-02
+FAN First Date:2010-01-04
+FARM First Date:2021-04-21
+FARO First Date:2010-01-04
+FAST First Date:2010-01-04
+FAS First Date:2010-01-04
+FATE First Date:2018-01-02
+FATH First Date:2022-01-05
+FAZE First Date:2022-08-09
+FAZ First Date:2010-01-04
+FA First Date:2022-10-04
+FBIN First Date:2023-01-24
+FBIO First Date:2018-01-02
+FBIZ First Date:2018-01-02
+FBK First Date:2020-04-30
+FBMS First Date:2021-09-15
+FBNC First Date:2018-01-02
+FBND First Date:2021-09-16
+FBP First Date:2010-01-04
+FBRT First Date:2021-11-15
+FBRX First Date:2020-09-29
+FBT First Date:2010-05-18
+FBZ First Date:2021-09-16
+FCA First Date:2018-01-02
+FCBC First Date:2010-01-04
+FCEL First Date:2010-01-04
+FCFS First Date:2010-01-04
+FCF First Date:2010-01-04
+FCG First Date:2010-01-04
+FCNCA First Date:2015-12-17
+FCN First Date:2010-01-04
+FCOM First Date:2020-10-20
+FCPI First Date:2021-09-16
+FCPT First Date:2018-01-02
+FCUV First Date:2021-11-15
+FCX First Date:2010-01-04
+FC First Date:2018-01-02
+FDD First Date:2014-08-08
+FDIS First Date:2018-11-29
+FDLO First Date:2020-12-16
+FDL First Date:2018-01-02
+FDMO First Date:2021-06-22
+FDMT First Date:2021-04-13
+FDNI First Date:2021-08-11
+FDN First Date:2011-01-20
+FDP First Date:2010-01-04
+FDRR First Date:2021-06-22
+FDRV First Date:2022-01-06
+FDS First Date:2010-01-04
+FDT First Date:2022-06-10
+FDUS First Date:2018-01-02
+FDVV First Date:2021-06-22
+FDX First Date:2010-01-04
+FEAM First Date:2022-07-14
+FELE First Date:2010-01-04
+FEMS First Date:2022-02-22
+FEM First Date:2018-01-02
+FENC First Date:2018-08-15
+FENG First Date:2018-01-02
+FENY First Date:2018-01-02
+FEP First Date:2018-01-02
+FERG First Date:2022-05-10
+FET First Date:2012-04-27
+FEUZ First Date:2022-08-17
+FEX First Date:2018-01-02
+FEZ First Date:2010-01-05
+FE First Date:2010-01-04
+FFBC First Date:2010-01-04
+FFIC First Date:2011-10-05
+FFIE First Date:2021-08-06
+FFIN First Date:2011-09-12
+FFIV First Date:2010-01-04
+FFTY First Date:2018-03-09
+FFWM First Date:2022-10-04
+FF First Date:2012-09-11
+FGD First Date:2020-12-16
+FGEN First Date:2018-01-02
+FGH First Date:2023-01-24
+FGM First Date:2022-08-17
+FG First Date:2017-12-01
+FHB First Date:2018-01-02
+FHI First Date:2020-02-25
+FHLC First Date:2018-01-02
+FHN First Date:2010-01-04
+FHTX First Date:2021-09-15
+FIBK First Date:2018-01-02
+FICO First Date:2010-01-04
+FIDI First Date:2021-06-22
+FIDU First Date:2018-11-29
+FID First Date:2022-07-15
+FIGS First Date:2021-07-15
+FILL First Date:2022-02-10
+FINV First Date:2020-01-15
+FINX First Date:2021-02-05
+FIP First Date:2023-04-19
+FISI First Date:2018-01-02
+FIS First Date:2010-01-04
+FITB First Date:2010-01-04
+FITE First Date:2022-02-22
+FIVE First Date:2012-08-06
+FIVG First Date:2020-12-16
+FIVN First Date:2018-01-02
+FIW First Date:2010-01-04
+FIXD First Date:2021-04-16
+FIXX First Date:2019-09-25
+FIX First Date:2010-01-04
+FIZZ First Date:2010-01-12
+FI First Date:2018-01-02
+FJP First Date:2022-08-17
+FKWL First Date:2021-09-15
+FLBR First Date:2021-07-16
+FLCH First Date:2021-09-16
+FLEX First Date:2010-01-04
+FLGT First Date:2020-09-30
+FLIC First Date:2018-01-02
+FLJP First Date:2022-08-17
+FLL First Date:2021-04-09
+FLNC First Date:2022-02-02
+FLNG First Date:2022-02-02
+FLNT First Date:2018-01-22
+FLOT First Date:2014-07-24
+FLO First Date:2010-01-04
+FLQL First Date:2021-04-16
+FLQM First Date:2022-12-15
+FLRN First Date:2021-04-16
+FLR First Date:2010-01-04
+FLS First Date:2010-01-04
+FLTN First Date:2022-06-07
+FLT First Date:2011-01-06
+FLUX First Date:2021-06-11
+FLWS First Date:2018-01-02
+FLYW First Date:2022-02-02
+FL First Date:2010-01-04
+FMAO First Date:2023-06-22
+FMAT First Date:2018-01-02
+FMBH First Date:2023-04-19
+FMC First Date:2010-01-04
+FMNB First Date:2018-01-02
+FMS First Date:2010-01-04
+FMX First Date:2010-01-04
+FM First Date:2018-01-02
+FNA First Date:2022-06-03
+FNB First Date:2010-01-04
+FNCB First Date:2021-09-23
+FNCH First Date:2022-04-06
+FNCL First Date:2018-01-02
+FNDA First Date:2018-11-29
+FNDB First Date:2021-09-16
+FNDC First Date:2021-05-06
+FNDE First Date:2018-01-02
+FNDF First Date:2018-01-02
+FNDX First Date:2018-01-02
+FND First Date:2018-01-02
+FNF First Date:2010-01-04
+FNGG First Date:2021-12-17
+FNGR First Date:2022-11-22
+FNGS First Date:2020-08-06
+FNKO First Date:2018-01-02
+FNK First Date:2021-09-23
+FNLC First Date:2018-01-02
+FNV First Date:2011-10-28
+FNX First Date:2021-09-23
+FNY First Date:2021-09-23
+FN First Date:2011-09-02
+FOA First Date:2021-04-13
+FOCS First Date:2018-11-28
+FOLD First Date:2012-11-02
+FORA First Date:2021-09-15
+FORG First Date:2021-12-06
+FORM First Date:2010-01-04
+FORR First Date:2011-08-24
+FOR First Date:2010-01-04
+FOSL First Date:2010-01-04
+FOUR First Date:2020-08-06
+FOXA First Date:2018-01-02
+FOXF First Date:2018-01-02
+FOX First Date:2018-01-02
+FPE First Date:2018-01-02
+FPH First Date:2020-12-15
+FPI First Date:2018-01-02
+FPXI First Date:2021-05-06
+FPX First Date:2020-05-04
+FQAL First Date:2021-06-22
+FRBA First Date:2021-09-23
+FRBK First Date:2018-01-02
+FREE First Date:2020-07-10
+FREL First Date:2020-08-06
+FREQ First Date:2020-08-06
+FREY First Date:2021-07-15
+FRGE First Date:2022-06-03
+FRGI First Date:2012-08-07
+FRG First Date:2010-01-04
+FRHC First Date:2021-02-04
+FRI First Date:2011-08-26
+FRME First Date:2011-11-09
+FRNW First Date:2022-01-06
+FROG First Date:2020-09-30
+FRO First Date:2010-01-04
+FRPT First Date:2010-01-04
+FRSH First Date:2018-01-02
+FRST First Date:2022-02-02
+FRSX First Date:2021-02-17
+FRT First Date:2010-01-04
+FR First Date:2010-01-04
+FSK First Date:2019-04-04
+FSLR First Date:2010-01-04
+FSLY First Date:2019-06-07
+FSMB First Date:2023-06-14
+FSMD First Date:2021-06-22
+FSM First Date:2011-11-09
+FSP First Date:2010-01-04
+FSR First Date:2011-08-24
+FSS First Date:2010-01-04
+FSTA First Date:2020-08-06
+FSTR First Date:2010-01-04
+FSV First Date:2021-06-11
+FSZ First Date:2022-08-17
+FTAG First Date:2018-01-02
+FTAI First Date:2018-01-02
+FTA First Date:2021-09-16
+FTCH First Date:2018-11-29
+FTCI First Date:2022-02-02
+FTCS First Date:2020-08-06
+FTC First Date:2018-01-02
+FTDR First Date:2018-11-29
+FTEC First Date:2018-01-02
+FTEK First Date:2010-01-04
+FTFT First Date:2021-02-04
+FTGC First Date:2018-11-28
+FTHI First Date:2022-12-15
+FTHM First Date:2021-12-01
+FTI First Date:2010-01-04
+FTK First Date:2010-01-04
+FTLS First Date:2023-06-14
+FTNT First Date:2010-01-04
+FTRI First Date:2018-01-02
+FTSL First Date:2021-07-16
+FTSM First Date:2021-04-16
+FTS First Date:2018-01-02
+FTV First Date:2018-01-02
+FTXG First Date:2021-09-16
+FTXH First Date:2021-09-16
+FTXL First Date:2021-09-16
+FTXN First Date:2021-06-22
+FTXO First Date:2021-06-22
+FTXR First Date:2021-06-22
+FUBO First Date:2020-11-25
+FULC First Date:2021-08-10
+FULT First Date:2010-01-04
+FUL First Date:2010-01-04
+FUMB First Date:2023-06-14
+FUN First Date:2010-01-04
+FUSN First Date:2021-02-17
+FUTU First Date:2020-08-06
+FUTY First Date:2020-10-20
+FUV First Date:2020-08-06
+FVAL First Date:2021-06-22
+FVCB First Date:2023-06-22
+FVD First Date:2018-01-02
+FVRR First Date:2020-02-28
+FV First Date:2018-01-02
+FWONA First Date:2018-01-02
+FWONK First Date:2018-01-02
+FWRD First Date:2010-01-04
+FWRG First Date:2022-06-03
+FXA First Date:2010-01-04
+FXB First Date:2010-01-04
+FXC First Date:2010-01-04
+FXD First Date:2011-06-22
+FXE First Date:2010-01-04
+FXF First Date:2010-01-04
+FXG First Date:2018-01-02
+FXH First Date:2018-01-02
+FXI First Date:2010-01-04
+FXLV First Date:2021-09-15
+FXL First Date:2018-01-02
+FXN First Date:2018-01-02
+FXO First Date:2010-05-18
+FXP First Date:2010-01-04
+FXR First Date:2018-01-02
+FXU First Date:2018-01-02
+FXY First Date:2010-01-04
+FXZ First Date:2011-09-15
+FYBR First Date:2021-06-11
+FYC First Date:2021-09-23
+FYLD First Date:2023-06-14
+FYLG First Date:2023-01-19
+FYT First Date:2021-09-23
+FYX First Date:2021-06-22
+F First Date:2010-01-04
+GABC First Date:2018-01-02
+GAIA First Date:2011-08-02
+GAIN First Date:2012-11-15
+GALT First Date:2018-01-02
+GAL First Date:2023-01-19
+GAMB First Date:2022-11-22
+GAME First Date:2010-01-04
+GAMR First Date:2020-09-30
+GANX First Date:2022-08-19
+GAN First Date:2020-08-06
+GASS First Date:2018-01-02
+GATO First Date:2021-04-13
+GATX First Date:2018-01-02
+GAU First Date:2020-06-17
+GBCI First Date:2010-01-04
+GBDC First Date:2010-05-04
+GBIL First Date:2021-09-16
+GBIO First Date:2021-04-09
+GBLD First Date:2022-03-07
+GBTG First Date:2022-06-09
+GBX First Date:2010-01-04
+GB First Date:2010-01-04
+GCC First Date:2011-01-14
+GCI First Date:2010-01-04
+GCLN First Date:2022-06-10
+GCMG First Date:2022-01-05
+GCO First Date:2010-01-04
+GDDY First Date:2018-01-02
+GDEF First Date:2023-04-17
+GDEN First Date:2018-01-02
+GDE First Date:2022-06-10
+GDOC First Date:2022-01-06
+GDOT First Date:2010-12-17
+GDRX First Date:2020-10-20
+GDS First Date:2018-01-02
+GDVD First Date:2022-06-10
+GDXJ First Date:2010-01-04
+GDX First Date:2010-01-04
+GDYN First Date:2020-12-15
+GD First Date:2010-01-04
+GEF First Date:2010-01-04
+GEHC First Date:2023-01-20
+GEL First Date:2010-01-04
+GEM First Date:2018-01-02
+GENC First Date:2021-09-28
+GENE First Date:2012-07-06
+GENI First Date:2021-06-11
+GENY First Date:2021-08-11
+GEN First Date:2010-12-06
+GEOS First Date:2018-01-02
+GEO First Date:2010-01-04
+GERM First Date:2020-08-17
+GERN First Date:2010-01-04
+GES First Date:2010-01-04
+GETY First Date:2022-08-19
+GEVO First Date:2012-05-01
+GE First Date:2010-01-04
+GFF First Date:2010-01-04
+GFI First Date:2010-01-04
+GFL First Date:2020-05-12
+GFOF First Date:2022-06-10
+GFS First Date:2021-12-01
+GGAL First Date:2018-01-02
+GGB First Date:2010-01-04
+GGG First Date:2010-01-04
+GGR First Date:2010-01-04
+GHI First Date:2023-01-24
+GHL First Date:2010-01-04
+GHM First Date:2010-01-04
+GHYB First Date:2018-01-02
+GH First Date:2019-04-10
+GIB First Date:2010-01-04
+GIC First Date:2021-07-14
+GIFI First Date:2010-01-04
+GIGB First Date:2018-01-02
+GIII First Date:2010-01-04
+GII First Date:2021-06-23
+GILD First Date:2010-01-04
+GILT First Date:2010-01-04
+GIL First Date:2010-01-04
+GINN First Date:2021-01-05
+GIS First Date:2010-01-04
+GKOS First Date:2018-01-02
+GK First Date:2012-12-03
+GLAD First Date:2010-01-04
+GLBE First Date:2021-09-28
+GLBS First Date:2021-06-11
+GLCN First Date:2020-06-17
+GLDB First Date:2022-04-14
+GLDD First Date:2010-01-04
+GLD First Date:2010-01-04
+GLIN First Date:2020-08-06
+GLL First Date:2010-01-04
+GLMD First Date:2018-08-15
+GLNG First Date:2010-01-04
+GLOB First Date:2018-01-02
+GLOP First Date:2018-01-02
+GLOV First Date:2022-06-10
+GLPG First Date:2018-01-02
+GLPI First Date:2018-01-02
+GLP First Date:2011-01-14
+GLRE First Date:2011-10-12
+GLTO First Date:2021-08-10
+GLT First Date:2010-01-04
+GLUE First Date:2022-07-14
+GLW First Date:2010-01-04
+GLYC First Date:2018-01-02
+GL First Date:2019-09-23
+GMAB First Date:2019-09-24
+GMBL First Date:2021-02-04
+GMDA First Date:2021-02-04
+GMED First Date:2012-12-12
+GMET First Date:2021-12-16
+GME First Date:2010-01-04
+GMF First Date:2018-01-02
+GMGI First Date:2022-06-03
+GMRE First Date:2018-08-15
+GMS First Date:2018-01-02
+GM First Date:2010-11-29
+GNE First Date:2011-11-03
+GNK First Date:2010-01-04
+GNL First Date:2018-01-02
+GNOM First Date:2011-05-16
+GNPX First Date:2020-04-30
+GNRC First Date:2011-06-09
+GNR First Date:2018-01-02
+GNSS First Date:2019-11-29
+GNS First Date:2023-04-19
+GNTX First Date:2010-01-04
+GNTY First Date:2023-05-11
+GNW First Date:2010-01-04
+GOAU First Date:2021-09-23
+GOCO First Date:2020-08-06
+GOEV First Date:2021-02-05
+GOEX First Date:2018-01-02
+GOGL First Date:2018-01-02
+GOGO First Date:2018-01-02
+GOLD First Date:2010-01-04
+GOLF First Date:2018-01-02
+GOL First Date:2010-01-04
+GOOD First Date:2018-01-02
+GOOGL First Date:2010-11-22
+GOOG First Date:2010-01-04
+GOOS First Date:2018-01-02
+GORO First Date:2010-10-14
+GOSS First Date:2019-07-26
+GOTU First Date:2021-06-04
+GOVT First Date:2018-01-02
+GOVZ First Date:2021-07-16
+GO First Date:2019-07-26
+GPC First Date:2010-01-04
+GPI First Date:2010-01-04
+GPK First Date:2010-04-05
+GPMT First Date:2018-01-26
+GPN First Date:2010-01-04
+GPOR First Date:2010-01-04
+GPP First Date:2020-12-15
+GPRE First Date:2010-03-26
+GPRK First Date:2018-08-15
+GPRO First Date:2010-01-04
+GPS First Date:2010-01-04
+GP First Date:2020-12-15
+GRAB First Date:2021-12-16
+GRBK First Date:2018-01-02
+GRC First Date:2011-05-16
+GREE First Date:2021-10-08
+GREK First Date:2018-01-02
+GRFS First Date:2012-06-28
+GRID First Date:2021-08-10
+GRIN First Date:2022-08-19
+GRMN First Date:2010-01-04
+GRND First Date:2023-06-15
+GRNR First Date:2022-06-10
+GRN First Date:2021-05-26
+GROV First Date:2022-08-19
+GROW First Date:2010-01-04
+GROY First Date:2021-07-15
+GRPH First Date:2022-04-06
+GRPN First Date:2011-11-14
+GRTS First Date:2021-02-04
+GRTX First Date:2021-11-15
+GRWG First Date:2020-04-30
+GSAT First Date:2018-01-02
+GSBC First Date:2018-01-02
+GSBD First Date:2021-08-10
+GSEW First Date:2018-01-02
+GSG First Date:2010-01-04
+GSHD First Date:2018-08-15
+GSIE First Date:2018-01-02
+GSIT First Date:2011-03-01
+GSK First Date:2010-01-04
+GSLC First Date:2018-01-02
+GSL First Date:2018-01-02
+GSM First Date:2010-05-17
+GSPY First Date:2022-03-23
+GSUS First Date:2023-01-19
+GSY First Date:2021-04-16
+GS First Date:2010-01-04
+GTBP First Date:2021-07-15
+GTEK First Date:2021-11-17
+GTES First Date:2018-02-27
+GTE First Date:2010-01-04
+GTHX First Date:2018-08-15
+GTIM First Date:2018-01-02
+GTLB First Date:2021-11-15
+GTLS First Date:2010-01-04
+GTN First Date:2018-01-02
+GTX First Date:2018-11-29
+GTY First Date:2010-01-04
+GT First Date:2010-01-04
+GUNR First Date:2013-02-06
+GURE First Date:2011-06-30
+GURU First Date:2018-01-02
+GUSH First Date:2018-01-02
+GVA First Date:2010-01-04
+GVIP First Date:2018-02-09
+GVI First Date:2018-01-02
+GWH First Date:2021-10-26
+GWRE First Date:2012-03-28
+GWRS First Date:2021-06-11
+GWW First Date:2010-01-04
+GWX First Date:2012-08-10
+GXC First Date:2010-01-04
+GXG First Date:2012-12-12
+GXO First Date:2021-09-15
+GXTG First Date:2021-06-22
+GYLD First Date:2018-01-02
+G First Date:2010-01-04
+HACK First Date:2018-01-02
+HAE First Date:2010-01-04
+HAFC First Date:2012-02-10
+HAIL First Date:2021-07-16
+HAIN First Date:2010-01-04
+HALO First Date:2010-01-04
+HAL First Date:2010-01-04
+HAP First Date:2010-01-04
+HARP First Date:2020-08-06
+HASI First Date:2018-01-02
+HAS First Date:2010-01-04
+HAUS First Date:2022-06-10
+HAUZ First Date:2021-09-16
+HAYN First Date:2010-01-04
+HAYW First Date:2021-04-13
+HA First Date:2010-01-04
+HBAN First Date:2010-01-04
+HBB First Date:2021-09-15
+HBCP First Date:2023-04-05
+HBIO First Date:2011-08-17
+HBI First Date:2010-01-04
+HBM First Date:2012-07-24
+HBNC First Date:2018-01-02
+HBT First Date:2022-10-27
+HCAT First Date:2019-11-29
+HCA First Date:2011-03-18
+HCCI First Date:2018-01-02
+HCC First Date:2010-01-04
+HCI First Date:2012-10-25
+HCKT First Date:2011-09-12
+HCM First Date:2021-04-13
+HCOM First Date:2022-06-07
+HCP First Date:2010-01-04
+HCSG First Date:2010-01-04
+HDB First Date:2010-01-04
+HDEF First Date:2021-05-06
+HDGE First Date:2011-09-21
+HDG First Date:2023-06-14
+HDRO First Date:2021-09-23
+HDSN First Date:2018-01-02
+HDV First Date:2012-07-23
+HD First Date:2010-01-04
+HEAR First Date:2018-08-15
+HEDJ First Date:2018-01-02
+HEEM First Date:2021-09-16
+HEES First Date:2010-01-04
+HEFA First Date:2018-01-02
+HEI First Date:2010-01-04
+HELE First Date:2010-01-04
+HELX First Date:2022-02-22
+HEPA First Date:2020-08-17
+HEP First Date:2010-01-04
+HEQT First Date:2022-12-15
+HERO First Date:2010-01-04
+HESM First Date:2018-01-02
+HES First Date:2010-01-04
+HEWG First Date:2018-01-02
+HEWJ First Date:2018-01-02
+HEZU First Date:2018-01-02
+HE First Date:2010-01-04
+HFFG First Date:2021-09-15
+HFND First Date:2023-01-19
+HFWA First Date:2018-01-02
+HGEN First Date:2020-10-20
+HGER First Date:2022-06-10
+HGTY First Date:2022-02-23
+HGV First Date:2018-01-02
+HHC First Date:2010-11-12
+HIBB First Date:2010-01-04
+HIBL First Date:2021-06-22
+HIBS First Date:2020-12-16
+HIG First Date:2010-01-04
+HII First Date:2011-03-31
+HIMS First Date:2021-02-04
+HIMX First Date:2010-01-04
+HIPO First Date:2021-09-15
+HITI First Date:2021-07-15
+HIVE First Date:2018-01-02
+HIW First Date:2010-01-04
+HI First Date:2010-01-04
+HJEN First Date:2021-09-16
+HLF First Date:2010-01-04
+HLGN First Date:2022-02-02
+HLIO First Date:2019-07-25
+HLIT First Date:2010-01-04
+HLI First Date:2018-01-02
+HLLY First Date:2021-09-15
+HLMN First Date:2021-08-06
+HLNE First Date:2018-01-02
+HLN First Date:2022-08-19
+HLTH First Date:2018-01-02
+HLT First Date:2018-01-02
+HLX First Date:2010-01-04
+HL First Date:2010-01-04
+HMC First Date:2010-01-04
+HMN First Date:2010-01-04
+HMPT First Date:2022-08-19
+HMST First Date:2018-01-02
+HMY First Date:2010-01-04
+HNDL First Date:2021-04-16
+HNI First Date:2010-01-04
+HNRG First Date:2018-01-02
+HNST First Date:2021-06-09
+HOFT First Date:2012-09-11
+HOFV First Date:2021-05-05
+HOG First Date:2010-01-04
+HOLI First Date:2010-11-16
+HOLX First Date:2010-01-04
+HOMB First Date:2011-08-25
+HOMZ First Date:2020-12-16
+HONE First Date:2021-06-11
+HON First Date:2010-01-04
+HOOD First Date:2021-08-10
+HOOK First Date:2011-01-03
+HOPE First Date:2018-01-02
+HOTL First Date:2022-06-10
+HOUS First Date:2022-07-14
+HOWL First Date:2022-04-06
+HPE First Date:2018-01-02
+HPK First Date:2022-07-14
+HPP First Date:2010-07-08
+HPQ First Date:2010-01-04
+HP First Date:2010-01-04
+HQY First Date:2018-01-02
+HRB First Date:2010-01-04
+HRI First Date:2018-01-02
+HRL First Date:2010-01-04
+HRMY First Date:2020-11-25
+HROW First Date:2019-04-04
+HRTG First Date:2018-01-02
+HRTX First Date:2018-01-02
+HRT First Date:2022-06-03
+HRZN First Date:2018-01-02
+HR First Date:2010-01-04
+HSBC First Date:2018-01-02
+HSIC First Date:2010-01-04
+HSII First Date:2010-01-04
+HSTM First Date:2011-07-01
+HST First Date:2010-01-04
+HSY First Date:2010-01-04
+HTBI First Date:2018-01-02
+HTBK First Date:2018-01-02
+HTEC First Date:2021-09-23
+HTGC First Date:2010-01-04
+HTHT First Date:2010-04-13
+HTH First Date:2010-02-25
+HTLD First Date:2010-01-04
+HTLF First Date:2018-01-02
+HTOO First Date:2021-04-09
+HTZ First Date:2010-01-04
+HT First Date:2010-02-18
+HUBB First Date:2018-01-02
+HUBG First Date:2010-01-04
+HUBS First Date:2018-01-02
+HUGE First Date:2020-08-06
+HUMA First Date:2021-09-14
+HUM First Date:2010-01-04
+HUN First Date:2010-01-04
+HURN First Date:2010-01-04
+HUSA First Date:2010-04-13
+HUT First Date:2021-07-15
+HUYA First Date:2018-08-15
+HVT First Date:2012-09-11
+HWC First Date:2018-01-22
+HWKN First Date:2018-01-02
+HWM First Date:2020-04-29
+HXL First Date:2010-01-04
+HYBB First Date:2020-12-16
+HYDR First Date:2022-02-10
+HYD First Date:2012-04-04
+HYFM First Date:2021-04-09
+HYGH First Date:2018-01-02
+HYG First Date:2010-01-04
+HYLB First Date:2018-02-23
+HYLD First Date:2012-12-27
+HYLG First Date:2023-01-19
+HYLN First Date:2020-10-14
+HYMB First Date:2018-01-02
+HYMC First Date:2021-04-12
+HYPR First Date:2022-04-12
+HYS First Date:2018-01-02
+HYXU First Date:2019-07-26
+HYZD First Date:2021-09-16
+HYZN First Date:2021-08-06
+HY First Date:2018-01-02
+HZNP First Date:2012-07-02
+HZO First Date:2010-01-04
+H First Date:2010-01-04
+IAC First Date:2018-01-02
+IAGG First Date:2021-07-16
+IAG First Date:2010-01-04
+IAI First Date:2010-01-04
+IAK First Date:2021-08-06
+IART First Date:2010-01-04
+IAS First Date:2022-07-14
+IAT First Date:2010-01-04
+IAUF First Date:2022-06-07
+IAU First Date:2010-01-04
+IBBQ First Date:2021-09-16
+IBB First Date:2010-01-04
+IBCP First Date:2011-03-11
+IBEX First Date:2023-06-15
+IBIO First Date:2020-08-06
+IBKR First Date:2010-01-04
+IBLC First Date:2022-06-10
+IBM First Date:2010-01-04
+IBND First Date:2023-01-19
+IBN First Date:2010-01-04
+IBOC First Date:2010-01-04
+IBP First Date:2018-01-02
+IBRN First Date:2022-11-01
+IBRX First Date:2021-04-07
+IBTX First Date:2018-01-02
+IBUY First Date:2020-08-06
+ICAD First Date:2018-01-02
+ICD First Date:2018-01-02
+ICE First Date:2010-01-04
+ICFI First Date:2010-01-04
+ICF First Date:2010-01-04
+ICHR First Date:2018-01-02
+ICLK First Date:2010-08-20
+ICLN First Date:2020-04-30
+ICLR First Date:2010-08-20
+ICL First Date:2014-10-16
+ICMB First Date:2019-09-24
+ICPT First Date:2018-01-02
+ICSH First Date:2021-04-16
+ICUI First Date:2010-01-04
+ICVT First Date:2021-02-05
+ICVX First Date:2022-04-06
+IDAT First Date:2022-03-07
+IDA First Date:2010-01-04
+IDCC First Date:2010-01-04
+IDEV First Date:2021-06-22
+IDEX First Date:2018-11-29
+IDHQ First Date:2023-05-10
+IDLV First Date:2021-07-16
+IDNA First Date:2019-07-29
+IDN First Date:2010-01-20
+IDRV First Date:2020-04-30
+IDR First Date:2022-08-19
+IDT First Date:2010-08-05
+IDUB First Date:2023-06-14
+IDU First Date:2010-01-04
+IDV First Date:2011-12-08
+IDXX First Date:2010-01-04
+IDYA First Date:2020-08-06
+IEDI First Date:2022-03-23
+IEFA First Date:2018-01-02
+IEF First Date:2010-01-04
+IEI First Date:2010-01-04
+IEMG First Date:2018-01-02
+IEO First Date:2010-01-04
+IEP First Date:2018-01-02
+IESC First Date:2023-03-29
+IETC First Date:2021-08-11
+IEUR First Date:2018-08-15
+IEV First Date:2010-01-04
+IEX First Date:2010-01-04
+IEZ First Date:2010-01-04
+IFF First Date:2010-01-04
+IFGL First Date:2012-08-21
+IFRA First Date:2021-05-06
+IFRX First Date:2020-08-06
+IFV First Date:2021-09-23
+IGC First Date:2019-04-10
+IGE First Date:2010-01-04
+IGF First Date:2018-01-02
+IGHG First Date:2021-09-16
+IGIB First Date:2018-01-22
+IGIC First Date:2021-09-23
+IGLB First Date:2018-01-22
+IGLD First Date:2022-06-07
+IGMS First Date:2020-09-30
+IGM First Date:2018-01-02
+IGN First Date:2010-01-04
+IGOV First Date:2018-01-02
+IGRO First Date:2021-09-16
+IGSB First Date:2010-11-22
+IGT First Date:2010-01-04
+IGV First Date:2011-11-21
+IHAK First Date:2019-07-26
+IHDG First Date:2018-01-02
+IHE First Date:2018-01-02
+IHF First Date:2010-01-04
+IHI First Date:2010-01-04
+IHRT First Date:2020-02-28
+IHS First Date:2010-01-04
+IHY First Date:2018-01-02
+IIIN First Date:2010-01-04
+IIIV First Date:2019-09-25
+III First Date:2021-06-30
+IIPR First Date:2019-04-10
+IJH First Date:2010-01-04
+IJJ First Date:2011-06-16
+IJK First Date:2010-08-17
+IJR First Date:2010-01-04
+IJS First Date:2010-01-04
+IJT First Date:2011-02-03
+ILCB First Date:2022-03-23
+ILCG First Date:2022-11-16
+ILF First Date:2010-01-04
+ILLM First Date:2023-05-10
+ILMN First Date:2010-01-04
+ILPT First Date:2018-02-23
+IMAB First Date:2021-04-13
+IMAX First Date:2010-01-04
+IMBI First Date:2021-06-18
+IMCG First Date:2022-11-16
+IMCR First Date:2021-09-28
+IMGN First Date:2010-01-04
+IMKTA First Date:2012-09-11
+IMMP First Date:2021-07-15
+IMMR First Date:2010-01-04
+IMNM First Date:2021-06-11
+IMOS First Date:2011-06-22
+IMO First Date:2010-01-04
+IMPP First Date:2022-03-24
+IMTM First Date:2021-08-11
+IMTX First Date:2021-07-15
+IMUX First Date:2020-03-31
+IMVT First Date:2020-12-15
+IMXI First Date:2021-08-10
+INBK First Date:2022-06-07
+INBX First Date:2021-10-08
+INCO First Date:2021-08-11
+INCR First Date:2018-01-02
+INCY First Date:2010-01-04
+INDA First Date:2018-01-02
+INDB First Date:2010-01-04
+INDI First Date:2021-07-15
+INDL First Date:2012-07-24
+INDS First Date:2022-02-22
+INDY First Date:2011-02-08
+INFA First Date:2010-01-04
+INFI First Date:2010-01-04
+INFL First Date:2021-05-06
+INFN First Date:2010-01-04
+INFU First Date:2021-06-11
+INFY First Date:2010-01-04
+INGN First Date:2018-01-02
+INGR First Date:2012-06-04
+ING First Date:2010-01-04
+INKM First Date:2023-01-19
+INMB First Date:2021-04-09
+INMD First Date:2020-04-30
+INNV First Date:2022-01-05
+INN First Date:2011-02-23
+INOD First Date:2012-07-10
+INO First Date:2018-01-02
+INQQ First Date:2022-06-10
+INSE First Date:2021-07-15
+INSG First Date:2018-01-02
+INSM First Date:2011-08-17
+INSP First Date:2010-01-04
+INST First Date:2018-01-02
+INSW First Date:2019-11-29
+INTA First Date:2022-06-03
+INTC First Date:2010-01-04
+INTF First Date:2018-11-28
+INTR First Date:2022-10-27
+INTT First Date:2021-08-10
+INTU First Date:2010-01-04
+INTZ First Date:2021-06-11
+INVA First Date:2018-01-02
+INVE First Date:2011-05-05
+INVH First Date:2018-01-02
+INVO First Date:2021-09-15
+INVZ First Date:2021-04-07
+INZY First Date:2022-08-19
+IONQ First Date:2021-10-26
+IONS First Date:2018-01-02
+ION First Date:2023-06-20
+IOO First Date:2011-03-17
+IOSP First Date:2011-04-04
+IOT First Date:2022-01-05
+IOVA First Date:2018-01-02
+IPAC First Date:2022-11-16
+IPAR First Date:2011-06-09
+IPAY First Date:2018-01-02
+IPA First Date:2021-06-11
+IPGP First Date:2010-01-04
+IPG First Date:2010-01-04
+IPI First Date:2010-01-04
+IPKW First Date:2021-09-16
+IPOS First Date:2022-02-22
+IPO First Date:2019-06-07
+IPSC First Date:2022-07-14
+IP First Date:2010-01-04
+IQDF First Date:2018-11-28
+IQDG First Date:2021-08-11
+IQLT First Date:2020-11-25
+IQM First Date:2022-03-07
+IQV First Date:2018-01-02
+IQ First Date:2018-04-05
+IRBO First Date:2019-07-26
+IRBT First Date:2010-01-04
+IRDM First Date:2010-01-04
+IREN First Date:2022-05-10
+IRIX First Date:2021-04-09
+IRMD First Date:2023-01-20
+IRM First Date:2010-01-04
+IRNT First Date:2021-09-14
+IRON First Date:2023-06-22
+IRS First Date:2015-11-24
+IRTC First Date:2018-01-02
+IRT First Date:2018-01-02
+IRVH First Date:2022-12-15
+IRWD First Date:2010-02-18
+IR First Date:2010-01-04
+ISEE First Date:2019-06-12
+ISHP First Date:2022-02-10
+ISPO First Date:2022-04-27
+ISRA First Date:2018-01-02
+ISRG First Date:2010-01-04
+ISSC First Date:2010-01-04
+ISTB First Date:2021-04-16
+ISUN First Date:2021-07-15
+ITA First Date:2018-01-02
+ITB First Date:2010-01-04
+ITCI First Date:2018-01-02
+ITEQ First Date:2020-10-20
+ITGR First Date:2018-01-02
+ITI First Date:2018-01-02
+ITM First Date:2018-01-02
+ITOS First Date:2021-09-15
+ITOT First Date:2018-01-02
+ITP First Date:2018-01-22
+ITRI First Date:2010-01-04
+ITRN First Date:2020-02-28
+ITT First Date:2010-01-04
+ITUB First Date:2010-01-04
+ITW First Date:2010-01-04
+IT First Date:2010-01-04
+IUSB First Date:2021-02-05
+IUSG First Date:2018-08-15
+IUSV First Date:2018-11-28
+IVAC First Date:2010-01-04
+IVES First Date:2022-02-22
+IVE First Date:2010-01-04
+IVLU First Date:2020-10-20
+IVOG First Date:2022-03-07
+IVOL First Date:2020-08-06
+IVOO First Date:2022-07-15
+IVOV First Date:2022-07-15
+IVR First Date:2010-01-04
+IVT First Date:2021-11-15
+IVVD First Date:2022-10-04
+IVV First Date:2010-01-04
+IVW First Date:2010-01-04
+IVZ First Date:2010-01-04
+IWB First Date:2010-01-04
+IWC First Date:2010-01-04
+IWD First Date:2010-01-04
+IWFH First Date:2020-10-20
+IWF First Date:2010-01-04
+IWIN First Date:2022-06-07
+IWL First Date:2021-08-11
+IWM First Date:2010-01-04
+IWN First Date:2010-01-04
+IWO First Date:2010-01-04
+IWP First Date:2010-01-04
+IWR First Date:2010-01-04
+IWS First Date:2010-01-04
+IWV First Date:2010-01-04
+IWX First Date:2021-08-11
+IWY First Date:2021-06-22
+IXC First Date:2010-01-04
+IXG First Date:2021-06-23
+IXJ First Date:2018-01-02
+IXN First Date:2019-06-28
+IXP First Date:2018-01-02
+IXUS First Date:2018-01-02
+IYC First Date:2021-04-21
+IYE First Date:2010-01-04
+IYF First Date:2010-01-04
+IYG First Date:2010-01-04
+IYH First Date:2010-01-04
+IYJ First Date:2012-08-27
+IYK First Date:2021-04-21
+IYM First Date:2010-01-04
+IYR First Date:2010-01-04
+IYT First Date:2010-01-04
+IYW First Date:2011-01-26
+IYY First Date:2010-01-04
+IYZ First Date:2010-01-04
+IZEA First Date:2021-02-17
+IZRL First Date:2021-04-16
+JAAA First Date:2022-02-22
+JACK First Date:2010-01-04
+JAGX First Date:2021-02-04
+JAKK First Date:2010-01-04
+JAMF First Date:2020-08-06
+JANX First Date:2022-08-19
+JAZZ First Date:2010-01-04
+JBGS First Date:2018-01-02
+JBHT First Date:2010-01-04
+JBI First Date:2021-07-15
+JBLU First Date:2010-01-04
+JBL First Date:2010-01-04
+JBSS First Date:2018-01-02
+JBT First Date:2010-01-04
+JCI First Date:2010-01-04
+JCPI First Date:2022-08-17
+JDST First Date:2018-01-02
+JD First Date:2018-01-02
+JEF First Date:2010-01-04
+JELD First Date:2018-01-02
+JEPI First Date:2021-04-16
+JEPQ First Date:2022-11-16
+JETS First Date:2018-01-02
+JFIN First Date:2021-06-11
+JG First Date:2021-02-04
+JHG First Date:2018-01-02
+JHML First Date:2021-05-06
+JHMM First Date:2022-11-16
+JHX First Date:2023-06-15
+JIRE First Date:2023-01-19
+JJSF First Date:2013-07-08
+JKHY First Date:2010-01-04
+JKS First Date:2010-11-11
+JLL First Date:2010-01-04
+JMBS First Date:2022-03-23
+JMIA First Date:2019-06-07
+JMSB First Date:2023-06-22
+JMST First Date:2021-08-11
+JNJ First Date:2010-01-04
+JNK First Date:2010-01-04
+JNPR First Date:2010-01-04
+JNUG First Date:2018-01-02
+JOAN First Date:2021-06-11
+JOBY First Date:2021-08-24
+JOET First Date:2020-12-16
+JOE First Date:2010-01-04
+JPEM First Date:2018-01-02
+JPIN First Date:2018-01-02
+JPM First Date:2010-01-04
+JPSE First Date:2023-06-14
+JPST First Date:2021-04-16
+JPUS First Date:2018-01-02
+JQUA First Date:2022-11-16
+JRVR First Date:2015-10-02
+JSML First Date:2023-06-14
+JSPR First Date:2021-11-17
+JSTC First Date:2022-03-07
+JUCY First Date:2023-06-14
+JUST First Date:2018-11-28
+JVAL First Date:2022-11-16
+JWN First Date:2010-01-04
+JXI First Date:2012-12-27
+JXN First Date:2021-11-15
+JYNT First Date:2019-09-25
+J First Date:2020-01-16
+KAI First Date:2011-09-02
+KALL First Date:2022-07-15
+KALU First Date:2010-01-04
+KALV First Date:2020-11-25
+KAMN First Date:2010-01-04
+KARS First Date:2021-02-05
+KAR First Date:2010-01-04
+KBA First Date:2018-01-02
+KBE First Date:2010-01-04
+KBH First Date:2010-01-04
+KBNT First Date:2021-04-13
+KBR First Date:2010-01-04
+KBUY First Date:2021-09-16
+KBWB First Date:2012-01-05
+KBWD First Date:2021-05-06
+KBWP First Date:2022-12-15
+KBWR First Date:2021-09-16
+KBWY First Date:2021-05-06
+KB First Date:2010-01-04
+KCCA First Date:2021-12-06
+KCE First Date:2010-01-04
+KC First Date:2020-08-06
+KDNY First Date:2020-10-16
+KDP First Date:2018-01-22
+KD First Date:2021-11-17
+KELYA First Date:2010-05-03
+KEMQ First Date:2021-09-16
+KEMX First Date:2022-02-22
+KEN First Date:2023-05-11
+KEP First Date:2010-01-04
+KERN First Date:2020-08-06
+KEUA First Date:2022-01-06
+KEX First Date:2010-01-04
+KEYS First Date:2018-01-02
+KEY First Date:2010-01-04
+KE First Date:2018-01-02
+KFRC First Date:2011-03-09
+KFS First Date:2021-09-28
+KFVG First Date:2021-09-16
+KFYP First Date:2022-07-15
+KFY First Date:2010-01-04
+KGC First Date:2010-01-04
+KGRN First Date:2021-07-16
+KHC First Date:2018-01-02
+KIDS First Date:2019-06-07
+KIE First Date:2010-01-04
+KIM First Date:2010-01-04
+KIND First Date:2021-11-17
+KINS First Date:2021-09-23
+KIRK First Date:2010-01-04
+KKR First Date:2010-07-29
+KLAC First Date:2010-01-04
+KLIC First Date:2010-01-04
+KLNE First Date:2021-09-16
+KLR First Date:2020-09-30
+KLTR First Date:2022-02-02
+KLXE First Date:2018-11-29
+KMB First Date:2010-01-04
+KMDA First Date:2020-09-30
+KMED First Date:2022-02-23
+KMI First Date:2011-02-22
+KMLM First Date:2022-07-15
+KMPR First Date:2011-08-25
+KMT First Date:2010-01-04
+KMX First Date:2010-01-04
+KNDI First Date:2010-04-29
+KNOP First Date:2018-01-02
+KNSA First Date:2020-08-06
+KNSL First Date:2018-04-02
+KNTE First Date:2021-08-10
+KNTK First Date:2023-04-19
+KNX First Date:2010-01-04
+KN First Date:2018-01-02
+KODK First Date:2018-01-02
+KOD First Date:2019-12-11
+KOF First Date:2010-06-14
+KOIN First Date:2023-04-17
+KOLD First Date:2012-04-17
+KOMP First Date:2021-04-16
+KOPN First Date:2010-09-24
+KOP First Date:2010-01-04
+KORU First Date:2020-12-16
+KOS First Date:2011-05-23
+KO First Date:2010-01-04
+KPLT First Date:2021-07-14
+KPTI First Date:2018-01-02
+KRBN First Date:2021-09-16
+KRBP First Date:2021-09-15
+KRC First Date:2010-01-04
+KREF First Date:2021-04-09
+KRE First Date:2010-01-04
+KRG First Date:2011-09-20
+KRMA First Date:2021-06-22
+KRMD First Date:2020-08-06
+KRNT First Date:2018-01-02
+KRNY First Date:2018-01-02
+KRON First Date:2021-02-04
+KROP First Date:2022-02-22
+KROS First Date:2021-11-15
+KRO First Date:2011-06-01
+KRP First Date:2020-01-17
+KRTX First Date:2020-02-28
+KRYS First Date:2020-02-28
+KR First Date:2010-01-04
+KSA First Date:2018-01-02
+KSS First Date:2010-01-04
+KSTR First Date:2021-09-16
+KTB First Date:2019-07-26
+KTCC First Date:2012-02-07
+KTEC First Date:2022-01-20
+KTOS First Date:2010-07-28
+KT First Date:2010-08-10
+KULR First Date:2021-11-22
+KURA First Date:2018-01-02
+KURE First Date:2021-09-16
+KVHI First Date:2011-05-23
+KVSA First Date:2021-12-16
+KVUE First Date:2023-06-15
+KWEB First Date:2018-01-02
+KWR First Date:2012-07-30
+KW First Date:2012-05-01
+KXIN First Date:2020-12-15
+KXI First Date:2013-07-10
+KYMR First Date:2021-06-11
+KYN First Date:2018-01-02
+KZIA First Date:2020-12-15
+KZR First Date:2020-08-06
+K First Date:2010-01-04
+LABD First Date:2018-01-02
+LABU First Date:2018-01-02
+LAB First Date:2010-01-04
+LAC First Date:2020-08-06
+LADR First Date:2018-01-02
+LAD First Date:2010-01-04
+LAKE First Date:2018-01-02
+LAMR First Date:2010-01-04
+LANC First Date:2010-01-04
+LAND First Date:2018-04-06
+LASR First Date:2018-11-28
+LAUR First Date:2018-01-02
+LAW First Date:2021-11-15
+LAZR First Date:2020-12-15
+LAZY First Date:2021-11-15
+LAZ First Date:2010-01-04
+LBAI First Date:2012-10-17
+LBC First Date:2022-10-04
+LBRDA First Date:2018-01-02
+LBRDK First Date:2018-01-02
+LBRT First Date:2018-08-15
+LBTYA First Date:2010-01-04
+LBTYK First Date:2010-01-04
+LCID First Date:2021-08-10
+LCII First Date:2018-01-02
+LCNB First Date:2018-01-02
+LCTD First Date:2022-08-17
+LCTU First Date:2021-08-11
+LCTX First Date:2019-09-24
+LCUT First Date:2014-08-18
+LC First Date:2018-01-02
+LDEM First Date:2020-06-03
+LDI First Date:2021-11-15
+LDOS First Date:2018-01-02
+LEA First Date:2010-01-04
+LECO First Date:2010-01-04
+LEGH First Date:2021-04-13
+LEGN First Date:2020-09-30
+LEGR First Date:2021-08-11
+LEG First Date:2010-01-04
+LEMB First Date:2018-01-02
+LEN First Date:2010-01-04
+LESL First Date:2021-02-04
+LETB First Date:2022-06-07
+LEU First Date:2020-09-30
+LEVI First Date:2019-04-10
+LEV First Date:2021-06-04
+LE First Date:2018-01-02
+LFCR First Date:2022-12-14
+LFLY First Date:2022-02-22
+LFMD First Date:2021-04-07
+LFST First Date:2021-07-15
+LFUS First Date:2010-01-04
+LFVN First Date:2012-10-08
+LGF First Date:2010-01-04
+LGHL First Date:2021-04-09
+LGIH First Date:2018-01-02
+LGLV First Date:2021-08-11
+LGMK First Date:2022-03-08
+LGND First Date:2010-01-04
+LGO First Date:2021-09-28
+LHX First Date:2019-07-25
+LH First Date:2010-01-04
+LICY First Date:2021-09-15
+LIDR First Date:2021-09-14
+LIFE First Date:2010-01-04
+LII First Date:2010-01-04
+LILAK First Date:2018-01-02
+LILA First Date:2018-01-02
+LILM First Date:2021-09-28
+LINC First Date:2010-01-04
+LIND First Date:2020-08-06
+LIN First Date:2013-07-31
+LIQT First Date:2020-01-17
+LITE First Date:2018-01-02
+LITM First Date:2023-01-20
+LIT First Date:2011-01-14
+LIVN First Date:2018-01-02
+LIZI First Date:2021-04-13
+LI First Date:2020-08-17
+LKFN First Date:2018-01-02
+LKQ First Date:2012-05-22
+LLAP First Date:2022-07-14
+LLY First Date:2010-01-04
+LL First Date:2010-01-04
+LMAT First Date:2018-01-02
+LMBS First Date:2021-04-16
+LMB First Date:2021-09-28
+LMFA First Date:2021-11-17
+LMND First Date:2020-08-06
+LMNL First Date:2021-04-13
+LMNR First Date:2018-01-02
+LMT First Date:2010-01-04
+LNC First Date:2010-01-04
+LNG First Date:2010-01-04
+LNN First Date:2010-01-04
+LNSR First Date:2021-09-15
+LNTH First Date:2018-01-02
+LNT First Date:2010-01-04
+LNW First Date:2022-06-03
+LOAN First Date:2021-09-28
+LOB First Date:2018-01-02
+LOCL First Date:2022-06-03
+LOCO First Date:2018-01-02
+LODE First Date:2011-07-14
+LOGI First Date:2010-01-04
+LOMA First Date:2018-01-02
+LOOP First Date:2010-01-04
+LOPE First Date:2010-01-04
+LOUP First Date:2021-02-04
+LOVE First Date:2019-07-26
+LOV First Date:2014-07-07
+LOW First Date:2010-01-04
+LPCN First Date:2018-01-02
+LPG First Date:2018-01-02
+LPLA First Date:2010-12-02
+LPL First Date:2010-01-04
+LPRO First Date:2020-10-20
+LPSN First Date:2010-01-27
+LPTX First Date:2021-11-15
+LPX First Date:2010-01-04
+LQDA First Date:2020-08-06
+LQDH First Date:2018-08-15
+LQDI First Date:2021-09-16
+LQDT First Date:2011-04-04
+LQD First Date:2010-01-04
+LQIG First Date:2022-08-17
+LRCX First Date:2010-01-04
+LRGF First Date:2018-08-15
+LRMR First Date:2020-06-17
+LRND First Date:2022-06-10
+LRNZ First Date:2022-02-10
+LRN First Date:2010-01-04
+LSAK First Date:2022-06-09
+LSCC First Date:2010-03-26
+LSI First Date:2010-01-04
+LSPD First Date:2020-10-20
+LSTR First Date:2010-01-04
+LSXMA First Date:2016-04-22
+LSXMK First Date:2020-08-06
+LTBR First Date:2010-01-04
+LTCH First Date:2021-07-14
+LTC First Date:2010-01-04
+LTHM First Date:2019-04-10
+LTH First Date:2022-04-12
+LTL First Date:2022-08-17
+LTPZ First Date:2018-01-02
+LTRN First Date:2021-04-09
+LTRPA First Date:2018-01-02
+LTRX First Date:2021-09-15
+LTRY First Date:2021-12-01
+LULU First Date:2010-01-04
+LUMN First Date:2020-09-21
+LUNA First Date:2021-04-09
+LUNG First Date:2021-02-17
+LUV First Date:2010-01-04
+LU First Date:2020-12-15
+LVHD First Date:2021-09-16
+LVHI First Date:2022-11-16
+LVLU First Date:2022-08-19
+LVOX First Date:2021-07-14
+LVO First Date:2021-10-26
+LVS First Date:2010-01-04
+LVTX First Date:2022-12-14
+LVWR First Date:2022-10-27
+LWLG First Date:2021-11-15
+LW First Date:2018-01-02
+LXFR First Date:2019-09-25
+LXP First Date:2010-01-04
+LXRX First Date:2018-01-02
+LXU First Date:2010-01-04
+LX First Date:2018-03-23
+LYB First Date:2010-10-18
+LYEL First Date:2021-09-15
+LYFT First Date:2019-05-08
+LYG First Date:2010-01-04
+LYRA First Date:2022-07-14
+LYTS First Date:2010-01-04
+LYV First Date:2010-01-04
+LZB First Date:2010-01-04
+LZ First Date:2010-01-04
+L First Date:2010-01-04
+MAA First Date:2010-01-04
+MACK First Date:2012-09-18
+MAC First Date:2010-01-04
+MAGA First Date:2018-01-02
+MAG First Date:2018-01-02
+MAIN First Date:2011-08-25
+MAKX First Date:2022-08-17
+MANH First Date:2010-01-04
+MANU First Date:2012-08-21
+MAN First Date:2010-01-04
+MAPS First Date:2021-07-14
+MARA First Date:2018-01-02
+MARK First Date:2018-01-02
+MAR First Date:2010-01-04
+MASI First Date:2010-01-04
+MASS First Date:2021-08-10
+MAS First Date:2010-01-04
+MATV First Date:2022-07-14
+MATW First Date:2010-01-04
+MATX First Date:2012-07-03
+MAT First Date:2010-01-04
+MAXN First Date:2020-09-30
+MAX First Date:2021-06-11
+MA First Date:2010-01-04
+MBB First Date:2010-12-08
+MBC First Date:2023-01-20
+MBIN First Date:2018-01-02
+MBIO First Date:2018-02-23
+MBI First Date:2010-01-04
+MBLY First Date:2014-08-11
+MBOT First Date:2022-12-14
+MBUU First Date:2018-01-02
+MBWM First Date:2018-01-02
+MCBC First Date:2018-01-02
+MCBS First Date:2023-04-19
+MCB First Date:2021-09-15
+MCD First Date:2010-01-04
+MCFT First Date:2018-01-02
+MCHI First Date:2012-06-15
+MCHP First Date:2010-01-04
+MCHX First Date:2010-01-04
+MCK First Date:2010-01-04
+MCO First Date:2010-01-04
+MCRB First Date:2018-01-02
+MCRI First Date:2010-01-04
+MCS First Date:2010-01-04
+MCW First Date:2021-08-10
+MCY First Date:2010-01-04
+MC First Date:2018-01-02
+MDB First Date:2018-01-02
+MDC First Date:2010-01-04
+MDEV First Date:2022-03-23
+MDGL First Date:2016-07-25
+MDGS First Date:2023-01-20
+MDIV First Date:2018-01-02
+MDLZ First Date:2012-10-03
+MDRX First Date:2010-01-04
+MDT First Date:2010-01-04
+MDU First Date:2010-01-04
+MDVL First Date:2021-09-15
+MDXG First Date:2018-01-02
+MDYG First Date:2020-12-16
+MDYV First Date:2021-05-06
+MDY First Date:2010-01-04
+MD First Date:2010-01-04
+MEC First Date:2022-10-27
+MEDP First Date:2018-01-08
+MED First Date:2010-01-04
+MEG First Date:2010-01-04
+MEIP First Date:2018-01-02
+MEI First Date:2010-01-04
+MELI First Date:2010-01-04
+MEME First Date:2022-01-06
+MEOH First Date:2010-01-04
+MERC First Date:2010-07-26
+MESA First Date:2018-12-24
+MESO First Date:2018-08-15
+META First Date:2012-05-29
+METC First Date:2021-09-15
+METV First Date:2022-02-08
+MET First Date:2010-01-04
+MEXX First Date:2019-06-07
+ME First Date:2010-01-04
+MFA First Date:2010-01-04
+MFC First Date:2010-01-04
+MFG First Date:2010-01-27
+MFH First Date:2021-06-11
+MFIC First Date:2022-10-04
+MFIN First Date:2018-01-02
+MGA First Date:2010-01-04
+MGC First Date:2010-01-04
+MGEE First Date:2018-01-02
+MGIC First Date:2010-12-13
+MGK First Date:2010-01-04
+MGM First Date:2010-01-04
+MGNI First Date:2020-08-05
+MGNX First Date:2018-01-02
+MGPI First Date:2010-01-04
+MGRC First Date:2012-06-01
+MGTA First Date:2019-07-26
+MGTX First Date:2019-11-29
+MGV First Date:2010-01-04
+MGY First Date:2018-08-15
+MG First Date:2011-06-06
+MHK First Date:2010-01-04
+MHLD First Date:2010-01-04
+MHO First Date:2010-01-04
+MIDD First Date:2010-01-04
+MIDU First Date:2012-06-29
+MILN First Date:2021-06-22
+MIMO First Date:2021-11-15
+MIND First Date:2011-07-01
+MINT First Date:2014-07-31
+MIRM First Date:2021-09-15
+MIRO First Date:2022-07-14
+MIR First Date:2010-01-04
+MIST First Date:2020-08-17
+MITK First Date:2011-08-18
+MITT First Date:2012-02-13
+MIXT First Date:2020-02-28
+MJ First Date:2018-02-09
+MKC First Date:2010-01-04
+MKFG First Date:2021-08-06
+MKL First Date:2012-06-22
+MKSI First Date:2010-01-04
+MKTW First Date:2021-11-15
+MKTX First Date:2011-06-09
+MLCO First Date:2018-01-02
+MLI First Date:2010-01-04
+MLKN First Date:2021-11-10
+MLM First Date:2010-01-04
+MLNK First Date:2010-01-04
+MLN First Date:2023-01-19
+MLPA First Date:2018-08-15
+MLPX First Date:2018-01-02
+MLR First Date:2011-11-02
+MLSS First Date:2021-04-09
+ML First Date:2021-10-06
+MMAT First Date:2021-07-15
+MMC First Date:2010-01-04
+MMI First Date:2011-01-04
+MMLP First Date:2012-08-01
+MMM First Date:2010-01-04
+MMP First Date:2010-01-04
+MMSI First Date:2010-01-04
+MMS First Date:2010-01-04
+MMTM First Date:2022-12-15
+MMYT First Date:2011-04-18
+MNA First Date:2023-05-10
+MNDO First Date:2022-02-09
+MNDY First Date:2021-07-15
+MNKD First Date:2010-01-04
+MNMD First Date:2021-06-11
+MNOV First Date:2018-01-02
+MNRO First Date:2010-01-04
+MNSO First Date:2020-12-15
+MNST First Date:2012-01-09
+MNTK First Date:2022-07-14
+MNTS First Date:2021-09-14
+MNTX First Date:2012-05-01
+MOAT First Date:2018-01-02
+MODG First Date:2022-09-19
+MODN First Date:2018-01-02
+MODV First Date:2021-02-05
+MOD First Date:2010-01-04
+MOFG First Date:2023-04-19
+MOGO First Date:2021-04-09
+MOG First Date:2018-01-02
+MOH First Date:2010-01-04
+MOMO First Date:2018-01-02
+MOON First Date:2021-04-16
+MOO First Date:2010-01-04
+MORF First Date:2021-08-10
+MORN First Date:2010-01-04
+MORT First Date:2021-05-06
+MOR First Date:2022-12-14
+MOS First Date:2010-01-04
+MOV First Date:2010-01-04
+MOXC First Date:2021-06-11
+MO First Date:2010-01-04
+MPAA First Date:2011-08-01
+MPB First Date:2023-04-19
+MPC First Date:2011-07-01
+MPLN First Date:2020-11-20
+MPLX First Date:2018-01-02
+MPWR First Date:2010-01-04
+MPW First Date:2010-01-04
+MPX First Date:2018-01-02
+MP First Date:2020-12-15
+MQ First Date:2021-07-15
+MRAI First Date:2022-01-05
+MRAM First Date:2021-09-15
+MRCC First Date:2018-01-02
+MRCY First Date:2010-01-04
+MRC First Date:2012-04-24
+MREO First Date:2021-02-12
+MRIN First Date:2018-01-02
+MRKR First Date:2018-11-29
+MRK First Date:2010-01-04
+MRNA First Date:2010-01-04
+MRNS First Date:2018-01-02
+MRO First Date:2010-01-04
+MRSN First Date:2020-02-28
+MRTN First Date:2010-01-04
+MRTX First Date:2018-01-02
+MRUS First Date:2021-09-15
+MRVI First Date:2020-12-24
+MRVL First Date:2010-01-04
+MSA First Date:2010-01-04
+MSBI First Date:2023-01-20
+MSB First Date:2010-05-06
+MSCI First Date:2010-07-06
+MSEX First Date:2018-01-02
+MSFT First Date:2010-01-04
+MSGE First Date:2020-04-30
+MSGS First Date:2020-04-29
+MSI First Date:2011-01-05
+MSM First Date:2010-01-04
+MSOS First Date:2020-12-16
+MSOX First Date:2023-04-17
+MSTR First Date:2010-01-04
+MS First Date:2010-01-04
+MTA First Date:2021-02-04
+MTB First Date:2010-01-04
+MTCH First Date:2018-01-02
+MTDR First Date:2012-03-12
+MTD First Date:2010-01-04
+MTEM First Date:2018-01-02
+MTG First Date:2010-01-04
+MTH First Date:2010-01-04
+MTLS First Date:2020-11-25
+MTN First Date:2010-01-04
+MTRN First Date:2011-03-08
+MTRX First Date:2010-01-04
+MTSI First Date:2018-01-02
+MTTR First Date:2021-08-06
+MTUM First Date:2018-01-02
+MTVR First Date:2022-01-06
+MTW First Date:2010-01-04
+MTX First Date:2010-01-04
+MTZ First Date:2010-01-04
+MT First Date:2010-01-04
+MUB First Date:2010-12-08
+MUFG First Date:2018-04-03
+MULN First Date:2021-12-16
+MUNI First Date:2018-01-02
+MUR First Date:2010-01-04
+MUSA First Date:2010-04-22
+MUX First Date:2010-11-02
+MU First Date:2010-01-04
+MVBF First Date:2023-01-20
+MVIS First Date:2010-01-04
+MVO First Date:2012-09-11
+MVPS First Date:2022-07-15
+MVST First Date:2021-08-06
+MVV First Date:2010-01-04
+MWA First Date:2010-01-04
+MXCT First Date:2022-01-05
+MXI First Date:2018-01-02
+MXL First Date:2010-04-13
+MX First Date:2011-06-02
+MYE First Date:2010-01-04
+MYGN First Date:2010-01-04
+MYMD First Date:2021-06-11
+MYPS First Date:2021-07-14
+MYRG First Date:2010-01-04
+MYTE First Date:2021-09-15
+MYY First Date:2018-01-02
+MZZ First Date:2010-01-04
+M First Date:2010-01-04
+NAAS First Date:2022-07-14
+NABL First Date:2021-08-10
+NAIL First Date:2020-01-17
+NAK First Date:2010-01-04
+NANR First Date:2018-03-23
+NAN First Date:2021-11-17
+NAPA First Date:2021-04-13
+NARI First Date:2020-09-30
+NATI First Date:2010-01-04
+NATR First Date:2012-10-17
+NAT First Date:2010-01-04
+NAUT First Date:2021-07-15
+NAVB First Date:2012-01-05
+NAVI First Date:2018-01-02
+NBHC First Date:2018-01-02
+NBIX First Date:2010-01-04
+NBR First Date:2010-01-04
+NBSE First Date:2020-10-20
+NBTB First Date:2010-01-04
+NB First Date:2023-06-15
+NCLH First Date:2018-01-02
+NCMI First Date:2010-01-04
+NCNO First Date:2020-08-06
+NCR First Date:2010-01-04
+NCTY First Date:2010-01-04
+NDAQ First Date:2010-01-04
+NDLS First Date:2018-01-02
+NDSN First Date:2010-01-04
+NDX First Date:2010-01-04
+NEAR First Date:2021-04-16
+NECB First Date:2022-08-17
+NEE First Date:2010-06-23
+NEGG First Date:2021-07-15
+NEM First Date:2010-01-04
+NEOG First Date:2011-05-06
+NEON First Date:2012-05-09
+NEO First Date:2018-01-02
+NEP First Date:2010-01-04
+NERD First Date:2019-09-25
+NETI First Date:2022-02-02
+NETL First Date:2010-01-04
+NETZ First Date:2022-07-15
+NET First Date:2019-11-29
+NEU First Date:2010-01-04
+NEWP First Date:2010-01-04
+NEWR First Date:2018-01-02
+NEWT First Date:2018-01-02
+NEXA First Date:2021-06-11
+NEXT First Date:2021-07-15
+NEX First Date:2019-11-29
+NE First Date:2010-01-04
+NFBK First Date:2018-01-02
+NFE First Date:2020-08-06
+NFGC First Date:2022-07-14
+NFG First Date:2010-01-04
+NFLX First Date:2010-01-04
+NFRA First Date:2021-07-16
+NGD First Date:2010-01-04
+NGG First Date:2010-09-03
+NGL First Date:2018-01-02
+NGMS First Date:2022-05-10
+NGM First Date:2020-04-30
+NGS First Date:2010-01-04
+NGVC First Date:2012-09-18
+NGVT First Date:2018-01-02
+NG First Date:2010-01-04
+NHC First Date:2018-01-02
+NHI First Date:2011-09-02
+NHTC First Date:2018-01-02
+NHWK First Date:2010-01-04
+NICE First Date:2010-01-04
+NIC First Date:2022-06-09
+NINE First Date:2018-12-24
+NIO First Date:2018-11-29
+NIU First Date:2020-08-06
+NIWM First Date:2022-07-15
+NI First Date:2010-01-04
+NJR First Date:2010-01-04
+NKE First Date:2010-01-04
+NKLA First Date:2020-06-17
+NKTR First Date:2010-01-04
+NKTX First Date:2021-04-09
+NLR First Date:2010-01-04
+NLS First Date:2010-01-04
+NLTX First Date:2019-09-24
+NLY First Date:2010-01-04
+NL First Date:2018-01-02
+NMFC First Date:2011-07-05
+NMG First Date:2021-07-15
+NMIH First Date:2018-01-02
+NMM First Date:2010-01-04
+NMRD First Date:2020-08-17
+NMRK First Date:2018-01-26
+NMR First Date:2010-01-04
+NMTC First Date:2021-09-15
+NMTR First Date:2020-06-17
+NM First Date:2010-01-04
+NNBR First Date:2011-03-28
+NNDM First Date:2020-11-25
+NNI First Date:2010-01-04
+NNN First Date:2010-01-04
+NNOX First Date:2020-10-13
+NNVC First Date:2018-01-02
+NOAH First Date:2011-02-22
+NOA First Date:2010-01-04
+NOBL First Date:2018-01-02
+NOC First Date:2010-01-04
+NOG First Date:2010-01-04
+NOK First Date:2010-01-04
+NOMD First Date:2018-01-02
+NOTV First Date:2022-01-05
+NOVA First Date:2020-09-30
+NOVN First Date:2018-01-02
+NOVT First Date:2018-01-02
+NOV First Date:2010-01-04
+NOW First Date:2012-08-06
+NPO First Date:2010-01-04
+NRC First Date:2022-07-14
+NRDS First Date:2021-11-17
+NRDY First Date:2021-10-06
+NREF First Date:2022-11-22
+NRGV First Date:2022-02-23
+NRG First Date:2010-01-04
+NRIX First Date:2021-04-09
+NRP First Date:2010-01-04
+NRT First Date:2012-12-12
+NRXP First Date:2021-08-10
+NR First Date:2010-01-04
+NSA First Date:2018-01-02
+NSC First Date:2010-01-04
+NSIT First Date:2010-01-04
+NSPR First Date:2021-07-15
+NSPY First Date:2022-08-17
+NSP First Date:2011-03-09
+NSSC First Date:2018-01-02
+NSTB First Date:2021-04-13
+NSTG First Date:2018-01-02
+NS First Date:2010-01-04
+NTAP First Date:2010-01-04
+NTB First Date:2021-09-15
+NTCO First Date:2020-04-30
+NTCT First Date:2010-01-04
+NTES First Date:2010-01-04
+NTGR First Date:2010-01-04
+NTLA First Date:2018-01-02
+NTNX First Date:2018-01-02
+NTRA First Date:2018-01-02
+NTRS First Date:2010-01-04
+NTR First Date:2018-01-02
+NTST First Date:2022-02-09
+NTSX First Date:2023-06-14
+NTWK First Date:2018-01-02
+NUE First Date:2010-01-04
+NUGT First Date:2010-12-16
+NUSC First Date:2022-11-16
+NUSI First Date:2021-09-16
+NUS First Date:2010-01-04
+NUVA First Date:2010-01-04
+NUVB First Date:2021-07-15
+NUVL First Date:2022-12-14
+NUZE First Date:2021-12-16
+NU First Date:2010-01-04
+NVAX First Date:2010-01-04
+NVCR First Date:2018-01-02
+NVDA First Date:2010-01-04
+NVDS First Date:2022-08-17
+NVEE First Date:2018-01-02
+NVEI First Date:2021-11-15
+NVGS First Date:2018-01-02
+NVMI First Date:2010-02-25
+NVNO First Date:2021-10-26
+NVO First Date:2010-01-04
+NVQ First Date:2023-04-17
+NVRO First Date:2018-01-02
+NVST First Date:2019-11-29
+NVS First Date:2010-01-04
+NVTA First Date:2018-01-02
+NVTS First Date:2021-11-17
+NVT First Date:2018-05-10
+NVVE First Date:2021-06-11
+NVX First Date:2022-12-14
+NWBI First Date:2010-01-04
+NWE First Date:2010-01-04
+NWG First Date:2020-08-05
+NWL First Date:2010-01-04
+NWN First Date:2010-01-04
+NWPX First Date:2010-01-04
+NWSA First Date:2010-01-04
+NWS First Date:2010-01-04
+NXDT First Date:2023-06-15
+NXE First Date:2021-02-17
+NXGN First Date:2018-11-29
+NXPI First Date:2010-08-18
+NXRT First Date:2018-01-02
+NXST First Date:2018-01-02
+NXTC First Date:2020-01-17
+NXTG First Date:2021-08-11
+NXT First Date:2023-03-15
+NX First Date:2010-01-04
+NYCB First Date:2012-11-13
+NYMT First Date:2012-07-24
+NYT First Date:2010-01-04
+NZAC First Date:2022-05-10
+NZRO First Date:2022-06-10
+NZUS First Date:2022-06-10
+OABI First Date:2023-01-20
+OACP First Date:2022-06-10
+OBE First Date:2018-01-02
+OBK First Date:2023-06-14
+OBLG First Date:2021-06-11
+OBOR First Date:2022-07-15
+OB First Date:2010-01-04
+OCFC First Date:2018-01-02
+OCFT First Date:2020-10-20
+OCGN First Date:2021-04-09
+OCG First Date:2021-08-10
+OCN First Date:2010-01-04
+OCSL First Date:2018-01-02
+OCUL First Date:2018-01-02
+OCUP First Date:2021-07-15
+OCX First Date:2019-04-10
+OC First Date:2010-01-04
+ODDS First Date:2022-06-10
+ODFL First Date:2010-01-04
+ODP First Date:2010-01-04
+ODV First Date:2022-10-27
+OEC First Date:2018-01-02
+OEF First Date:2010-01-04
+OESX First Date:2010-01-04
+OEX First Date:2010-01-04
+OFC First Date:2010-01-04
+OFG First Date:2010-01-04
+OFIX First Date:2011-06-09
+OFS First Date:2021-09-28
+OGE First Date:2010-01-04
+OGIG First Date:2020-11-25
+OGI First Date:2019-06-07
+OGN First Date:2021-07-15
+OGS First Date:2018-01-02
+OHI First Date:2010-01-04
+OIG First Date:2022-08-09
+OIH First Date:2010-01-04
+OII First Date:2010-01-04
+OILK First Date:2022-06-07
+OIS First Date:2010-01-04
+OI First Date:2010-01-04
+OKE First Date:2010-01-04
+OKTA First Date:2018-01-02
+OLED First Date:2018-01-02
+OLK First Date:2021-09-15
+OLLI First Date:2018-01-02
+OLMA First Date:2021-04-13
+OLN First Date:2010-01-04
+OLO First Date:2021-04-13
+OLPX First Date:2021-11-15
+OLP First Date:2018-01-02
+OMAB First Date:2021-06-03
+OMCL First Date:2010-01-04
+OMC First Date:2010-01-04
+OMER First Date:2010-01-04
+OMEX First Date:2010-01-04
+OMFL First Date:2022-11-16
+OMF First Date:2018-01-02
+OMGA First Date:2022-03-24
+OMIC First Date:2022-08-19
+OMI First Date:2010-01-04
+OM First Date:2021-07-15
+ONB First Date:2010-01-04
+ONCT First Date:2020-12-16
+ONDS First Date:2021-08-10
+OND First Date:2022-08-17
+ONEO First Date:2022-12-15
+ONEQ First Date:2021-05-05
+ONEV First Date:2022-03-23
+ONEW First Date:2022-02-09
+ONEY First Date:2021-09-16
+ONLN First Date:2020-09-30
+ONL First Date:2022-02-23
+ONON First Date:2021-10-08
+ONTF First Date:2021-09-15
+ONTO First Date:2019-11-29
+ONTX First Date:2014-02-26
+ONVO First Date:2018-01-02
+ON First Date:2018-01-02
+OOMA First Date:2018-01-02
+OOTO First Date:2021-11-17
+OPAD First Date:2021-09-14
+OPAL First Date:2023-04-19
+OPBK First Date:2022-10-04
+OPCH First Date:2020-02-28
+OPEN First Date:2010-01-27
+OPFI First Date:2021-08-06
+OPI First Date:2019-04-04
+OPK First Date:2011-01-14
+OPRA First Date:2020-04-30
+OPRT First Date:2022-02-09
+OPRX First Date:2019-07-26
+OPTT First Date:2010-01-04
+OPY First Date:2018-01-02
+ORAN First Date:2018-01-02
+ORA First Date:2010-01-08
+ORCL First Date:2010-01-04
+ORC First Date:2018-01-02
+ORGN First Date:2021-07-14
+ORGO First Date:2021-02-04
+ORGS First Date:2021-04-13
+ORIC First Date:2021-02-04
+ORI First Date:2010-01-04
+ORLA First Date:2021-05-05
+ORLY First Date:2010-01-04
+ORMP First Date:2018-01-02
+ORN First Date:2010-01-04
+ORRF First Date:2022-12-22
+ORTX First Date:2020-02-28
+OR First Date:2018-01-02
+OSBC First Date:2018-01-02
+OSCR First Date:2021-03-12
+OSG First Date:2010-01-04
+OSIS First Date:2010-01-04
+OSK First Date:2010-01-04
+OSPN First Date:2018-01-22
+OSS First Date:2021-04-13
+OSTK First Date:2010-01-04
+OSUR First Date:2010-01-04
+OSW First Date:2019-11-29
+OSX First Date:2010-01-04
+OTEX First Date:2010-01-04
+OTIS First Date:2020-05-07
+OTLY First Date:2021-06-11
+OTMO First Date:2021-09-15
+OTRK First Date:2020-08-05
+OTTR First Date:2010-01-04
+OUNZ First Date:2018-01-02
+OUSA First Date:2018-01-02
+OUSM First Date:2022-03-07
+OUST First Date:2021-04-07
+OUT First Date:2018-01-02
+OVID First Date:2020-08-06
+OVLH First Date:2021-02-05
+OVT First Date:2021-02-05
+OVV First Date:2020-02-25
+OWLT First Date:2021-08-06
+OWL First Date:2021-06-04
+OXM First Date:2010-01-04
+OXSQ First Date:2018-01-22
+OXY First Date:2010-01-04
+OZK First Date:2018-01-22
+OZON First Date:2020-12-24
+O First Date:2010-01-04
+PAAS First Date:2010-01-04
+PAA First Date:2010-01-04
+PACB First Date:2010-11-11
+PACK First Date:2021-04-09
+PACW First Date:2010-01-04
+PAGP First Date:2018-01-02
+PAGS First Date:2018-04-06
+PAG First Date:2010-01-04
+PAHC First Date:2018-01-02
+PALC First Date:2022-11-16
+PAM First Date:2018-01-02
+PANL First Date:2010-01-04
+PANW First Date:2012-08-21
+PARAA First Date:2022-03-08
+PARA First Date:2022-02-18
+PARR First Date:2018-01-02
+PAR First Date:2010-01-04
+PASG First Date:2020-12-24
+PATH First Date:2012-09-14
+PATK First Date:2018-01-02
+PAVE First Date:2020-12-16
+PAVM First Date:2021-04-09
+PAWZ First Date:2021-08-11
+PAX First Date:2021-02-17
+PAYC First Date:2018-01-02
+PAYO First Date:2021-07-15
+PAYS First Date:2019-09-25
+PAYX First Date:2010-01-04
+PAY First Date:2010-01-04
+PBA First Date:2012-04-03
+PBD First Date:2021-05-06
+PBE First Date:2021-08-04
+PBF First Date:2018-01-02
+PBH First Date:2010-01-04
+PBI First Date:2010-01-04
+PBJ First Date:2012-07-24
+PBPB First Date:2018-01-02
+PBP First Date:2010-01-04
+PBR First Date:2010-01-04
+PBS First Date:2021-07-28
+PBT First Date:2010-01-04
+PBW First Date:2010-01-04
+PBYI First Date:2018-01-02
+PB First Date:2011-12-28
+PCAR First Date:2010-01-04
+PCB First Date:2022-07-14
+PCEF First Date:2010-03-17
+PCG First Date:2010-01-04
+PCH First Date:2010-01-04
+PCOR First Date:2021-06-11
+PCRX First Date:2012-08-06
+PCTI First Date:2011-07-22
+PCTY First Date:2018-01-02
+PCT First Date:2021-04-13
+PCVX First Date:2021-04-09
+PCYG First Date:2018-01-02
+PCYO First Date:2018-01-02
+PCY First Date:2010-01-04
+PDBA First Date:2022-09-21
+PDBC First Date:2018-11-28
+PDCE First Date:2012-07-16
+PDCO First Date:2010-01-04
+PDD First Date:2018-11-28
+PDFS First Date:2011-10-05
+PDM First Date:2010-03-04
+PDN First Date:2021-08-11
+PDP First Date:2010-01-04
+PDSB First Date:2019-05-14
+PDS First Date:2010-01-04
+PD First Date:2019-06-07
+PEAK First Date:2019-11-29
+PEBO First Date:2018-01-02
+PEB First Date:2011-05-16
+PECO First Date:2022-01-05
+PEGA First Date:2010-01-04
+PEG First Date:2010-01-04
+PEJ First Date:2020-07-31
+PENN First Date:2010-01-04
+PEN First Date:2018-01-02
+PEO First Date:2018-01-02
+PEP First Date:2010-01-04
+PERI First Date:2012-11-15
+PESI First Date:2018-01-02
+PETQ First Date:2018-04-12
+PETS First Date:2010-01-04
+PEY First Date:2018-01-02
+PEZ First Date:2018-01-02
+PFBC First Date:2018-01-02
+PFC First Date:2020-10-06
+PFE First Date:2010-01-04
+PFFA First Date:2021-01-05
+PFFD First Date:2021-04-16
+PFFV First Date:2022-03-23
+PFF First Date:2010-01-04
+PFGC First Date:2018-01-02
+PFG First Date:2010-01-04
+PFIX First Date:2023-01-19
+PFI First Date:2021-08-04
+PFLT First Date:2018-01-02
+PFMT First Date:2012-10-18
+PFM First Date:2018-01-02
+PFSI First Date:2018-01-02
+PFSW First Date:2010-05-06
+PFS First Date:2010-01-04
+PFXF First Date:2023-01-19
+PGC First Date:2018-01-02
+PGEN First Date:2020-02-25
+PGF First Date:2010-01-04
+PGJ First Date:2010-01-04
+PGNY First Date:2020-01-17
+PGRE First Date:2018-01-02
+PGRU First Date:2022-04-06
+PGR First Date:2010-01-04
+PGTI First Date:2018-01-02
+PGX First Date:2010-01-04
+PGY First Date:2022-08-19
+PG First Date:2010-01-04
+PHAT First Date:2020-02-28
+PHB First Date:2010-09-24
+PHG First Date:2010-01-04
+PHIO First Date:2021-04-09
+PHM First Date:2010-01-04
+PHO First Date:2010-01-04
+PHR First Date:2020-08-06
+PHUN First Date:2021-11-15
+PHX First Date:2018-01-02
+PH First Date:2010-01-04
+PICK First Date:2018-01-02
+PID First Date:2018-01-02
+PIE First Date:2011-08-29
+PII First Date:2010-01-04
+PILL First Date:2021-09-16
+PINC First Date:2018-01-02
+PINE First Date:2022-02-23
+PINK First Date:2023-06-14
+PINS First Date:2019-05-17
+PIN First Date:2010-01-04
+PIO First Date:2010-01-04
+PIPR First Date:2020-02-25
+PIRS First Date:2018-01-02
+PIXY First Date:2021-04-09
+PIZ First Date:2018-01-02
+PI First Date:2018-01-02
+PJP First Date:2018-01-02
+PJT First Date:2018-01-02
+PKBK First Date:2023-01-19
+PKB First Date:2021-07-28
+PKE First Date:2010-01-04
+PKG First Date:2010-01-04
+PKOH First Date:2018-01-02
+PKST First Date:2023-06-15
+PKW First Date:2018-01-02
+PKX First Date:2010-01-04
+PK First Date:2018-01-02
+PLAB First Date:2010-01-04
+PLAY First Date:2018-01-02
+PLBY First Date:2021-03-12
+PLCE First Date:2010-01-04
+PLD First Date:2010-01-04
+PLG First Date:2016-08-23
+PLL First Date:2010-01-04
+PLMR First Date:2019-11-29
+PLNT First Date:2018-01-02
+PLOW First Date:2011-06-01
+PLRX First Date:2021-04-13
+PLSE First Date:2018-01-02
+PLTK First Date:2021-02-17
+PLTR First Date:2020-10-20
+PLUG First Date:2010-01-04
+PLUR First Date:2022-08-09
+PLUS First Date:2018-03-08
+PLXS First Date:2010-01-04
+PLX First Date:2010-01-04
+PLYA First Date:2019-11-29
+PLYM First Date:2022-02-23
+PL First Date:2010-01-04
+PMCB First Date:2021-10-08
+PMT First Date:2010-01-04
+PMVP First Date:2021-04-09
+PM First Date:2010-01-04
+PNC First Date:2010-01-04
+PNFP First Date:2010-01-04
+PNM First Date:2010-01-04
+PNNT First Date:2010-05-14
+PNQI First Date:2018-01-02
+PNR First Date:2010-01-04
+PNTG First Date:2019-11-29
+PNT First Date:2023-01-20
+PNW First Date:2010-01-04
+PODD First Date:2010-01-04
+POET First Date:2022-10-27
+POL First Date:2010-01-04
+POOL First Date:2010-01-04
+POR First Date:2010-01-04
+POST First Date:2012-02-06
+POTX First Date:2019-11-29
+POWI First Date:2010-01-04
+POWL First Date:2010-01-04
+POWW First Date:2021-02-04
+PPA First Date:2019-11-11
+PPBI First Date:2018-01-02
+PPBT First Date:2021-02-05
+PPC First Date:2010-01-06
+PPG First Date:2010-01-04
+PPH First Date:2010-01-04
+PPIH First Date:2022-09-19
+PPL First Date:2010-01-04
+PPSI First Date:2023-06-15
+PPTA First Date:2021-09-15
+PP First Date:2023-06-22
+PRAA First Date:2010-01-04
+PRAX First Date:2021-02-04
+PRA First Date:2010-01-04
+PRCH First Date:2021-02-04
+PRCT First Date:2022-07-14
+PRDO First Date:2020-01-16
+PRFT First Date:2010-01-04
+PRFZ First Date:2018-01-02
+PRF First Date:2010-01-04
+PRGO First Date:2010-01-04
+PRGS First Date:2010-01-04
+PRG First Date:2020-12-15
+PRIM First Date:2011-06-22
+PRI First Date:2010-04-13
+PRK First Date:2018-01-02
+PRLB First Date:2012-10-17
+PRLD First Date:2021-11-15
+PRME First Date:2023-04-19
+PRMW First Date:2011-10-07
+PRM First Date:2022-06-27
+PRNT First Date:2021-04-13
+PRN First Date:2015-09-14
+PROF First Date:2020-09-30
+PROK First Date:2023-04-19
+PRO First Date:2011-07-14
+PRPH First Date:2021-02-17
+PRPL First Date:2020-08-06
+PRPO First Date:2021-06-11
+PRQR First Date:2018-11-28
+PRSO First Date:2022-01-05
+PRSR First Date:2021-06-11
+PRTA First Date:2018-01-02
+PRTG First Date:2022-10-27
+PRTK First Date:2018-01-02
+PRTS First Date:2020-05-20
+PRU First Date:2010-01-04
+PRVA First Date:2021-09-15
+PR First Date:2022-09-19
+PSA First Date:2010-01-04
+PSCC First Date:2021-09-16
+PSCD First Date:2021-08-11
+PSCE First Date:2021-04-16
+PSCF First Date:2021-09-16
+PSCH First Date:2018-01-02
+PSCI First Date:2021-09-16
+PSCM First Date:2021-09-16
+PSCT First Date:2021-09-16
+PSEC First Date:2010-02-05
+PSEP First Date:2020-12-16
+PSFE First Date:2021-04-13
+PSIL First Date:2022-07-15
+PSI First Date:2021-04-21
+PSJ First Date:2021-07-28
+PSK First Date:2023-01-19
+PSL First Date:2018-01-02
+PSMT First Date:2010-01-04
+PSNL First Date:2019-09-25
+PSNY First Date:2022-07-14
+PSN First Date:2019-06-07
+PSO First Date:2011-03-24
+PSP First Date:2011-08-25
+PSQ First Date:2010-01-04
+PSR First Date:2022-03-07
+PSTG First Date:2018-01-02
+PSTL First Date:2022-02-02
+PSTX First Date:2020-12-24
+PST First Date:2010-01-04
+PSX First Date:2012-05-01
+PTBD First Date:2021-06-22
+PTCT First Date:2018-01-02
+PTC First Date:2018-01-02
+PTEN First Date:2010-01-04
+PTF First Date:2010-01-04
+PTGX First Date:2020-08-06
+PTH First Date:2018-01-02
+PTLC First Date:2018-11-28
+PTLO First Date:2021-11-22
+PTMN First Date:2019-06-12
+PTNQ First Date:2020-04-30
+PTN First Date:2022-10-05
+PTON First Date:2019-11-29
+PTRA First Date:2021-07-14
+PTVE First Date:2020-11-25
+PUBM First Date:2021-07-15
+PUI First Date:2021-08-05
+PUK First Date:2010-01-04
+PULS First Date:2010-11-15
+PUMP First Date:2018-01-02
+PUTW First Date:2021-07-16
+PVBC First Date:2022-10-27
+PVH First Date:2010-01-04
+PVL First Date:2018-12-24
+PWB First Date:2021-07-28
+PWFL First Date:2019-11-29
+PWP First Date:2021-09-28
+PWR First Date:2010-01-04
+PWSC First Date:2021-09-15
+PWV First Date:2021-07-28
+PWZ First Date:2022-12-15
+PXD First Date:2010-01-04
+PXE First Date:2021-04-14
+PXF First Date:2021-08-11
+PXH First Date:2018-01-02
+PXI First Date:2018-01-02
+PXJ First Date:2010-01-04
+PXLW First Date:2018-01-02
+PXQ First Date:2011-02-08
+PX First Date:2010-01-04
+PYCR First Date:2021-11-15
+PYPD First Date:2021-09-15
+PYPL First Date:2018-01-02
+PYPT First Date:2022-08-17
+PYR First Date:2021-09-15
+PYXS First Date:2023-05-11
+PYZ First Date:2021-07-28
+PZA First Date:2011-01-20
+PZZA First Date:2010-01-04
+QABA First Date:2018-01-02
+QAI First Date:2023-06-22
+QBTS First Date:2022-09-19
+QCLN First Date:2020-11-25
+QCOM First Date:2010-01-04
+QCRH First Date:2018-01-02
+QDEF First Date:2022-12-15
+QDEL First Date:2010-01-04
+QDF First Date:2021-09-28
+QDIV First Date:2022-03-07
+QD First Date:2018-01-02
+QEFA First Date:2021-07-16
+QEMM First Date:2022-03-07
+QFIN First Date:2020-12-15
+QGEN First Date:2010-01-04
+QGRO First Date:2023-06-22
+QID First Date:2010-01-04
+QIPT First Date:2021-09-15
+QLD First Date:2010-01-04
+QLYS First Date:2018-01-02
+QMCO First Date:2019-05-14
+QMOM First Date:2023-01-19
+QNCX First Date:2022-08-09
+QNST First Date:2011-02-22
+QPFF First Date:2023-06-20
+QQEW First Date:2010-05-18
+QQH First Date:2021-09-16
+QQQA First Date:2023-06-20
+QQQE First Date:2018-01-02
+QQQJ First Date:2020-11-25
+QQQM First Date:2020-11-25
+QQQ First Date:2010-11-22
+QQXT First Date:2021-09-16
+QRFT First Date:2023-04-17
+QRHC First Date:2021-06-11
+QRMI First Date:2022-12-15
+QRTEA First Date:2018-01-22
+QRVO First Date:2018-01-02
+QSI First Date:2021-07-14
+QSR First Date:2018-01-02
+QS First Date:2020-12-15
+QTEC First Date:2011-01-26
+QTRX First Date:2020-11-25
+QTUM First Date:2021-09-28
+QTWO First Date:2018-01-02
+QUAD First Date:2012-02-01
+QUAL First Date:2018-01-02
+QUBT First Date:2021-09-15
+QUIK First Date:2010-07-16
+QUOT First Date:2018-01-02
+QURE First Date:2018-01-02
+QUS First Date:2021-07-16
+QWLD First Date:2023-01-19
+QYLD First Date:2020-08-06
+QYLG First Date:2022-03-07
+RAAX First Date:2022-12-15
+RACE First Date:2018-01-02
+RADI First Date:2021-07-15
+RAD First Date:2010-01-04
+RAIL First Date:2010-01-04
+RAIN First Date:2022-09-19
+RAMP First Date:2018-11-29
+RANI First Date:2022-07-14
+RAPT First Date:2020-09-30
+RARE First Date:2018-01-02
+RAVE First Date:2018-01-02
+RAYS First Date:2022-02-02
+RBA First Date:2010-01-04
+RBBN First Date:2018-01-02
+RBB First Date:2023-01-20
+RBCAA First Date:2010-01-04
+RBC First Date:2010-01-04
+RBLD First Date:2022-08-09
+RBLX First Date:2021-04-09
+RBOT First Date:2021-10-06
+RBT First Date:2022-09-19
+RCAT First Date:2021-10-08
+RCEL First Date:2020-04-30
+RCI First Date:2010-01-04
+RCKT First Date:2018-01-05
+RCL First Date:2010-01-04
+RCMT First Date:2018-01-02
+RCM First Date:2019-04-10
+RCON First Date:2021-07-15
+RCUS First Date:2018-11-29
+RC First Date:2020-01-17
+RDFN First Date:2018-01-02
+RDHL First Date:2018-01-02
+RDIV First Date:2021-08-11
+RDI First Date:2012-10-17
+RDNT First Date:2010-01-04
+RDN First Date:2010-01-04
+RDVI First Date:2023-06-20
+RDVT First Date:2022-01-05
+RDVY First Date:2021-04-16
+RDWR First Date:2010-01-04
+RDW First Date:2021-10-06
+RDY First Date:2010-01-04
+REAL First Date:2019-09-25
+REAX First Date:2021-12-16
+REET First Date:2020-11-25
+REE First Date:2010-09-24
+REFI First Date:2022-10-27
+REFR First Date:2010-01-04
+REGL First Date:2018-01-02
+REGN First Date:2010-01-04
+REG First Date:2010-01-04
+REI First Date:2018-01-02
+REKR First Date:2020-10-20
+REK First Date:2018-01-02
+RELL First Date:2011-11-01
+RELX First Date:2022-02-23
+RELY First Date:2015-05-20
+REMX First Date:2010-11-04
+REM First Date:2011-09-01
+RENT First Date:2012-07-30
+REPL First Date:2020-12-15
+REPX First Date:2022-02-23
+RESI First Date:2018-01-02
+RES First Date:2010-01-04
+RETA First Date:2018-01-02
+RETL First Date:2018-01-02
+REVG First Date:2018-01-02
+REW First Date:2010-01-04
+REXR First Date:2018-01-02
+REX First Date:2022-12-14
+REYN First Date:2020-03-11
+REZI First Date:2018-11-29
+REZ First Date:2018-01-02
+RE First Date:2010-01-04
+RFIL First Date:2018-01-02
+RFL First Date:2019-04-10
+RFV First Date:2021-07-14
+RF First Date:2010-01-04
+RGA First Date:2010-01-04
+RGCO First Date:2022-02-23
+RGEN First Date:2010-10-07
+RGLD First Date:2010-01-04
+RGLS First Date:2018-01-02
+RGNX First Date:2018-01-02
+RGP First Date:2011-08-09
+RGR First Date:2010-01-04
+RGS First Date:2010-01-04
+RGTI First Date:2022-03-08
+RHI First Date:2010-01-04
+RHP First Date:2012-10-01
+RH First Date:2018-01-02
+RICK First Date:2010-01-04
+RIDE First Date:2020-11-20
+RIET First Date:2022-12-15
+RIGL First Date:2010-01-04
+RIG First Date:2010-01-04
+RILY First Date:2017-06-29
+RINF First Date:2016-01-28
+RING First Date:2018-01-02
+RIOT First Date:2018-01-02
+RIO First Date:2010-10-12
+RITM First Date:2022-08-03
+RIVN First Date:2021-11-17
+RJF First Date:2010-01-04
+RKDA First Date:2020-08-17
+RKLB First Date:2021-09-14
+RKT First Date:2010-01-04
+RLAY First Date:2021-02-04
+RLGT First Date:2018-01-02
+RLI First Date:2010-01-04
+RLJ First Date:2011-06-02
+RLMD First Date:2019-11-29
+RLX First Date:2021-02-04
+RLY First Date:2023-01-19
+RL First Date:2010-01-04
+RMAX First Date:2018-01-02
+RMBL First Date:2021-11-15
+RMBS First Date:2010-01-04
+RMD First Date:2010-01-04
+RMNI First Date:2020-12-15
+RMR First Date:2023-01-20
+RMTI First Date:2010-01-04
+RM First Date:2018-01-02
+RNA First Date:2013-08-09
+RNG First Date:2018-01-02
+RNLX First Date:2021-02-04
+RNR First Date:2010-01-04
+RNST First Date:2018-01-02
+RNW First Date:2021-09-15
+ROAD First Date:2020-01-17
+ROBO First Date:2018-01-02
+ROBT First Date:2021-06-22
+ROCK First Date:2010-01-04
+RODM First Date:2010-05-14
+ROG First Date:2010-01-04
+ROIC First Date:2011-03-07
+ROIV First Date:2022-02-02
+ROKT First Date:2022-03-07
+ROKU First Date:2018-01-02
+ROK First Date:2010-01-04
+ROL First Date:2010-10-14
+ROM First Date:2010-01-04
+ROOT First Date:2020-12-15
+ROP First Date:2010-01-04
+ROST First Date:2010-01-04
+ROVR First Date:2021-09-14
+RPAR First Date:2020-12-16
+RPAY First Date:2020-04-30
+RPD First Date:2018-01-02
+RPG First Date:2018-01-02
+RPHM First Date:2023-06-15
+RPHS First Date:2023-06-20
+RPM First Date:2010-01-04
+RPRX First Date:2010-01-04
+RPTX First Date:2021-04-13
+RPT First Date:2010-01-04
+RPV First Date:2018-01-02
+RRC First Date:2010-01-04
+RRGB First Date:2010-01-04
+RRR First Date:2010-01-04
+RRX First Date:2021-10-08
+RSG First Date:2010-01-04
+RSI First Date:2021-02-05
+RSKD First Date:2021-11-15
+RSPC First Date:2023-06-22
+RSPD First Date:2023-06-22
+RSPF First Date:2023-06-22
+RSPG First Date:2023-06-22
+RSPH First Date:2023-06-22
+RSPM First Date:2023-06-22
+RSPN First Date:2023-06-22
+RSPR First Date:2023-06-22
+RSPS First Date:2023-06-22
+RSPT First Date:2023-06-22
+RSPU First Date:2023-06-22
+RSP First Date:2010-01-04
+RSVR First Date:2022-07-14
+RS First Date:2010-01-04
+RTH First Date:2010-01-04
+RTL First Date:2022-02-22
+RTO First Date:2022-11-22
+RTX First Date:2018-12-24
+RUI First Date:2010-01-04
+RUM First Date:2022-10-04
+RUN First Date:2018-01-02
+RUSHA First Date:2011-05-06
+RUT First Date:2010-01-04
+RVLP First Date:2022-02-02
+RVLV First Date:2019-07-26
+RVMD First Date:2020-12-15
+RVNC First Date:2018-01-02
+RVPH First Date:2021-07-15
+RVP First Date:2020-09-30
+RVSB First Date:2018-01-02
+RVTY First Date:2023-05-26
+RVYL First Date:2022-11-16
+RWAY First Date:2022-10-27
+RWJ First Date:2018-01-02
+RWK First Date:2018-01-02
+RWLK First Date:2021-04-09
+RWL First Date:2010-01-04
+RWM First Date:2010-01-04
+RWO First Date:2018-01-02
+RWR First Date:2011-01-20
+RWT First Date:2010-01-04
+RWX First Date:2012-08-27
+RXD First Date:2022-07-14
+RXI First Date:2022-03-02
+RXL First Date:2018-01-02
+RXO First Date:2022-11-22
+RXRX First Date:2021-06-11
+RXST First Date:2022-09-19
+RXT First Date:2020-09-30
+RYAAY First Date:2010-01-04
+RYAM First Date:2018-01-02
+RYAN First Date:2021-09-15
+RYI First Date:2018-01-02
+RYLD First Date:2022-02-02
+RYLG First Date:2022-12-15
+RYN First Date:2010-01-04
+RYTM First Date:2018-11-29
+RY First Date:2010-01-04
+RZV First Date:2021-07-14
+R First Date:2010-01-04
+SAA First Date:2010-01-04
+SABR First Date:2018-01-02
+SACH First Date:2021-08-10
+SAFE First Date:2018-02-23
+SAFT First Date:2010-01-04
+SAGE First Date:2018-01-02
+SAH First Date:2010-01-04
+SAIA First Date:2010-01-04
+SAIC First Date:2018-01-02
+SAMG First Date:2022-02-02
+SAM First Date:2010-01-04
+SANA First Date:2021-04-13
+SAND First Date:2012-09-18
+SANM First Date:2010-01-04
+SANW First Date:2018-01-02
+SAN First Date:2010-01-12
+SAP First Date:2010-01-04
+SARK First Date:2021-12-06
+SAR First Date:2022-02-02
+SASI First Date:2022-06-09
+SASR First Date:2018-01-02
+SATL First Date:2022-04-06
+SATO First Date:2022-01-06
+SATS First Date:2010-01-04
+SAVA First Date:2020-02-28
+SAVE First Date:2011-06-06
+SA First Date:2010-01-04
+SBAC First Date:2010-01-04
+SBB First Date:2022-09-21
+SBCF First Date:2010-01-04
+SBEV First Date:2022-02-02
+SBGI First Date:2010-01-14
+SBH First Date:2010-01-04
+SBIO First Date:2018-01-02
+SBLK First Date:2010-01-04
+SBNY First Date:2010-01-04
+SBOW First Date:2021-10-08
+SBRA First Date:2018-01-02
+SBSI First Date:2012-10-17
+SBSW First Date:2020-04-29
+SBS First Date:2010-01-04
+SBT First Date:2023-06-22
+SBUX First Date:2010-01-04
+SB First Date:2011-05-05
+SCCO First Date:2010-02-17
+SCC First Date:2022-07-15
+SCHA First Date:2010-01-04
+SCHB First Date:2010-01-04
+SCHC First Date:2010-01-27
+SCHD First Date:2012-12-27
+SCHE First Date:2010-01-27
+SCHF First Date:2010-01-04
+SCHG First Date:2010-01-20
+SCHH First Date:2018-01-02
+SCHJ First Date:2021-07-16
+SCHK First Date:2021-04-16
+SCHL First Date:2010-01-04
+SCHM First Date:2018-01-02
+SCHN First Date:2010-01-04
+SCHO First Date:2010-08-20
+SCHP First Date:2010-08-20
+SCHR First Date:2010-08-20
+SCHV First Date:2010-01-20
+SCHW First Date:2010-01-04
+SCHX First Date:2010-01-04
+SCHY First Date:2021-09-16
+SCHZ First Date:2021-02-05
+SCI First Date:2010-01-04
+SCJ First Date:2018-01-02
+SCLX First Date:2023-05-11
+SCL First Date:2018-01-02
+SCM First Date:2018-01-02
+SCOR First Date:2011-03-28
+SCO First Date:2010-01-04
+SCPH First Date:2021-06-11
+SCPL First Date:2019-07-26
+SCSC First Date:2010-01-04
+SCS First Date:2010-01-04
+SCTL First Date:2022-04-12
+SCU First Date:2019-11-29
+SCVL First Date:2012-06-01
+SCWX First Date:2018-01-02
+SCYX First Date:2018-01-02
+SCZ First Date:2010-03-29
+SDC First Date:2019-11-29
+SDD First Date:2022-09-21
+SDEM First Date:2021-06-22
+SDGR First Date:2020-04-30
+SDIG First Date:2021-12-01
+SDIV First Date:2018-01-02
+SDOG First Date:2016-05-05
+SDOW First Date:2010-03-09
+SDP First Date:2022-02-10
+SDRL First Date:2010-05-06
+SDS First Date:2010-01-04
+SDVY First Date:2021-10-11
+SDY First Date:2010-01-04
+SD First Date:2010-01-04
+SEAC First Date:2010-01-04
+SEAS First Date:2018-01-02
+SEAT First Date:2021-12-16
+SEA First Date:2010-01-04
+SECT First Date:2021-02-17
+SEDG First Date:2018-01-02
+SEEL First Date:2021-04-09
+SEER First Date:2021-04-09
+SEE First Date:2010-01-04
+SEF First Date:2010-01-04
+SEIC First Date:2010-01-04
+SELB First Date:2018-02-23
+SELF First Date:2021-10-08
+SEMR First Date:2022-01-05
+SEM First Date:2010-01-04
+SENS First Date:2018-01-02
+SENT First Date:2022-03-07
+SES First Date:2018-01-02
+SEVN First Date:2022-10-27
+SEV First Date:2021-12-01
+SE First Date:2010-01-04
+SFBS First Date:2018-01-02
+SFE First Date:2010-01-04
+SFIX First Date:2018-01-02
+SFL First Date:2010-01-04
+SFM First Date:2018-01-02
+SFNC First Date:2018-01-02
+SFST First Date:2023-05-11
+SFT First Date:2020-11-20
+SFYF First Date:2022-02-10
+SFYX First Date:2022-03-07
+SFY First Date:2010-01-04
+SF First Date:2010-01-04
+SGBX First Date:2021-04-13
+SGC First Date:2018-01-02
+SGDJ First Date:2021-09-16
+SGDM First Date:2021-09-16
+SGEN First Date:2010-01-04
+SGHC First Date:2022-02-09
+SGHT First Date:2022-05-10
+SGH First Date:2018-08-15
+SGLY First Date:2022-02-02
+SGML First Date:2022-07-14
+SGMO First Date:2010-01-04
+SGOL First Date:2010-06-17
+SGRY First Date:2018-01-02
+SGTX First Date:2021-08-10
+SGU First Date:2018-01-02
+SG First Date:2021-12-16
+SHAK First Date:2018-01-02
+SHBI First Date:2021-11-10
+SHCO First Date:2023-04-17
+SHCR First Date:2021-08-10
+SHC First Date:2021-05-05
+SHEL First Date:2022-02-08
+SHEN First Date:2012-07-30
+SHE First Date:2021-09-16
+SHG First Date:2023-06-15
+SHIP First Date:2023-04-19
+SHLS First Date:2021-02-17
+SHM First Date:2014-07-24
+SHOO First Date:2010-01-04
+SHOP First Date:2018-01-02
+SHO First Date:2010-01-04
+SHPW First Date:2021-11-15
+SHV First Date:2016-03-28
+SHW First Date:2010-01-04
+SHYF First Date:2020-06-17
+SHYG First Date:2018-01-02
+SHY First Date:2010-01-04
+SH First Date:2010-01-04
+SIBN First Date:2019-09-25
+SICP First Date:2023-05-26
+SID First Date:2010-01-04
+SIEB First Date:2018-08-15
+SIEN First Date:2018-01-02
+SIFY First Date:2011-04-14
+SIGA First Date:2010-01-04
+SIGI First Date:2011-09-01
+SIG First Date:2010-01-04
+SII First Date:2010-01-04
+SIJ First Date:2010-01-04
+SILJ First Date:2018-01-02
+SILK First Date:2019-09-25
+SILV First Date:2019-11-29
+SILX First Date:2021-09-16
+SIL First Date:2010-11-10
+SIMO First Date:2010-01-04
+SIMS First Date:2022-02-22
+SIRI First Date:2010-01-04
+SITC First Date:2018-11-29
+SITE First Date:2018-01-02
+SITM First Date:2021-09-15
+SIVR First Date:2010-06-17
+SIX First Date:2010-09-03
+SIZE First Date:2018-04-03
+SJB First Date:2011-05-06
+SJIM First Date:2023-06-22
+SJM First Date:2010-01-04
+SJNK First Date:2018-01-02
+SJT First Date:2010-01-04
+SJW First Date:2018-01-02
+SKE First Date:2022-03-24
+SKF First Date:2010-01-04
+SKIL First Date:2010-01-04
+SKIN First Date:2021-06-04
+SKLZ First Date:2021-01-14
+SKM First Date:2010-01-04
+SKT First Date:2010-01-04
+SKX First Date:2010-01-04
+SKYT First Date:2021-09-15
+SKYU First Date:2022-07-15
+SKYW First Date:2010-01-04
+SKYX First Date:2022-04-12
+SKYY First Date:2011-07-21
+SKY First Date:2018-08-16
+SLAB First Date:2010-01-04
+SLAC First Date:2022-09-19
+SLB First Date:2010-01-04
+SLCA First Date:2012-03-12
+SLDB First Date:2018-11-29
+SLDP First Date:2021-12-16
+SLF First Date:2010-01-04
+SLGC First Date:2021-11-15
+SLGG First Date:2021-04-13
+SLGL First Date:2021-06-11
+SLGN First Date:2010-01-04
+SLG First Date:2010-01-04
+SLI First Date:2021-09-15
+SLM First Date:2010-01-04
+SLNH First Date:2021-12-16
+SLP First Date:2018-01-02
+SLQD First Date:2021-07-16
+SLQT First Date:2020-08-06
+SLRC First Date:2011-01-14
+SLS First Date:2018-01-03
+SLVM First Date:2021-11-15
+SLVP First Date:2021-04-16
+SLV First Date:2010-01-04
+SLX First Date:2010-01-04
+SLYG First Date:2021-04-16
+SLYV First Date:2020-12-16
+SMAR First Date:2018-11-29
+SMBC First Date:2021-11-15
+SMBK First Date:2020-08-06
+SMB First Date:2023-01-19
+SMCI First Date:2010-10-28
+SMDD First Date:2010-03-09
+SMDV First Date:2016-10-04
+SMFG First Date:2011-05-11
+SMG First Date:2010-01-04
+SMHI First Date:2020-01-17
+SMH First Date:2010-01-04
+SMIN First Date:2021-06-22
+SMLF First Date:2023-06-20
+SMLP First Date:2012-10-16
+SMLV First Date:2022-03-07
+SMMD First Date:2021-09-16
+SMMF First Date:2023-01-20
+SMMT First Date:2018-08-15
+SMN First Date:2010-01-04
+SMOG First Date:2019-07-25
+SMOT First Date:2022-12-15
+SMPL First Date:2018-03-23
+SMP First Date:2010-01-04
+SMRT First Date:2010-01-04
+SMR First Date:2022-06-03
+SMSI First Date:2010-01-04
+SMTC First Date:2010-01-04
+SMWB First Date:2021-12-06
+SM First Date:2010-01-04
+SNAP First Date:2018-01-02
+SNA First Date:2010-01-04
+SNBR First Date:2018-01-02
+SNCR First Date:2010-01-04
+SNCY First Date:2021-07-15
+SNDL First Date:2019-09-25
+SNDR First Date:2018-01-02
+SNDX First Date:2018-01-02
+SND First Date:2018-01-02
+SNEX First Date:2020-08-05
+SNLN First Date:2018-01-02
+SNN First Date:2010-01-04
+SNOW First Date:2014-02-26
+SNPE First Date:2021-04-16
+SNPO First Date:2021-11-15
+SNPS First Date:2010-01-04
+SNSR First Date:2021-06-22
+SNV First Date:2010-01-04
+SNX First Date:2010-01-04
+SNY First Date:2010-01-04
+SOCL First Date:2012-02-08
+SOFI First Date:2021-06-04
+SOHU First Date:2010-01-04
+SOI First Date:2018-01-02
+SOLO First Date:2019-04-10
+SOL First Date:2010-01-04
+SOND First Date:2022-02-09
+SONO First Date:2010-01-04
+SONY First Date:2021-04-12
+SON First Date:2010-01-04
+SOPH First Date:2023-06-15
+SOS First Date:2020-08-05
+SOUN First Date:2022-07-14
+SOVO First Date:2021-11-15
+SOXL First Date:2010-05-20
+SOXQ First Date:2021-09-16
+SOXS First Date:2010-05-20
+SOXX First Date:2010-10-15
+SOX First Date:2010-01-04
+SOYB First Date:2012-08-06
+SO First Date:2010-01-04
+SPAB First Date:2021-02-05
+SPBO First Date:2023-01-19
+SPB First Date:2011-07-21
+SPCE First Date:2019-11-29
+SPCX First Date:2021-02-05
+SPC First Date:2022-08-08
+SPDN First Date:2018-01-02
+SPDW First Date:2018-01-02
+SPD First Date:2022-11-16
+SPEM First Date:2018-11-28
+SPEU First Date:2020-01-16
+SPFF First Date:2021-09-16
+SPFI First Date:2023-06-22
+SPGI First Date:2018-01-02
+SPGM First Date:2021-07-16
+SPGP First Date:2021-08-11
+SPG First Date:2010-01-04
+SPHB First Date:2018-01-02
+SPHD First Date:2018-01-02
+SPHQ First Date:2018-01-02
+SPHR First Date:2023-05-10
+SPHY First Date:2021-09-16
+SPH First Date:2010-01-04
+SPIB First Date:2021-02-05
+SPIP First Date:2021-02-05
+SPIR First Date:2021-09-14
+SPI First Date:2020-10-20
+SPKX First Date:2022-10-05
+SPKY First Date:2022-10-05
+SPLB First Date:2021-02-05
+SPLG First Date:2018-08-15
+SPLK First Date:2012-05-07
+SPLV First Date:2011-11-01
+SPMB First Date:2021-04-16
+SPMD First Date:2011-02-28
+SPMO First Date:2022-03-07
+SPNS First Date:2018-01-02
+SPNT First Date:2021-04-09
+SPOK First Date:2018-01-02
+SPOT First Date:2018-04-09
+SPPI First Date:2010-01-04
+SPRO First Date:2018-11-29
+SPRU First Date:2022-12-14
+SPRX First Date:2023-04-17
+SPRY First Date:2022-12-14
+SPR First Date:2010-01-04
+SPSB First Date:2021-02-05
+SPSC First Date:2011-09-06
+SPSM First Date:2018-11-28
+SPTI First Date:2021-02-05
+SPTL First Date:2021-02-05
+SPTM First Date:2018-08-15
+SPTN First Date:2010-01-04
+SPTS First Date:2021-02-05
+SPT First Date:2020-04-30
+SPUU First Date:2022-07-15
+SPVM First Date:2022-02-22
+SPVU First Date:2021-08-11
+SPWH First Date:2018-01-02
+SPWR First Date:2011-11-17
+SPXC First Date:2018-01-02
+SPXE First Date:2022-03-23
+SPXL First Date:2012-06-29
+SPXN First Date:2022-03-23
+SPXS First Date:2012-06-29
+SPXT First Date:2022-03-23
+SPXU First Date:2010-01-04
+SPXV First Date:2022-03-29
+SPX First Date:2010-01-04
+SPYD First Date:2020-12-16
+SPYG First Date:2018-03-23
+SPYV First Date:2018-03-23
+SPYX First Date:2021-07-16
+SPY First Date:2010-01-04
+SP First Date:2018-01-02
+SQFT First Date:2021-08-10
+SQM First Date:2010-01-04
+SQNS First Date:2011-08-10
+SQQQ First Date:2010-03-02
+SQSP First Date:2021-07-15
+SQ First Date:2018-01-02
+SRAD First Date:2021-10-08
+SRAX First Date:2019-06-07
+SRCE First Date:2018-01-02
+SRCL First Date:2010-01-04
+SRC First Date:2012-09-28
+SRDX First Date:2010-01-04
+SRET First Date:2020-12-16
+SRE First Date:2010-01-04
+SRG First Date:2018-01-02
+SRI First Date:2010-01-04
+SRLN First Date:2020-11-25
+SRL First Date:2019-07-25
+SRPT First Date:2012-08-03
+SRRK First Date:2020-12-15
+SRS First Date:2010-01-04
+SRTS First Date:2021-04-09
+SRTY First Date:2010-03-09
+SRT First Date:2010-11-04
+SRVR First Date:2020-04-30
+SR First Date:2018-01-02
+SSB First Date:2018-01-02
+SSD First Date:2010-01-04
+SSG First Date:2010-01-04
+SSL First Date:2010-01-04
+SSNC First Date:2010-05-04
+SSO First Date:2010-01-04
+SSP First Date:2010-01-04
+SSRM First Date:2018-01-02
+SSSS First Date:2019-11-29
+SSTI First Date:2010-04-01
+SSTK First Date:2018-01-02
+SST First Date:2022-02-08
+SSUS First Date:2022-11-16
+SSYS First Date:2010-01-04
+STAA First Date:2010-03-12
+STAG First Date:2011-06-13
+STBA First Date:2010-01-04
+STCN First Date:2018-01-22
+STC First Date:2010-01-04
+STEM First Date:2021-07-21
+STEP First Date:2020-11-25
+STER First Date:2022-02-09
+STE First Date:2010-01-04
+STGF First Date:2022-07-19
+STGW First Date:2021-09-14
+STHO First Date:2023-05-11
+STIM First Date:2020-10-20
+STIP First Date:2021-06-22
+STKH First Date:2022-08-09
+STKL First Date:2010-01-04
+STKS First Date:2021-08-10
+STLA First Date:2021-02-05
+STLD First Date:2010-01-04
+STM First Date:2010-01-04
+STNE First Date:2019-04-10
+STNG First Date:2018-01-02
+STN First Date:2021-05-05
+STOK First Date:2020-02-28
+STPZ First Date:2021-09-16
+STRA First Date:2010-01-04
+STRL First Date:2010-01-04
+STRO First Date:2020-12-15
+STR First Date:2010-01-04
+STTK First Date:2021-11-17
+STT First Date:2010-01-04
+STVN First Date:2021-09-15
+STWD First Date:2010-01-04
+STXS First Date:2010-01-04
+STX First Date:2010-01-04
+STZ First Date:2010-01-04
+ST First Date:2010-03-25
+SUI First Date:2010-01-04
+SUM First Date:2018-01-02
+SUNL First Date:2021-07-14
+SUNW First Date:2018-01-02
+SUN First Date:2010-01-04
+SUPL First Date:2022-06-10
+SUPN First Date:2018-01-02
+SUPV First Date:2019-09-25
+SUP First Date:2010-01-04
+SURF First Date:2020-09-30
+SURG First Date:2011-02-28
+SUSA First Date:2021-05-06
+SUSB First Date:2021-09-16
+SUSL First Date:2019-07-26
+SUZ First Date:2019-05-14
+SU First Date:2010-01-04
+SVAL First Date:2022-02-22
+SVC First Date:2019-11-29
+SVIX First Date:2022-04-14
+SVM First Date:2010-01-04
+SVOL First Date:2023-05-10
+SVRA First Date:2018-01-02
+SVVC First Date:2018-01-02
+SVXY First Date:2012-03-19
+SWAN First Date:2022-03-23
+SWAV First Date:2019-11-29
+SWBI First Date:2020-06-17
+SWIM First Date:2021-09-28
+SWI First Date:2010-01-04
+SWKS First Date:2010-01-04
+SWK First Date:2010-01-04
+SWN First Date:2010-01-04
+SWTX First Date:2021-04-13
+SWX First Date:2010-01-04
+SXC First Date:2011-08-05
+SXI First Date:2012-08-01
+SXT First Date:2010-01-04
+SYBT First Date:2018-01-02
+SYBX First Date:2019-09-25
+SYF First Date:2018-01-02
+SYK First Date:2010-01-04
+SYLD First Date:2021-05-06
+SYM First Date:2022-07-14
+SYNA First Date:2010-01-04
+SYNH First Date:2018-01-08
+SYPR First Date:2012-08-07
+SYRS First Date:2018-01-02
+SYY First Date:2010-01-04
+SY First Date:2010-01-04
+SZK First Date:2022-09-21
+S First Date:2010-01-04
+TACT First Date:2010-01-04
+TAC First Date:2021-05-05
+TAGS First Date:2022-06-07
+TAIL First Date:2020-12-15
+TAK First Date:2019-04-10
+TALK First Date:2021-07-15
+TALO First Date:2018-05-10
+TAL First Date:2010-11-16
+TAN First Date:2010-01-04
+TAOP First Date:2018-01-22
+TAP First Date:2010-01-04
+TARA First Date:2021-06-11
+TARK First Date:2022-06-10
+TARO First Date:2018-01-02
+TARS First Date:2022-01-05
+TASK First Date:2021-09-28
+TAST First Date:2012-06-01
+TBBK First Date:2011-10-12
+TBF First Date:2010-01-04
+TBIL First Date:2022-09-21
+TBIO First Date:2020-02-28
+TBI First Date:2010-01-04
+TBLA First Date:2021-07-15
+TBNK First Date:2018-01-02
+TBPH First Date:2018-01-02
+TBT First Date:2010-01-04
+TCBI First Date:2011-08-24
+TCBK First Date:2018-01-02
+TCHI First Date:2022-06-10
+TCMD First Date:2018-01-26
+TCN First Date:2021-11-15
+TCOM First Date:2019-11-19
+TCON First Date:2021-01-19
+TCPC First Date:2018-01-02
+TCRT First Date:2022-02-09
+TCS First Date:2018-01-02
+TCX First Date:2018-01-02
+TDCX First Date:2023-01-20
+TDC First Date:2010-01-04
+TDG First Date:2010-01-04
+TDIV First Date:2018-01-02
+TDOC First Date:2018-01-02
+TDSC First Date:2011-03-11
+TDS First Date:2010-01-04
+TDUP First Date:2021-05-05
+TDV First Date:2023-06-20
+TDW First Date:2010-01-04
+TDY First Date:2010-01-04
+TD First Date:2010-01-04
+TEAM First Date:2018-01-02
+TECB First Date:2022-03-07
+TECH First Date:2010-01-04
+TECK First Date:2018-01-02
+TECL First Date:2012-06-29
+TECS First Date:2012-06-29
+TEF First Date:2010-01-04
+TELA First Date:2022-12-14
+TELL First Date:2018-01-02
+TEL First Date:2010-01-04
+TENB First Date:2018-11-28
+TEO First Date:2010-10-28
+TERN First Date:2023-05-11
+TER First Date:2010-01-04
+TEVA First Date:2010-01-04
+TEX First Date:2010-01-04
+TFC First Date:2019-12-16
+TFFP First Date:2020-09-30
+TFII First Date:2021-04-13
+TFIN First Date:2023-01-19
+TFI First Date:2010-12-09
+TFLO First Date:2020-04-30
+TFSL First Date:2010-01-04
+TFX First Date:2010-01-04
+TGB First Date:2010-01-04
+TGH First Date:2010-01-04
+TGI First Date:2010-01-04
+TGLS First Date:2021-07-15
+TGNA First Date:2018-01-02
+TGS First Date:2018-01-02
+TGTX First Date:2018-01-02
+TGT First Date:2010-01-04
+TG First Date:2011-11-02
+THCH First Date:2022-10-27
+THCX First Date:2019-09-25
+THC First Date:2010-01-04
+THD First Date:2018-01-02
+THFF First Date:2018-01-02
+THG First Date:2010-01-04
+THLV First Date:2023-05-10
+THO First Date:2010-01-04
+THRM First Date:2012-06-13
+THRN First Date:2022-09-19
+THRY First Date:2021-06-11
+THR First Date:2012-07-11
+THS First Date:2010-01-04
+THTX First Date:2021-08-10
+TH First Date:2021-07-15
+TIGO First Date:2022-10-27
+TIGR First Date:2020-08-06
+TILE First Date:2018-01-02
+TILL First Date:2022-06-10
+TIL First Date:2022-04-06
+TIMB First Date:2020-11-25
+TIME First Date:2018-01-02
+TINT First Date:2022-09-21
+TINY First Date:2010-01-04
+TIO First Date:2023-06-15
+TIPT First Date:2021-06-11
+TIPX First Date:2021-07-16
+TIP First Date:2010-01-04
+TITN First Date:2010-01-04
+TIXT First Date:2021-06-11
+TJX First Date:2010-01-04
+TKAT First Date:2022-02-02
+TKC First Date:2010-01-04
+TKR First Date:2010-01-04
+TK First Date:2010-01-04
+TLH First Date:2012-08-31
+TLIS First Date:2021-07-15
+TLRY First Date:2018-08-29
+TLSA First Date:2020-08-17
+TLS First Date:2021-02-04
+TLT First Date:2010-01-04
+TLYS First Date:2012-05-17
+TMAT First Date:2021-04-12
+TMCI First Date:2021-11-17
+TMC First Date:2021-09-28
+TMDV First Date:2023-06-20
+TMDX First Date:2020-09-30
+TME First Date:2019-04-10
+TMFC First Date:2021-09-16
+TMF First Date:2010-01-04
+TMHC First Date:2018-01-02
+TMO First Date:2010-01-04
+TMPO First Date:2022-12-14
+TMP First Date:2018-01-02
+TMQ First Date:2018-01-02
+TMST First Date:2018-01-02
+TMUS First Date:2018-01-02
+TMV First Date:2010-01-04
+TM First Date:2010-01-04
+TNA First Date:2010-01-04
+TNC First Date:2011-08-23
+TNDM First Date:2010-01-04
+TNET First Date:2018-01-02
+TNK First Date:2010-01-04
+TNL First Date:2010-01-04
+TNP First Date:2010-01-04
+TNYA First Date:2022-04-06
+TOKE First Date:2021-10-11
+TOLZ First Date:2021-07-16
+TOL First Date:2010-01-04
+TOST First Date:2021-10-08
+TOTL First Date:2021-04-16
+TOUR First Date:2018-01-02
+TOWN First Date:2018-01-02
+TPB First Date:2018-11-29
+TPC First Date:2010-01-04
+TPG First Date:2022-02-09
+TPH First Date:2018-01-02
+TPIC First Date:2018-01-02
+TPOR First Date:2021-01-05
+TPR First Date:2018-01-02
+TPVG First Date:2018-01-02
+TPX First Date:2010-01-04
+TPYP First Date:2021-09-16
+TQQQ First Date:2010-03-02
+TRC First Date:2011-09-20
+TREE First Date:2010-01-04
+TREX First Date:2010-01-04
+TRGP First Date:2011-02-09
+TRHC First Date:2018-03-15
+TRIB First Date:2018-01-02
+TRIN First Date:2021-09-28
+TRIP First Date:2011-12-21
+TRI First Date:2010-01-04
+TRMB First Date:2010-01-04
+TRMD First Date:2022-07-14
+TRMK First Date:2010-01-04
+TRMR First Date:2022-02-02
+TRNO First Date:2018-01-02
+TRN First Date:2010-01-04
+TROO First Date:2021-11-22
+TROW First Date:2010-01-04
+TROX First Date:2012-06-28
+TRP First Date:2010-01-04
+TRST First Date:2010-01-04
+TRS First Date:2011-04-21
+TRTN First Date:2018-01-02
+TRTX First Date:2018-01-02
+TRUE First Date:2018-01-02
+TRUP First Date:2018-01-02
+TRU First Date:2018-01-02
+TRVG First Date:2018-01-02
+TRVI First Date:2022-10-04
+TRVN First Date:2018-01-02
+TRV First Date:2010-01-04
+TRX First Date:2011-06-13
+TR First Date:2010-03-16
+TSAT First Date:2021-11-23
+TSBK First Date:2022-03-24
+TSCO First Date:2010-01-04
+TSEM First Date:2018-01-02
+TSE First Date:2018-01-02
+TSHA First Date:2022-01-05
+TSLA First Date:2010-07-08
+TSLL First Date:2022-09-21
+TSLQ First Date:2022-08-17
+TSLS First Date:2022-09-21
+TSLX First Date:2018-01-02
+TSLY First Date:2023-04-17
+TSL First Date:2010-01-04
+TSM First Date:2010-01-04
+TSN First Date:2010-01-04
+TSP First Date:2010-07-29
+TSQ First Date:2018-01-02
+TSVT First Date:2022-05-10
+TS First Date:2010-01-04
+TTAC First Date:2020-04-30
+TTCF First Date:2020-11-20
+TTC First Date:2010-01-04
+TTD First Date:2018-01-02
+TTEC First Date:2010-01-04
+TTEK First Date:2010-01-04
+TTE First Date:2021-07-14
+TTGT First Date:2018-01-02
+TTI First Date:2010-01-04
+TTMI First Date:2010-07-13
+TTNP First Date:2018-01-02
+TTOO First Date:2018-01-02
+TTSH First Date:2021-08-04
+TTT First Date:2010-04-01
+TTWO First Date:2010-01-04
+TT First Date:2020-04-29
+TUA First Date:2023-04-17
+TUP First Date:2010-01-04
+TURN First Date:2018-01-02
+TUR First Date:2018-01-02
+TUSK First Date:2018-08-15
+TUYA First Date:2021-09-28
+TU First Date:2010-01-04
+TVTX First Date:2020-12-24
+TV First Date:2010-01-04
+TWEB First Date:2022-11-01
+TWIN First Date:2011-11-09
+TWI First Date:2010-01-04
+TWKS First Date:2021-10-08
+TWLO First Date:2018-01-02
+TWM First Date:2010-01-04
+TWNK First Date:2018-01-02
+TWOU First Date:2018-01-02
+TWO First Date:2010-10-14
+TWST First Date:2019-07-26
+TW First Date:2010-01-04
+TXG First Date:2020-01-17
+TXMD First Date:2018-01-02
+TXN First Date:2010-01-04
+TXRH First Date:2010-01-04
+TXT First Date:2010-01-04
+TX First Date:2010-01-04
+TYD First Date:2010-01-04
+TYLG First Date:2023-01-19
+TYL First Date:2010-01-04
+TYO First Date:2010-01-04
+TYRA First Date:2022-05-10
+TZA First Date:2010-01-04
+TZOO First Date:2011-06-07
+T First Date:2010-01-04
+UAA First Date:2018-01-02
+UAL First Date:2010-10-01
+UAMY First Date:2012-07-06
+UAN First Date:2011-04-27
+UAVS First Date:2021-02-17
+UA First Date:2010-01-04
+UBA First Date:2011-09-20
+UBER First Date:2019-05-16
+UBFO First Date:2022-10-13
+UBOT First Date:2022-02-02
+UBR First Date:2021-10-11
+UBSI First Date:2010-01-04
+UBS First Date:2010-01-04
+UBT First Date:2010-02-05
+UBX First Date:2019-04-10
+UCAR First Date:2023-06-15
+UCBI First Date:2010-01-04
+UCC First Date:2022-07-19
+UCO First Date:2010-01-04
+UCTT First Date:2011-02-24
+UDMY First Date:2022-02-02
+UDN First Date:2010-01-04
+UDOW First Date:2010-03-09
+UDR First Date:2010-01-04
+UEC First Date:2010-01-04
+UEIC First Date:2010-01-04
+UE First Date:2018-01-02
+UFCS First Date:2010-01-04
+UFI First Date:2018-01-02
+UFO First Date:2021-02-05
+UFPI First Date:2010-01-04
+UFPT First Date:2023-04-19
+UGA First Date:2010-01-04
+UGE First Date:2022-09-21
+UGI First Date:2010-01-04
+UGL First Date:2010-01-04
+UGP First Date:2010-10-07
+UGRO First Date:2022-09-19
+UHAL First Date:2010-01-04
+UHS First Date:2010-01-04
+UHT First Date:2018-01-02
+UIHC First Date:2018-01-02
+UIS First Date:2010-01-04
+UI First Date:2019-11-29
+ULBI First Date:2010-01-04
+ULCC First Date:2021-05-05
+ULE First Date:2010-01-04
+ULTA First Date:2010-05-13
+UL First Date:2010-01-04
+UMBF First Date:2010-01-04
+UMC First Date:2010-01-12
+UMDD First Date:2010-03-09
+UMH First Date:2018-01-02
+UNFI First Date:2010-01-04
+UNF First Date:2010-01-04
+UNG First Date:2010-01-04
+UNH First Date:2010-01-04
+UNIT First Date:2018-01-02
+UNL First Date:2010-01-04
+UNM First Date:2010-01-04
+UNP First Date:2010-01-04
+UNTY First Date:2023-01-20
+UNVR First Date:2018-01-02
+UONEK First Date:2017-05-08
+UONE First Date:2021-11-17
+UPAR First Date:2022-09-21
+UPBD First Date:2023-04-17
+UPH First Date:2021-07-14
+UPLD First Date:2018-03-22
+UPRO First Date:2010-01-04
+UPST First Date:2021-02-04
+UPS First Date:2010-01-04
+UPV First Date:2022-07-21
+UPWK First Date:2018-11-29
+UPW First Date:2022-02-10
+UPXI First Date:2022-12-14
+UP First Date:2021-08-06
+URA First Date:2010-11-15
+URBN First Date:2010-01-04
+URE First Date:2010-01-04
+URGN First Date:2018-08-15
+URI First Date:2010-01-04
+URNM First Date:2020-12-15
+UROY First Date:2021-09-28
+URTH First Date:2018-01-02
+URTY First Date:2010-03-09
+USAC First Date:2018-01-02
+USAI First Date:2022-02-10
+USAP First Date:2021-09-22
+USAU First Date:2022-11-22
+USB First Date:2010-01-04
+USCI First Date:2021-09-16
+USDP First Date:2016-08-24
+USDU First Date:2018-01-02
+USFD First Date:2018-01-02
+USFR First Date:2021-04-16
+USHY First Date:2018-01-02
+USIG First Date:2018-01-22
+USIO First Date:2021-04-09
+USL First Date:2010-01-04
+USMC First Date:2018-03-23
+USMF First Date:2022-12-15
+USMV First Date:2018-01-02
+USM First Date:2010-01-04
+USNA First Date:2010-01-04
+USO First Date:2010-01-04
+USPH First Date:2012-07-30
+USPX First Date:2022-11-22
+USRT First Date:2021-06-22
+UST First Date:2012-06-15
+USXF First Date:2022-11-16
+UTEN First Date:2022-09-21
+UTHR First Date:2010-01-04
+UTHY First Date:2023-06-14
+UTI First Date:2010-01-04
+UTL First Date:2018-01-02
+UTSL First Date:2020-01-17
+UTWO First Date:2022-09-21
+UTWY First Date:2023-06-14
+UTY First Date:2010-01-04
+UTZ First Date:2020-09-29
+UUP First Date:2010-01-04
+UUUU First Date:2018-01-02
+UVE First Date:2011-02-03
+UVIX First Date:2022-04-14
+UVSP First Date:2018-01-02
+UVV First Date:2010-01-04
+UVXY First Date:2012-03-19
+UWMC First Date:2021-02-05
+UWM First Date:2010-01-04
+UXIN First Date:2018-11-29
+UXI First Date:2010-01-04
+UYG First Date:2010-01-04
+UYM First Date:2010-01-04
+U First Date:2020-10-20
+VAC First Date:2011-11-23
+VALQ First Date:2023-04-17
+VALT First Date:2022-04-14
+VAL First Date:2010-01-04
+VANI First Date:2022-09-19
+VAPO First Date:2020-08-06
+VATE First Date:2021-10-06
+VAW First Date:2010-01-04
+VBIV First Date:2018-01-02
+VBK First Date:2010-01-04
+VBLT First Date:2018-01-02
+VBR First Date:2010-01-04
+VBTX First Date:2019-04-10
+VB First Date:2010-01-04
+VCAR First Date:2022-01-03
+VCEL First Date:2018-01-02
+VCIT First Date:2012-06-15
+VCLT First Date:2012-08-21
+VCNX First Date:2020-09-30
+VCR First Date:2012-08-10
+VCSA First Date:2022-05-10
+VCSH First Date:2014-07-24
+VCTR First Date:2021-02-04
+VCXA First Date:2023-01-20
+VCYT First Date:2018-01-02
+VC First Date:2011-01-14
+VDC First Date:2012-08-17
+VDE First Date:2010-01-04
+VEA First Date:2010-01-04
+VECO First Date:2010-01-04
+VECT First Date:2023-06-15
+VEEV First Date:2018-01-02
+VEGI First Date:2021-08-11
+VEGN First Date:2022-04-14
+VEL First Date:2021-07-15
+VEON First Date:2018-01-02
+VERA First Date:2023-04-19
+VERI First Date:2018-08-15
+VERS First Date:2022-06-10
+VERU First Date:2018-01-02
+VERV First Date:2021-11-15
+VERX First Date:2021-06-11
+VET First Date:2018-01-02
+VEU First Date:2010-01-04
+VEV First Date:2021-09-15
+VFC First Date:2010-01-04
+VFF First Date:2019-04-10
+VFH First Date:2010-01-04
+VFMF First Date:2022-12-15
+VFMO First Date:2022-12-15
+VFMV First Date:2022-12-15
+VFQY First Date:2022-12-15
+VFVA First Date:2021-09-16
+VGIT First Date:2020-08-06
+VGK First Date:2010-01-04
+VGLT First Date:2021-02-17
+VGR First Date:2010-01-04
+VGSH First Date:2020-08-06
+VGT First Date:2010-01-04
+VGZ First Date:2010-01-04
+VHC First Date:2010-03-04
+VHT First Date:2012-09-07
+VIAV First Date:2018-01-02
+VIA First Date:2010-01-04
+VICE First Date:2022-02-22
+VICI First Date:2018-03-01
+VICR First Date:2010-01-04
+VIEW First Date:2013-11-26
+VIGI First Date:2021-06-22
+VIG First Date:2010-12-08
+VINP First Date:2022-09-19
+VIOG First Date:2022-03-07
+VIOO First Date:2022-07-15
+VIOV First Date:2022-07-15
+VIPS First Date:2018-01-02
+VIRI First Date:2021-08-10
+VIRT First Date:2018-01-02
+VIRX First Date:2021-04-07
+VIR First Date:2020-04-30
+VISL First Date:2021-04-09
+VIST First Date:2021-11-17
+VIS First Date:2010-01-04
+VITL First Date:2020-09-30
+VIV First Date:2010-01-04
+VIXM First Date:2011-01-25
+VIXY First Date:2011-01-24
+VIX First Date:2010-01-04
+VKTX First Date:2018-01-05
+VLD First Date:2021-10-06
+VLN First Date:2022-09-19
+VLO First Date:2010-01-04
+VLRS First Date:2018-01-02
+VLUE First Date:2018-04-04
+VLU First Date:2021-09-16
+VLY First Date:2010-01-04
+VMBS First Date:2021-02-05
+VMC First Date:2010-01-04
+VMD First Date:2021-07-15
+VMEO First Date:2021-07-15
+VMI First Date:2010-01-04
+VMW First Date:2010-01-04
+VNDA First Date:2010-01-04
+VNET First Date:2011-05-02
+VNLA First Date:2021-04-16
+VNOM First Date:2018-01-02
+VNO First Date:2010-01-04
+VNQI First Date:2018-01-02
+VNQ First Date:2010-01-04
+VNRX First Date:2020-01-17
+VNT First Date:2020-11-25
+VOC First Date:2011-07-14
+VOD First Date:2010-01-04
+VOE First Date:2010-01-04
+VONE First Date:2022-07-15
+VONG First Date:2021-07-16
+VONV First Date:2019-09-25
+VOOG First Date:2020-09-30
+VOOV First Date:2021-08-11
+VOO First Date:2011-02-22
+VOR First Date:2022-03-24
+VOT First Date:2011-11-04
+VOXX First Date:2010-01-04
+VOX First Date:2012-08-17
+VOYA First Date:2018-01-02
+VO First Date:2010-01-04
+VPG First Date:2010-07-13
+VPL First Date:2010-01-04
+VPN First Date:2021-09-16
+VPU First Date:2012-08-10
+VQS First Date:2021-10-08
+VRAR First Date:2022-02-09
+VRAY First Date:2018-01-02
+VRA First Date:2010-11-04
+VRCA First Date:2021-06-11
+VRDN First Date:2021-10-08
+VREX First Date:2018-01-02
+VRE First Date:2021-12-16
+VRM First Date:2020-08-06
+VRNA First Date:2020-08-17
+VRNS First Date:2018-01-02
+VRNT First Date:2010-10-14
+VRP First Date:2018-01-02
+VRRM First Date:2019-07-26
+VRSK First Date:2010-01-04
+VRSN First Date:2010-01-04
+VRTV First Date:2018-01-02
+VRTX First Date:2010-01-04
+VRT First Date:2020-04-30
+VR First Date:2010-01-04
+VSAT First Date:2010-01-04
+VSCO First Date:2021-09-15
+VSDA First Date:2022-12-15
+VSEC First Date:2020-09-02
+VSH First Date:2010-01-04
+VSS First Date:2018-01-02
+VSTM First Date:2018-01-02
+VSTO First Date:2018-01-02
+VST First Date:2018-01-02
+VTC First Date:2021-02-05
+VTEB First Date:2021-02-05
+VTEX First Date:2021-12-01
+VTGN First Date:2021-07-15
+VTHR First Date:2022-07-15
+VTIP First Date:2021-04-16
+VTI First Date:2010-01-04
+VTLE First Date:2023-01-19
+VTNR First Date:2018-01-02
+VTOL First Date:2020-09-29
+VTRS First Date:2020-12-11
+VTR First Date:2010-01-04
+VTSI First Date:2021-05-05
+VTS First Date:2023-05-11
+VTV First Date:2010-01-04
+VTWG First Date:2020-10-20
+VTWO First Date:2018-01-02
+VTWV First Date:2022-07-15
+VTYX First Date:2022-09-19
+VT First Date:2011-09-22
+VUG First Date:2010-01-04
+VUZI First Date:2018-01-02
+VVI First Date:2010-01-04
+VVOS First Date:2021-07-15
+VVPR First Date:2021-02-04
+VVV First Date:2018-01-02
+VVX First Date:2022-07-14
+VV First Date:2010-01-04
+VWE First Date:2021-07-15
+VWOB First Date:2021-02-17
+VWO First Date:2010-01-04
+VXF First Date:2012-08-31
+VXRT First Date:2018-01-22
+VXUS First Date:2012-11-05
+VXX First Date:2010-05-28
+VXZ First Date:2010-05-28
+VYGR First Date:2018-01-02
+VYMI First Date:2021-04-16
+VYM First Date:2011-02-17
+VYNE First Date:2021-02-26
+VZIO First Date:2021-04-13
+VZ First Date:2010-01-04
+V First Date:2010-01-04
+WABC First Date:2010-01-04
+WAB First Date:2010-01-04
+WAFD First Date:2012-02-21
+WAL First Date:2010-01-04
+WANT First Date:2021-06-22
+WASH First Date:2018-01-02
+WATT First Date:2018-01-02
+WAT First Date:2010-01-04
+WBAT First Date:2022-06-10
+WBA First Date:2018-01-02
+WBD First Date:2010-01-04
+WBS First Date:2010-01-04
+WBX First Date:2021-11-15
+WB First Date:2018-01-02
+WCBR First Date:2021-08-11
+WCC First Date:2010-01-04
+WCLD First Date:2020-12-15
+WCN First Date:2010-01-04
+WDAY First Date:2012-10-22
+WDC First Date:2010-01-04
+WDFC First Date:2011-09-20
+WDIV First Date:2021-07-16
+WDNA First Date:2022-02-22
+WDS First Date:2022-07-15
+WD First Date:2018-01-02
+WEAT First Date:2018-01-02
+WEAV First Date:2022-05-10
+WEBL First Date:2021-06-22
+WEBS First Date:2021-09-16
+WEC First Date:2010-01-04
+WEED First Date:2022-06-07
+WELL First Date:2018-01-22
+WEN First Date:2010-01-04
+WERN First Date:2010-01-04
+WEST First Date:2010-07-23
+WES First Date:2010-08-23
+WEX First Date:2018-01-02
+WE First Date:2021-10-26
+WFC First Date:2010-01-04
+WFG First Date:2021-05-05
+WFH First Date:2020-08-06
+WFRD First Date:2021-07-15
+WGMI First Date:2022-03-07
+WGO First Date:2010-01-04
+WGS First Date:2023-01-19
+WHD First Date:2018-05-02
+WHF First Date:2021-12-16
+WHG First Date:2018-01-02
+WHR First Date:2010-01-04
+WH First Date:2018-08-15
+WIMI First Date:2020-11-25
+WING First Date:2018-01-02
+WIP First Date:2023-01-19
+WIRE First Date:2010-01-04
+WISA First Date:2021-07-15
+WISH First Date:2020-12-24
+WIT First Date:2010-01-04
+WIX First Date:2018-01-02
+WKEY First Date:2021-06-11
+WKHS First Date:2020-02-28
+WKME First Date:2022-09-19
+WKSP First Date:2021-09-28
+WK First Date:2018-01-02
+WLDN First Date:2019-07-26
+WLKP First Date:2018-01-02
+WLK First Date:2010-01-04
+WLMS First Date:2021-08-10
+WLY First Date:2022-04-14
+WMB First Date:2010-01-04
+WMC First Date:2012-07-24
+WMG First Date:2010-01-04
+WMK First Date:2018-07-20
+WMS First Date:2010-01-04
+WMT First Date:2010-01-04
+WM First Date:2010-01-04
+WNC First Date:2010-01-04
+WNDY First Date:2022-01-06
+WNEB First Date:2018-01-02
+WNS First Date:2018-01-02
+WOLF First Date:2012-03-22
+WOOD First Date:2018-01-02
+WOOF First Date:2010-01-04
+WOR First Date:2010-01-04
+WOW First Date:2018-01-02
+WPC First Date:2012-10-17
+WPM First Date:2018-01-02
+WPP First Date:2010-01-04
+WPRT First Date:2010-03-08
+WPS First Date:2018-05-17
+WRAP First Date:2020-12-15
+WRBY First Date:2021-11-15
+WRB First Date:2010-01-04
+WRK First Date:2018-01-02
+WRLD First Date:2010-01-04
+WSBC First Date:2010-01-04
+WSBF First Date:2018-01-02
+WSC First Date:2019-06-07
+WSFS First Date:2018-01-02
+WSM First Date:2010-01-04
+WSO First Date:2010-01-04
+WSR First Date:2018-01-02
+WST First Date:2010-01-04
+WTAI First Date:2022-09-21
+WTBA First Date:2018-01-02
+WTFC First Date:2010-01-04
+WTI First Date:2010-01-04
+WTMF First Date:2022-11-16
+WTRE First Date:2022-05-10
+WTRG First Date:2020-02-25
+WTS First Date:2010-01-04
+WTTR First Date:2018-01-02
+WTT First Date:2021-08-10
+WTW First Date:2010-01-04
+WT First Date:2022-12-14
+WULF First Date:2022-06-03
+WU First Date:2010-01-04
+WVE First Date:2018-08-15
+WWD First Date:2011-01-31
+WWE First Date:2010-01-04
+WWR First Date:2020-11-25
+WWW First Date:2010-01-04
+WW First Date:2019-09-03
+WYNN First Date:2010-01-04
+WYY First Date:2021-04-09
+WY First Date:2010-01-04
+W First Date:2018-01-02
+XAIR First Date:2020-08-06
+XAR First Date:2018-01-02
+XAU First Date:2010-01-04
+XBIL First Date:2023-04-17
+XBIO First Date:2021-09-15
+XBIT First Date:2018-01-02
+XBI First Date:2010-01-04
+XBTF First Date:2021-12-03
+XDAT First Date:2022-03-08
+XDA First Date:2010-01-04
+XDB First Date:2010-01-04
+XDC First Date:2010-01-04
+XDE First Date:2010-01-04
+XDNA First Date:2022-06-10
+XDN First Date:2010-01-04
+XDS First Date:2010-01-04
+XDZ First Date:2010-01-04
+XELA First Date:2021-08-11
+XEL First Date:2010-01-04
+XENE First Date:2018-08-15
+XEO First Date:2010-01-04
+XERS First Date:2019-07-26
+XES First Date:2010-01-04
+XFOR First Date:2021-06-11
+XGN First Date:2021-09-15
+XHB First Date:2010-01-04
+XHE First Date:2019-01-31
+XHR First Date:2018-01-02
+XHS First Date:2021-08-04
+XHYC First Date:2022-06-08
+XHYD First Date:2022-06-08
+XHYE First Date:2022-06-07
+XHYF First Date:2022-06-09
+XHYH First Date:2022-06-08
+XHYI First Date:2022-06-08
+XHYT First Date:2022-06-09
+XITK First Date:2021-08-11
+XLB First Date:2010-01-04
+XLC First Date:2018-08-15
+XLE First Date:2010-01-04
+XLF First Date:2010-01-04
+XLG First Date:2010-01-04
+XLI First Date:2010-01-04
+XLK First Date:2010-01-04
+XLP First Date:2010-01-04
+XLRE First Date:2018-01-02
+XLU First Date:2010-01-04
+XLV First Date:2010-01-04
+XLY First Date:2010-01-04
+XME First Date:2010-01-04
+XMHQ First Date:2021-08-11
+XMLV First Date:2018-11-28
+XMMO First Date:2021-08-11
+XMTR First Date:2021-08-10
+XMVM First Date:2021-08-10
+XNCR First Date:2018-01-02
+XNET First Date:2018-01-02
+XNTK First Date:2021-08-10
+XOMA First Date:2010-12-30
+XOM First Date:2010-01-04
+XOP First Date:2010-01-04
+XOS First Date:2021-09-15
+XPEL First Date:2019-11-29
+XPER First Date:2018-01-02
+XPEV First Date:2020-09-30
+XPH First Date:2018-01-02
+XPND First Date:2022-03-07
+XPOF First Date:2021-11-15
+XPO First Date:2011-09-20
+XPP First Date:2010-01-04
+XPRO First Date:2021-11-08
+XP First Date:2020-03-18
+XRAY First Date:2010-01-04
+XRLV First Date:2022-07-20
+XRMI First Date:2022-12-15
+XRT First Date:2010-01-04
+XRX First Date:2010-01-04
+XSD First Date:2010-01-04
+XSHQ First Date:2022-07-15
+XSLV First Date:2020-12-15
+XSMO First Date:2022-07-15
+XSOE First Date:2021-02-05
+XSP First Date:2010-01-04
+XSVM First Date:2021-07-16
+XSW First Date:2021-06-23
+XTL First Date:2021-06-23
+XTN First Date:2021-06-23
+XT First Date:2018-01-02
+XVOL First Date:2022-03-23
+XVV First Date:2023-05-10
+XWEB First Date:2021-08-10
+XWEL First Date:2022-11-16
+XXII First Date:2018-01-02
+XYLD First Date:2021-06-22
+XYLG First Date:2022-03-23
+XYL First Date:2011-11-01
+X First Date:2010-01-04
+YALA First Date:2021-04-09
+YALL First Date:2023-01-19
+YANG First Date:2011-06-15
+YCBD First Date:2019-11-29
+YCL First Date:2010-01-04
+YCS First Date:2010-01-04
+YELL First Date:2021-02-16
+YELP First Date:2012-03-12
+YETI First Date:2018-11-30
+YEXT First Date:2018-01-02
+YINN First Date:2011-06-15
+YI First Date:2023-01-20
+YLD First Date:2023-06-20
+YMAB First Date:2020-02-28
+YMM First Date:2021-11-15
+YOLO First Date:2019-07-26
+YORW First Date:2018-01-02
+YOU First Date:2021-07-15
+YPF First Date:2011-04-14
+YPS First Date:2021-07-16
+YQ First Date:2021-07-15
+YRD First Date:2018-01-02
+YSG First Date:2020-12-24
+YUMC First Date:2018-01-02
+YUM First Date:2010-01-04
+YVR First Date:2021-05-05
+YXI First Date:2018-01-02
+YYY First Date:2021-07-16
+YY First Date:2018-01-02
+ZBH First Date:2018-01-02
+ZBRA First Date:2010-01-04
+ZDGE First Date:2020-12-15
+ZD First Date:2021-10-26
+ZEPP First Date:2021-04-07
+ZETA First Date:2021-11-15
+ZEUS First Date:2010-01-04
+ZEV First Date:2021-06-04
+ZGN First Date:2023-04-19
+ZG First Date:2018-01-02
+ZHDG First Date:2021-09-16
+ZH First Date:2021-04-27
+ZIMV First Date:2022-03-24
+ZIM First Date:2021-05-05
+ZION First Date:2010-01-04
+ZIP First Date:2011-04-25
+ZI First Date:2020-08-06
+ZKIN First Date:2021-06-11
+ZLAB First Date:2018-02-23
+ZM First Date:2019-05-20
+ZNTL First Date:2021-04-13
+ZROZ First Date:2018-01-02
+ZSL First Date:2010-01-04
+ZS First Date:2018-03-23
+ZTO First Date:2018-01-02
+ZTS First Date:2018-01-02
+ZUMZ First Date:2010-01-04
+ZUO First Date:2018-04-27
+ZVIA First Date:2022-09-19
+ZVRA First Date:2023-04-17
+ZWS First Date:2021-10-08
+ZYME First Date:2018-11-29
+ZYNE First Date:2019-11-29
+Z First Date:2011-07-28
+
+Delisted Tickers
+-----------------
+AAAP First Date:2018-01-02 Last Date:2018-07-13
+AABA First Date:2018-01-02 Last Date:2019-10-02
+AACC First Date:2010-01-04 Last Date:2013-01-02
+AACQ First Date:2021-02-17 Last Date:2021-06-24
+AAI First Date:2010-01-04 Last Date:2011-05-02
+AAMRQ First Date:2012-01-05 Last Date:2013-01-02
+AATI First Date:2010-01-04 Last Date:2012-01-09
+AAUKY First Date:2010-01-04 Last Date:2010-02-19
+AAVL First Date:2015-02-09 Last Date:2016-05-11
+AAVVF First Date:2018-11-29 Last Date:2018-12-24
+AAV First Date:2010-01-04 Last Date:2018-09-24
+AAWW First Date:2010-01-04 Last Date:2023-03-20
+AAXN First Date:2018-01-02 Last Date:2021-01-25
+ABAT First Date:2010-01-04 Last Date:2012-05-18
+ABAX First Date:2010-01-04 Last Date:2018-08-21
+ABB First Date:2010-01-04 Last Date:2023-05-23
+ABCO First Date:2011-08-24 Last Date:2014-01-02
+ABDC First Date:2018-01-02 Last Date:2020-01-31
+ABD First Date:2010-05-19 Last Date:2012-04-30
+ABFS First Date:2010-01-04 Last Date:2014-01-02
+ABH First Date:2011-04-15 Last Date:2012-05-23
+ABKFQ First Date:2010-11-09 Last Date:2012-12-21
+ABK First Date:2010-01-04 Last Date:2010-11-08
+ABLX First Date:2018-01-02 Last Date:2018-07-03
+ABMD First Date:2010-01-04 Last Date:2022-12-22
+ABTL First Date:2014-02-26 Last Date:2017-10-06
+ABTX First Date:2020-01-17 Last Date:2022-09-30
+ABVT First Date:2010-01-04 Last Date:2012-07-02
+ABV First Date:2010-01-04 Last Date:2013-01-02
+ABX First Date:2010-01-04 Last Date:2018-12-31
+ABY First Date:2014-06-25 Last Date:2017-11-13
+ACAC First Date:2021-05-05 Last Date:2021-06-21
+ACAS First Date:2010-01-04 Last Date:2014-01-02
+ACAT First Date:2011-04-07 Last Date:2014-01-02
+ACCL First Date:2010-01-04 Last Date:2014-01-02
+ACC First Date:2010-01-04 Last Date:2022-08-10
+ACEV First Date:2021-02-04 Last Date:2022-11-23
+ACE First Date:2010-01-04 Last Date:2014-01-02
+ACFN First Date:2011-08-24 Last Date:2014-01-02
+ACF First Date:2010-01-04 Last Date:2010-09-30
+ACGY First Date:2010-01-04 Last Date:2011-01-07
+ACHI First Date:2014-03-17 Last Date:2014-08-15
+ACHN First Date:2011-01-25 Last Date:2020-01-27
+ACH First Date:2010-01-04 Last Date:2022-09-01
+ACIA First Date:2018-01-02 Last Date:2021-02-26
+ACIC First Date:2021-04-13 Last Date:2021-09-23
+ACIIQ First Date:2016-01-12 Last Date:2016-10-18
+ACLI First Date:2010-01-04 Last Date:2010-12-20
+ACL First Date:2010-01-04 Last Date:2011-04-08
+ACMP First Date:2012-07-24 Last Date:2014-01-02
+ACOM First Date:2010-01-04 Last Date:2012-12-28
+ACO First Date:2010-01-04 Last Date:2014-01-02
+ACPIQ First Date:2010-03-26 Last Date:2010-04-16
+ACPI First Date:2010-01-04 Last Date:2010-03-16
+ACPW First Date:2013-04-04 Last Date:2014-01-02
+ACSF First Date:2018-01-02 Last Date:2018-09-28
+ACS First Date:2010-01-04 Last Date:2010-02-05
+ACTA First Date:2018-01-02 Last Date:2018-02-08
+ACTC First Date:2021-02-04 Last Date:2021-06-14
+ACTV First Date:2011-06-10 Last Date:2013-01-02
+ACUR First Date:2010-03-30 Last Date:2014-01-02
+ACV First Date:2010-01-04 Last Date:2011-05-10
+ACW First Date:2011-03-09 Last Date:2014-01-02
+ACXM First Date:2010-01-04 Last Date:2018-10-01
+ADEP First Date:2013-09-18 Last Date:2014-01-02
+ADGI First Date:2022-01-05 Last Date:2022-09-13
+ADHD First Date:2014-05-08 Last Date:2017-11-24
+ADK First Date:2013-07-08 Last Date:2014-01-02
+ADLR First Date:2010-01-04 Last Date:2011-12-09
+ADMS First Date:2018-01-02 Last Date:2021-11-23
+ADNC First Date:2013-04-10 Last Date:2014-01-02
+ADPTQ First Date:2017-04-21 Last Date:2017-10-12
+ADRE First Date:2010-01-04 Last Date:2010-11-19
+ADRO First Date:2018-01-02 Last Date:2020-10-05
+ADSW First Date:2018-01-05 Last Date:2020-10-29
+ADS First Date:2010-01-04 Last Date:2022-04-04
+ADVS First Date:2010-01-04 Last Date:2014-01-02
+ADXS First Date:2018-01-02 Last Date:2019-03-28
+ADY First Date:2010-01-04 Last Date:2013-01-02
+AEA First Date:2010-01-04 Last Date:2012-04-23
+AEC First Date:2010-10-20 Last Date:2014-01-02
+AEGN First Date:2011-10-26 Last Date:2021-05-14
+AEGR First Date:2012-10-02 Last Date:2014-01-02
+AERI First Date:2018-01-02 Last Date:2022-11-18
+AERL First Date:2012-05-23 Last Date:2013-01-02
+AET First Date:2010-01-04 Last Date:2018-11-30
+AEZ First Date:2010-01-04 Last Date:2010-12-17
+AFAM First Date:2010-01-04 Last Date:2018-04-16
+AFCE First Date:2011-06-09 Last Date:2014-01-02
+AFCO First Date:2016-06-16 Last Date:2017-02-03
+AFFX First Date:2010-01-04 Last Date:2014-01-02
+AFFY First Date:2010-01-27 Last Date:2014-01-02
+AFH First Date:2018-01-02 Last Date:2020-09-01
+AFIIQ First Date:2022-11-28 Last Date:2022-12-16
+AFIN First Date:2021-04-09 Last Date:2022-02-15
+AFI First Date:2018-01-02 Last Date:2022-05-20
+AFOP First Date:2013-09-23 Last Date:2014-01-02
+AFSI First Date:2010-01-04 Last Date:2018-11-30
+AF First Date:2010-01-04 Last Date:2014-01-02
+AGAM First Date:2010-01-04 Last Date:2010-11-18
+AGCB First Date:2021-04-09 Last Date:2022-12-21
+AGC First Date:2021-04-09 Last Date:2021-12-02
+AGFS First Date:2018-01-02 Last Date:2023-03-31
+AGFY First Date:2021-09-15 Last Date:2023-02-17
+AGII First Date:2010-01-04 Last Date:2014-01-02
+AGN First Date:2010-01-04 Last Date:2020-05-08
+AGP First Date:2010-01-04 Last Date:2012-12-21
+AGRX First Date:2018-01-02 Last Date:2022-11-18
+AGTC First Date:2018-01-02 Last Date:2022-12-01
+AGU First Date:2010-01-04 Last Date:2014-01-02
+AHAC First Date:2021-08-10 Last Date:2021-09-02
+AHC First Date:2018-01-02 Last Date:2021-06-29
+AHD First Date:2010-11-12 Last Date:2011-04-27
+AHGP First Date:2010-01-04 Last Date:2018-06-11
+AHL First Date:2010-01-04 Last Date:2019-02-14
+AHP First Date:2014-07-28 Last Date:2017-12-29
+AHS First Date:2010-01-04 Last Date:2014-01-02
+AH First Date:2011-03-11 Last Date:2014-01-02
+AIBYY First Date:2011-08-29 Last Date:2012-02-10
+AIB First Date:2010-01-04 Last Date:2011-08-25
+AIIQ First Date:2021-10-11 Last Date:2022-07-28
+AIMC First Date:2010-01-04 Last Date:2023-03-27
+AIMT First Date:2018-01-02 Last Date:2020-10-12
+AINV First Date:2010-01-04 Last Date:2022-08-12
+AIPC First Date:2010-01-04 Last Date:2010-07-27
+AIRM First Date:2010-01-04 Last Date:2014-01-02
+AIS First Date:2012-03-29 Last Date:2012-06-14
+AIXG First Date:2010-01-04 Last Date:2014-01-02
+AJAX First Date:2021-02-04 Last Date:2021-08-26
+AKAO First Date:2018-01-02 Last Date:2019-04-25
+AKCA First Date:2018-01-02 Last Date:2020-10-09
+AKG First Date:2018-01-02 Last Date:2020-05-04
+AKNS First Date:2010-01-04 Last Date:2010-07-22
+AKRX First Date:2010-08-06 Last Date:2020-05-29
+AKS First Date:2010-01-04 Last Date:2020-03-12
+AKUS First Date:2021-08-10 Last Date:2022-12-01
+ALBO First Date:2016-11-04 Last Date:2023-03-03
+ALDR First Date:2018-01-02 Last Date:2019-10-21
+ALDW First Date:2018-01-02 Last Date:2018-02-16
+ALD First Date:2010-01-04 Last Date:2011-10-24
+ALFA First Date:2018-01-02 Last Date:2022-08-30
+ALIM First Date:2012-03-08 Last Date:2019-11-14
+ALJ First Date:2010-01-04 Last Date:2014-01-02
+ALOG First Date:2010-01-04 Last Date:2018-07-12
+ALQA First Date:2018-01-02 Last Date:2018-03-16
+ALR First Date:2010-07-19 Last Date:2023-03-20
+ALSK First Date:2010-01-04 Last Date:2021-07-23
+ALTE First Date:2010-05-19 Last Date:2013-01-02
+ALTH First Date:2010-01-04 Last Date:2012-09-05
+ALTM First Date:2019-09-25 Last Date:2019-10-22
+ALUS First Date:2021-04-13 Last Date:2021-07-07
+ALU First Date:2010-01-04 Last Date:2014-01-02
+ALXA First Date:2010-04-29 Last Date:2014-01-02
+ALXN First Date:2010-01-04 Last Date:2021-07-20
+ALY First Date:2010-01-04 Last Date:2011-02-23
+AMAG First Date:2010-01-04 Last Date:2020-11-13
+AMBR First Date:2018-01-02 Last Date:2019-07-01
+AMB First Date:2010-01-04 Last Date:2011-06-02
+AMCC First Date:2010-01-04 Last Date:2014-01-02
+AMCN First Date:2010-01-04 Last Date:2019-06-12
+AMFW First Date:2014-12-22 Last Date:2017-10-18
+AMGP First Date:2018-01-02 Last Date:2019-03-13
+AMID First Date:2018-01-02 Last Date:2019-07-22
+AMLN First Date:2010-01-04 Last Date:2012-08-08
+AMMD First Date:2010-01-04 Last Date:2011-06-17
+AMPE First Date:2012-07-12 Last Date:2022-11-25
+AMRE First Date:2013-07-15 Last Date:2014-01-02
+AMRI First Date:2010-01-04 Last Date:2014-01-02
+AMSG First Date:2010-01-04 Last Date:2014-01-02
+AMTD First Date:2010-01-04 Last Date:2020-10-05
+AMTG First Date:2011-08-09 Last Date:2014-01-02
+AMYT First Date:2021-09-15 Last Date:2023-04-12
+AMZGQ First Date:2015-05-13 Last Date:2015-12-11
+AMZG First Date:2014-04-02 Last Date:2015-05-12
+ANAC First Date:2013-03-28 Last Date:2014-01-02
+ANAD First Date:2010-01-04 Last Date:2014-01-02
+ANAT First Date:2018-01-02 Last Date:2022-05-24
+ANDS First Date:2010-01-04 Last Date:2011-11-23
+ANDV First Date:2018-01-02 Last Date:2018-10-10
+ANDX First Date:2018-01-02 Last Date:2019-07-29
+ANEN First Date:2011-09-06 Last Date:2014-01-02
+ANFI First Date:2018-01-02 Last Date:2019-12-19
+ANH First Date:2010-01-04 Last Date:2021-03-19
+ANN First Date:2010-01-04 Last Date:2014-01-02
+ANPC First Date:2021-08-10 Last Date:2023-05-19
+ANPI First Date:2010-01-04 Last Date:2010-11-19
+ANRZQ First Date:2015-08-04 Last Date:2016-07-28
+ANRZ First Date:2015-07-20 Last Date:2015-08-03
+ANR First Date:2010-01-04 Last Date:2014-01-02
+ANTE First Date:2019-07-26 Last Date:2023-05-19
+ANTH First Date:2018-01-02 Last Date:2018-12-24
+ANTM First Date:2018-01-02 Last Date:2022-06-28
+ANVGQ First Date:2015-03-12 Last Date:2015-10-23
+ANV First Date:2010-01-04 Last Date:2014-01-02
+ANWWQ First Date:2018-11-29 Last Date:2018-12-24
+ANW First Date:2010-01-04 Last Date:2018-11-06
+ANX First Date:2011-07-14 Last Date:2013-01-02
+AOBC First Date:2018-01-02 Last Date:2020-05-29
+AOBI First Date:2012-05-29 Last Date:2012-09-21
+AOB First Date:2010-01-04 Last Date:2012-03-15
+AOI First Date:2010-01-04 Last Date:2018-09-11
+AOL First Date:2010-01-04 Last Date:2014-01-02
+AONEQ First Date:2012-11-07 Last Date:2013-01-02
+AONE First Date:2010-01-04 Last Date:2012-11-06
+APAC First Date:2010-01-04 Last Date:2011-10-14
+APAGF First Date:2013-07-31 Last Date:2014-01-02
+APC First Date:2010-01-04 Last Date:2019-08-08
+APEN First Date:2021-02-03 Last Date:2023-04-04
+APEX First Date:2019-12-03 Last Date:2020-11-06
+APFH First Date:2016-07-28 Last Date:2017-06-16
+APHA First Date:2018-11-29 Last Date:2021-04-30
+APIC First Date:2015-05-04 Last Date:2016-11-30
+APKT First Date:2010-01-04 Last Date:2013-01-02
+APLP First Date:2018-01-02 Last Date:2018-05-07
+APL First Date:2010-01-04 Last Date:2014-01-02
+APOL First Date:2010-01-04 Last Date:2014-01-02
+APPCQ First Date:2015-10-07 Last Date:2016-02-18
+APPYD First Date:2011-08-01 Last Date:2011-08-25
+APPY First Date:2010-01-04 Last Date:2012-06-19
+APQ First Date:2016-04-25 Last Date:2017-12-29
+APRI First Date:2011-01-12 Last Date:2014-01-02
+APR First Date:2021-11-15 Last Date:2022-03-28
+APSG First Date:2010-01-04 Last Date:2022-05-31
+APTI First Date:2018-01-02 Last Date:2019-01-09
+APTS First Date:2018-01-02 Last Date:2022-06-23
+APTX First Date:2020-12-15 Last Date:2023-06-16
+APU First Date:2010-01-04 Last Date:2019-08-21
+APVO First Date:2018-08-15 Last Date:2020-08-21
+APWR First Date:2010-01-04 Last Date:2012-12-21
+APXT First Date:2020-12-24 Last Date:2021-07-01
+APY First Date:2018-10-31 Last Date:2020-06-03
+AQGX First Date:2022-01-06 Last Date:2023-03-31
+AQUA First Date:2018-05-02 Last Date:2023-05-24
+AQXP First Date:2018-01-02 Last Date:2019-08-09
+ARA First Date:2018-01-02 Last Date:2021-01-25
+ARBA First Date:2010-01-04 Last Date:2012-09-28
+ARB First Date:2010-01-04 Last Date:2013-01-02
+ARCP First Date:2013-03-14 Last Date:2014-01-02
+ARCW First Date:2018-01-02 Last Date:2018-04-20
+ARDM First Date:2018-01-05 Last Date:2019-01-18
+ARD First Date:2010-01-04 Last Date:2021-10-07
+AREX First Date:2011-02-10 Last Date:2019-11-15
+ARGN First Date:2010-01-04 Last Date:2012-06-12
+ARGS First Date:2018-01-02 Last Date:2018-04-25
+ARG First Date:2010-01-04 Last Date:2014-01-02
+ARIA First Date:2010-01-04 Last Date:2014-01-02
+ARII First Date:2010-01-04 Last Date:2018-12-05
+ARJ First Date:2010-01-04 Last Date:2011-10-20
+ARLZQ First Date:2018-11-29 Last Date:2018-11-30
+ARLZ First Date:2018-01-02 Last Date:2018-08-30
+ARMH First Date:2010-01-04 Last Date:2014-01-02
+ARM First Date:2010-01-04 Last Date:2011-03-29
+ARNA First Date:2010-01-04 Last Date:2022-03-10
+AROPQ First Date:2016-05-05 Last Date:2016-12-16
+AROP First Date:2016-04-22 Last Date:2016-05-04
+ARO First Date:2010-01-04 Last Date:2014-01-02
+ARPI First Date:2013-06-07 Last Date:2014-01-02
+ARPJ First Date:2016-07-14 Last Date:2016-07-28
+ARP First Date:2010-01-04 Last Date:2014-01-02
+ARQL First Date:2010-01-04 Last Date:2020-01-15
+ARRS First Date:2010-01-04 Last Date:2019-04-03
+ARSD First Date:2012-06-15 Last Date:2014-01-02
+ARST First Date:2010-01-04 Last Date:2010-10-21
+ARTC First Date:2011-02-28 Last Date:2014-01-02
+ARTG First Date:2010-01-04 Last Date:2011-01-05
+ARTNA First Date:2018-01-02 Last Date:2021-01-15
+ARTX First Date:2018-01-02 Last Date:2019-12-18
+ART First Date:2010-01-04 Last Date:2013-01-02
+ARUN First Date:2010-01-04 Last Date:2014-01-02
+ARX First Date:2010-12-02 Last Date:2014-01-02
+ARYA First Date:2021-04-09 Last Date:2021-06-09
+ASAP First Date:2022-12-14 Last Date:2023-06-15
+ASBC First Date:2010-01-04 Last Date:2014-01-02
+ASCA First Date:2010-01-04 Last Date:2013-01-02
+ASCMA First Date:2018-01-02 Last Date:2019-03-15
+ASEI First Date:2010-01-04 Last Date:2014-01-02
+ASFI First Date:2010-01-04 Last Date:2020-09-28
+ASF First Date:2010-01-04 Last Date:2011-03-08
+ASIA First Date:2010-01-04 Last Date:2014-01-02
+ASMIY First Date:2015-08-25 Last Date:2016-02-19
+ASMI First Date:2010-01-04 Last Date:2014-01-02
+ASNA First Date:2011-01-03 Last Date:2020-08-03
+ASPL First Date:2021-06-11 Last Date:2021-07-13
+ASPX First Date:2015-03-05 Last Date:2015-05-27
+ASTC First Date:2018-01-02 Last Date:2018-02-16
+ASTID First Date:2016-06-02 Last Date:2016-06-10
+ASTM First Date:2010-11-19 Last Date:2013-01-02
+ASTX First Date:2011-09-12 Last Date:2013-01-02
+AST First Date:2018-01-02 Last Date:2019-03-07
+ATAC First Date:2010-01-04 Last Date:2021-05-19
+ATAX First Date:2012-08-23 Last Date:2022-12-05
+ATCO First Date:2020-08-05 Last Date:2023-03-28
+ATCX First Date:2021-08-10 Last Date:2023-04-19
+ATC First Date:2022-03-16 Last Date:2022-08-16
+ATHL First Date:2013-08-15 Last Date:2014-01-02
+ATHN First Date:2010-01-04 Last Date:2021-12-31
+ATHR First Date:2010-01-04 Last Date:2011-05-24
+ATH First Date:2018-01-02 Last Date:2021-12-31
+ATK First Date:2010-01-04 Last Date:2014-01-02
+ATLS First Date:2010-01-04 Last Date:2014-01-02
+ATMI First Date:2010-01-04 Last Date:2014-01-02
+ATML First Date:2010-01-04 Last Date:2014-01-02
+ATMR First Date:2021-09-15 Last Date:2021-12-27
+ATNX First Date:2018-01-02 Last Date:2023-05-24
+ATPAQ First Date:2012-08-29 Last Date:2013-01-02
+ATPG First Date:2010-01-04 Last Date:2012-08-28
+ATRS First Date:2012-06-15 Last Date:2022-05-23
+ATSI First Date:2010-01-04 Last Date:2010-08-12
+ATTU First Date:2018-01-02 Last Date:2019-05-03
+ATU First Date:2010-01-04 Last Date:2019-10-04
+ATV First Date:2010-01-04 Last Date:2012-09-25
+ATW First Date:2010-01-04 Last Date:2014-01-02
+ATX First Date:2014-01-10 Last Date:2014-01-31
+ATY First Date:2021-09-15 Last Date:2023-04-17
+AT First Date:2010-10-28 Last Date:2021-05-14
+AUD First Date:2021-05-05 Last Date:2023-05-17
+AUM First Date:2010-01-04 Last Date:2014-01-02
+AUO First Date:2010-01-04 Last Date:2019-09-30
+AUQ First Date:2011-06-14 Last Date:2014-01-02
+AUS First Date:2021-11-17 Last Date:2022-11-25
+AUTH First Date:2011-09-20 Last Date:2012-10-04
+AUTO First Date:2018-01-02 Last Date:2022-09-01
+AUXL First Date:2010-01-04 Last Date:2014-01-02
+AUX First Date:2010-01-04 Last Date:2014-01-02
+AUY First Date:2010-01-04 Last Date:2023-03-31
+AVAN First Date:2021-11-18 Last Date:2022-10-06
+AVCT First Date:2021-09-28 Last Date:2023-02-15
+AVEO First Date:2011-04-29 Last Date:2023-01-20
+AVGR First Date:2016-05-25 Last Date:2017-10-20
+AVGTF First Date:2016-11-09 Last Date:2017-05-19
+AVG First Date:2012-06-29 Last Date:2014-01-02
+AVHI First Date:2012-02-16 Last Date:2018-10-11
+AVH First Date:2018-01-02 Last Date:2020-05-08
+AVIV First Date:2013-04-04 Last Date:2014-01-02
+AVLNF First Date:2015-12-21 Last Date:2016-07-08
+AVLR First Date:2018-08-15 Last Date:2022-10-18
+AVL First Date:2011-01-05 Last Date:2014-01-02
+AVNR First Date:2010-05-05 Last Date:2014-01-02
+AVP First Date:2010-01-04 Last Date:2020-01-03
+AVSPY First Date:2011-04-18 Last Date:2013-01-02
+AVTX First Date:2021-09-14 Last Date:2023-06-16
+AVXS First Date:2018-01-02 Last Date:2018-05-30
+AVX First Date:2010-08-06 Last Date:2020-03-27
+AVYA First Date:2018-03-08 Last Date:2023-02-16
+AWCMY First Date:2014-02-28 Last Date:2014-07-18
+AWC First Date:2010-02-11 Last Date:2014-01-02
+AWYX First Date:2021-09-16 Last Date:2023-04-14
+AXAHY First Date:2010-03-26 Last Date:2010-09-17
+AXAS First Date:2010-01-04 Last Date:2022-02-18
+AXA First Date:2010-01-04 Last Date:2010-03-25
+AXE First Date:2010-01-04 Last Date:2020-06-19
+AXGT First Date:2019-04-04 Last Date:2020-11-12
+AXLL First Date:2013-01-29 Last Date:2014-01-02
+AXU First Date:2010-10-28 Last Date:2022-09-09
+AYA First Date:2015-10-29 Last Date:2017-07-31
+AYE First Date:2010-01-04 Last Date:2011-02-25
+AYR First Date:2010-01-04 Last Date:2020-03-27
+AYTU First Date:2021-04-09 Last Date:2023-06-16
+AZC First Date:2010-01-04 Last Date:2014-01-02
+AZK First Date:2010-01-04 Last Date:2013-01-02
+AZQ First Date:2017-10-10 Last Date:2017-12-29
+AZUR First Date:2015-06-25 Last Date:2016-09-16
+BAA First Date:2011-01-14 Last Date:2014-01-02
+BABY First Date:2010-01-04 Last Date:2019-07-25
+BAGL First Date:2013-10-18 Last Date:2014-01-02
+BAK First Date:2010-01-04 Last Date:2019-11-15
+BALB First Date:2018-02-09 Last Date:2018-11-15
+BAL First Date:2010-11-22 Last Date:2023-06-09
+BAMM First Date:2010-01-04 Last Date:2012-10-19
+BAMR First Date:2022-04-12 Last Date:2022-12-14
+BANRD First Date:2011-06-02 Last Date:2011-06-28
+BARE First Date:2010-01-04 Last Date:2010-03-11
+BASWW First Date:2017-04-06 Last Date:2017-07-19
+BAS First Date:2010-01-04 Last Date:2019-12-02
+BATS First Date:2016-04-25 Last Date:2017-03-02
+BAXSQ First Date:2014-11-25 Last Date:2015-05-07
+BAXS First Date:2013-06-03 Last Date:2014-01-02
+BBBB First Date:2010-01-04 Last Date:2011-10-04
+BBBY First Date:2010-01-04 Last Date:2023-05-03
+BBCN First Date:2011-12-01 Last Date:2014-01-02
+BBEPQ First Date:2016-05-26 Last Date:2016-12-16
+BBEP First Date:2010-01-04 Last Date:2014-01-02
+BBG First Date:2010-01-04 Last Date:2018-03-28
+BBHYL First Date:2012-01-19 Last Date:2012-06-15
+BBI First Date:2010-01-04 Last Date:2010-07-06
+BBL First Date:2010-01-04 Last Date:2022-01-28
+BBND First Date:2010-01-04 Last Date:2011-11-21
+BBOX First Date:2010-01-04 Last Date:2019-01-04
+BBRG First Date:2011-04-07 Last Date:2018-06-13
+BBRY First Date:2013-02-04 Last Date:2014-01-02
+BBT First Date:2010-01-04 Last Date:2019-12-06
+BBX First Date:2010-01-04 Last Date:2014-01-02
+BCEI First Date:2012-01-10 Last Date:2021-11-01
+BCM First Date:2021-06-22 Last Date:2023-06-09
+BCOR First Date:2012-06-07 Last Date:2023-01-26
+BCR First Date:2010-01-04 Last Date:2014-01-02
+BCSI First Date:2010-01-04 Last Date:2012-02-15
+BDAT First Date:2015-07-31 Last Date:2016-03-04
+BDBD First Date:2013-01-03 Last Date:2014-01-02
+BDCV First Date:2014-07-02 Last Date:2015-12-11
+BDE First Date:2012-04-17 Last Date:2014-01-02
+BDGE First Date:2018-01-02 Last Date:2021-01-29
+BDH First Date:2010-01-04 Last Date:2010-01-15
+BDK First Date:2010-01-04 Last Date:2010-03-12
+BDSI First Date:2010-01-04 Last Date:2022-03-22
+BEAT First Date:2010-01-04 Last Date:2021-02-08
+BEAV First Date:2010-01-04 Last Date:2014-01-02
+BEBE First Date:2010-01-04 Last Date:2014-01-02
+BEC First Date:2010-01-04 Last Date:2011-06-29
+BEE First Date:2010-03-26 Last Date:2014-01-02
+BELM First Date:2010-04-06 Last Date:2010-07-06
+BEL First Date:2018-01-02 Last Date:2019-04-16
+BENE First Date:2021-11-15 Last Date:2022-10-31
+BETR First Date:2018-01-02 Last Date:2018-02-28
+BEXP First Date:2010-01-04 Last Date:2011-12-08
+BEZ First Date:2010-01-04 Last Date:2011-01-27
+BFR First Date:2018-01-02 Last Date:2019-06-14
+BFT First Date:2021-03-05 Last Date:2021-03-30
+BFYT First Date:2018-12-24 Last Date:2020-08-20
+BGCP First Date:2010-01-04 Last Date:2023-07-03
+BGG First Date:2010-01-04 Last Date:2020-07-17
+BGPIQ First Date:2011-02-17 Last Date:2011-07-15
+BGP First Date:2010-01-04 Last Date:2011-02-15
+BGU First Date:2010-01-04 Last Date:2012-06-28
+BGZ First Date:2010-01-04 Last Date:2012-06-28
+BHBK First Date:2018-01-02 Last Date:2019-03-29
+BHGE First Date:2018-01-02 Last Date:2019-10-18
+BHI First Date:2010-01-04 Last Date:2014-01-02
+BHS First Date:2010-01-04 Last Date:2011-03-31
+BIDZ First Date:2010-01-04 Last Date:2012-11-23
+BID First Date:2010-01-04 Last Date:2019-10-02
+BIK First Date:2010-01-04 Last Date:2010-02-19
+BIND First Date:2015-01-20 Last Date:2016-08-01
+BIN First Date:2010-03-26 Last Date:2014-01-02
+BIOA First Date:2018-01-02 Last Date:2018-05-07
+BIOD First Date:2010-04-13 Last Date:2014-01-02
+BIOL First Date:2012-05-29 Last Date:2014-01-02
+BIOS First Date:2010-01-04 Last Date:2020-01-31
+BIRT First Date:2011-02-08 Last Date:2014-01-02
+BITA First Date:2010-12-02 Last Date:2020-11-04
+BITE First Date:2015-12-15 Last Date:2017-01-19
+BIVV First Date:2018-01-02 Last Date:2018-03-28
+BJE First Date:2010-01-04 Last Date:2012-11-30
+BJGP First Date:2010-09-24 Last Date:2011-02-24
+BJO First Date:2018-02-09 Last Date:2018-11-15
+BJS First Date:2010-01-04 Last Date:2010-04-28
+BKC First Date:2010-01-04 Last Date:2010-10-19
+BKEP First Date:2018-01-02 Last Date:2022-08-18
+BKFS First Date:2015-06-11 Last Date:2017-10-10
+BKMU First Date:2011-08-30 Last Date:2018-02-12
+BKS First Date:2010-01-04 Last Date:2019-08-06
+BKUNQ First Date:2010-01-15 Last Date:2010-01-15
+BKW First Date:2012-06-28 Last Date:2014-01-02
+BLCM First Date:2018-01-02 Last Date:2020-07-17
+BLC First Date:2010-01-04 Last Date:2013-01-02
+BLI First Date:2020-09-30 Last Date:2023-03-22
+BLL First Date:2010-01-04 Last Date:2022-05-09
+BLOKA First Date:2010-07-07 Last Date:2010-09-17
+BLOX First Date:2012-05-08 Last Date:2014-01-02
+BLQ First Date:2017-10-10 Last Date:2017-12-29
+BLTI First Date:2011-03-09 Last Date:2012-05-25
+BLTS First Date:2022-02-02 Last Date:2022-12-13
+BLT First Date:2010-01-04 Last Date:2014-01-02
+BLUD First Date:2010-01-04 Last Date:2011-08-18
+BLU First Date:2021-04-09 Last Date:2023-06-29
+BMCH First Date:2018-01-02 Last Date:2020-12-31
+BMC First Date:2010-01-04 Last Date:2013-01-02
+BMHM First Date:2016-01-25 Last Date:2016-01-26
+BMR First Date:2010-01-04 Last Date:2014-01-02
+BMS First Date:2010-01-04 Last Date:2019-06-10
+BMTC First Date:2018-01-02 Last Date:2021-12-31
+BMTI First Date:2010-01-04 Last Date:2013-01-02
+BNCL First Date:2012-10-17 Last Date:2019-02-28
+BNCN First Date:2014-07-30 Last Date:2017-06-26
+BNFT First Date:2018-01-02 Last Date:2023-01-24
+BNI First Date:2010-01-04 Last Date:2010-02-12
+BNNY First Date:2012-08-07 Last Date:2014-01-02
+BNZZW First Date:2017-05-18 Last Date:2017-07-12
+BNZ First Date:2010-01-04 Last Date:2011-09-16
+BOBE First Date:2010-01-04 Last Date:2014-01-02
+BOCH First Date:2018-01-02 Last Date:2021-09-30
+BOFI First Date:2018-01-02 Last Date:2018-09-28
+BOJA First Date:2018-01-02 Last Date:2019-01-25
+BOLD First Date:2018-01-02 Last Date:2020-01-14
+BOLT First Date:2012-09-11 Last Date:2014-01-02
+BONA First Date:2011-01-05 Last Date:2014-01-02
+BONT First Date:2010-01-04 Last Date:2018-02-05
+BOQ First Date:2018-01-02 Last Date:2018-03-28
+BORN First Date:2011-03-24 Last Date:2019-02-15
+BOTA First Date:2012-11-12 Last Date:2014-01-02
+BOWX First Date:2021-04-13 Last Date:2021-10-21
+BOXD First Date:2022-02-02 Last Date:2023-04-04
+BPAX First Date:2010-01-04 Last Date:2013-01-02
+BPFH First Date:2010-01-04 Last Date:2021-06-30
+BPHX First Date:2010-01-04 Last Date:2011-02-18
+BPI First Date:2010-01-04 Last Date:2019-04-12
+BPL First Date:2010-01-04 Last Date:2019-10-31
+BPMP First Date:2018-08-15 Last Date:2022-04-04
+BPO First Date:2010-01-04 Last Date:2014-01-02
+BPR First Date:2018-11-28 Last Date:2020-02-28
+BPSG First Date:2010-01-04 Last Date:2010-05-27
+BPX First Date:2010-01-04 Last Date:2014-01-02
+BPYU First Date:2020-04-29 Last Date:2021-07-26
+BPY First Date:2018-01-02 Last Date:2021-07-26
+BPZRQ First Date:2015-03-12 Last Date:2015-08-21
+BPZR First Date:2015-03-03 Last Date:2015-03-11
+BPZ First Date:2010-01-04 Last Date:2014-01-02
+BQI First Date:2010-01-04 Last Date:2011-06-17
+BQ First Date:2021-04-09 Last Date:2022-11-25
+BRB First Date:2010-01-21 Last Date:2014-01-02
+BRCD First Date:2010-01-04 Last Date:2014-01-02
+BRCM First Date:2010-01-04 Last Date:2014-01-02
+BRDR First Date:2014-11-06 Last Date:2015-07-01
+BREW First Date:2012-03-22 Last Date:2020-09-29
+BRE First Date:2010-01-04 Last Date:2014-01-02
+BRG First Date:2018-01-02 Last Date:2022-10-05
+BRKS First Date:2010-01-04 Last Date:2021-11-30
+BRKY First Date:2022-08-17 Last Date:2023-04-24
+BRLI First Date:2010-01-04 Last Date:2014-01-02
+BRMK First Date:2020-01-17 Last Date:2023-05-31
+BRNC First Date:2010-01-04 Last Date:2011-06-06
+BRPM First Date:2021-11-17 Last Date:2022-07-20
+BRSS First Date:2018-01-02 Last Date:2019-07-15
+BRS First Date:2010-01-04 Last Date:2019-05-10
+BRZS First Date:2014-06-11 Last Date:2014-11-03
+BSCL First Date:2021-04-16 Last Date:2021-12-15
+BSDM First Date:2010-01-04 Last Date:2014-01-02
+BSFT First Date:2011-03-11 Last Date:2018-02-22
+BSF First Date:2018-01-02 Last Date:2018-05-09
+BSMX First Date:2012-10-22 Last Date:2023-05-05
+BSN First Date:2021-09-15 Last Date:2021-12-16
+BSTI First Date:2018-01-02 Last Date:2019-02-15
+BTAQ First Date:2021-04-09 Last Date:2022-03-01
+BTCR First Date:2021-12-17 Last Date:2023-01-18
+BTH First Date:2010-01-15 Last Date:2014-01-02
+BTIM First Date:2010-04-13 Last Date:2010-11-01
+BTK First Date:2010-01-04 Last Date:2010-03-15
+BTNB First Date:2021-04-09 Last Date:2022-03-18
+BTN First Date:2011-08-25 Last Date:2022-12-27
+BTRS First Date:2021-07-15 Last Date:2022-12-16
+BTT First Date:2013-07-10 Last Date:2014-01-02
+BTUUQ First Date:2016-04-15 Last Date:2017-04-13
+BTX First Date:2010-11-02 Last Date:2022-10-17
+BUCY First Date:2010-01-04 Last Date:2011-07-08
+BUFF First Date:2018-01-02 Last Date:2018-05-15
+BVF First Date:2010-01-04 Last Date:2010-09-27
+BVX First Date:2018-01-02 Last Date:2018-12-31
+BWC First Date:2010-08-02 Last Date:2014-01-02
+BWINB First Date:2018-01-02 Last Date:2018-07-31
+BWLD First Date:2010-01-04 Last Date:2018-02-27
+BWP First Date:2010-01-04 Last Date:2018-07-27
+BWS First Date:2010-01-04 Last Date:2014-01-02
+BXE First Date:2018-01-02 Last Date:2019-02-11
+BXG First Date:2010-01-04 Last Date:2013-01-02
+BXLT First Date:2015-07-01 Last Date:2016-06-06
+BXRX First Date:2020-04-30 Last Date:2022-03-22
+BXS First Date:2010-01-04 Last Date:2021-10-29
+BYI First Date:2010-01-04 Last Date:2014-01-02
+BYT First Date:2010-01-04 Last Date:2011-03-18
+BZF First Date:2010-01-04 Last Date:2019-03-15
+BZJ First Date:2010-01-04 Last Date:2012-11-30
+CAA First Date:2018-01-02 Last Date:2018-02-21
+CAB First Date:2010-01-04 Last Date:2014-01-02
+CACB First Date:2014-10-08 Last Date:2017-06-08
+CACHQ First Date:2015-02-06 Last Date:2015-03-20
+CACH First Date:2010-01-04 Last Date:2014-01-02
+CACQ First Date:2013-12-05 Last Date:2014-01-02
+CADX First Date:2010-01-04 Last Date:2014-01-02
+CAEID First Date:2011-01-03 Last Date:2011-01-19
+CAEI First Date:2010-01-04 Last Date:2011-03-25
+CAFD First Date:2018-01-02 Last Date:2018-07-12
+CAGC First Date:2010-02-25 Last Date:2012-10-16
+CAI First Date:2018-01-02 Last Date:2021-11-22
+CAJ First Date:2010-01-04 Last Date:2023-03-06
+CAK First Date:2010-04-13 Last Date:2014-01-02
+CALA First Date:2018-01-02 Last Date:2022-11-25
+CALD First Date:2011-02-23 Last Date:2018-04-25
+CALL First Date:2010-09-03 Last Date:2018-11-27
+CALP First Date:2010-02-25 Last Date:2011-11-07
+CAM First Date:2010-01-04 Last Date:2014-01-02
+CANF First Date:2018-01-02 Last Date:2019-05-09
+CAPA First Date:2021-04-09 Last Date:2021-06-10
+CAPD First Date:2022-03-08 Last Date:2022-10-11
+CAPE First Date:2021-06-22 Last Date:2022-02-23
+CAP First Date:2011-05-06 Last Date:2014-01-02
+CARB First Date:2012-05-10 Last Date:2019-12-23
+CASC First Date:2012-07-30 Last Date:2018-03-28
+CASL First Date:2016-12-08 Last Date:2017-05-19
+CAST First Date:2010-04-22 Last Date:2012-08-17
+CAS First Date:2010-01-04 Last Date:2014-01-02
+CATB First Date:2019-11-29 Last Date:2021-09-15
+CATM First Date:2010-04-29 Last Date:2021-06-18
+CATS First Date:2019-07-26 Last Date:2020-07-06
+CAVM First Date:2010-01-04 Last Date:2018-07-17
+CA First Date:2010-01-04 Last Date:2018-11-15
+CBAK First Date:2010-01-04 Last Date:2014-01-02
+CBB First Date:2010-01-04 Last Date:2021-09-03
+CBCGQ First Date:2010-01-04 Last Date:2010-03-19
+CBEH First Date:2010-05-07 Last Date:2011-11-18
+CBEY First Date:2010-01-04 Last Date:2014-01-02
+CBE First Date:2010-01-04 Last Date:2012-11-30
+CBF First Date:2013-05-07 Last Date:2014-01-02
+CBG First Date:2010-01-04 Last Date:2014-01-02
+CBI First Date:2010-01-04 Last Date:2018-05-21
+CBK First Date:2010-01-04 Last Date:2019-04-17
+CBLI First Date:2010-01-04 Last Date:2021-09-07
+CBLK First Date:2018-08-15 Last Date:2019-10-07
+CBMG First Date:2018-01-02 Last Date:2021-02-19
+CBM First Date:2011-12-05 Last Date:2019-12-03
+CBOU First Date:2011-03-16 Last Date:2013-01-02
+CBPO First Date:2018-01-02 Last Date:2021-04-20
+CBPX First Date:2018-01-02 Last Date:2020-01-31
+CBRX First Date:2011-03-08 Last Date:2014-01-02
+CBR First Date:2010-01-04 Last Date:2014-01-02
+CBSO First Date:2014-04-10 Last Date:2014-11-19
+CBST First Date:2010-01-04 Last Date:2014-01-02
+CBS First Date:2010-01-04 Last Date:2019-12-06
+CBY First Date:2010-01-04 Last Date:2010-03-05
+CCAC First Date:2021-02-17 Last Date:2022-02-09
+CCC First Date:2010-01-04 Last Date:2021-01-29
+CCE First Date:2010-01-04 Last Date:2018-11-06
+CCGM First Date:2011-03-28 Last Date:2011-08-19
+CCG First Date:2010-11-11 Last Date:2014-01-02
+CCH First Date:2020-08-06 Last Date:2020-08-28
+CCIH First Date:2018-01-02 Last Date:2019-05-16
+CCIV First Date:2021-02-04 Last Date:2021-07-23
+CCIX First Date:2011-06-16 Last Date:2014-01-02
+CCME First Date:2010-04-29 Last Date:2012-08-28
+CCMP First Date:2010-01-04 Last Date:2022-07-05
+CCM First Date:2010-01-04 Last Date:2018-02-16
+CCP First Date:2015-08-20 Last Date:2017-08-25
+CCRT First Date:2010-01-04 Last Date:2012-11-30
+CCTYQ First Date:2010-01-15 Last Date:2010-01-15
+CCT First Date:2018-03-08 Last Date:2018-12-19
+CCUR First Date:2018-01-02 Last Date:2018-08-17
+CCXI First Date:2018-01-02 Last Date:2022-10-19
+CCXX First Date:2020-08-06 Last Date:2020-10-08
+CCX First Date:2011-11-14 Last Date:2021-06-11
+CDAK First Date:2021-09-15 Last Date:2023-04-04
+CDCAQ First Date:2011-10-28 Last Date:2012-02-17
+CDD First Date:2010-01-04 Last Date:2014-01-02
+CDEV First Date:2018-01-02 Last Date:2022-09-01
+CDII First Date:2010-01-04 Last Date:2011-05-20
+CDI First Date:2010-01-04 Last Date:2014-01-02
+CDK First Date:2018-01-02 Last Date:2022-07-05
+CDR First Date:2010-01-04 Last Date:2022-08-23
+CDSCY First Date:2010-03-08 Last Date:2010-08-20
+CDVIQ First Date:2015-03-05 Last Date:2015-03-20
+CDVI First Date:2014-10-31 Last Date:2015-03-04
+CEB First Date:2012-08-13 Last Date:2014-01-02
+CECE First Date:2012-09-11 Last Date:2022-11-07
+CEC First Date:2010-01-04 Last Date:2014-01-02
+CEDCQ First Date:2013-04-12 Last Date:2013-06-05
+CEDC First Date:2010-01-04 Last Date:2013-01-02
+CELG First Date:2010-01-04 Last Date:2019-11-20
+CEL First Date:2010-01-04 Last Date:2021-02-09
+CEMI First Date:2019-11-29 Last Date:2023-04-28
+CEMP First Date:2014-02-19 Last Date:2017-11-03
+CEO First Date:2010-01-04 Last Date:2021-03-04
+CEPH First Date:2010-01-04 Last Date:2011-10-13
+CEP First Date:2010-01-04 Last Date:2012-11-16
+CERC First Date:2018-08-15 Last Date:2021-09-01
+CERN First Date:2010-01-04 Last Date:2022-06-07
+CERP First Date:2010-06-22 Last Date:2013-06-19
+CERU First Date:2015-11-25 Last Date:2017-07-19
+CETC First Date:2015-07-28 Last Date:2017-05-19
+CETV First Date:2010-01-04 Last Date:2020-10-12
+CEU First Date:2010-03-04 Last Date:2011-09-26
+CFAC First Date:2021-03-08 Last Date:2021-08-24
+CFFND First Date:2011-01-03 Last Date:2011-01-20
+CFII First Date:2020-12-24 Last Date:2021-03-08
+CFI First Date:2013-02-11 Last Date:2014-01-02
+CFL First Date:2010-01-04 Last Date:2010-05-13
+CFMS First Date:2018-01-02 Last Date:2018-06-15
+CFNL First Date:2011-10-12 Last Date:2014-01-02
+CFN First Date:2010-01-04 Last Date:2014-01-02
+CFRX First Date:2020-08-06 Last Date:2023-06-16
+CFSG First Date:2010-01-04 Last Date:2011-11-04
+CFT First Date:2013-11-13 Last Date:2014-01-02
+CFVI First Date:2021-12-16 Last Date:2022-09-16
+CFX First Date:2010-01-04 Last Date:2022-04-05
+CGG First Date:2013-02-01 Last Date:2014-01-02
+CGIX First Date:2018-01-02 Last Date:2020-05-15
+CGI First Date:2010-01-04 Last Date:2018-04-03
+CGRO First Date:2021-02-04 Last Date:2021-04-05
+CGV First Date:2010-01-04 Last Date:2013-01-02
+CGX First Date:2010-01-04 Last Date:2014-01-02
+CHADQ First Date:2015-07-21 Last Date:2015-07-21
+CHAD First Date:2018-01-02 Last Date:2023-02-21
+CHAP First Date:2019-07-26 Last Date:2020-08-14
+CHA First Date:2010-01-04 Last Date:2011-05-20
+CHBT First Date:2010-01-04 Last Date:2012-12-21
+CHDX First Date:2012-07-30 Last Date:2014-01-02
+CHFC First Date:2010-01-04 Last Date:2019-07-31
+CHFN First Date:2018-01-02 Last Date:2018-09-18
+CHFS First Date:2017-05-24 Last Date:2017-06-16
+CHGS First Date:2011-01-07 Last Date:2014-01-02
+CHIB First Date:2010-01-04 Last Date:2010-02-02
+CHINA First Date:2010-01-04 Last Date:2011-10-04
+CHIND First Date:2010-08-30 Last Date:2010-09-20
+CHKE First Date:2018-01-02 Last Date:2019-06-26
+CHKM First Date:2010-08-10 Last Date:2012-07-23
+CHKR First Date:2011-11-30 Last Date:2020-07-15
+CHLN First Date:2010-01-04 Last Date:2014-01-02
+CHL First Date:2010-01-04 Last Date:2021-01-08
+CHMA First Date:2019-09-25 Last Date:2021-08-05
+CHMT First Date:2010-12-06 Last Date:2014-01-02
+CHNG First Date:2010-01-04 Last Date:2022-09-30
+CHOP First Date:2010-02-05 Last Date:2014-01-02
+CHRA First Date:2021-06-11 Last Date:2023-04-03
+CHSI First Date:2010-01-04 Last Date:2012-07-02
+CHSP First Date:2011-09-02 Last Date:2019-09-17
+CHTP First Date:2010-01-04 Last Date:2014-01-02
+CHTT First Date:2010-01-04 Last Date:2010-03-10
+CHUBK First Date:2018-01-02 Last Date:2018-06-08
+CHUX First Date:2010-01-04 Last Date:2012-05-09
+CHU First Date:2010-01-04 Last Date:2021-01-08
+CHXN First Date:2010-01-04 Last Date:2010-02-17
+CIEIQ First Date:2017-12-15 Last Date:2017-12-29
+CIEI First Date:2017-12-14 Last Date:2017-12-14
+CIE First Date:2010-01-07 Last Date:2014-01-02
+CIGX First Date:2010-01-04 Last Date:2012-08-06
+CIIC First Date:2020-12-15 Last Date:2021-03-24
+CIMT First Date:2013-09-11 Last Date:2014-01-02
+CINC First Date:2022-08-19 Last Date:2023-02-24
+CISG First Date:2010-01-04 Last Date:2014-01-02
+CISN First Date:2018-08-15 Last Date:2020-01-30
+CIS First Date:2011-01-03 Last Date:2014-01-02
+CIT First Date:2010-01-04 Last Date:2022-01-03
+CIU First Date:2012-08-17 Last Date:2018-07-31
+CIXX First Date:2021-05-05 Last Date:2023-02-17
+CJESQ First Date:2016-07-21 Last Date:2016-12-05
+CJES First Date:2011-08-12 Last Date:2014-01-02
+CJ First Date:2018-01-02 Last Date:2019-10-30
+CKEC First Date:2010-10-14 Last Date:2014-01-02
+CKH First Date:2010-01-04 Last Date:2021-04-16
+CKP First Date:2010-01-04 Last Date:2014-01-02
+CKR First Date:2010-01-04 Last Date:2010-07-12
+CKSW First Date:2010-01-04 Last Date:2014-01-02
+CKXE First Date:2011-04-14 Last Date:2011-06-21
+CLA First Date:2021-02-04 Last Date:2021-03-11
+CLBS First Date:2015-06-08 Last Date:2022-09-15
+CLCD First Date:2016-10-06 Last Date:2017-03-22
+CLCT First Date:2018-01-02 Last Date:2021-02-05
+CLC First Date:2010-01-04 Last Date:2014-01-02
+CLDA First Date:2010-01-04 Last Date:2011-04-13
+CLDN First Date:2015-01-29 Last Date:2016-03-22
+CLDR First Date:2018-01-02 Last Date:2021-10-07
+CLDS First Date:2021-09-21 Last Date:2022-09-23
+CLD First Date:2010-02-11 Last Date:2019-03-25
+CLFC First Date:2011-09-14 Last Date:2011-11-30
+CLGX First Date:2010-06-03 Last Date:2021-06-03
+CLII First Date:2021-04-09 Last Date:2021-07-01
+CLI First Date:2010-01-04 Last Date:2021-12-09
+CLMS First Date:2010-01-04 Last Date:2014-01-02
+CLNC First Date:2021-02-04 Last Date:2021-06-24
+CLNS First Date:2018-01-02 Last Date:2018-06-22
+CLNY First Date:2010-01-04 Last Date:2021-06-21
+CLP First Date:2010-01-04 Last Date:2013-01-02
+CLRT First Date:2010-08-20 Last Date:2010-12-21
+CLR First Date:2010-01-04 Last Date:2022-11-22
+CLSN First Date:2010-01-04 Last Date:2022-09-16
+CLUB First Date:2012-05-01 Last Date:2020-09-24
+CLVS First Date:2018-01-02 Last Date:2023-01-24
+CLWR First Date:2010-01-04 Last Date:2013-01-02
+CLXT First Date:2021-07-15 Last Date:2023-05-31
+CLY First Date:2018-01-02 Last Date:2018-07-31
+CMCSK First Date:2010-01-04 Last Date:2014-01-02
+CMD First Date:2018-01-02 Last Date:2021-06-01
+CMEDQ First Date:2012-08-31 Last Date:2012-09-21
+CMEDY First Date:2012-02-28 Last Date:2012-08-30
+CMED First Date:2010-01-04 Last Date:2012-02-06
+CMFN First Date:2018-01-02 Last Date:2019-08-30
+CMFO First Date:2010-10-07 Last Date:2012-11-09
+CMGE First Date:2015-01-29 Last Date:2015-08-28
+CMLF First Date:2021-04-09 Last Date:2021-07-22
+CMLP First Date:2012-02-01 Last Date:2014-01-02
+CMLSQ First Date:2017-12-01 Last Date:2017-12-29
+CMLT First Date:2021-09-15 Last Date:2021-12-20
+CML First Date:2010-01-04 Last Date:2011-02-22
+CMN First Date:2010-01-04 Last Date:2014-01-02
+CMO First Date:2010-01-04 Last Date:2021-10-18
+CMRG First Date:2011-08-11 Last Date:2012-12-04
+CMVT First Date:2011-10-03 Last Date:2013-01-02
+CNAT First Date:2018-01-02 Last Date:2020-05-26
+CNCE First Date:2018-01-02 Last Date:2023-03-06
+CNDA First Date:2011-05-10 Last Date:2013-01-02
+CNDO First Date:2012-08-06 Last Date:2014-01-02
+CND First Date:2021-11-15 Last Date:2022-12-12
+CNEP First Date:2012-06-22 Last Date:2012-09-21
+CNH First Date:2010-01-04 Last Date:2013-01-02
+CNIT First Date:2010-08-26 Last Date:2018-06-01
+CNL First Date:2010-01-04 Last Date:2014-01-02
+CNNX First Date:2018-01-02 Last Date:2018-01-03
+CNQR First Date:2010-01-04 Last Date:2014-01-02
+CNRG First Date:2021-07-16 Last Date:2023-06-16
+CNR First Date:2019-07-25 Last Date:2022-07-22
+CNSI First Date:2012-12-27 Last Date:2014-01-02
+CNST First Date:2019-11-29 Last Date:2021-07-14
+CNTF First Date:2010-01-04 Last Date:2012-02-17
+CNU First Date:2010-02-05 Last Date:2011-10-04
+CNVR First Date:2014-02-05 Last Date:2014-12-09
+CNVY First Date:2022-08-19 Last Date:2022-10-06
+CNV First Date:2014-12-10 Last Date:2017-04-21
+CNW First Date:2010-01-04 Last Date:2014-01-02
+CNXM First Date:2018-01-04 Last Date:2020-09-25
+COBZ First Date:2011-10-12 Last Date:2018-10-09
+COB First Date:2015-11-25 Last Date:2016-11-03
+CODE First Date:2011-02-11 Last Date:2014-01-02
+COGO First Date:2010-01-04 Last Date:2013-01-02
+COG First Date:2010-01-04 Last Date:2021-10-01
+COH First Date:2010-01-04 Last Date:2014-01-02
+COLE First Date:2013-07-12 Last Date:2014-01-02
+COL First Date:2010-01-04 Last Date:2018-11-30
+COMV First Date:2010-01-04 Last Date:2012-05-15
+CONE First Date:2018-01-02 Last Date:2022-03-24
+COOL First Date:2011-04-07 Last Date:2018-09-12
+COQ First Date:2017-10-10 Last Date:2017-12-29
+CORE First Date:2012-09-11 Last Date:2021-09-01
+CORI First Date:2018-08-15 Last Date:2018-11-30
+CORS First Date:2010-01-04 Last Date:2010-02-19
+CORV First Date:2018-01-22 Last Date:2020-05-26
+CORZ First Date:2022-02-02 Last Date:2023-01-31
+COR First Date:2011-07-18 Last Date:2021-12-27
+COTV First Date:2018-01-02 Last Date:2018-09-06
+COT First Date:2010-01-04 Last Date:2020-07-15
+COUP First Date:2018-01-02 Last Date:2023-02-28
+COVS First Date:2014-12-17 Last Date:2015-04-17
+COV First Date:2010-01-04 Last Date:2014-01-02
+COWB First Date:2018-03-07 Last Date:2018-11-15
+COWN First Date:2011-04-14 Last Date:2023-03-01
+COWTF First Date:2018-09-14 Last Date:2018-09-21
+COW First Date:2010-06-01 Last Date:2023-06-09
+CO First Date:2018-01-02 Last Date:2022-09-22
+CPBY First Date:2010-01-04 Last Date:2010-08-25
+CPGX First Date:2015-07-02 Last Date:2016-07-13
+CPHD First Date:2010-01-04 Last Date:2014-01-02
+CPKI First Date:2010-01-04 Last Date:2011-07-07
+CPLA First Date:2010-01-04 Last Date:2018-08-09
+CPLG First Date:2018-08-15 Last Date:2022-03-02
+CPL First Date:2010-07-13 Last Date:2020-01-28
+CPNO First Date:2010-01-04 Last Date:2013-01-02
+CPN First Date:2010-01-04 Last Date:2018-03-20
+CPO First Date:2010-01-04 Last Date:2012-06-01
+CPPL First Date:2015-02-17 Last Date:2017-03-01
+CPSL First Date:2010-01-04 Last Date:2012-08-27
+CPST First Date:2021-01-06 Last Date:2021-04-21
+CPTA First Date:2018-01-02 Last Date:2021-02-19
+CPTS First Date:2010-01-04 Last Date:2013-01-02
+CPWM First Date:2010-01-04 Last Date:2012-06-29
+CPWR First Date:2010-01-04 Last Date:2014-01-02
+CPXX First Date:2016-03-23 Last Date:2016-07-27
+CPX First Date:2010-01-04 Last Date:2012-02-07
+CQB First Date:2010-01-04 Last Date:2014-01-02
+CQH First Date:2018-01-02 Last Date:2018-09-28
+CRAY First Date:2010-01-04 Last Date:2019-09-24
+CRA First Date:2010-01-04 Last Date:2011-05-17
+CRBC First Date:2010-01-04 Last Date:2013-01-02
+CRBQ First Date:2010-01-04 Last Date:2013-01-02
+CRCM First Date:2018-01-02 Last Date:2020-02-10
+CRDC First Date:2011-02-08 Last Date:2014-01-02
+CRDN First Date:2010-01-04 Last Date:2012-11-28
+CRED First Date:2018-01-02 Last Date:2018-07-31
+CREE First Date:2010-01-04 Last Date:2021-10-08
+CREG First Date:2010-04-29 Last Date:2014-01-02
+CRHC First Date:2021-06-11 Last Date:2022-11-09
+CRIC First Date:2010-01-04 Last Date:2012-04-20
+CRME First Date:2010-01-04 Last Date:2018-05-16
+CRN First Date:2010-01-04 Last Date:2010-08-12
+CROC First Date:2018-01-02 Last Date:2022-05-02
+CROP First Date:2011-04-07 Last Date:2020-08-05
+CRRC First Date:2012-07-30 Last Date:2014-01-02
+CRRRF First Date:2010-06-23 Last Date:2010-08-04
+CRR First Date:2010-01-04 Last Date:2019-12-20
+CRSA First Date:2021-02-17 Last Date:2021-06-21
+CRTD First Date:2021-08-10 Last Date:2022-09-09
+CRTX First Date:2011-08-18 Last Date:2022-08-01
+CRUD First Date:2011-03-03 Last Date:2012-03-16
+CRU First Date:2010-03-25 Last Date:2022-12-01
+CRWN First Date:2015-11-25 Last Date:2016-05-20
+CRXLY First Date:2011-03-28 Last Date:2011-08-19
+CRXL First Date:2010-01-04 Last Date:2011-03-25
+CRYP First Date:2010-01-04 Last Date:2023-06-26
+CRYXF First Date:2011-06-07 Last Date:2011-12-16
+CRY First Date:2010-01-04 Last Date:2022-01-21
+CRZO First Date:2010-01-04 Last Date:2019-12-20
+CSAL First Date:2015-04-27 Last Date:2017-02-24
+CSAN First Date:2021-04-09 Last Date:2021-08-20
+CSA First Date:2010-01-04 Last Date:2012-04-02
+CSBK First Date:2018-01-02 Last Date:2018-04-16
+CSCD First Date:2015-11-25 Last Date:2016-07-05
+CSC First Date:2010-01-04 Last Date:2014-01-02
+CSE First Date:2010-01-04 Last Date:2014-01-02
+CSFL First Date:2012-10-17 Last Date:2020-06-05
+CSG First Date:2013-07-10 Last Date:2014-01-02
+CSHZ First Date:2013-05-29 Last Date:2013-12-20
+CSH First Date:2010-01-04 Last Date:2023-03-27
+CSII First Date:2011-08-01 Last Date:2023-04-28
+CSJ First Date:2010-03-29 Last Date:2018-07-31
+CSKI First Date:2010-01-04 Last Date:2012-08-17
+CSLT First Date:2018-01-02 Last Date:2022-02-16
+CSOD First Date:2011-12-16 Last Date:2021-10-14
+CSPR First Date:2020-08-06 Last Date:2022-01-24
+CSRA First Date:2018-01-02 Last Date:2018-04-13
+CSRE First Date:2013-08-08 Last Date:2014-01-02
+CST First Date:2013-05-02 Last Date:2014-01-02
+CSUND First Date:2011-12-23 Last Date:2012-01-19
+CSUNY First Date:2016-03-15 Last Date:2016-08-19
+CSUN First Date:2010-01-04 Last Date:2014-01-02
+CSU First Date:2011-03-24 Last Date:2021-05-21
+CS First Date:2010-01-04 Last Date:2023-06-12
+CTB First Date:2010-01-04 Last Date:2021-06-04
+CTCM First Date:2010-01-04 Last Date:2014-01-02
+CTCT First Date:2010-01-04 Last Date:2014-01-02
+CTDC First Date:2010-01-04 Last Date:2010-11-16
+CTEL First Date:2010-05-07 Last Date:2013-01-02
+CTESY First Date:2011-10-20 Last Date:2012-02-17
+CTE First Date:2010-11-17 Last Date:2011-08-16
+CTFO First Date:2010-05-07 Last Date:2012-10-31
+CTGX First Date:2012-07-30 Last Date:2013-01-02
+CTHR First Date:2013-08-22 Last Date:2014-01-02
+CTICD First Date:2011-05-17 Last Date:2011-06-13
+CTIC First Date:2010-01-04 Last Date:2023-06-26
+CTL First Date:2010-01-04 Last Date:2020-09-17
+CTRC First Date:2018-11-29 Last Date:2020-05-27
+CTRL First Date:2018-01-02 Last Date:2019-07-31
+CTRP First Date:2010-01-04 Last Date:2019-11-04
+CTRX First Date:2012-07-11 Last Date:2014-01-02
+CTST First Date:2019-04-10 Last Date:2020-03-30
+CTT First Date:2018-01-02 Last Date:2022-09-15
+CTV First Date:2010-01-04 Last Date:2011-01-13
+CTWS First Date:2018-01-02 Last Date:2019-10-04
+CTXS First Date:2010-01-04 Last Date:2022-09-29
+CT First Date:2011-05-05 Last Date:2013-01-02
+CUB First Date:2010-01-04 Last Date:2021-05-24
+CUDA First Date:2018-01-02 Last Date:2018-02-22
+CUI First Date:2012-03-23 Last Date:2020-05-08
+CUNB First Date:2015-11-30 Last Date:2017-09-29
+CUR First Date:2018-01-02 Last Date:2019-07-17
+CU First Date:2010-04-14 Last Date:2014-01-02
+CVA First Date:2010-01-04 Last Date:2021-11-29
+CVC First Date:2010-01-04 Last Date:2014-01-02
+CVD First Date:2010-01-04 Last Date:2014-01-02
+CVET First Date:2019-04-10 Last Date:2022-10-12
+CVG First Date:2010-01-04 Last Date:2018-10-16
+CVH First Date:2010-01-04 Last Date:2013-01-02
+CVIA First Date:2018-08-15 Last Date:2020-06-29
+CVLB First Date:2021-02-04 Last Date:2021-02-19
+CVO First Date:2010-01-04 Last Date:2014-01-02
+CVRR First Date:2018-01-02 Last Date:2019-02-01
+CVTI First Date:2018-01-02 Last Date:2020-07-02
+CVT First Date:2013-11-27 Last Date:2023-06-15
+CVVT First Date:2010-05-07 Last Date:2012-12-14
+CWTRQ First Date:2014-04-23 Last Date:2014-09-19
+CWTR First Date:2010-01-04 Last Date:2014-01-02
+CXDC First Date:2011-02-08 Last Date:2022-03-18
+CXG First Date:2010-01-04 Last Date:2010-05-28
+CXO First Date:2010-01-04 Last Date:2021-01-15
+CXPO First Date:2011-03-01 Last Date:2013-01-02
+CXP First Date:2018-01-02 Last Date:2021-12-07
+CXRX First Date:2018-01-02 Last Date:2018-06-07
+CXS First Date:2011-07-01 Last Date:2013-01-02
+CYBE First Date:2020-12-15 Last Date:2022-11-03
+CYBS First Date:2010-01-04 Last Date:2010-07-21
+CYBX First Date:2010-01-04 Last Date:2014-01-02
+CYC First Date:2010-01-04 Last Date:2014-01-02
+CYMI First Date:2010-01-04 Last Date:2013-01-02
+CYNA First Date:2016-07-13 Last Date:2016-11-09
+CYNI First Date:2014-01-21 Last Date:2015-08-04
+CYNO First Date:2010-01-04 Last Date:2014-01-02
+CYOU First Date:2010-01-04 Last Date:2020-04-17
+CYPB First Date:2010-01-04 Last Date:2011-01-13
+CYRN First Date:2015-05-21 Last Date:2019-10-22
+CYS First Date:2010-08-05 Last Date:2018-08-09
+CYTO First Date:2021-08-05 Last Date:2023-04-21
+CYTR First Date:2012-06-01 Last Date:2019-06-07
+CYTX First Date:2010-01-04 Last Date:2018-11-16
+CYT First Date:2010-01-04 Last Date:2014-01-02
+CY First Date:2010-01-04 Last Date:2020-04-15
+CZI First Date:2011-05-03 Last Date:2011-06-14
+CZM First Date:2011-05-03 Last Date:2011-06-14
+CZZ First Date:2010-01-04 Last Date:2021-03-05
+C First Date:2010-01-04 Last Date:2017-07-05
+DAI First Date:2010-01-04 Last Date:2010-06-04
+DALN First Date:2021-07-14 Last Date:2021-10-06
+DAM First Date:2022-06-10 Last Date:2023-04-28
+DANG First Date:2011-01-03 Last Date:2014-01-02
+DARA First Date:2014-03-13 Last Date:2015-12-15
+DARE First Date:2017-07-20 Last Date:2017-12-08
+DATA First Date:2018-01-02 Last Date:2019-07-31
+DATE First Date:2011-06-02 Last Date:2014-01-02
+DBD First Date:2010-01-04 Last Date:2023-05-31
+DBLE First Date:2011-03-09 Last Date:2014-01-02
+DBRN First Date:2010-01-04 Last Date:2010-11-22
+DBS First Date:2010-01-04 Last Date:2023-03-06
+DBTK First Date:2010-01-04 Last Date:2010-07-23
+DBV First Date:2010-01-04 Last Date:2023-03-06
+DCIX First Date:2011-07-01 Last Date:2014-01-02
+DCMYY First Date:2018-09-14 Last Date:2018-09-21
+DCM First Date:2010-01-04 Last Date:2018-04-23
+DCP First Date:2010-01-04 Last Date:2023-06-15
+DCRB First Date:2021-04-09 Last Date:2021-07-16
+DCRC First Date:2021-07-15 Last Date:2021-12-09
+DCT First Date:2010-03-22 Last Date:2023-03-30
+DDAIF First Date:2010-06-07 Last Date:2010-11-22
+DDC First Date:2013-03-27 Last Date:2014-01-02
+DDG First Date:2018-01-02 Last Date:2022-05-02
+DDIC First Date:2011-03-23 Last Date:2012-05-31
+DDMGQ First Date:2012-09-13 Last Date:2013-01-02
+DDMG First Date:2012-05-23 Last Date:2012-09-10
+DDR First Date:2010-01-04 Last Date:2018-10-11
+DDS First Date:2010-01-04 Last Date:2023-04-21
+DEAC First Date:2020-02-28 Last Date:2020-04-23
+DEER First Date:2010-04-29 Last Date:2013-02-15
+DEG First Date:2014-08-18 Last Date:2016-07-25
+DEH First Date:2021-07-15 Last Date:2021-09-24
+DEL First Date:2018-01-02 Last Date:2018-03-01
+DEPO First Date:2010-01-04 Last Date:2018-08-14
+DEP First Date:2010-01-04 Last Date:2011-09-07
+DERM First Date:2018-01-02 Last Date:2020-02-19
+DEST First Date:2011-05-03 Last Date:2019-04-18
+DEXO First Date:2011-03-24 Last Date:2013-01-02
+DFBG First Date:2018-08-15 Last Date:2018-11-01
+DFG First Date:2010-01-04 Last Date:2012-05-15
+DFNS First Date:2021-06-11 Last Date:2021-09-02
+DFRG First Date:2018-01-02 Last Date:2019-09-24
+DFT First Date:2010-01-04 Last Date:2014-01-02
+DFVL First Date:2021-06-22 Last Date:2021-06-29
+DFVS First Date:2021-06-22 Last Date:2021-06-29
+DFZ First Date:2013-08-22 Last Date:2014-01-02
+DF First Date:2010-01-04 Last Date:2019-11-11
+DGIT First Date:2010-01-04 Last Date:2014-01-02
+DGI First Date:2010-01-04 Last Date:2014-01-02
+DGL First Date:2010-01-04 Last Date:2023-03-06
+DGNR First Date:2021-04-09 Last Date:2021-07-30
+DGNS First Date:2021-04-09 Last Date:2021-12-08
+DGWIY First Date:2012-01-30 Last Date:2012-10-11
+DGW First Date:2010-05-06 Last Date:2011-05-24
+DHOXQ First Date:2014-05-05 Last Date:2014-11-21
+DIDI First Date:2021-07-15 Last Date:2022-08-08
+DISCA First Date:2010-01-04 Last Date:2022-04-08
+DISCK First Date:2010-01-04 Last Date:2022-04-08
+DIVD First Date:2010-05-25 Last Date:2010-08-06
+DIVX First Date:2010-01-04 Last Date:2010-10-07
+DLLR First Date:2010-09-24 Last Date:2014-01-02
+DLM First Date:2010-01-04 Last Date:2011-03-08
+DLPH First Date:2011-11-30 Last Date:2020-10-01
+DL First Date:2018-01-02 Last Date:2019-12-20
+DMAN First Date:2010-05-06 Last Date:2012-02-14
+DMA First Date:2010-01-04 Last Date:2011-01-26
+DMB First Date:2013-06-13 Last Date:2013-07-19
+DMD First Date:2011-02-11 Last Date:2014-01-02
+DMND First Date:2010-01-04 Last Date:2014-01-02
+DMQ First Date:2016-04-25 Last Date:2017-12-29
+DMYD First Date:2021-04-09 Last Date:2021-04-20
+DMYI First Date:2021-04-09 Last Date:2021-10-07
+DMYQ First Date:2021-12-06 Last Date:2021-12-08
+DMYT First Date:2020-09-30 Last Date:2021-01-29
+DNAA First Date:2022-08-19 Last Date:2022-08-19
+DNAY First Date:2022-07-14 Last Date:2023-01-04
+DNBK First Date:2010-01-04 Last Date:2011-06-30
+DNDNQ First Date:2014-11-20 Last Date:2015-06-24
+DNDN First Date:2010-01-04 Last Date:2014-01-02
+DNKN First Date:2011-08-04 Last Date:2020-12-14
+DNO First Date:2010-01-04 Last Date:2018-10-03
+DNR First Date:2010-01-04 Last Date:2020-07-28
+DOLNQ First Date:2014-03-27 Last Date:2014-06-12
+DOLN First Date:2014-01-29 Last Date:2014-03-24
+DOMR First Date:2016-01-14 Last Date:2016-01-14
+DOM First Date:2012-10-17 Last Date:2014-01-02
+DOVA First Date:2018-05-10 Last Date:2019-11-11
+DOZR First Date:2022-01-10 Last Date:2023-02-21
+DPC First Date:2010-01-04 Last Date:2010-01-15
+DPHC First Date:2020-09-30 Last Date:2020-10-23
+DPK First Date:2010-01-04 Last Date:2020-03-27
+DPLO First Date:2018-01-02 Last Date:2020-02-07
+DPL First Date:2010-01-04 Last Date:2011-11-25
+DPM First Date:2010-01-04 Last Date:2014-01-02
+DPS First Date:2010-01-04 Last Date:2018-07-09
+DPTRD First Date:2011-07-14 Last Date:2011-08-09
+DPTRQ First Date:2011-12-28 Last Date:2012-05-18
+DPTR First Date:2010-01-04 Last Date:2011-12-27
+DPW First Date:2018-01-05 Last Date:2021-12-13
+DRAD First Date:2018-01-02 Last Date:2019-06-04
+DRCO First Date:2012-09-11 Last Date:2014-01-02
+DRC First Date:2010-01-04 Last Date:2014-01-02
+DRE First Date:2010-01-04 Last Date:2022-09-30
+DRII First Date:2015-03-18 Last Date:2016-09-15
+DRL First Date:2010-01-04 Last Date:2011-03-18
+DRNA First Date:2018-01-02 Last Date:2021-12-27
+DRTX First Date:2014-03-24 Last Date:2014-12-05
+DRWI First Date:2010-04-22 Last Date:2014-01-02
+DRW First Date:2021-10-11 Last Date:2022-04-19
+DRYS First Date:2010-01-04 Last Date:2019-10-10
+DSCI First Date:2012-11-15 Last Date:2014-01-02
+DSCM First Date:2010-04-07 Last Date:2011-06-02
+DSCO First Date:2012-03-02 Last Date:2014-01-02
+DSEY First Date:2021-05-05 Last Date:2023-07-06
+DSKY First Date:2014-08-27 Last Date:2016-09-28
+DSPC First Date:2021-06-22 Last Date:2023-01-23
+DSPG First Date:2011-09-20 Last Date:2021-12-02
+DSSI First Date:2021-04-09 Last Date:2021-07-15
+DSS First Date:2012-02-16 Last Date:2020-11-20
+DSTI First Date:2010-01-04 Last Date:2010-05-11
+DST First Date:2010-01-04 Last Date:2018-05-02
+DSW First Date:2010-01-04 Last Date:2019-04-01
+DS First Date:2018-01-02 Last Date:2023-01-23
+DTEA First Date:2018-01-02 Last Date:2023-05-11
+DTEGY First Date:2010-06-21 Last Date:2010-11-22
+DTGF First Date:2012-11-20 Last Date:2012-11-27
+DTG First Date:2010-01-04 Last Date:2012-11-16
+DTLK First Date:2011-03-01 Last Date:2014-01-02
+DTN First Date:2011-11-10 Last Date:2022-01-14
+DTOX First Date:2021-10-11 Last Date:2022-10-03
+DTPI First Date:2010-05-24 Last Date:2010-11-02
+DTSI First Date:2011-08-11 Last Date:2014-01-02
+DTV First Date:2010-01-04 Last Date:2014-01-02
+DUF First Date:2010-01-26 Last Date:2013-01-02
+DUSA First Date:2011-04-18 Last Date:2012-12-20
+DUX First Date:2010-01-04 Last Date:2010-10-01
+DVD First Date:2021-12-15 Last Date:2021-12-21
+DVMT First Date:2018-01-02 Last Date:2018-12-27
+DVOX First Date:2010-10-26 Last Date:2011-06-17
+DVR First Date:2010-01-04 Last Date:2014-01-02
+DVS First Date:2010-03-29 Last Date:2010-04-07
+DWA First Date:2010-01-04 Last Date:2014-01-02
+DWCH First Date:2018-01-02 Last Date:2018-12-12
+DWDP First Date:2018-01-02 Last Date:2019-05-31
+DWRE First Date:2012-10-01 Last Date:2014-01-02
+DWSN First Date:2010-01-04 Last Date:2020-08-21
+DW First Date:2011-08-23 Last Date:2014-01-02
+DXL First Date:2010-01-04 Last Date:2010-11-19
+DXMM First Date:2016-01-07 Last Date:2016-01-07
+DXM First Date:2013-05-02 Last Date:2014-01-02
+DXTR First Date:2018-01-02 Last Date:2018-03-16
+DYAX First Date:2010-01-04 Last Date:2014-01-02
+DYNIQ First Date:2012-07-06 Last Date:2012-10-02
+DZK First Date:2010-01-04 Last Date:2014-01-02
+EAC First Date:2010-01-04 Last Date:2010-03-09
+EAFEQ First Date:2012-05-02 Last Date:2012-06-07
+EARS First Date:2016-01-27 Last Date:2021-07-23
+EBIO First Date:2018-01-02 Last Date:2018-05-16
+EBRBY First Date:2016-05-20 Last Date:2016-09-16
+EBRYY First Date:2016-05-20 Last Date:2016-10-24
+EBR First Date:2010-01-04 Last Date:2018-02-16
+EBSB First Date:2018-01-02 Last Date:2021-11-12
+ECA First Date:2010-01-04 Last Date:2020-01-24
+ECHO First Date:2011-01-25 Last Date:2021-11-22
+ECLP First Date:2010-01-04 Last Date:2010-08-24
+ECOL First Date:2010-01-04 Last Date:2022-04-29
+ECOM First Date:2018-01-02 Last Date:2022-11-14
+ECR First Date:2018-01-02 Last Date:2019-02-28
+ECTE First Date:2014-01-02 Last Date:2014-01-02
+ECT First Date:2011-06-22 Last Date:2014-01-02
+ECYT First Date:2011-09-02 Last Date:2018-12-20
+EDE First Date:2010-01-04 Last Date:2014-01-02
+EDGE First Date:2018-08-15 Last Date:2019-03-15
+EDMC First Date:2010-01-04 Last Date:2014-01-02
+EEB First Date:2010-01-04 Last Date:2020-02-14
+EEE First Date:2010-01-04 Last Date:2011-12-01
+EEMIQ First Date:2012-05-02 Last Date:2012-06-08
+EEP First Date:2010-01-04 Last Date:2018-12-19
+EEQ First Date:2010-01-04 Last Date:2018-12-19
+EFII First Date:2010-01-04 Last Date:2019-07-22
+EFOI First Date:2018-01-02 Last Date:2020-12-18
+EFQ First Date:2016-07-28 Last Date:2017-12-29
+EFU First Date:2010-01-04 Last Date:2020-04-17
+EGAS First Date:2014-01-10 Last Date:2017-08-15
+EGC First Date:2018-03-21 Last Date:2018-11-07
+EGI First Date:2011-01-14 Last Date:2019-09-30
+EGLTQ First Date:2018-11-29 Last Date:2018-12-24
+EGLT First Date:2018-01-02 Last Date:2018-10-31
+EGL First Date:2012-07-25 Last Date:2019-01-11
+EGN First Date:2010-01-04 Last Date:2018-11-30
+EGOV First Date:2010-01-04 Last Date:2021-04-20
+EIDX First Date:2019-09-25 Last Date:2021-01-25
+EIGI First Date:2018-01-02 Last Date:2021-02-10
+EJ First Date:2010-01-04 Last Date:2014-01-02
+EKDKQ First Date:2012-01-20 Last Date:2013-01-02
+EK First Date:2010-01-04 Last Date:2012-01-18
+ELGX First Date:2010-02-05 Last Date:2020-07-15
+ELLI First Date:2012-08-31 Last Date:2019-04-16
+ELMG First Date:2010-01-04 Last Date:2011-08-22
+ELMS First Date:2021-07-15 Last Date:2022-07-13
+ELNK First Date:2010-01-04 Last Date:2014-01-02
+ELN First Date:2010-01-04 Last Date:2013-01-02
+ELON First Date:2010-01-04 Last Date:2014-01-02
+ELOS First Date:2010-01-04 Last Date:2014-01-02
+ELOX First Date:2019-09-25 Last Date:2023-04-21
+ELRC First Date:2012-07-30 Last Date:2014-01-02
+ELTTY First Date:2012-09-04 Last Date:2013-01-02
+ELT First Date:2012-06-28 Last Date:2012-08-28
+ELVT First Date:2021-04-09 Last Date:2023-02-28
+ELX First Date:2010-01-04 Last Date:2014-01-02
+ELY First Date:2010-01-04 Last Date:2022-09-07
+EMCI First Date:2018-01-02 Last Date:2019-09-20
+EMC First Date:2010-01-04 Last Date:2014-01-02
+EMES First Date:2018-01-02 Last Date:2019-05-31
+EMGC First Date:2017-02-06 Last Date:2017-08-18
+EMG First Date:2015-09-01 Last Date:2017-02-13
+EMIF First Date:2010-01-04 Last Date:2010-06-18
+EMMS First Date:2018-01-02 Last Date:2019-01-18
+EMS First Date:2010-01-04 Last Date:2011-05-25
+EMWP First Date:2022-06-09 Last Date:2022-08-17
+EM First Date:2010-01-04 Last Date:2011-11-01
+ENBL First Date:2018-01-02 Last Date:2021-12-03
+ENDP First Date:2010-01-04 Last Date:2022-09-07
+ENDRQ First Date:2014-10-14 Last Date:2015-12-18
+END First Date:2011-04-07 Last Date:2014-01-02
+ENERQ First Date:2012-02-24 Last Date:2012-09-04
+ENER First Date:2010-01-04 Last Date:2012-02-23
+ENH First Date:2010-01-04 Last Date:2014-01-02
+ENIA First Date:2018-01-02 Last Date:2022-07-13
+ENI First Date:2010-01-04 Last Date:2014-01-02
+ENLK First Date:2018-01-02 Last Date:2019-01-25
+ENOC First Date:2010-01-04 Last Date:2014-01-02
+ENP First Date:2010-01-04 Last Date:2011-11-30
+ENSC First Date:2022-02-02 Last Date:2023-03-17
+ENTL First Date:2018-01-02 Last Date:2018-03-28
+ENTR First Date:2010-07-02 Last Date:2014-01-02
+ENT First Date:2018-01-02 Last Date:2020-08-03
+ENVB First Date:2021-09-28 Last Date:2023-01-13
+ENVI First Date:2012-05-14 Last Date:2014-01-02
+ENWV First Date:2010-01-04 Last Date:2010-10-27
+ENZN First Date:2010-01-04 Last Date:2014-01-02
+ENZY First Date:2014-09-02 Last Date:2016-01-15
+EOCC First Date:2018-01-02 Last Date:2018-12-28
+EOC First Date:2012-11-08 Last Date:2014-01-02
+EOPN First Date:2013-04-10 Last Date:2014-01-02
+EOX First Date:2012-09-04 Last Date:2014-01-02
+EPAX First Date:2011-11-09 Last Date:2014-01-02
+EPAY First Date:2010-01-04 Last Date:2022-05-12
+EPB First Date:2010-01-04 Last Date:2014-01-02
+EPE First Date:2010-01-04 Last Date:2019-05-22
+EPHC First Date:2012-09-11 Last Date:2013-01-02
+EPHE First Date:2015-08-07 Last Date:2016-10-14
+EPHY First Date:2021-06-11 Last Date:2023-01-13
+EPIC First Date:2010-01-04 Last Date:2011-05-13
+EPIQ First Date:2010-01-04 Last Date:2014-01-02
+EPL First Date:2011-03-16 Last Date:2014-01-02
+EPOC First Date:2011-11-09 Last Date:2013-01-02
+EPOL First Date:2018-01-02 Last Date:2019-07-19
+EPRSQ First Date:2016-08-05 Last Date:2016-10-21
+EPRS First Date:2014-10-08 Last Date:2016-08-04
+EPU First Date:2011-02-08 Last Date:2019-05-17
+EPX First Date:2010-01-04 Last Date:2014-01-02
+EPZM First Date:2018-01-02 Last Date:2022-08-11
+EP First Date:2010-01-04 Last Date:2012-05-24
+EQGP First Date:2018-01-02 Last Date:2019-01-11
+EQM First Date:2012-07-24 Last Date:2020-06-16
+EQOS First Date:2021-02-17 Last Date:2022-11-30
+EQU First Date:2011-09-06 Last Date:2014-01-02
+EQY First Date:2010-01-04 Last Date:2014-01-02
+ERA First Date:2018-01-02 Last Date:2020-06-11
+ERES First Date:2010-01-04 Last Date:2011-03-04
+ERI First Date:2018-01-02 Last Date:2020-07-20
+ERN First Date:2018-01-02 Last Date:2018-05-07
+EROC First Date:2010-01-04 Last Date:2014-01-02
+EROS First Date:2018-01-02 Last Date:2020-09-22
+ERTS First Date:2010-01-04 Last Date:2011-12-19
+ERT First Date:2011-03-07 Last Date:2012-07-03
+ERUS First Date:2018-01-02 Last Date:2019-11-08
+ERYP First Date:2021-09-15 Last Date:2023-06-29
+ESCRQ First Date:2015-11-09 Last Date:2016-03-18
+ESCR First Date:2014-04-01 Last Date:2015-11-06
+ESC First Date:2010-01-04 Last Date:2014-01-02
+ESEA First Date:2010-01-04 Last Date:2014-01-02
+ESGC First Date:2020-10-16 Last Date:2022-06-03
+ESIC First Date:2011-07-07 Last Date:2012-07-02
+ESINQ First Date:2016-09-21 Last Date:2017-12-15
+ESIO First Date:2010-01-04 Last Date:2019-02-01
+ESLRD First Date:2011-01-04 Last Date:2011-01-31
+ESLRQ First Date:2011-08-24 Last Date:2012-02-17
+ESLR First Date:2010-01-04 Last Date:2011-08-23
+ESL First Date:2010-01-04 Last Date:2019-03-13
+ESND First Date:2018-01-02 Last Date:2019-01-30
+ESRX First Date:2010-01-04 Last Date:2018-12-20
+ESSC First Date:2021-04-09 Last Date:2022-11-14
+ESV First Date:2010-01-04 Last Date:2019-07-30
+ESXB First Date:2021-08-10 Last Date:2021-12-03
+ETAC First Date:2021-11-15 Last Date:2022-09-02
+ETE First Date:2010-01-04 Last Date:2018-10-18
+ETFCD First Date:2010-06-03 Last Date:2010-06-29
+ETFC First Date:2010-01-04 Last Date:2020-10-01
+ETHO First Date:2015-11-19 Last Date:2015-11-20
+ETH First Date:2010-01-04 Last Date:2021-08-23
+ETM First Date:2010-05-05 Last Date:2021-04-08
+ETP First Date:2010-01-04 Last Date:2018-10-29
+ETQ First Date:2010-01-04 Last Date:2017-12-29
+ETRM First Date:2012-07-16 Last Date:2014-01-02
+EUFX First Date:2012-08-21 Last Date:2012-12-28
+EUI First Date:2010-01-04 Last Date:2014-01-02
+EUR First Date:2010-01-04 Last Date:2012-06-18
+EUSC First Date:2018-01-02 Last Date:2019-02-15
+EUU First Date:2010-01-04 Last Date:2014-01-02
+EU First Date:2010-01-04 Last Date:2011-07-15
+EVDY First Date:2015-06-10 Last Date:2016-12-15
+EVEIQ First Date:2012-05-07 Last Date:2012-05-18
+EVEP First Date:2010-01-04 Last Date:2018-05-11
+EVFM First Date:2019-11-29 Last Date:2022-08-12
+EVHC First Date:2018-01-02 Last Date:2018-10-31
+EVIX First Date:2018-01-02 Last Date:2020-04-09
+EVOK First Date:2020-08-06 Last Date:2022-11-25
+EVOL First Date:2018-01-02 Last Date:2019-02-15
+EVOP First Date:2019-04-10 Last Date:2023-03-24
+EVVV First Date:2010-01-04 Last Date:2010-07-12
+EV First Date:2010-01-04 Last Date:2021-02-26
+EWCO First Date:2022-03-07 Last Date:2023-06-07
+EWO First Date:2018-09-14 Last Date:2019-05-17
+EWRE First Date:2021-08-11 Last Date:2023-06-07
+EXAC First Date:2018-01-02 Last Date:2018-03-07
+EXAM First Date:2011-10-03 Last Date:2014-01-02
+EXAR First Date:2010-01-04 Last Date:2014-01-02
+EXA First Date:2013-04-04 Last Date:2014-01-02
+EXBD First Date:2010-01-04 Last Date:2012-08-10
+EXE First Date:2011-05-24 Last Date:2012-06-15
+EXH First Date:2010-01-04 Last Date:2014-01-02
+EXLP First Date:2011-10-12 Last Date:2014-01-02
+EXL First Date:2010-05-14 Last Date:2014-01-02
+EXMCF First Date:2013-06-14 Last Date:2013-07-02
+EXMCQ First Date:2013-06-12 Last Date:2013-11-15
+EXM First Date:2010-01-04 Last Date:2013-01-02
+EXPC First Date:2021-02-17 Last Date:2021-05-07
+EXQ First Date:2010-01-04 Last Date:2010-03-09
+EXTN First Date:2018-01-02 Last Date:2022-10-12
+EXXID First Date:2010-02-01 Last Date:2010-02-26
+EXXIQ First Date:2016-04-25 Last Date:2017-01-12
+EXXI First Date:2010-01-22 Last Date:2014-01-02
+EYES First Date:2018-01-02 Last Date:2022-08-30
+EZCH First Date:2010-01-04 Last Date:2014-01-02
+EZQ First Date:2017-03-16 Last Date:2017-12-29
+FAA First Date:2010-01-04 Last Date:2013-01-02
+FACT First Date:2010-01-04 Last Date:2010-04-21
+FAII First Date:2021-02-17 Last Date:2021-06-22
+FALC First Date:2010-01-04 Last Date:2014-01-02
+FBCM First Date:2010-01-04 Last Date:2011-07-29
+FBC First Date:2012-10-19 Last Date:2022-12-01
+FBHS First Date:2011-10-05 Last Date:2022-12-14
+FBM First Date:2019-06-07 Last Date:2021-01-28
+FBNI First Date:2013-08-28 Last Date:2013-08-28
+FBNK First Date:2018-01-02 Last Date:2018-10-10
+FBN First Date:2010-01-04 Last Date:2013-01-02
+FBRC First Date:2011-08-01 Last Date:2014-01-02
+FBR First Date:2010-01-04 Last Date:2019-01-03 
+FCAC First Date:2021-02-17 Last Date:2021-07-01
+FCAU First Date:2018-01-02 Last Date:2021-01-15
+FCB First Date:2018-01-02 Last Date:2018-12-21
+FCE First Date:2010-11-22 Last Date:2018-12-06
+FCGL First Date:2010-08-10 Last Date:2011-05-23
+FCGS First Date:2010-08-11 Last Date:2011-05-23
+FCH First Date:2010-03-22 Last Date:2014-01-02
+FCRD First Date:2020-08-05 Last Date:2023-03-10
+FCSC First Date:2018-01-02 Last Date:2018-11-09
+FCS First Date:2010-01-04 Last Date:2014-01-02
+FDC First Date:2018-01-02 Last Date:2019-07-26
+FDEF First Date:2013-03-25 Last Date:2020-03-25
+FDML First Date:2010-01-04 Last Date:2014-01-02
+FDM First Date:2010-01-04 Last Date:2011-02-18
+FDO First Date:2010-01-04 Last Date:2014-01-02
+FEAC First Date:2020-09-30 Last Date:2020-12-16
+FEED First Date:2010-01-04 Last Date:2012-02-15
+FEIC First Date:2010-01-04 Last Date:2014-01-02
+FELP First Date:2018-01-02 Last Date:2019-11-07
+FEYE First Date:2018-01-02 Last Date:2021-10-11
+FFCH First Date:2012-07-30 Last Date:2013-01-02
+FFEDQ First Date:2010-01-14 Last Date:2010-11-22
+FFED First Date:2010-01-04 Last Date:2010-01-08
+FFG First Date:2018-01-02 Last Date:2021-05-26
+FFNW First Date:2010-01-04 Last Date:2023-05-19
+FGL First Date:2016-05-25 Last Date:2017-11-30
+FGNA First Date:2021-04-09 Last Date:2021-07-20
+FGP First Date:2010-01-04 Last Date:2020-01-09
+FHCO First Date:2012-10-17 Last Date:2014-01-02
+FH First Date:2018-01-02 Last Date:2018-01-05
+FIF First Date:2010-01-04 Last Date:2010-02-18
+FIG First Date:2010-01-04 Last Date:2014-01-02
+FIII First Date:2021-02-04 Last Date:2021-06-25
+FII First Date:2010-01-04 Last Date:2020-01-31
+FINL First Date:2010-01-04 Last Date:2018-07-10
+FIO First Date:2011-06-17 Last Date:2014-01-02
+FIQ First Date:2018-01-02 Last Date:2018-03-28
+FIRE First Date:2010-01-04 Last Date:2013-01-02
+FISV First Date:2010-01-04 Last Date:2023-06-07
+FIT First Date:2018-01-02 Last Date:2021-01-13
+FLDM First Date:2012-02-08 Last Date:2022-04-06
+FLIR First Date:2010-01-04 Last Date:2021-05-13
+FLKS First Date:2018-01-02 Last Date:2019-07-19
+FLML First Date:2010-01-04 Last Date:2014-01-02
+FLMN First Date:2020-08-06 Last Date:2022-06-03
+FLM First Date:2022-03-08 Last Date:2022-08-01
+FLOW First Date:2010-01-04 Last Date:2022-04-04
+FLTX First Date:2013-05-20 Last Date:2014-01-02
+FLXN First Date:2018-01-02 Last Date:2021-11-18
+FLY First Date:2018-01-02 Last Date:2021-08-02
+FMAC First Date:2021-04-09 Last Date:2022-03-28
+FMBI First Date:2010-01-04 Last Date:2022-02-15
+FMCC First Date:2010-11-22 Last Date:2010-11-22
+FMCI First Date:2020-08-06 Last Date:2020-10-15
+FMCN First Date:2010-01-04 Last Date:2013-01-02
+FMD First Date:2010-01-04 Last Date:2014-01-02
+FMER First Date:2010-01-04 Last Date:2014-01-02
+FMI First Date:2018-01-02 Last Date:2018-08-21
+FMR First Date:2010-11-10 Last Date:2011-02-09
+FMSA First Date:2018-01-02 Last Date:2018-05-31
+FMTX First Date:2021-04-09 Last Date:2022-10-13
+FNBCQ First Date:2017-05-15 Last Date:2017-11-17
+FNBC First Date:2015-11-25 Last Date:2017-05-12
+FNFG First Date:2010-01-04 Last Date:2014-01-02
+FNFV First Date:2014-07-02 Last Date:2017-11-28
+FNGN First Date:2010-04-01 Last Date:2018-08-08
+FNG First Date:2018-01-02 Last Date:2019-10-04
+FNHC First Date:2018-01-02 Last Date:2022-12-14
+FNI First Date:2010-01-04 Last Date:2013-01-02
+FNJN First Date:2018-08-15 Last Date:2020-07-23
+FNMA First Date:2010-11-22 Last Date:2010-11-22
+FNM First Date:2010-01-04 Last Date:2010-07-07
+FNP First Date:2012-05-15 Last Date:2014-01-02
+FNSR First Date:2010-01-04 Last Date:2019-09-23
+FNTC First Date:2022-06-10 Last Date:2023-02-21
+FOE First Date:2010-01-04 Last Date:2022-04-21
+FOL First Date:2011-03-22 Last Date:2013-01-02
+FOMX First Date:2018-01-02 Last Date:2020-03-06
+FOQ First Date:2016-04-25 Last Date:2016-05-10
+FORX First Date:2013-03-11 Last Date:2014-01-02
+FOUN First Date:2022-07-14 Last Date:2022-08-15
+FO First Date:2010-01-04 Last Date:2011-10-03
+FPAC First Date:2020-02-28 Last Date:2023-03-10
+FPL First Date:2010-01-04 Last Date:2010-06-22
+FPO First Date:2010-01-04 Last Date:2014-01-02
+FPRX First Date:2018-01-02 Last Date:2021-04-15
+FRAC First Date:2018-01-02 Last Date:2019-10-30
+FRAK First Date:2012-03-02 Last Date:2021-10-15
+FRAN First Date:2011-10-03 Last Date:2019-07-01
+FRCB First Date:2023-05-10 Last Date:2023-06-30
+FRC First Date:2011-01-26 Last Date:2023-05-03
+FRED First Date:2010-01-04 Last Date:2019-09-17
+FRE First Date:2010-01-04 Last Date:2010-07-07
+FRFHF First Date:2010-01-04 Last Date:2010-11-22
+FRM First Date:2011-07-01 Last Date:2014-01-02
+FRP First Date:2011-12-05 Last Date:2014-01-02
+FRTA First Date:2018-01-02 Last Date:2022-03-17
+FRX First Date:2010-01-04 Last Date:2021-06-25
+FRZ First Date:2010-01-04 Last Date:2011-12-28
+FSA First Date:2011-03-22 Last Date:2013-01-02
+FSB First Date:2018-11-28 Last Date:2020-08-14
+FSCI First Date:2013-01-08 Last Date:2013-08-08
+FSCT First Date:2018-04-06 Last Date:2020-08-14
+FSC First Date:2010-02-05 Last Date:2014-01-02
+FSE First Date:2011-03-22 Last Date:2012-10-26
+FSFR First Date:2015-11-25 Last Date:2017-10-17
+FSG First Date:2011-03-22 Last Date:2013-01-02
+FSIC First Date:2018-01-02 Last Date:2018-12-19
+FSII First Date:2010-04-13 Last Date:2012-10-11
+FSIN First Date:2010-01-04 Last Date:2012-12-26
+FSKR First Date:2020-08-06 Last Date:2021-06-18
+FSL First Date:2011-06-06 Last Date:2014-01-02
+FSNN First Date:2018-08-15 Last Date:2019-05-14
+FSRV First Date:2021-02-17 Last Date:2021-06-09
+FSTO First Date:2014-12-17 Last Date:2015-01-12
+FSTX First Date:2021-06-11 Last Date:2023-03-09
+FST First Date:2010-01-04 Last Date:2022-08-26
+FSU First Date:2011-03-22 Last Date:2012-05-01
+FSYS First Date:2010-01-04 Last Date:2014-01-02
+FTCV First Date:2021-04-13 Last Date:2022-12-09
+FTD First Date:2018-01-02 Last Date:2019-06-12
+FTE First Date:2010-08-20 Last Date:2013-01-02
+FTIV First Date:2021-06-11 Last Date:2021-06-24
+FTOC First Date:2021-02-04 Last Date:2021-06-25
+FTO First Date:2010-01-04 Last Date:2011-06-30
+FTRP First Date:2021-09-15 Last Date:2022-08-16
+FTR First Date:2010-01-04 Last Date:2020-04-24
+FTSI First Date:2018-04-26 Last Date:2020-09-21
+FTSV First Date:2019-06-07 Last Date:2020-04-06
+FTXD First Date:2021-09-16 Last Date:2022-01-26
+FUBC First Date:2013-01-09 Last Date:2014-01-02
+FUEL First Date:2013-12-18 Last Date:2014-01-02
+FULL First Date:2014-03-27 Last Date:2016-11-14
+FUM First Date:2010-01-04 Last Date:2011-05-20
+FUQI First Date:2010-01-04 Last Date:2011-08-19
+FURX First Date:2010-06-29 Last Date:2014-01-02
+FUR First Date:2011-09-02 Last Date:2014-01-02
+FUSE First Date:2021-02-17 Last Date:2021-09-29
+FU First Date:2012-10-17 Last Date:2013-01-02
+FVAC First Date:2020-08-06 Last Date:2020-11-17
+FVE First Date:2010-09-24 Last Date:2022-01-27
+FVX First Date:2010-01-04 Last Date:2010-08-20
+FWLT First Date:2010-01-04 Last Date:2014-01-02
+FWMHQ First Date:2016-05-17 Last Date:2016-07-06
+FWM First Date:2013-05-02 Last Date:2014-01-02
+FXCM First Date:2010-12-28 Last Date:2014-01-02
+FXEN First Date:2010-01-04 Last Date:2014-01-02
+FXFHF First Date:2016-02-23 Last Date:2016-02-24
+FXM First Date:2010-01-04 Last Date:2012-03-23
+FXS First Date:2010-01-04 Last Date:2020-02-14
+FZS First Date:2016-08-17 Last Date:2016-08-24
+GAGA First Date:2010-11-12 Last Date:2014-01-02
+GALE First Date:2011-10-26 Last Date:2014-01-02
+GAPTQ First Date:2011-01-03 Last Date:2012-03-14
+GAP First Date:2010-01-04 Last Date:2010-12-09
+GARS First Date:2018-01-02 Last Date:2020-10-27
+GASL First Date:2011-05-24 Last Date:2020-03-27
+GASX First Date:2011-05-24 Last Date:2020-03-27
+GAS First Date:2010-01-04 Last Date:2014-01-02
+GAZ First Date:2010-05-28 Last Date:2023-06-09
+GA First Date:2010-01-04 Last Date:2014-01-02
+GBLI First Date:2010-07-07 Last Date:2014-01-02
+GBOX First Date:2021-05-05 Last Date:2022-10-24
+GBP First Date:2010-01-04 Last Date:2014-01-02
+GBT First Date:2018-01-02 Last Date:2022-10-04
+GBUG First Date:2021-06-22 Last Date:2022-12-15
+GCAP First Date:2018-01-02 Last Date:2020-07-30
+GCA First Date:2010-08-09 Last Date:2014-01-02
+GCOM First Date:2011-07-15 Last Date:2013-01-02
+GCP First Date:2018-01-02 Last Date:2022-09-26
+GCT First Date:2022-09-26 Last Date:2023-04-14
+GDI First Date:2010-01-04 Last Date:2020-02-28
+GDPMQ First Date:2016-04-18 Last Date:2016-10-26
+GDPM First Date:2016-01-15 Last Date:2016-04-15
+GDP First Date:2010-01-04 Last Date:2021-12-22
+GDQ First Date:2016-04-25 Last Date:2017-12-29
+GDRZF First Date:2013-03-15 Last Date:2013-08-09
+GDXS First Date:2018-01-02 Last Date:2019-08-09
+GDXX First Date:2018-01-02 Last Date:2019-08-09
+GECC First Date:2016-11-04 Last Date:2017-03-17
+GEHI First Date:2022-06-09 Last Date:2023-02-17
+GEMP First Date:2018-08-15 Last Date:2019-12-30
+GENZ First Date:2010-01-04 Last Date:2011-04-08
+GEOI First Date:2010-12-09 Last Date:2012-07-31
+GEOY First Date:2010-01-04 Last Date:2012-11-16
+GESPY First Date:2011-06-13 Last Date:2012-05-18
+GET First Date:2010-01-04 Last Date:2012-09-28
+GEVA First Date:2012-07-24 Last Date:2014-01-02
+GEX First Date:2010-01-04 Last Date:2019-07-08
+GFA First Date:2010-01-04 Last Date:2014-01-02
+GFIG First Date:2010-01-04 Last Date:2014-01-02
+GFN First Date:2018-01-02 Last Date:2021-05-26
+GFRE First Date:2010-01-04 Last Date:2011-06-29
+GGBY First Date:2016-01-06 Last Date:2016-01-07
+GGC First Date:2010-01-04 Last Date:2013-01-02
+GGPI First Date:2021-09-15 Last Date:2022-06-24
+GGP First Date:2010-03-05 Last Date:2018-09-06
+GGS First Date:2011-05-23 Last Date:2014-01-02
+GGWPQ First Date:2010-01-04 Last Date:2010-03-04
+GG First Date:2010-01-04 Last Date:2019-04-17
+GHDX First Date:2010-01-04 Last Date:2019-11-07
+GHIV First Date:2020-11-25 Last Date:2021-01-21
+GHVI First Date:2021-04-09 Last Date:2021-07-22
+GIGE First Date:2022-02-10 Last Date:2022-08-08
+GIGM First Date:2010-01-04 Last Date:2019-09-20
+GIG First Date:2021-11-15 Last Date:2021-12-07
+GIK First Date:2021-02-04 Last Date:2021-05-06
+GIMO First Date:2018-01-02 Last Date:2014-01-02
+GIQ First Date:2018-01-02 Last Date:2018-03-28
+GIVN First Date:2010-01-04 Last Date:2014-01-02
+GIX First Date:2021-02-04 Last Date:2021-06-09
+GKK First Date:2010-05-03 Last Date:2013-01-02
+GKSR First Date:2012-05-01 Last Date:2012-11-30
+GLA First Date:2017-02-24 Last Date:2017-08-10
+GLBC First Date:2010-01-04 Last Date:2011-10-03
+GLBL First Date:2010-01-04 Last Date:2018-01-18
+GLCH First Date:2010-06-01 Last Date:2013-01-02
+GLDI First Date:2013-04-08 Last Date:2014-01-02
+GLDX First Date:2011-01-14 Last Date:2014-01-02
+GLFMQ First Date:2017-05-18 Last Date:2017-09-15
+GLFM First Date:2017-04-12 Last Date:2017-05-17
+GLF First Date:2010-01-04 Last Date:2014-01-02
+GLIBA First Date:2018-03-13 Last Date:2020-12-18
+GLOG First Date:2012-04-10 Last Date:2021-06-08
+GLPW First Date:2011-02-28 Last Date:2014-01-02
+GLS First Date:2010-01-04 Last Date:2010-03-24
+GLUU First Date:2011-03-01 Last Date:2021-04-28
+GMAN First Date:2012-10-19 Last Date:2014-01-02
+GMCR First Date:2010-01-04 Last Date:2014-01-02
+GMHI First Date:2020-10-20 Last Date:2020-12-02
+GMLP First Date:2011-05-02 Last Date:2021-04-15
+GMO First Date:2010-01-04 Last Date:2019-08-16
+GMQ First Date:2016-04-25 Last Date:2017-12-29
+GMRRQ First Date:2011-11-18 Last Date:2011-12-06
+GMR First Date:2010-01-04 Last Date:2011-11-16
+GMTX First Date:2021-02-17 Last Date:2022-12-29
+GMT First Date:2010-01-04 Last Date:2014-01-02
+GMXRQ First Date:2013-04-18 Last Date:2013-04-19
+GMXR First Date:2010-01-04 Last Date:2013-01-02
+GNA First Date:2010-01-04 Last Date:2010-08-27
+GNBC First Date:2018-03-15 Last Date:2018-12-31
+GNCA First Date:2018-01-02 Last Date:2022-10-21
+GNCMA First Date:2010-01-04 Last Date:2018-03-19
+GNC First Date:2011-04-12 Last Date:2020-06-29
+GNET First Date:2011-06-06 Last Date:2011-09-28
+GNKOQ First Date:2014-04-22 Last Date:2014-07-09
+GNKWE First Date:2014-11-17 Last Date:2014-11-17
+GNKWF First Date:2014-10-08 Last Date:2015-12-18
+GNLN First Date:2021-02-17 Last Date:2023-02-17
+GNMK First Date:2018-01-02 Last Date:2021-04-21
+GNMX First Date:2018-01-02 Last Date:2020-02-03
+GNOG First Date:2021-02-05 Last Date:2022-05-04
+GNPK First Date:2021-06-11 Last Date:2021-09-09
+GNRS First Date:2021-04-09 Last Date:2021-12-17
+GNRT First Date:2018-01-02 Last Date:2018-06-21
+GNUS First Date:2020-08-06 Last Date:2023-06-26
+GOED First Date:2021-07-15 Last Date:2022-07-22
+GOK First Date:2010-05-06 Last Date:2012-12-14
+GOMO First Date:2014-09-11 Last Date:2015-12-08
+GOOSY First Date:2011-06-13 Last Date:2012-10-25
+GOV First Date:2010-01-04 Last Date:2018-12-31
+GPL First Date:2011-03-03 Last Date:2022-09-13
+GPT First Date:2018-01-02 Last Date:2018-10-19
+GPX First Date:2012-07-30 Last Date:2021-10-15
+GRAF First Date:2020-08-06 Last Date:2020-09-29
+GRAY First Date:2021-06-11 Last Date:2023-03-20
+GRA First Date:2010-01-04 Last Date:2021-09-21
+GRB First Date:2010-01-04 Last Date:2011-08-22
+GRM First Date:2010-02-25 Last Date:2011-09-08
+GROM First Date:2021-11-15 Last Date:2023-05-19
+GRP First Date:2012-06-18 Last Date:2013-01-02
+GRRF First Date:2010-01-04 Last Date:2011-10-21
+GRSV First Date:2021-07-15 Last Date:2021-08-04
+GRS First Date:2010-01-04 Last Date:2011-06-13
+GRT First Date:2010-03-01 Last Date:2014-01-02
+GRUB First Date:2018-01-02 Last Date:2022-03-23
+GRU First Date:2011-03-24 Last Date:2014-01-02
+GRZ First Date:2012-06-22 Last Date:2013-01-02
+GR First Date:2010-01-04 Last Date:2012-07-26
+GSAH First Date:2021-03-08 Last Date:2021-10-21
+GSB First Date:2018-01-02 Last Date:2020-08-27
+GSEHQ First Date:2014-06-03 Last Date:2014-07-18
+GSEH First Date:2014-03-05 Last Date:2014-06-02
+GSEU First Date:2016-03-04 Last Date:2016-03-04
+GSE First Date:2012-04-17 Last Date:2014-01-02
+GSH First Date:2010-01-04 Last Date:2014-01-02
+GSIC First Date:2010-01-04 Last Date:2011-06-17
+GSIG First Date:2011-04-18 Last Date:2014-01-02
+GSIH First Date:2016-07-20 Last Date:2017-02-17
+GSI First Date:2010-01-04 Last Date:2014-01-02
+GSJK First Date:2014-08-27 Last Date:2014-11-28
+GSKY First Date:2018-08-15 Last Date:2022-03-29
+GSP First Date:2021-06-22 Last Date:2023-06-09
+GSS First Date:2010-01-04 Last Date:2022-01-27
+GSTCQ First Date:2018-11-29 Last Date:2018-12-24
+GST First Date:2010-01-04 Last Date:2018-09-17
+GSUM First Date:2018-01-05 Last Date:2021-03-26
+GSVC First Date:2012-03-21 Last Date:2019-07-31
+GSX First Date:2019-11-29 Last Date:2021-05-05
+GTATQ First Date:2014-10-16 Last Date:2015-12-18
+GTAT First Date:2011-08-08 Last Date:2014-01-02
+GTIV First Date:2010-01-04 Last Date:2014-01-02
+GTI First Date:2010-01-04 Last Date:2014-01-02
+GTS First Date:2010-01-04 Last Date:2022-01-31
+GTT First Date:2018-01-02 Last Date:2021-07-01
+GTXI First Date:2010-01-04 Last Date:2019-06-07
+GTYH First Date:2021-04-09 Last Date:2022-07-06
+GUID First Date:2012-04-17 Last Date:2014-01-02
+GULTU First Date:2014-10-08 Last Date:2014-12-18
+GUR First Date:2010-01-04 Last Date:2014-01-02
+GU First Date:2010-01-04 Last Date:2012-10-17
+GVZ First Date:2011-04-12 Last Date:2014-01-02
+GV First Date:2018-01-02 Last Date:2020-12-29
+GWAC First Date:2021-06-11 Last Date:2021-09-03
+GWAY First Date:2012-05-01 Last Date:2013-01-02
+GWB First Date:2018-01-02 Last Date:2022-01-31
+GWL First Date:2013-04-08 Last Date:2014-01-02
+GWPH First Date:2018-01-02 Last Date:2021-05-04
+GWR First Date:2010-01-04 Last Date:2019-12-27
+GXDX First Date:2010-01-04 Last Date:2011-03-07
+GXGX First Date:2021-02-04 Last Date:2021-07-16
+GXP First Date:2010-01-04 Last Date:2018-06-13
+GYMB First Date:2010-01-04 Last Date:2010-11-22
+GY First Date:2010-01-04 Last Date:2014-01-02
+GZT First Date:2011-12-27 Last Date:2019-03-08
+HAAC First Date:2021-04-09 Last Date:2022-11-03
+HABT First Date:2018-01-02 Last Date:2020-03-19
+HALL First Date:2018-01-02 Last Date:2023-06-16
+HANS First Date:2010-01-04 Last Date:2012-01-06
+HAO First Date:2010-01-04 Last Date:2020-02-14
+HAR First Date:2010-01-04 Last Date:2014-01-02
+HAWKB First Date:2014-04-15 Last Date:2015-06-05
+HAWKQ First Date:2011-02-24 Last Date:2011-07-15
+HAWK First Date:2010-01-04 Last Date:2018-07-03
+HBC First Date:2010-01-04 Last Date:2013-01-02
+HBHC First Date:2010-01-04 Last Date:2018-05-24
+HBP First Date:2018-01-02 Last Date:2022-05-02
+HCAC First Date:2020-09-30 Last Date:2020-12-21
+HCBK First Date:2010-01-04 Last Date:2014-01-02
+HCFT First Date:2018-01-22 Last Date:2020-12-24
+HCHC First Date:2018-01-02 Last Date:2021-09-24
+HCIC First Date:2021-09-28 Last Date:2022-12-22
+HCII First Date:2012-10-01 Last Date:2012-10-24
+HCLP First Date:2012-11-23 Last Date:2019-05-31
+HCN First Date:2010-01-04 Last Date:2014-01-02
+HCR First Date:2019-09-24 Last Date:2020-07-10
+HCT First Date:2014-06-05 Last Date:2015-01-30
+HDNG First Date:2018-01-02 Last Date:2018-06-13
+HDP First Date:2018-01-02 Last Date:2019-01-02
+HDS First Date:2018-01-02 Last Date:2020-12-23
+HDYN First Date:2015-03-11 Last Date:2015-08-21
+HDY First Date:2010-10-20 Last Date:2014-01-02
+HEAT First Date:2010-01-04 Last Date:2012-04-19
+HECO First Date:2018-01-02 Last Date:2019-02-05
+HEK First Date:2010-01-04 Last Date:2013-01-02
+HELIF First Date:2016-02-04 Last Date:2016-05-05
+HELIQ First Date:2016-05-12 Last Date:2016-05-20
+HELI First Date:2014-02-06 Last Date:2016-02-01
+HEROQ First Date:2015-08-25 Last Date:2015-11-17
+HEVVQ First Date:2012-01-27 Last Date:2012-03-30
+HEVV First Date:2011-10-28 Last Date:2012-01-26
+HEV First Date:2010-01-04 Last Date:2011-10-27
+HEW First Date:2010-01-04 Last Date:2010-10-01
+HEXO First Date:2019-04-10 Last Date:2023-06-23
+HFC First Date:2011-07-01 Last Date:2022-03-14
+HF First Date:2011-05-06 Last Date:2019-07-01
+HGGGQ First Date:2017-03-08 Last Date:2017-09-15
+HGGG First Date:2017-03-01 Last Date:2017-03-07
+HGG First Date:2010-01-04 Last Date:2014-01-02
+HGRD First Date:2010-05-18 Last Date:2010-10-07
+HGR First Date:2010-01-04 Last Date:2014-01-02
+HGSI First Date:2010-01-04 Last Date:2012-08-03
+HGT First Date:2010-01-04 Last Date:2018-08-24
+HGX First Date:2010-01-04 Last Date:2014-01-02
+HHGP First Date:2011-08-11 Last Date:2012-04-27
+HHH First Date:2010-01-04 Last Date:2022-07-08
+HHO First Date:2010-01-04 Last Date:2011-05-20
+HHS First Date:2010-01-04 Last Date:2018-08-17
+HIFR First Date:2018-01-02 Last Date:2019-05-17
+HIIQ First Date:2018-01-02 Last Date:2020-03-05
+HILL First Date:2014-01-30 Last Date:2015-10-27
+HIL First Date:2010-01-04 Last Date:2022-12-27
+HITK First Date:2010-01-04 Last Date:2014-01-02
+HITT First Date:2010-01-04 Last Date:2014-01-02
+HIT First Date:2010-01-04 Last Date:2012-04-26
+HJLI First Date:2021-08-10 Last Date:2021-10-07
+HKOR First Date:2014-03-19 Last Date:2015-11-20
+HKTVY First Date:2015-12-21 Last Date:2016-05-20
+HKTV First Date:2013-01-28 Last Date:2014-01-02
+HK First Date:2010-01-04 Last Date:2019-07-19
+HLSSF First Date:2015-04-30 Last Date:2015-09-18
+HLSS First Date:2012-03-22 Last Date:2014-01-02
+HLS First Date:2010-01-04 Last Date:2014-01-02
+HLYS First Date:2010-01-04 Last Date:2013-01-02
+HMA First Date:2010-01-04 Last Date:2014-01-02
+HME First Date:2010-01-04 Last Date:2014-01-02
+HMHC First Date:2018-01-02 Last Date:2022-04-06
+HMIN First Date:2010-01-04 Last Date:2014-01-02
+HMI First Date:2019-06-07 Last Date:2021-02-24
+HMLP First Date:2014-10-03 Last Date:2022-09-23
+HMNY First Date:2018-01-02 Last Date:2018-12-24
+HMSY First Date:2010-01-04 Last Date:2021-03-31
+HMTV First Date:2019-09-25 Last Date:2022-09-12
+HNBC First Date:2010-01-04 Last Date:2010-01-15
+HNGR First Date:2016-02-29 Last Date:2022-09-30
+HNP First Date:2010-01-04 Last Date:2022-07-07
+HNR First Date:2010-01-04 Last Date:2014-01-02
+HNSN First Date:2010-01-04 Last Date:2014-01-02
+HNT First Date:2010-01-04 Last Date:2014-01-02
+HNZ First Date:2010-01-04 Last Date:2013-01-02
+HOC First Date:2010-01-04 Last Date:2011-06-30
+HOGS First Date:2010-01-04 Last Date:2013-01-02
+HOKU First Date:2010-01-04 Last Date:2012-12-21
+HOL First Date:2021-04-09 Last Date:2021-06-30
+HOME First Date:2018-01-02 Last Date:2021-07-22
+HOS First Date:2010-01-04 Last Date:2019-12-20
+HOTT First Date:2010-01-04 Last Date:2013-01-02
+HOT First Date:2010-01-04 Last Date:2014-01-02
+HOV First Date:2010-01-04 Last Date:2019-03-28
+HPJ First Date:2018-01-02 Last Date:2019-10-31
+HPR First Date:2018-03-21 Last Date:2021-04-01
+HPT First Date:2010-01-04 Last Date:2019-09-24
+HPY First Date:2010-01-04 Last Date:2014-01-02
+HQCL First Date:2018-01-02 Last Date:2019-01-18
+HQSM First Date:2011-07-08 Last Date:2011-08-19
+HQS First Date:2010-06-02 Last Date:2011-03-31
+HRBN First Date:2010-01-04 Last Date:2011-11-01
+HRC First Date:2010-01-04 Last Date:2021-12-10
+HRG First Date:2012-07-10 Last Date:2018-07-20
+HRLY First Date:2010-01-04 Last Date:2011-03-30
+HRP First Date:2010-01-04 Last Date:2010-06-30
+HRS First Date:2010-01-04 Last Date:2019-06-28
+HRZL First Date:2011-10-20 Last Date:2011-12-19
+HRZ First Date:2010-01-04 Last Date:2011-10-19
+HSC First Date:2010-01-04 Last Date:2023-06-20
+HSH First Date:2012-07-02 Last Date:2014-01-02
+HSKA First Date:2021-04-13 Last Date:2023-06-13
+HSNI First Date:2010-01-04 Last Date:2014-01-02
+HSOL First Date:2011-02-15 Last Date:2014-01-02
+HSON First Date:2012-04-30 Last Date:2013-01-02
+HSP First Date:2010-01-04 Last Date:2014-01-02
+HSTO First Date:2020-06-17 Last Date:2021-01-08
+HSTX First Date:2010-01-04 Last Date:2010-01-28
+HSX First Date:2010-01-04 Last Date:2011-05-20
+HS First Date:2010-01-04 Last Date:2012-01-30
+HTA First Date:2012-07-25 Last Date:2022-07-20
+HTBX First Date:2021-02-04 Last Date:2022-05-03
+HTCH First Date:2010-01-04 Last Date:2014-01-02
+HTGM First Date:2018-03-08 Last Date:2021-05-21
+HTHIY First Date:2012-04-27 Last Date:2012-09-21
+HTSI First Date:2012-04-02 Last Date:2014-01-02
+HTS First Date:2010-01-04 Last Date:2014-01-02
+HTWR First Date:2010-09-03 Last Date:2014-01-02
+HTX First Date:2010-01-08 Last Date:2010-05-14
+HUB First Date:2014-10-08 Last Date:2015-12-23
+HUD First Date:2018-05-02 Last Date:2020-11-30
+HUGS First Date:2022-04-06 Last Date:2022-12-28
+HUSE First Date:2014-02-26 Last Date:2017-05-30
+HVY First Date:2010-01-04 Last Date:2010-11-19
+HWAY First Date:2010-01-04 Last Date:2014-01-02
+HWCC First Date:2010-01-04 Last Date:2021-06-17
+HWD First Date:2010-01-04 Last Date:2013-01-02
+HW First Date:2010-01-04 Last Date:2014-01-02
+HXM First Date:2010-01-04 Last Date:2014-01-02
+HYCT First Date:2015-12-03 Last Date:2015-12-04
+HYC First Date:2010-10-06 Last Date:2011-08-04
+HYGS First Date:2018-01-02 Last Date:2019-09-06
+HYH First Date:2018-01-02 Last Date:2018-06-29
+HYLV First Date:2021-07-16 Last Date:2023-02-01
+HYRE First Date:2019-07-26 Last Date:2023-02-27
+HZN First Date:2018-01-02 Last Date:2023-02-08
+HZON First Date:2021-04-09 Last Date:2023-04-26
+IAAC First Date:2010-01-04 Last Date:2010-11-22
+IAA First Date:2019-09-25 Last Date:2023-03-24
+IACA First Date:2021-04-09 Last Date:2021-06-29
+IACI First Date:2010-01-04 Last Date:2014-01-02
+IBBJ First Date:2021-09-16 Last Date:2021-12-02
+IBCA First Date:2013-04-04 Last Date:2014-01-02
+IBI First Date:2010-01-04 Last Date:2012-09-07
+IBKC First Date:2010-01-04 Last Date:2020-07-01
+IBMSY First Date:2011-06-13 Last Date:2012-04-30
+ICA First Date:2013-03-14 Last Date:2014-01-02
+ICGE First Date:2011-03-01 Last Date:2014-01-02
+ICLD First Date:2014-06-19 Last Date:2017-02-17
+ICN First Date:2010-01-04 Last Date:2014-01-02
+ICON First Date:2010-01-04 Last Date:2021-08-03
+ICO First Date:2010-01-04 Last Date:2011-06-14
+ICXT First Date:2010-01-19 Last Date:2010-10-04
+IDC First Date:2010-01-04 Last Date:2010-07-29
+IDIX First Date:2010-01-04 Last Date:2014-01-02
+IDI First Date:2016-01-27 Last Date:2016-09-26
+IDRA First Date:2010-01-04 Last Date:2023-01-19
+IDSY First Date:2010-01-04 Last Date:2019-10-03
+IDTI First Date:2010-01-04 Last Date:2019-03-29
+ID First Date:2010-01-04 Last Date:2011-07-25
+IEA First Date:2020-12-15 Last Date:2022-10-06
+IECS First Date:2022-03-23 Last Date:2022-08-22
+IEC First Date:2021-04-09 Last Date:2021-10-04
+IEFN First Date:2022-02-22 Last Date:2022-08-25
+IEHS First Date:2022-03-23 Last Date:2022-08-22
+IEIH First Date:2022-03-07 Last Date:2022-08-22
+IEME First Date:2022-03-07 Last Date:2022-08-22
+IFN First Date:2010-01-04 Last Date:2022-06-17
+IFSIA First Date:2010-01-04 Last Date:2013-01-02
+IFT First Date:2011-02-24 Last Date:2014-01-02
+IGAC First Date:2021-04-09 Last Date:2023-01-12
+IGATY First Date:2012-10-01 Last Date:2012-12-14
+IGCC First Date:2018-11-29 Last Date:2018-12-24
+IGOI First Date:2011-03-01 Last Date:2013-01-02
+IGS First Date:2011-05-06 Last Date:2011-06-15
+IGTE First Date:2010-05-18 Last Date:2014-01-02
+IGW First Date:2010-01-04 Last Date:2010-10-14
+IG First Date:2014-10-13 Last Date:2015-11-03
+IHG First Date:2010-08-20 Last Date:2019-01-11
+IIF First Date:2010-01-04 Last Date:2010-06-18
+IIG First Date:2010-01-04 Last Date:2011-05-20
+IIJI First Date:2010-01-04 Last Date:2014-01-02
+IILG First Date:2010-01-04 Last Date:2014-01-02
+IIN First Date:2018-11-28 Last Date:2022-05-24
+IIVI First Date:2010-01-04 Last Date:2022-09-08
+IKGH First Date:2013-10-02 Last Date:2014-01-02
+ILG First Date:2018-01-02 Last Date:2018-09-18
+IL First Date:2011-02-28 Last Date:2014-01-02
+IMA First Date:2010-01-04 Last Date:2010-07-16
+IMCC First Date:2021-09-15 Last Date:2023-03-17
+IMDZ First Date:2018-01-02 Last Date:2019-04-01
+IMH First Date:2012-10-17 Last Date:2023-04-26
+IMLP First Date:2014-07-31 Last Date:2022-12-15
+IMMU First Date:2010-01-04 Last Date:2020-10-22
+IMMY First Date:2018-01-02 Last Date:2018-12-31
+IMN First Date:2010-01-04 Last Date:2014-01-02
+IMPR First Date:2015-11-05 Last Date:2016-09-27
+IMPV First Date:2012-06-01 Last Date:2019-01-09
+IMPX First Date:2022-02-02 Last Date:2022-09-27
+IMRA First Date:2021-09-15 Last Date:2023-02-23
+IMS First Date:2014-04-16 Last Date:2016-10-04
+IMUC First Date:2012-06-15 Last Date:2014-01-02
+IMV First Date:2020-08-06 Last Date:2023-05-02
+IM First Date:2010-01-04 Last Date:2014-01-02
+INAP First Date:2010-01-04 Last Date:2020-03-26
+INAQ First Date:2020-12-24 Last Date:2021-02-09
+INDM First Date:2010-05-03 Last Date:2010-07-02
+INDT First Date:2022-05-10 Last Date:2023-06-29
+INDZ First Date:2012-07-24 Last Date:2012-09-05
+INFO First Date:2018-01-02 Last Date:2022-02-25
+INHX First Date:2011-04-18 Last Date:2012-02-13
+ININ First Date:2010-01-04 Last Date:2014-01-02
+INNT First Date:2018-08-15 Last Date:2020-05-01
+INOV First Date:2018-01-02 Last Date:2021-11-23
+INP First Date:2010-06-01 Last Date:2018-04-23
+INSU First Date:2010-01-04 Last Date:2020-10-14
+INSY First Date:2018-01-02 Last Date:2019-06-18
+INTL First Date:2010-12-15 Last Date:2020-07-06
+INTSY First Date:2011-06-13 Last Date:2012-04-30
+INTX First Date:2012-07-30 Last Date:2019-01-10
+INT First Date:2010-01-04 Last Date:2023-06-16
+INVN First Date:2011-11-30 Last Date:2014-01-02
+INWK First Date:2010-01-04 Last Date:2020-09-30
+INXN First Date:2011-02-10 Last Date:2020-03-12
+INXX First Date:2014-07-31 Last Date:2016-11-18
+IN First Date:2010-01-04 Last Date:2013-01-02
+IOC First Date:2010-01-04 Last Date:2014-01-02
+IOTS First Date:2016-03-31 Last Date:2016-10-14
+IO First Date:2010-01-04 Last Date:2022-07-12
+IPCC First Date:2010-01-04 Last Date:2018-07-12
+IPCI First Date:2018-01-02 Last Date:2018-12-24
+IPCM First Date:2011-08-11 Last Date:2014-01-02
+IPFF First Date:2018-01-02 Last Date:2021-08-23
+IPHI First Date:2011-03-25 Last Date:2021-04-20
+IPHS First Date:2010-01-04 Last Date:2020-02-06
+IPOB First Date:2020-10-20 Last Date:2020-12-18
+IPOC First Date:2020-10-20 Last Date:2021-01-07
+IPOD First Date:2021-02-04 Last Date:2022-10-14
+IPOE First Date:2021-02-04 Last Date:2021-05-28
+IPOF First Date:2021-02-04 Last Date:2022-10-14
+IPSU First Date:2010-01-04 Last Date:2012-06-21
+IPV First Date:2021-02-04 Last Date:2021-03-12
+IPXL First Date:2010-01-04 Last Date:2018-05-15
+IQNT First Date:2012-02-07 Last Date:2014-01-02
+IRC First Date:2010-01-04 Last Date:2014-01-02
+IREBY First Date:2015-02-18 Last Date:2015-06-19
+IRET First Date:2010-01-04 Last Date:2020-12-18
+IRE First Date:2010-01-04 Last Date:2014-01-02
+IRF First Date:2010-01-04 Last Date:2014-01-02
+IRGTQ First Date:2017-06-08 Last Date:2017-08-18
+IRGT First Date:2017-03-15 Last Date:2017-06-07
+IRG First Date:2013-07-08 Last Date:2014-01-02
+IRIS First Date:2010-01-04 Last Date:2012-10-31
+IRX First Date:2010-01-04 Last Date:2010-09-17
+ISBC First Date:2010-01-04 Last Date:2022-04-06
+ISCA First Date:2010-01-04 Last Date:2019-10-17
+ISIG First Date:2011-01-07 Last Date:2021-06-18
+ISIL First Date:2010-01-04 Last Date:2014-01-02
+ISIS First Date:2010-01-04 Last Date:2014-01-02
+ISLE First Date:2010-01-04 Last Date:2014-01-02
+ISLN First Date:2010-01-04 Last Date:2010-12-20
+ISPH First Date:2010-01-04 Last Date:2011-05-13
+ISSI First Date:2010-04-05 Last Date:2014-01-02
+ISS First Date:2011-01-06 Last Date:2014-01-02
+ISTA First Date:2010-01-04 Last Date:2012-06-05
+ISYS First Date:2011-01-14 Last Date:2011-07-27
+IS First Date:2021-07-15 Last Date:2022-11-04
+ITC First Date:2010-01-04 Last Date:2014-01-02
+ITEK First Date:2018-01-02 Last Date:2018-01-04
+ITG First Date:2010-01-04 Last Date:2019-02-28
+ITMN First Date:2010-01-04 Last Date:2014-01-02
+ITWO First Date:2010-01-04 Last Date:2010-01-28
+IUSA First Date:2010-01-04 Last Date:2010-07-01
+IVANF First Date:2015-03-03 Last Date:2015-07-17
+IVAN First Date:2010-02-10 Last Date:2022-02-04
+IVC First Date:2010-01-04 Last Date:2023-02-02
+IVN First Date:2010-01-04 Last Date:2012-08-07
+IVSPY First Date:2011-05-06 Last Date:2011-06-10
+IWA First Date:2010-01-04 Last Date:2010-05-28
+IWQ First Date:2016-04-25 Last Date:2017-12-29
+IXYS First Date:2010-01-04 Last Date:2014-01-02
+IXZ First Date:2010-01-04 Last Date:2011-08-19
+I First Date:2018-01-02 Last Date:2020-05-19
+JADE First Date:2010-01-04 Last Date:2012-03-16
+JAGGF First Date:2013-06-07 Last Date:2013-12-20
+JAG First Date:2010-01-04 Last Date:2020-01-09
+JAH First Date:2010-01-04 Last Date:2014-01-02
+JASO First Date:2010-01-04 Last Date:2018-08-03
+JAS First Date:2010-01-04 Last Date:2011-03-18
+JAVA First Date:2010-01-04 Last Date:2010-01-26
+JAX First Date:2018-01-02 Last Date:2021-09-29
+JBV First Date:2010-01-05 Last Date:2012-11-30
+JCAP First Date:2020-08-17 Last Date:2020-11-05
+JCG First Date:2010-01-04 Last Date:2011-03-04
+JCOM First Date:2010-01-04 Last Date:2021-10-14
+JCP First Date:2010-01-04 Last Date:2020-05-18
+JDAS First Date:2010-01-04 Last Date:2012-12-21
+JDSU First Date:2010-01-04 Last Date:2014-01-02
+JEC First Date:2010-01-04 Last Date:2019-12-09
+JE First Date:2012-11-23 Last Date:2021-03-19
+JGLD First Date:2022-01-06 Last Date:2022-09-30
+JGWE First Date:2016-06-21 Last Date:2016-12-16
+JGW First Date:2014-05-21 Last Date:2016-06-28
+JHTXQ First Date:2011-05-25 Last Date:2011-08-15
+JHTX First Date:2011-05-09 Last Date:2011-05-24
+JIH First Date:2021-02-04 Last Date:2021-06-07
+JILL First Date:2018-01-02 Last Date:2021-04-16
+JIVE First Date:2011-12-23 Last Date:2014-01-02
+JJA First Date:2011-04-12 Last Date:2023-06-08
+JJCB First Date:2018-03-08 Last Date:2018-11-14
+JJC First Date:2010-05-28 Last Date:2023-06-09
+JJE First Date:2021-06-22 Last Date:2023-06-09
+JJGB First Date:2018-02-12 Last Date:2018-11-15
+JJGTF First Date:2018-09-14 Last Date:2018-10-19
+JJG First Date:2011-02-04 Last Date:2023-06-09
+JJM First Date:2021-06-22 Last Date:2023-06-09
+JJN First Date:2021-06-22 Last Date:2023-06-09
+JJOFF First Date:2018-09-14 Last Date:2019-05-14
+JJP First Date:2021-06-22 Last Date:2023-06-09
+JJS First Date:2011-04-28 Last Date:2023-06-09
+JJT First Date:2021-06-22 Last Date:2023-06-09
+JJU First Date:2021-06-22 Last Date:2023-06-09
+JLO First Date:2010-01-04 Last Date:2011-03-18
+JMBA First Date:2010-01-04 Last Date:2018-09-25
+JMEI First Date:2018-01-02 Last Date:2020-04-15
+JMG First Date:2015-11-25 Last Date:2016-04-20
+JMI First Date:2013-07-11 Last Date:2014-01-02
+JMP First Date:2021-03-19 Last Date:2021-11-15
+JNCE First Date:2018-01-02 Last Date:2023-05-04
+JNP First Date:2018-01-02 Last Date:2018-08-29
+JNS First Date:2010-01-04 Last Date:2014-01-02
+JNY First Date:2010-01-04 Last Date:2014-01-02
+JOBS First Date:2010-01-04 Last Date:2022-05-06
+JONE First Date:2018-01-02 Last Date:2018-11-26
+JOSB First Date:2010-01-04 Last Date:2014-01-02
+JOYG First Date:2010-01-04 Last Date:2011-12-05
+JOY First Date:2011-12-06 Last Date:2014-01-02
+JO First Date:2012-04-04 Last Date:2023-06-09
+JPEOF First Date:2016-01-21 Last Date:2016-01-21
+JPEP First Date:2016-06-01 Last Date:2017-03-09
+JPNL First Date:2018-01-02 Last Date:2020-10-16
+JPNS First Date:2013-07-10 Last Date:2014-11-03
+JPN First Date:2010-01-04 Last Date:2010-02-19
+JP First Date:2018-01-02 Last Date:2022-06-24
+JRCCQ First Date:2014-04-17 Last Date:2015-12-18
+JRCC First Date:2010-01-04 Last Date:2014-01-02
+JRJC First Date:2010-01-04 Last Date:2020-06-19
+JRN First Date:2010-05-12 Last Date:2014-01-02
+JST First Date:2010-05-05 Last Date:2014-01-02
+JTX First Date:2010-01-04 Last Date:2011-05-06
+JUNO First Date:2018-01-02 Last Date:2018-03-27
+JVSPY First Date:2011-05-04 Last Date:2011-06-10
+JWS First Date:2021-02-04 Last Date:2021-06-03
+JW First Date:2018-01-02 Last Date:2022-03-31
+JYF First Date:2010-01-04 Last Date:2011-02-22
+KAHC First Date:2022-08-19 Last Date:2022-12-22
+KALA First Date:2018-02-23 Last Date:2023-03-17
+KANG First Date:2018-01-02 Last Date:2019-01-18
+KATE First Date:2014-02-26 Last Date:2017-07-21
+KBALB First Date:2012-10-19 Last Date:2014-01-02
+KBAL First Date:2018-01-02 Last Date:2023-06-01
+KBK First Date:2010-01-04 Last Date:2012-11-30
+KBW First Date:2010-01-04 Last Date:2013-01-02
+KCAC First Date:2020-09-30 Last Date:2021-10-08
+KCAP First Date:2010-01-04 Last Date:2019-04-01
+KCG First Date:2010-05-25 Last Date:2014-01-02
+KCI First Date:2010-01-04 Last Date:2011-11-04
+KCP First Date:2010-01-04 Last Date:2012-09-25
+KDE First Date:2010-01-04 Last Date:2010-05-28
+KDMN First Date:2018-01-26 Last Date:2021-11-08
+KDN First Date:2010-01-04 Last Date:2013-01-02
+KEGXQ First Date:2016-10-26 Last Date:2016-11-18
+KEGX First Date:2016-07-28 Last Date:2016-10-25
+KEG First Date:2010-01-04 Last Date:2019-11-27
+KEM First Date:2010-08-06 Last Date:2020-06-12
+KERX First Date:2010-01-04 Last Date:2018-12-12
+KEYN First Date:2011-02-08 Last Date:2013-01-02
+KEYW First Date:2010-11-23 Last Date:2019-06-11
+KFN First Date:2010-01-04 Last Date:2014-01-02
+KFT First Date:2010-01-04 Last Date:2012-10-01
+KGN First Date:2010-01-04 Last Date:2013-01-02
+KG First Date:2010-01-04 Last Date:2011-02-28
+KHD First Date:2010-01-04 Last Date:2010-03-30
+KID First Date:2011-05-23 Last Date:2012-09-21
+KING First Date:2014-04-03 Last Date:2016-03-30
+KIN First Date:2018-01-02 Last Date:2021-08-27
+KIORQ First Date:2014-11-11 Last Date:2014-11-18
+KIOR First Date:2012-07-16 Last Date:2014-01-02
+KIPO First Date:2012-10-17 Last Date:2014-01-02
+KITDQ First Date:2013-04-29 Last Date:2013-06-21
+KITD First Date:2010-05-06 Last Date:2013-01-02
+KITE First Date:2014-10-06 Last Date:2017-10-24
+KKD First Date:2010-01-04 Last Date:2014-01-02
+KLCD First Date:2022-07-15 Last Date:2023-01-24
+KLDO First Date:2021-02-04 Last Date:2022-05-20
+KLDX First Date:2018-01-02 Last Date:2018-04-20
+KLD First Date:2010-01-04 Last Date:2011-01-04
+KLXI First Date:2018-01-02 Last Date:2018-10-30
+KL First Date:2018-01-02 Last Date:2022-02-08
+KMG First Date:2018-01-02 Last Date:2018-11-26
+KMPH First Date:2018-01-02 Last Date:2023-03-01
+KMP First Date:2010-01-04 Last Date:2014-01-02
+KMR First Date:2010-01-04 Last Date:2014-01-02
+KNBE First Date:2021-07-15 Last Date:2023-02-01
+KNDL First Date:2010-01-04 Last Date:2011-07-11
+KND First Date:2010-01-04 Last Date:2018-07-13
+KNL First Date:2010-04-13 Last Date:2021-07-19
+KNOL First Date:2011-04-04 Last Date:2012-07-16
+KNOT First Date:2010-01-04 Last Date:2011-06-27
+KNSY First Date:2010-01-04 Last Date:2011-05-20
+KNXA First Date:2010-01-04 Last Date:2012-12-03
+KOG First Date:2010-04-01 Last Date:2014-01-02
+KOL First Date:2010-01-04 Last Date:2020-12-14
+KONA First Date:2018-01-02 Last Date:2019-04-26
+KONG First Date:2010-01-04 Last Date:2014-01-02
+KORS First Date:2011-12-23 Last Date:2018-12-31
+KRA First Date:2010-01-07 Last Date:2022-03-14
+KRFT First Date:2012-10-02 Last Date:2014-01-02
+KRY First Date:2010-01-04 Last Date:2011-06-06
+KSCD First Date:2022-07-15 Last Date:2023-01-24
+KSP First Date:2010-01-04 Last Date:2011-07-01
+KSU First Date:2010-01-04 Last Date:2021-12-13
+KSWS First Date:2010-01-04 Last Date:2013-01-02
+KS First Date:2010-02-05 Last Date:2018-11-14
+KTWO First Date:2018-01-02 Last Date:2018-11-21
+KUBTY First Date:2013-07-15 Last Date:2013-12-20
+KUB First Date:2012-09-05 Last Date:2013-01-02
+KVPHA First Date:2012-08-07 Last Date:2012-08-07
+KVPHQ First Date:2012-08-08 Last Date:2013-01-02
+KVSB First Date:2021-08-10 Last Date:2021-11-05
+KWKAQ First Date:2015-03-19 Last Date:2015-12-18
+KWKA First Date:2015-01-09 Last Date:2015-03-18
+KWK First Date:2010-01-04 Last Date:2014-01-02
+KWT First Date:2010-01-04 Last Date:2012-06-29
+KYAK First Date:2013-01-28 Last Date:2013-05-20
+KYTH First Date:2013-10-24 Last Date:2014-01-02
+KZ First Date:2014-06-16 Last Date:2017-05-03
+LABL First Date:2012-07-30 Last Date:2019-07-02
+LACO First Date:2010-01-04 Last Date:2011-08-19
+LAVA First Date:2010-01-04 Last Date:2012-02-22
+LAYN First Date:2010-01-04 Last Date:2018-06-25
+LBIO First Date:2015-05-14 Last Date:2017-06-27
+LBJ First Date:2011-05-05 Last Date:2022-01-14
+LBMH First Date:2013-12-02 Last Date:2014-01-02
+LBY First Date:2011-03-07 Last Date:2020-05-29
+LB First Date:2018-01-02 Last Date:2021-08-02
+LCAPA First Date:2010-01-04 Last Date:2011-11-28
+LCAV First Date:2010-01-04 Last Date:2014-01-02
+LCA First Date:2020-08-06 Last Date:2021-01-29
+LCC First Date:2010-01-04 Last Date:2013-01-02
+LCI First Date:2011-02-03 Last Date:2023-04-19
+LCPAD First Date:2011-09-26 Last Date:2011-09-30
+LCRD First Date:2010-01-04 Last Date:2011-01-28
+LCRY First Date:2011-02-08 Last Date:2012-08-03
+LCY First Date:2021-04-09 Last Date:2021-07-21
+LDKSY First Date:2014-04-01 Last Date:2014-10-29
+LDKYQ First Date:2014-10-30 Last Date:2015-12-18
+LDK First Date:2010-01-04 Last Date:2014-01-02
+LDL First Date:2012-09-11 Last Date:2021-09-30
+LDRH First Date:2014-06-30 Last Date:2016-07-22
+LDR First Date:2015-11-30 Last Date:2017-10-31
+LDSH First Date:2010-01-04 Last Date:2011-05-09
+LD First Date:2021-06-22 Last Date:2023-06-09
+LEAF First Date:2014-03-05 Last Date:2021-06-11
+LEAP First Date:2010-01-04 Last Date:2022-08-12
+LEDR First Date:2012-10-23 Last Date:2013-01-02
+LEDS First Date:2011-10-05 Last Date:2013-01-02
+LEE First Date:2010-01-04 Last Date:2021-08-20
+LEHMQ First Date:2010-01-04 Last Date:2010-11-22
+LEI First Date:2011-03-10 Last Date:2014-01-02
+LEJU First Date:2018-01-02 Last Date:2022-10-21
+LEXEA First Date:2018-01-08 Last Date:2019-07-26
+LFC First Date:2010-01-04 Last Date:2022-09-16
+LFGR First Date:2018-01-02 Last Date:2018-08-10
+LFG First Date:2021-09-28 Last Date:2022-12-28
+LFIN First Date:2018-01-26 Last Date:2018-08-17
+LFL First Date:2010-01-04 Last Date:2014-01-02
+LFTR First Date:2021-04-09 Last Date:2022-10-24
+LFT First Date:2010-01-04 Last Date:2022-10-21
+LF First Date:2010-01-04 Last Date:2014-01-02
+LGCY First Date:2010-12-16 Last Date:2019-06-27
+LGFTY First Date:2011-08-17 Last Date:2011-11-18
+LGP First Date:2014-08-27 Last Date:2014-10-03
+LGVW First Date:2021-02-04 Last Date:2021-02-12
+LGV First Date:2022-02-23 Last Date:2022-12-15
+LG First Date:2010-01-04 Last Date:2014-01-02
+LHB First Date:2011-05-05 Last Date:2012-09-05
+LHCG First Date:2010-01-04 Last Date:2023-02-22
+LHDX First Date:2021-06-11 Last Date:2023-04-05
+LHO First Date:2010-01-04 Last Date:2018-11-30
+LIHR First Date:2010-01-04 Last Date:2010-08-27
+LINEQ First Date:2016-05-24 Last Date:2017-03-10
+LINE First Date:2010-01-04 Last Date:2014-01-02
+LINTA First Date:2010-01-04 Last Date:2014-01-02
+LINU First Date:2018-01-02 Last Date:2018-05-11
+LION First Date:2018-01-02 Last Date:2019-06-28
+LIOX First Date:2010-05-14 Last Date:2014-01-02
+LITB First Date:2018-01-02 Last Date:2019-06-14
+LIVE First Date:2014-07-02 Last Date:2017-04-21
+LIVX First Date:2020-08-06 Last Date:2021-10-12
+LIWA First Date:2010-02-25 Last Date:2014-01-02
+LIZ First Date:2010-01-04 Last Date:2012-05-14
+LJPC First Date:2018-01-02 Last Date:2022-08-19
+LKM First Date:2018-01-22 Last Date:2018-12-19
+LKNCY First Date:2021-04-13 Last Date:2021-12-17
+LKQX First Date:2010-01-04 Last Date:2012-05-21
+LKSD First Date:2018-01-02 Last Date:2019-12-27
+LK First Date:2019-06-07 Last Date:2020-06-26
+LLEN First Date:2010-04-22 Last Date:2013-01-02
+LLEX First Date:2018-01-02 Last Date:2020-06-26
+LLL First Date:2010-01-04 Last Date:2019-06-28
+LLNW First Date:2010-01-04 Last Date:2022-06-15
+LLTC First Date:2010-01-04 Last Date:2014-01-02
+LMACA First Date:2021-09-28 Last Date:2022-12-01
+LMCAD First Date:2013-01-18 Last Date:2013-01-18
+LMCA First Date:2011-11-29 Last Date:2014-01-02
+LMCK First Date:2014-07-24 Last Date:2015-03-06
+LMIA First Date:2013-07-08 Last Date:2014-01-02
+LMLP First Date:2011-03-11 Last Date:2013-01-02
+LMNS First Date:2014-03-19 Last Date:2015-10-30
+LMNX First Date:2010-01-04 Last Date:2021-07-13
+LMOS First Date:2012-07-31 Last Date:2014-01-02
+LMRK First Date:2018-01-02 Last Date:2021-12-21
+LM First Date:2010-01-04 Last Date:2020-07-31
+LNCE First Date:2010-01-04 Last Date:2018-04-13
+LNCOQ First Date:2016-05-24 Last Date:2017-03-10
+LNCO First Date:2012-10-24 Last Date:2014-01-02
+LNCR First Date:2010-01-04 Last Date:2012-08-13
+LNDC First Date:2011-08-24 Last Date:2022-11-14
+LNET First Date:2010-01-04 Last Date:2012-01-20
+LNKD First Date:2011-05-27 Last Date:2014-01-02
+LNY First Date:2010-01-04 Last Date:2010-10-06
+LN First Date:2018-01-02 Last Date:2020-12-24
+LOCK First Date:2012-10-24 Last Date:2014-01-02
+LOCM First Date:2010-05-04 Last Date:2014-01-02
+LOGC First Date:2021-04-13 Last Date:2022-11-15
+LOGM First Date:2010-01-04 Last Date:2020-08-28
+LOJN First Date:2010-01-04 Last Date:2014-01-02
+LONE First Date:2018-01-02 Last Date:2020-10-09
+LONG First Date:2010-01-04 Last Date:2012-09-21
+LOPX First Date:2022-02-02 Last Date:2022-09-23
+LORL First Date:2011-04-14 Last Date:2021-11-18
+LOTZ First Date:2021-02-04 Last Date:2022-12-09
+LOWC First Date:2021-09-16 Last Date:2022-04-21
+LOXO First Date:2018-01-02 Last Date:2019-02-14
+LO First Date:2010-01-04 Last Date:2014-01-02
+LPHIQ First Date:2015-03-31 Last Date:2015-09-18
+LPHI First Date:2010-01-04 Last Date:2014-01-02
+LPI First Date:2012-01-06 Last Date:2023-01-09
+LPNT First Date:2010-01-04 Last Date:2018-11-29
+LPRIQ First Date:2013-10-02 Last Date:2013-11-15
+LPRI First Date:2013-09-18 Last Date:2013-09-25
+LPR First Date:2011-10-03 Last Date:2013-01-02
+LPS First Date:2010-01-04 Last Date:2014-01-02
+LPTN First Date:2013-05-07 Last Date:2014-01-02
+LPT First Date:2018-01-02 Last Date:2020-02-03
+LQ First Date:2018-01-02 Last Date:2018-06-08
+LRAD First Date:2018-01-02 Last Date:2019-10-22
+LRE First Date:2011-11-30 Last Date:2014-01-02
+LRGP First Date:2016-01-28 Last Date:2016-01-29
+LRY First Date:2010-01-04 Last Date:2014-01-02
+LSE First Date:2011-07-01 Last Date:2013-01-02
+LSTAD First Date:2011-09-26 Last Date:2011-09-30
+LSTZA First Date:2010-01-04 Last Date:2011-11-28
+LTD First Date:2010-01-04 Last Date:2013-01-02
+LTM First Date:2010-01-04 Last Date:2020-06-10
+LTXB First Date:2018-01-02 Last Date:2019-11-01
+LTXC First Date:2010-11-16 Last Date:2014-01-02
+LUB First Date:2012-10-17 Last Date:2022-05-27
+LUFK First Date:2010-01-04 Last Date:2013-01-02
+LUK First Date:2010-01-04 Last Date:2018-05-23
+LUMO First Date:2020-04-29 Last Date:2020-10-09
+LUXA First Date:2021-04-09 Last Date:2022-10-28
+LUXTY First Date:2017-06-22 Last Date:2017-09-15
+LUX First Date:2010-01-04 Last Date:2014-01-02
+LVB First Date:2013-08-29 Last Date:2013-09-18
+LVGO First Date:2019-09-25 Last Date:2020-10-29
+LVLT First Date:2010-01-04 Last Date:2014-01-02
+LVNTA First Date:2018-01-02 Last Date:2018-03-20
+LVSPY First Date:2011-05-02 Last Date:2011-06-10
+LWSN First Date:2010-01-04 Last Date:2011-07-05
+LXFT First Date:2018-01-02 Last Date:2019-06-13
+LXK First Date:2010-01-04 Last Date:2014-01-02
+LYLT First Date:2022-04-06 Last Date:2023-03-20
+MAGS First Date:2018-01-02 Last Date:2021-10-05
+MAKO First Date:2010-10-07 Last Date:2013-01-02
+MANT First Date:2010-01-04 Last Date:2022-09-13
+MAPP First Date:2010-01-04 Last Date:2013-01-02
+MASC First Date:2014-02-05 Last Date:2014-03-20
+MATK First Date:2010-01-04 Last Date:2011-02-25
+MATN First Date:2016-06-20 Last Date:2017-06-16
+MATR First Date:2018-01-02 Last Date:2018-08-30
+MAXR First Date:2018-01-02 Last Date:2023-05-03
+MAXY First Date:2010-01-04 Last Date:2012-07-20
+MBBYF First Date:2017-09-06 Last Date:2017-12-29
+MBFI First Date:2010-01-04 Last Date:2019-03-21
+MBII First Date:2014-02-26 Last Date:2015-11-20
+MBLX First Date:2010-01-04 Last Date:2014-01-02
+MBND First Date:2013-06-13 Last Date:2013-08-30
+MBTF First Date:2018-01-02 Last Date:2019-01-31
+MBT First Date:2010-01-04 Last Date:2022-02-25
+MB First Date:2018-01-02 Last Date:2019-02-14
+MCCC First Date:2010-01-04 Last Date:2011-03-04
+MCC First Date:2012-12-12 Last Date:2020-12-31
+MCEP First Date:2012-07-30 Last Date:2020-09-18
+MCFE First Date:2020-12-15 Last Date:2022-02-28
+MCF First Date:2010-01-04 Last Date:2021-12-07
+MCGC First Date:2010-01-04 Last Date:2014-01-02
+MCG First Date:2021-09-15 Last Date:2023-03-20
+MCMJ First Date:2021-04-09 Last Date:2022-02-04
+MCOX First Date:2010-11-11 Last Date:2013-01-02
+MCPIQ First Date:2015-06-26 Last Date:2016-09-15
+MCPI First Date:2016-09-21 Last Date:2016-09-28
+MCP First Date:2010-08-10 Last Date:2014-01-02
+MCRL First Date:2010-01-04 Last Date:2014-01-02
+MCRN First Date:2018-01-02 Last Date:2019-11-20
+MCRS First Date:2010-01-04 Last Date:2014-01-02
+MDAS First Date:2010-01-04 Last Date:2014-01-02
+MDA First Date:2017-10-06 Last Date:2017-10-09
+MDCA First Date:2018-01-02 Last Date:2021-08-02
+MDCI First Date:2013-04-04 Last Date:2014-01-02
+MDCO First Date:2010-01-04 Last Date:2020-01-03
+MDF First Date:2011-08-12 Last Date:2012-12-21
+MDGN First Date:2013-10-02 Last Date:2014-01-02
+MDLA First Date:2019-11-29 Last Date:2021-10-28
+MDP First Date:2010-01-04 Last Date:2021-12-01
+MDR First Date:2010-01-04 Last Date:2020-01-17
+MDSO First Date:2010-01-04 Last Date:2019-10-29
+MDS First Date:2010-01-04 Last Date:2012-04-30
+MDTH First Date:2010-04-05 Last Date:2012-09-21
+MDVN First Date:2010-01-04 Last Date:2014-01-02
+MDWD First Date:2018-01-02 Last Date:2023-04-21
+MDZ First Date:2010-01-04 Last Date:2010-10-29
+MEAS First Date:2010-10-28 Last Date:2014-01-02
+MEA First Date:2010-01-04 Last Date:2014-01-02
+MEDH First Date:2011-09-02 Last Date:2012-01-24
+MEDQ First Date:2010-01-04 Last Date:2011-05-04
+MEET First Date:2012-06-05 Last Date:2020-09-03
+MEE First Date:2010-01-04 Last Date:2011-06-01
+MELA First Date:2010-01-04 Last Date:2014-01-02
+MEMP First Date:2011-12-30 Last Date:2014-01-02
+MEMS First Date:2012-12-18 Last Date:2013-01-02
+MENT First Date:2010-01-04 Last Date:2014-01-02
+MEP First Date:2013-12-05 Last Date:2014-01-02
+MERU First Date:2010-10-28 Last Date:2014-01-02
+MESG First Date:2015-09-09 Last Date:2016-08-31
+MFB First Date:2010-01-04 Last Date:2013-01-02
+MFCB First Date:2018-01-02 Last Date:2019-06-03
+MFE First Date:2010-01-04 Last Date:2011-02-28
+MFGLQ First Date:2011-11-02 Last Date:2012-05-15
+MFGP First Date:2018-01-02 Last Date:2023-01-31
+MFLX First Date:2010-01-04 Last Date:2014-01-02
+MFNC First Date:2021-08-10 Last Date:2021-09-03
+MFN First Date:2010-01-04 Last Date:2012-03-30
+MFRM First Date:2012-05-17 Last Date:2014-01-02
+MFS First Date:2016-03-04 Last Date:2017-03-03
+MFW First Date:2010-01-04 Last Date:2011-12-21
+MFX First Date:2010-01-04 Last Date:2011-05-20
+MF First Date:2010-01-04 Last Date:2011-10-28
+MGAM First Date:2010-01-04 Last Date:2014-01-02
+MGI First Date:2011-06-01 Last Date:2023-06-01
+MGLN First Date:2010-01-04 Last Date:2022-01-03
+MGN First Date:2011-02-17 Last Date:2012-06-15
+MGP First Date:2018-01-02 Last Date:2022-04-28
+MGTI First Date:2016-10-21 Last Date:2017-04-21
+MGTTW First Date:2015-12-04 Last Date:2015-12-15
+MGT First Date:2016-07-12 Last Date:2016-10-31
+MHFI First Date:2013-05-14 Last Date:2014-01-02
+MHGC First Date:2010-01-04 Last Date:2014-01-02
+MHP First Date:2010-01-04 Last Date:2013-01-02
+MHRCQ First Date:2015-12-18 Last Date:2016-05-20
+MHRC First Date:2015-11-12 Last Date:2015-12-17
+MHR First Date:2010-04-27 Last Date:2014-01-02
+MHS First Date:2010-01-04 Last Date:2012-03-30
+MICC First Date:2010-01-04 Last Date:2011-05-31
+MIC First Date:2010-01-04 Last Date:2022-07-20
+MIDZ First Date:2012-06-29 Last Date:2020-03-27
+MID First Date:2010-01-04 Last Date:2012-05-23
+MIFI First Date:2014-10-15 Last Date:2016-11-08
+MIG First Date:2010-01-04 Last Date:2014-01-02
+MIICF First Date:2011-06-01 Last Date:2011-12-16
+MIK First Date:2018-01-02 Last Date:2021-04-14
+MILE First Date:2021-02-16 Last Date:2022-07-27
+MILLQ First Date:2015-10-05 Last Date:2016-01-15
+MILL First Date:2010-06-14 Last Date:2014-01-02
+MIL First Date:2010-01-04 Last Date:2014-01-02
+MIME First Date:2018-01-02 Last Date:2022-05-18
+MIM First Date:2011-08-25 Last Date:2012-06-15
+MINI First Date:2010-01-04 Last Date:2020-06-30
+MIPS First Date:2010-07-13 Last Date:2013-01-02
+MITC First Date:2021-12-06 Last Date:2022-08-02
+MITI First Date:2010-01-04 Last Date:2012-03-07
+MITL First Date:2010-05-04 Last Date:2018-11-30
+MI First Date:2010-01-04 Last Date:2011-07-05
+MJIN First Date:2022-07-15 Last Date:2022-11-23
+MJN First Date:2010-01-04 Last Date:2014-01-02
+MJXL First Date:2021-09-16 Last Date:2022-12-29
+MKTG First Date:2013-02-19 Last Date:2014-01-02
+MKTO First Date:2013-09-23 Last Date:2014-01-02
+MKTSQ First Date:2013-01-23 Last Date:2013-01-24
+MKTS First Date:2012-06-01 Last Date:2013-01-02
+MLHR First Date:2010-01-04 Last Date:2021-10-29
+MLND First Date:2019-04-11 Last Date:2021-06-25
+MLNT First Date:2018-01-02 Last Date:2020-01-10
+MLNX First Date:2010-01-04 Last Date:2020-04-24
+MLPI First Date:2018-01-02 Last Date:2020-11-23
+MLPN First Date:2010-05-28 Last Date:2014-01-02
+MLQ First Date:2018-01-02 Last Date:2018-03-28
+MMR First Date:2010-01-04 Last Date:2013-01-02
+MMX First Date:2021-06-11 Last Date:2023-01-19
+MM First Date:2012-04-09 Last Date:2014-01-02
+MNDL First Date:2014-07-02 Last Date:2015-01-16
+MNDT First Date:2021-10-26 Last Date:2022-09-09
+MNI First Date:2010-01-04 Last Date:2014-01-02
+MNKIF First Date:2016-03-03 Last Date:2016-03-04
+MNK First Date:2018-01-02 Last Date:2020-10-09
+MNM First Date:2022-08-17 Last Date:2023-04-24
+MNRL First Date:2020-12-15 Last Date:2022-12-28
+MNR First Date:2011-10-05 Last Date:2022-02-25
+MNTA First Date:2010-01-04 Last Date:2020-09-30
+MNTG First Date:2012-06-01 Last Date:2014-01-02
+MNTV First Date:2021-07-14 Last Date:2023-06-01
+MNX First Date:2010-01-04 Last Date:2019-06-03
+MN First Date:2011-12-20 Last Date:2022-10-20
+MOBI First Date:2011-01-03 Last Date:2014-01-02
+MOBL First Date:2018-01-02 Last Date:2020-11-30
+MODL First Date:2012-01-25 Last Date:2012-08-17
+MOLXA First Date:2011-08-24 Last Date:2013-01-02
+MOLX First Date:2010-01-04 Last Date:2013-01-02
+MONT First Date:2014-02-13 Last Date:2014-12-09
+MON First Date:2010-01-04 Last Date:2018-06-19
+MORE First Date:2015-01-08 Last Date:2017-09-29
+MOSY First Date:2013-01-08 Last Date:2021-12-20
+MOTR First Date:2010-10-26 Last Date:2013-01-02
+MOT First Date:2010-01-04 Last Date:2011-01-03
+MOVED First Date:2011-12-05 Last Date:2011-12-19
+MOVE First Date:2011-12-20 Last Date:2014-01-02
+MPEL First Date:2010-01-04 Last Date:2014-01-02
+MPG First Date:2010-01-04 Last Date:2013-01-02
+MPOY First Date:2016-02-05 Last Date:2016-02-19
+MPO First Date:2012-05-02 Last Date:2019-08-06
+MPSX First Date:2016-10-12 Last Date:2017-06-16
+MPS First Date:2010-01-04 Last Date:2010-01-19
+MRD First Date:2014-06-25 Last Date:2016-09-19
+MRGE First Date:2010-01-04 Last Date:2014-01-02
+MRH First Date:2010-01-04 Last Date:2014-01-02
+MRKSY First Date:2011-06-13 Last Date:2012-04-30
+MRKT First Date:2014-06-27 Last Date:2016-07-12
+MRLN First Date:2018-01-02 Last Date:2022-01-19
+MRNAD First Date:2010-07-26 Last Date:2010-08-19
+MRX First Date:2010-01-04 Last Date:2012-12-10
+MR First Date:2010-01-04 Last Date:2020-11-12
+MSCC First Date:2010-01-04 Last Date:2018-06-15
+MSFG First Date:2015-11-25 Last Date:2018-03-08
+MSGN First Date:2018-01-02 Last Date:2021-07-08
+MSGR First Date:2022-07-18 Last Date:2023-04-24
+MSG First Date:2010-02-10 Last Date:2020-04-17
+MSH First Date:2010-01-04 Last Date:2011-08-19
+MSN First Date:2010-03-26 Last Date:2010-11-19
+MSON First Date:2019-06-07 Last Date:2021-10-28
+MSO First Date:2010-01-04 Last Date:2014-01-02
+MSPD First Date:2010-01-04 Last Date:2013-01-02
+MSP First Date:2020-12-15 Last Date:2022-06-22
+MSSR First Date:2011-04-14 Last Date:2012-01-03
+MSTX First Date:2013-03-11 Last Date:2014-01-02
+MTBC First Date:2021-09-15 Last Date:2023-01-10
+MTCR First Date:2021-08-10 Last Date:2023-06-21
+MTEX First Date:2010-01-04 Last Date:2011-05-20
+MTGE First Date:2011-08-17 Last Date:2018-09-18
+MTLQQ First Date:2010-01-04 Last Date:2010-11-22
+MTL First Date:2010-01-04 Last Date:2022-02-25
+MTOR First Date:2011-03-30 Last Date:2022-08-02
+MTP First Date:2015-12-08 Last Date:2016-06-17
+MTSC First Date:2012-07-30 Last Date:2021-04-06
+MTSN First Date:2010-04-13 Last Date:2014-01-02
+MTU First Date:2010-01-04 Last Date:2018-04-02
+MTXX First Date:2010-01-04 Last Date:2011-02-18
+MUDS First Date:2021-05-05 Last Date:2022-09-12
+MULE First Date:2018-01-02 Last Date:2018-05-11
+MVC First Date:2010-01-04 Last Date:2020-12-23
+MVG First Date:2010-01-04 Last Date:2014-01-02
+MVP First Date:2021-04-16 Last Date:2022-04-06
+MVR First Date:2010-01-04 Last Date:2011-05-20
+MWE First Date:2010-01-04 Last Date:2014-01-02
+MWIV First Date:2010-10-28 Last Date:2014-01-02
+MWJ First Date:2010-01-04 Last Date:2012-06-28
+MWK First Date:2021-02-04 Last Date:2021-04-29
+MWN First Date:2010-01-04 Last Date:2012-06-28
+MWV First Date:2010-01-04 Last Date:2014-01-02
+MWW First Date:2010-01-04 Last Date:2014-01-02
+MW First Date:2010-01-04 Last Date:2014-01-02
+MXB First Date:2010-01-04 Last Date:2010-07-02
+MXEA First Date:2012-06-11 Last Date:2017-12-29
+MXEF First Date:2012-06-11 Last Date:2016-08-24
+MXGL First Date:2010-01-05 Last Date:2010-05-12
+MXIM First Date:2010-01-04 Last Date:2021-08-25
+MXWL First Date:2010-01-04 Last Date:2019-05-15
+MYCC First Date:2013-10-02 Last Date:2014-01-02
+MYL First Date:2010-01-04 Last Date:2020-11-16
+MYOK First Date:2018-01-02 Last Date:2020-11-16
+MYOV First Date:2019-07-26 Last Date:2023-03-10
+MYRX First Date:2010-01-04 Last Date:2013-01-02
+MY First Date:2010-10-18 Last Date:2014-01-02
+MZOR First Date:2018-01-02 Last Date:2018-12-18
+NABI First Date:2010-01-04 Last Date:2012-11-08
+NADLQ First Date:2017-09-18 Last Date:2017-12-29
+NADL First Date:2014-02-26 Last Date:2017-09-22
+NAFC First Date:2010-01-04 Last Date:2013-01-02
+NAKD First Date:2022-01-05 Last Date:2022-01-13
+NAL First Date:2010-01-04 Last Date:2011-04-15
+NAME First Date:2014-11-24 Last Date:2017-08-16
+NANO First Date:2010-01-04 Last Date:2019-10-25
+NAO First Date:2018-01-02 Last Date:2019-01-25
+NAP First Date:2018-01-02 Last Date:2018-12-13
+NARA First Date:2010-01-04 Last Date:2011-11-30
+NAVG First Date:2010-01-04 Last Date:2019-05-22
+NAV First Date:2010-01-04 Last Date:2021-06-30
+NBEV First Date:2018-01-02 Last Date:2022-09-08
+NBGGY First Date:2015-12-04 Last Date:2016-12-16
+NBG First Date:2010-02-05 Last Date:2014-01-02
+NBLX First Date:2018-11-28 Last Date:2021-05-10
+NBL First Date:2010-01-04 Last Date:2020-10-02
+NBRV First Date:2018-01-02 Last Date:2023-03-17
+NBS First Date:2013-08-01 Last Date:2014-01-02
+NCBS First Date:2021-09-28 Last Date:2022-05-24
+NCI First Date:2010-01-04 Last Date:2019-10-10
+NCOC First Date:2010-01-04 Last Date:2010-06-21
+NCQ First Date:2012-05-01 Last Date:2014-01-02
+NCS First Date:2010-01-04 Last Date:2019-05-24
+NCT First Date:2010-01-04 Last Date:2014-01-02
+NDN First Date:2010-01-04 Last Date:2012-01-13
+NDO First Date:2010-01-04 Last Date:2014-01-02
+NDRM First Date:2015-08-12 Last Date:2017-11-08
+NDRO First Date:2011-11-17 Last Date:2018-09-13
+NDZ First Date:2010-11-01 Last Date:2014-01-02
+NEBC First Date:2021-06-11 Last Date:2021-07-30
+NED First Date:2010-01-04 Last Date:2012-08-17
+NEFF First Date:2015-12-17 Last Date:2017-10-11
+NEOP First Date:2011-02-25 Last Date:2012-01-04
+NEOS First Date:2018-01-02 Last Date:2021-03-19
+NEPT First Date:2012-07-16 Last Date:2022-11-25
+NERV First Date:2018-01-02 Last Date:2022-11-25
+NESC First Date:2016-01-20 Last Date:2016-08-19
+NESR First Date:2020-12-24 Last Date:2023-04-28
+NES First Date:2013-05-20 Last Date:2014-01-02
+NETC First Date:2010-01-04 Last Date:2012-02-17
+NEWM First Date:2018-01-02 Last Date:2019-11-19
+NEWN First Date:2011-04-07 Last Date:2013-01-02
+NEW First Date:2018-12-24 Last Date:2022-05-03
+NFP First Date:2010-01-04 Last Date:2013-01-02
+NFQ First Date:2017-09-01 Last Date:2017-12-29
+NFTZ First Date:2022-02-02 Last Date:2023-03-01
+NFX First Date:2010-01-04 Last Date:2019-02-13
+NGAC First Date:2021-04-09 Last Date:2021-08-26
+NGAS First Date:2010-01-04 Last Date:2011-04-13
+NGA First Date:2021-03-05 Last Date:2021-05-06
+NGCA First Date:2021-12-16 Last Date:2021-12-29
+NGHC First Date:2018-01-02 Last Date:2020-12-31
+NGLS First Date:2010-01-04 Last Date:2014-01-02
+NGPC First Date:2010-01-04 Last Date:2014-01-02
+NHIC First Date:2021-06-11 Last Date:2021-07-16
+NHP First Date:2010-01-04 Last Date:2011-07-01
+NH First Date:2018-01-02 Last Date:2023-05-19
+NIB First Date:2012-06-15 Last Date:2023-06-09
+NIFE First Date:2022-02-22 Last Date:2022-09-23
+NIHDQ First Date:2014-09-25 Last Date:2015-01-15
+NIHD First Date:2010-01-04 Last Date:2020-01-03
+NILE First Date:2010-01-04 Last Date:2023-01-03
+NITE First Date:2010-01-04 Last Date:2010-05-24
+NKA First Date:2010-05-27 Last Date:2014-01-02
+NKEL First Date:2022-08-17 Last Date:2023-06-26
+NKEQ First Date:2022-08-17 Last Date:2023-06-26
+NKY First Date:2011-10-13 Last Date:2014-01-02
+NK First Date:2018-01-02 Last Date:2021-03-09
+NLC First Date:2010-01-04 Last Date:2011-12-01
+NLNK First Date:2012-11-15 Last Date:2020-03-18
+NLOK First Date:2019-11-29 Last Date:2022-11-07
+NLSN First Date:2011-02-03 Last Date:2022-10-11
+NLST First Date:2010-02-11 Last Date:2018-12-24
+NMBL First Date:2014-01-10 Last Date:2017-04-27
+NMCI First Date:2021-02-04 Last Date:2021-03-31
+NMRX First Date:2013-04-04 Last Date:2014-01-02
+NMTI First Date:2010-01-04 Last Date:2011-02-18
+NNA First Date:2020-05-06 Last Date:2021-10-14
+NORD First Date:2014-04-10 Last Date:2017-09-14
+NORNQ First Date:2016-02-10 Last Date:2016-07-08
+NORN First Date:2015-11-30 Last Date:2016-02-09
+NOR First Date:2010-06-02 Last Date:2014-01-02
+NOVL First Date:2010-01-04 Last Date:2011-04-27
+NPA First Date:2021-02-17 Last Date:2021-04-06
+NPBC First Date:2010-01-04 Last Date:2014-01-02
+NPD First Date:2010-01-04 Last Date:2014-01-02
+NPSP First Date:2010-01-04 Last Date:2014-01-02
+NPTN First Date:2011-02-17 Last Date:2022-08-02
+NP First Date:2010-01-04 Last Date:2022-07-05
+NQ First Date:2012-03-21 Last Date:2018-03-13
+NRBO First Date:2020-07-08 Last Date:2023-02-17
+NRE First Date:2018-01-02 Last Date:2019-09-27
+NRF First Date:2010-01-04 Last Date:2014-01-02
+NRGM First Date:2012-01-06 Last Date:2013-01-02
+NRGY First Date:2010-01-04 Last Date:2013-01-02
+NRZ First Date:2018-01-02 Last Date:2022-08-02
+NSAM First Date:2014-07-01 Last Date:2017-01-10
+NSANY First Date:2010-01-04 Last Date:2010-02-19
+NSCO First Date:2020-08-06 Last Date:2021-04-09
+NSH First Date:2010-01-04 Last Date:2021-08-23
+NSLP First Date:2014-09-04 Last Date:2016-01-15
+NSM First Date:2010-01-04 Last Date:2018-08-09
+NSPH First Date:2012-07-16 Last Date:2014-01-02
+NSR First Date:2010-01-04 Last Date:2022-08-12
+NSTC First Date:2010-01-04 Last Date:2011-10-11
+NST First Date:2010-01-04 Last Date:2012-04-09
+NSU First Date:2010-10-01 Last Date:2019-03-07
+NTEC First Date:2018-01-11 Last Date:2021-04-09
+NTE First Date:2010-01-04 Last Date:2014-01-02
+NTGN First Date:2019-07-26 Last Date:2020-05-05
+NTI First Date:2012-08-21 Last Date:2014-01-02
+NTLSD First Date:2011-11-04 Last Date:2011-11-29
+NTLS First Date:2011-08-24 Last Date:2014-01-02
+NTP First Date:2018-01-02 Last Date:2022-05-23
+NTRI First Date:2010-01-04 Last Date:2019-03-07
+NTRP First Date:2018-01-02 Last Date:2020-12-01
+NTSP First Date:2010-11-02 Last Date:2013-01-02
+NTTYY First Date:2017-05-22 Last Date:2017-06-26
+NTT First Date:2010-01-04 Last Date:2014-01-02
+NTUS First Date:2019-11-29 Last Date:2022-07-20
+NTY First Date:2010-01-04 Last Date:2010-09-30
+NTZO First Date:2021-12-27 Last Date:2022-06-07
+NUAN First Date:2010-01-04 Last Date:2022-03-03
+NURO First Date:2010-01-04 Last Date:2010-02-19
+NVDQ First Date:2012-12-06 Last Date:2014-01-02
+NVE First Date:2010-01-04 Last Date:2013-01-02
+NVFY First Date:2016-11-03 Last Date:2017-04-07
+NVGN First Date:2015-05-20 Last Date:2017-07-13
+NVIV First Date:2018-01-02 Last Date:2018-06-18
+NVLN First Date:2018-01-02 Last Date:2019-10-08
+NVLS First Date:2010-01-04 Last Date:2012-06-04
+NVSPY First Date:2011-05-05 Last Date:2011-06-10
+NVTL First Date:2010-01-04 Last Date:2014-01-02
+NVTR First Date:2018-01-02 Last Date:2019-11-21
+NVUS First Date:2017-05-11 Last Date:2017-06-05
+NWBO First Date:2012-12-27 Last Date:2014-01-02
+NWY First Date:2010-01-04 Last Date:2018-11-19
+NXG First Date:2010-01-04 Last Date:2011-10-25
+NXTD First Date:2018-01-05 Last Date:2022-03-01
+NXTM First Date:2010-01-04 Last Date:2019-02-21
+NXTQ First Date:2010-01-27 Last Date:2011-02-18
+NXY First Date:2010-01-04 Last Date:2013-01-02
+NYB First Date:2010-01-04 Last Date:2012-11-12
+NYC First Date:2021-09-28 Last Date:2023-06-16
+NYLD First Date:2018-01-02 Last Date:2017-12-29
+NYMX First Date:2011-08-17 Last Date:2023-07-06
+NYNY First Date:2013-10-02 Last Date:2014-01-02
+NYRT First Date:2018-01-02 Last Date:2018-11-14
+NYX First Date:2010-01-04 Last Date:2013-01-02
+NZD First Date:2010-01-04 Last Date:2014-01-02
+NZTCY First Date:2012-07-11 Last Date:2012-11-16
+NZT First Date:2010-09-03 Last Date:2012-07-09
+NZ First Date:2010-01-04 Last Date:2010-11-10
+N First Date:2010-01-04 Last Date:2014-01-02
+OAJ First Date:2011-12-23 Last Date:2011-12-23
+OAKS First Date:2018-01-02 Last Date:2018-05-25
+OAK First Date:2012-04-27 Last Date:2019-09-27
+OAS First Date:2010-06-29 Last Date:2022-07-05
+OA First Date:2018-01-02 Last Date:2018-06-15
+OBELF First Date:2020-06-23 Last Date:2020-07-15
+OBLN First Date:2018-02-23 Last Date:2019-07-24
+OBNK First Date:2023-05-11 Last Date:2023-05-22
+OBSV First Date:2020-02-28 Last Date:2023-03-23
+OCAT First Date:2015-03-18 Last Date:2016-02-24
+OCDX First Date:2021-04-09 Last Date:2022-05-26
+OCIP First Date:2018-01-02 Last Date:2018-07-25
+OCLRD First Date:2010-05-14 Last Date:2010-05-27
+OCLR First Date:2010-06-08 Last Date:2018-12-07
+OCLS First Date:2010-01-04 Last Date:2012-11-16
+OCNFD First Date:2010-06-18 Last Date:2010-07-14
+OCNF First Date:2010-01-04 Last Date:2011-07-05
+OCRX First Date:2015-04-10 Last Date:2017-07-21
+OCR First Date:2010-01-04 Last Date:2014-01-02
+OCSI First Date:2018-01-02 Last Date:2021-03-18
+OCZTQ First Date:2013-12-27 Last Date:2014-01-02
+OCZ First Date:2011-01-25 Last Date:2013-01-02
+ODSY First Date:2010-01-04 Last Date:2010-08-17
+ODT First Date:2019-09-25 Last Date:2022-01-14
+OEG First Date:2020-06-18 Last Date:2022-08-01
+OEH First Date:2010-01-04 Last Date:2014-01-02
+OGXI First Date:2010-01-04 Last Date:2014-01-02
+OHAI First Date:2014-10-02 Last Date:2017-06-16
+OHRP First Date:2018-01-02 Last Date:2019-02-01
+OIBR First Date:2012-07-20 Last Date:2014-01-02
+OIHYL First Date:2011-12-30 Last Date:2012-12-21
+OIIM First Date:2011-09-12 Last Date:2023-03-03
+OILB First Date:2018-02-09 Last Date:2018-11-15
+OILD First Date:2018-01-02 Last Date:2020-03-27
+OILNF First Date:2018-09-14 Last Date:2019-05-14
+OILT First Date:2011-07-27 Last Date:2014-01-02
+OILU First Date:2018-01-02 Last Date:2020-03-27
+OIL First Date:2010-06-01 Last Date:2023-06-12
+OKSB First Date:2010-01-04 Last Date:2014-01-02
+OKS First Date:2010-01-04 Last Date:2014-01-02
+OMAM First Date:2015-08-10 Last Date:2017-01-20
+OMED First Date:2018-01-02 Last Date:2019-04-22
+OME First Date:2010-11-04 Last Date:2014-01-02
+OMG First Date:2010-01-04 Last Date:2014-01-02
+OMN First Date:2010-01-04 Last Date:2020-03-31
+OMPI First Date:2010-01-04 Last Date:2013-01-02
+OMP First Date:2019-09-25 Last Date:2022-01-31
+OMX First Date:2010-01-04 Last Date:2013-01-02
+ONCE First Date:2018-01-02 Last Date:2019-12-16
+ONCR First Date:2021-04-09 Last Date:2023-06-22
+ONCS First Date:2021-02-04 Last Date:2023-03-17
+ONCYF First Date:2015-11-05 Last Date:2016-05-20
+ONCY First Date:2010-04-13 Last Date:2014-01-02
+ONDK First Date:2018-01-02 Last Date:2020-10-12
+ONEM First Date:2020-02-28 Last Date:2023-02-22
+ONE First Date:2011-03-14 Last Date:2014-01-02
+ONG First Date:2022-06-10 Last Date:2023-04-24
+ONNN First Date:2010-01-04 Last Date:2014-01-02
+ONP First Date:2010-02-25 Last Date:2018-07-31
+ONTY First Date:2010-01-04 Last Date:2014-01-02
+ONXX First Date:2010-01-04 Last Date:2013-01-02
+OOG First Date:2010-01-04 Last Date:2011-08-19
+OPB First Date:2018-01-02 Last Date:2020-05-29
+OPHT First Date:2018-01-02 Last Date:2019-04-16
+OPLK First Date:2010-01-04 Last Date:2014-01-02
+OPNT First Date:2011-03-09 Last Date:2012-12-18
+OPTN First Date:2021-04-09 Last Date:2023-04-21
+OPTR First Date:2010-01-04 Last Date:2013-01-02
+OPWR First Date:2014-06-18 Last Date:2016-06-24
+OPXA First Date:2010-01-04 Last Date:2012-12-14
+OPXT First Date:2011-03-01 Last Date:2012-07-23
+ORBC First Date:2010-01-04 Last Date:2021-08-31
+ORBK First Date:2011-03-16 Last Date:2019-02-19
+ORB First Date:2010-01-04 Last Date:2014-01-02
+ORCC First Date:2010-01-04 Last Date:2023-07-06
+ORCT First Date:2010-01-04 Last Date:2012-06-28
+OREX First Date:2010-01-04 Last Date:2018-04-04
+ORFN First Date:2022-10-05 Last Date:2023-06-27
+ORIG First Date:2011-10-07 Last Date:2018-12-05
+ORIT First Date:2011-02-08 Last Date:2019-11-29
+ORPH First Date:2021-07-15 Last Date:2022-05-19
+OSGIQ First Date:2012-11-15 Last Date:2014-01-02
+OSH First Date:2020-10-20 Last Date:2023-05-02
+OSIP First Date:2010-01-04 Last Date:2010-06-08
+OSIR First Date:2010-01-04 Last Date:2019-04-16
+OSMT First Date:2021-09-28 Last Date:2022-01-19
+OTIC First Date:2018-01-02 Last Date:2023-03-23
+OTT First Date:2012-06-29 Last Date:2013-01-02
+OUBSF First Date:2015-01-22 Last Date:2015-08-21
+OUBS First Date:2014-11-24 Last Date:2015-01-21
+OUTR First Date:2013-07-02 Last Date:2014-01-02
+OVAS First Date:2018-01-02 Last Date:2018-12-07
+OVIP First Date:2010-04-19 Last Date:2010-05-13
+OVTI First Date:2010-01-04 Last Date:2014-01-02
+OVX First Date:2012-04-10 Last Date:2014-01-02
+OWW First Date:2010-01-04 Last Date:2014-01-02
+OXBT First Date:2014-01-16 Last Date:2014-09-18
+OXFD First Date:2019-09-25 Last Date:2021-03-05
+OXF First Date:2012-06-29 Last Date:2014-01-02
+OXGN First Date:2011-05-16 Last Date:2016-06-17
+OXPS First Date:2010-01-04 Last Date:2011-08-31
+OYST First Date:2021-09-28 Last Date:2023-01-03
+OZM First Date:2010-01-04 Last Date:2019-09-11
+OZRK First Date:2010-01-04 Last Date:2018-07-13
+PACD First Date:2012-03-08 Last Date:2014-01-02
+PACE First Date:2021-04-09 Last Date:2021-09-27
+PACR First Date:2010-01-04 Last Date:2014-01-02
+PACTV First Date:2012-11-13 Last Date:2012-11-16
+PACT First Date:2012-11-19 Last Date:2014-01-02
+PAC First Date:2010-01-04 Last Date:2014-01-02
+PAET First Date:2010-01-04 Last Date:2011-11-30
+PAE First Date:2020-12-15 Last Date:2022-02-14
+PAH First Date:2018-01-02 Last Date:2019-01-31
+PALDD First Date:2015-08-10 Last Date:2015-08-10
+PALDF First Date:2015-04-17 Last Date:2015-08-07
+PALM First Date:2010-01-04 Last Date:2010-06-30
+PAL First Date:2010-01-04 Last Date:2014-01-02
+PAP First Date:2010-01-04 Last Date:2010-04-12
+PARDD First Date:2011-11-02 Last Date:2011-11-22
+PARD First Date:2010-01-04 Last Date:2011-11-01
+PAS First Date:2010-01-04 Last Date:2010-02-26
+PAYA First Date:2020-11-25 Last Date:2023-02-22
+PBCT First Date:2010-01-04 Last Date:2022-04-01
+PBFX First Date:2018-01-02 Last Date:2022-11-30
+PBG First Date:2010-01-04 Last Date:2010-02-26
+PBNY First Date:2010-01-04 Last Date:2013-01-02
+PBTH First Date:2012-07-06 Last Date:2013-01-02
+PBY First Date:2010-01-04 Last Date:2014-01-02
+PCBCD First Date:2011-01-03 Last Date:2011-01-26
+PCBC First Date:2010-01-04 Last Date:2012-11-30
+PCBK First Date:2015-12-10 Last Date:2017-11-10
+PCCC First Date:2012-10-17 Last Date:2014-01-02
+PCLN First Date:2010-01-04 Last Date:2014-01-02
+PCL First Date:2010-01-04 Last Date:2014-01-02
+PCMI First Date:2018-01-02 Last Date:2019-08-29
+PCOM First Date:2018-01-02 Last Date:2022-06-30
+PCPL First Date:2021-02-04 Last Date:2021-02-04
+PCP First Date:2010-01-04 Last Date:2014-01-02
+PCRFY First Date:2013-04-22 Last Date:2013-08-16
+PCSB First Date:2018-01-02 Last Date:2022-12-30
+PCS First Date:2010-01-04 Last Date:2013-01-02
+PCU First Date:2010-01-04 Last Date:2010-02-16
+PCXCQ First Date:2012-07-11 Last Date:2013-01-02
+PCX First Date:2010-01-04 Last Date:2012-07-09
+PCYC First Date:2010-01-20 Last Date:2014-01-02
+PC First Date:2010-01-04 Last Date:2013-01-02
+PDAC First Date:2021-02-17 Last Date:2021-08-10
+PDC First Date:2010-01-04 Last Date:2012-06-27
+PDE First Date:2010-01-04 Last Date:2011-05-31
+PDH First Date:2012-05-15 Last Date:2014-01-02
+PDLI First Date:2010-01-04 Last Date:2020-12-30
+PEAR First Date:2022-06-03 Last Date:2023-04-18
+PEET First Date:2010-01-04 Last Date:2012-10-26
+PEGI First Date:2018-01-02 Last Date:2020-03-13
+PEIX First Date:2018-01-02 Last Date:2021-01-29
+PEI First Date:2010-01-04 Last Date:2022-11-25
+PEK First Date:2018-01-02 Last Date:2020-04-30
+PERY First Date:2011-03-28 Last Date:2018-11-09
+PER First Date:2011-09-01 Last Date:2020-09-08
+PES First Date:2012-06-28 Last Date:2019-08-13
+PETD First Date:2010-01-04 Last Date:2012-07-13
+PETM First Date:2010-01-04 Last Date:2014-01-02
+PETX First Date:2018-01-02 Last Date:2019-07-17
+PETZ First Date:2022-01-05 Last Date:2022-11-25
+PE First Date:2018-01-02 Last Date:2021-01-12
+PFCB First Date:2010-01-04 Last Date:2012-06-29
+PFEL First Date:2022-08-17 Last Date:2023-06-26
+PFES First Date:2022-08-17 Last Date:2023-06-26
+PFHC First Date:2022-09-19 Last Date:2022-11-01
+PFIE First Date:2014-08-08 Last Date:2017-11-17
+PFNX First Date:2018-01-02 Last Date:2020-09-30
+PFPT First Date:2012-09-11 Last Date:2021-08-30
+PFWD First Date:2010-01-04 Last Date:2010-08-10
+PFX First Date:2021-02-05 Last Date:2021-03-12
+PF First Date:2018-01-02 Last Date:2018-10-29
+PGEM First Date:2018-01-02 Last Date:2018-05-02
+PGHEF First Date:2018-11-29 Last Date:2018-12-06
+PGH First Date:2010-01-04 Last Date:2018-06-13
+PGI First Date:2010-01-04 Last Date:2014-01-02
+PGLC First Date:2018-01-02 Last Date:2019-04-03
+PGM First Date:2021-06-22 Last Date:2023-06-09
+PGND First Date:2015-10-02 Last Date:2016-11-02
+PGNPF First Date:2015-12-21 Last Date:2016-02-22
+PGNPQ First Date:2016-02-23 Last Date:2016-05-20
+PGNX First Date:2010-01-04 Last Date:2020-06-19
+PGN First Date:2010-01-04 Last Date:2015-12-17
+PHAS First Date:2020-02-28 Last Date:2022-11-23
+PHDG First Date:2018-01-02 Last Date:2020-02-03
+PHH First Date:2010-01-04 Last Date:2018-10-12
+PHI First Date:2010-01-04 Last Date:2019-08-23
+PHMD First Date:2012-06-01 Last Date:2014-01-02
+PICO First Date:2010-01-04 Last Date:2021-03-08
+PIKE First Date:2010-01-04 Last Date:2014-01-02
+PING First Date:2020-02-28 Last Date:2022-10-17
+PIOI First Date:2016-11-30 Last Date:2016-12-13
+PIPP First Date:2021-04-09 Last Date:2022-10-27
+PIP First Date:2010-10-25 Last Date:2014-01-02
+PIR First Date:2010-01-04 Last Date:2019-06-19
+PJB First Date:2010-01-04 Last Date:2010-02-19
+PJC First Date:2010-01-04 Last Date:2020-01-03
+PKD First Date:2010-01-04 Last Date:2018-12-12
+PKI First Date:2010-01-04 Last Date:2023-05-16
+PKT First Date:2011-02-15 Last Date:2014-01-02
+PKY First Date:2010-01-04 Last Date:2014-01-02
+PLAN First Date:2019-04-10 Last Date:2022-06-21
+PLA First Date:2010-01-04 Last Date:2010-05-19
+PLCM First Date:2010-01-04 Last Date:2014-01-02
+PLKI First Date:2014-01-21 Last Date:2017-04-18
+PLNR First Date:2014-11-14 Last Date:2015-12-16
+PLNTQ First Date:2015-08-18 Last Date:2015-08-18
+PLPM First Date:2018-01-02 Last Date:2018-01-11
+PLTM First Date:2010-04-14 Last Date:2014-01-02
+PLT First Date:2010-01-04 Last Date:2021-05-21
+PLUGD First Date:2011-05-23 Last Date:2011-06-17
+PLXP First Date:2021-04-09 Last Date:2023-04-13
+PLXT First Date:2011-02-28 Last Date:2014-01-02
+PMCS First Date:2010-01-04 Last Date:2014-01-02
+PMC First Date:2010-01-04 Last Date:2014-01-02
+PMFG First Date:2012-04-17 Last Date:2014-01-02
+PMI First Date:2010-01-04 Last Date:2011-10-21
+PMP First Date:2010-01-04 Last Date:2011-05-20
+PMTC First Date:2010-01-04 Last Date:2013-01-02
+PMTI First Date:2010-01-04 Last Date:2013-01-02
+PMTS First Date:2018-01-02 Last Date:2018-01-25
+PNCLQ First Date:2012-04-11 Last Date:2012-05-18
+PNCL First Date:2010-01-04 Last Date:2012-04-10
+PNG First Date:2010-05-14 Last Date:2013-01-02
+PNK First Date:2010-01-04 Last Date:2018-10-24
+PNRA First Date:2010-01-04 Last Date:2014-01-02
+PNSN First Date:2010-01-04 Last Date:2012-10-05
+PNX First Date:2010-01-04 Last Date:2013-01-02
+PNY First Date:2010-01-04 Last Date:2014-01-02
+PN First Date:2016-03-31 Last Date:2017-12-07
+POLY First Date:2021-06-04 Last Date:2022-08-26
+POM First Date:2010-01-04 Last Date:2014-01-02
+POQ First Date:2016-07-28 Last Date:2017-12-29
+POSH First Date:2021-04-09 Last Date:2023-01-05
+POT First Date:2010-01-04 Last Date:2014-01-02
+POWR First Date:2010-01-04 Last Date:2014-01-02
+POW First Date:2010-01-04 Last Date:2010-08-20
+POZN First Date:2010-01-04 Last Date:2014-01-02
+PPCO First Date:2010-01-04 Last Date:2010-11-03
+PPDF First Date:2018-02-23 Last Date:2019-11-27
+PPDI First Date:2010-01-04 Last Date:2011-12-05
+PPD First Date:2010-01-04 Last Date:2021-12-07
+PPHM First Date:2010-01-27 Last Date:2014-01-02
+PPHYL First Date:2012-02-13 Last Date:2012-02-17
+PPMIQ First Date:2011-11-25 Last Date:2012-05-01
+PPO First Date:2010-01-04 Last Date:2014-01-02
+PPP First Date:2012-09-05 Last Date:2014-01-02
+PPS First Date:2010-01-04 Last Date:2014-01-02
+PQG First Date:2018-01-02 Last Date:2021-08-02
+PQUE First Date:2018-09-14 Last Date:2018-09-21
+PQ First Date:2010-01-04 Last Date:2018-05-15
+PRAH First Date:2018-01-02 Last Date:2021-06-30
+PRAN First Date:2013-09-04 Last Date:2014-01-02
+PRCP First Date:2018-01-02 Last Date:2020-12-18
+PRE First Date:2010-01-04 Last Date:2014-01-02
+PRGNF First Date:2016-06-08 Last Date:2016-07-08
+PRGN First Date:2010-01-04 Last Date:2014-01-02
+PRGX First Date:2011-07-14 Last Date:2021-03-04
+PRHR First Date:2015-11-20 Last Date:2015-11-20
+PRKR First Date:2010-01-04 Last Date:2018-12-06
+PRNB First Date:2019-10-04 Last Date:2020-09-25
+PROG First Date:2021-02-04 Last Date:2022-05-06
+PRPB First Date:2021-02-17 Last Date:2022-07-22
+PRSC First Date:2012-05-01 Last Date:2021-01-06
+PRSN First Date:2015-02-25 Last Date:2015-10-16
+PRSP First Date:2010-01-04 Last Date:2021-05-07
+PRSS First Date:2013-03-07 Last Date:2014-01-02
+PRST First Date:2010-01-04 Last Date:2011-03-18
+PRTY First Date:2018-01-02 Last Date:2023-01-19
+PRVB First Date:2019-07-26 Last Date:2023-04-27
+PRVL First Date:2020-08-06 Last Date:2021-01-21
+PRXI First Date:2010-01-04 Last Date:2011-05-20
+PRXL First Date:2010-01-04 Last Date:2014-01-02
+PRX First Date:2010-01-04 Last Date:2012-09-28
+PSAC First Date:2021-02-04 Last Date:2021-07-21
+PSB First Date:2010-01-04 Last Date:2022-07-19
+PSDO First Date:2018-01-02 Last Date:2019-12-18
+PSDV First Date:2010-01-04 Last Date:2014-01-02
+PSEM First Date:2010-01-04 Last Date:2014-01-02
+PSE First Date:2012-01-10 Last Date:2013-01-02
+PSGLQ First Date:2016-11-04 Last Date:2017-03-17
+PSG First Date:2015-07-01 Last Date:2016-11-09
+PSMI First Date:2013-02-28 Last Date:2014-01-02
+PSSI First Date:2010-01-04 Last Date:2013-01-02
+PSS First Date:2010-01-04 Last Date:2012-10-08
+PSTB First Date:2013-01-08 Last Date:2014-01-02
+PSTH First Date:2020-09-30 Last Date:2022-07-25
+PSTI First Date:2011-02-01 Last Date:2022-07-25
+PSTR First Date:2011-06-06 Last Date:2012-05-21
+PSUNQ First Date:2016-04-14 Last Date:2016-09-09
+PSUN First Date:2010-01-04 Last Date:2014-01-02
+PSXP First Date:2018-01-02 Last Date:2022-03-08
+PSYS First Date:2010-01-04 Last Date:2010-11-15
+PSY First Date:2022-02-10 Last Date:2022-08-30
+PS First Date:2018-08-15 Last Date:2021-04-05
+PTBI First Date:2015-05-21 Last Date:2015-06-19
+PTEC First Date:2010-01-04 Last Date:2010-11-19
+PTE First Date:2018-12-24 Last Date:2022-10-21
+PTGCY First Date:2015-03-31 Last Date:2015-09-18
+PTHN First Date:2016-08-01 Last Date:2017-09-14
+PTIE First Date:2010-01-04 Last Date:2014-01-02
+PTI First Date:2010-01-04 Last Date:2020-12-22
+PTLA First Date:2018-01-02 Last Date:2020-07-01
+PTM First Date:2011-05-05 Last Date:2018-05-30
+PTPI First Date:2021-04-13 Last Date:2023-04-21
+PTP First Date:2010-01-04 Last Date:2014-01-02
+PTRY First Date:2010-01-04 Last Date:2014-01-02
+PTR First Date:2010-01-04 Last Date:2022-09-09
+PTVCB First Date:2018-11-29 Last Date:2021-05-28
+PTV First Date:2010-01-04 Last Date:2010-11-16
+PTX First Date:2018-01-02 Last Date:2019-03-04
+PT First Date:2012-11-15 Last Date:2014-01-02
+PUDA First Date:2010-03-15 Last Date:2011-10-21
+PULB First Date:2015-11-30 Last Date:2016-05-10
+PULM First Date:2018-01-02 Last Date:2019-02-05
+PUNK First Date:2022-06-10 Last Date:2023-06-01
+PURE First Date:2010-01-04 Last Date:2011-07-15
+PVAC First Date:2018-01-02 Last Date:2021-10-19
+PVAHQ First Date:2016-05-13 Last Date:2016-09-23
+PVAH First Date:2016-01-13 Last Date:2016-05-12
+PVA First Date:2010-01-04 Last Date:2014-01-02
+PVG First Date:2010-07-13 Last Date:2022-03-08
+PVR First Date:2010-01-04 Last Date:2014-01-02
+PVTB First Date:2010-01-04 Last Date:2014-01-02
+PVTL First Date:2018-04-26 Last Date:2019-12-27
+PVX First Date:2010-01-04 Last Date:2012-03-30
+PWAVD First Date:2011-11-01 Last Date:2011-11-28
+PWAVQ First Date:2013-01-30 Last Date:2013-07-19
+PWAV First Date:2010-01-04 Last Date:2013-01-02
+PWER First Date:2010-03-09 Last Date:2013-01-02
+PWE First Date:2010-01-04 Last Date:2014-01-02
+PWRD First Date:2010-01-04 Last Date:2014-01-02
+PWT First Date:2010-01-04 Last Date:2011-06-15
+PWY First Date:2010-01-04 Last Date:2010-02-19
+PXP First Date:2010-01-04 Last Date:2013-01-02
+PXSG First Date:2011-06-16 Last Date:2012-08-08
+PYPS First Date:2022-08-17 Last Date:2023-06-26
+PYX First Date:2018-11-29 Last Date:2020-06-12
+PZE First Date:2010-01-04 Last Date:2018-05-29
+PZG First Date:2010-12-29 Last Date:2014-01-02
+PZN First Date:2018-01-02 Last Date:2022-10-28
+PZO First Date:2010-01-04 Last Date:2014-01-02
+P First Date:2011-06-23 Last Date:2019-01-31
+QADA First Date:2018-01-02 Last Date:2021-11-04
+QBQ First Date:2016-04-25 Last Date:2017-12-29
+QCOR First Date:2010-01-04 Last Date:2014-01-02
+QCP First Date:2018-01-02 Last Date:2018-08-07
+QELL First Date:2021-02-04 Last Date:2021-09-21
+QEPM First Date:2013-08-21 Last Date:2014-01-02
+QEP First Date:2010-07-01 Last Date:2021-03-16
+QHC First Date:2018-01-02 Last Date:2020-04-06
+QIHU First Date:2011-04-07 Last Date:2014-01-02
+QIWI First Date:2018-01-02 Last Date:2022-02-25
+QLGC First Date:2010-01-04 Last Date:2014-01-02
+QLGN First Date:2020-12-15 Last Date:2023-05-19
+QLIK First Date:2010-07-27 Last Date:2014-01-02
+QLTI First Date:2010-01-04 Last Date:2014-01-02
+QLTY First Date:2011-05-06 Last Date:2014-01-02
+QNET First Date:2010-03-23 Last Date:2011-02-02
+QNGY First Date:2022-03-08 Last Date:2022-11-08
+QPSA First Date:2011-02-14 Last Date:2012-06-04
+QQQC First Date:2018-01-02 Last Date:2018-12-05
+QQQQ First Date:2010-01-04 Last Date:2011-03-22
+QRE First Date:2011-01-06 Last Date:2014-01-02
+QRMLF First Date:2015-02-23 Last Date:2015-03-06
+QRM First Date:2011-06-21 Last Date:2014-01-02
+QSFT First Date:2010-01-04 Last Date:2012-09-27
+QSII First Date:2010-01-04 Last Date:2018-09-07
+QTM First Date:2010-11-09 Last Date:2019-01-14
+QTNA First Date:2018-01-02 Last Date:2019-06-18
+QTNT First Date:2018-08-15 Last Date:2022-11-25
+QTS First Date:2018-01-02 Last Date:2021-09-01
+QTT First Date:2018-11-29 Last Date:2023-06-26
+QTWWQ First Date:2016-04-01 Last Date:2016-09-16
+QTWW First Date:2011-03-11 Last Date:2014-01-02
+QUMU First Date:2013-09-16 Last Date:2023-02-09
+QUNR First Date:2013-11-15 Last Date:2014-01-02
+QVCA First Date:2014-10-07 Last Date:2017-12-29
+QXM First Date:2010-01-04 Last Date:2011-11-18
+Q First Date:2010-01-04 Last Date:2014-01-02
+RAAC First Date:2021-04-09 Last Date:2021-07-21
+RAAS First Date:2021-04-13 Last Date:2023-05-18
+RADA First Date:2018-01-02 Last Date:2022-11-28
+RADS First Date:2010-01-04 Last Date:2011-08-24
+RAH First Date:2010-01-04 Last Date:2013-01-02
+RAI First Date:2010-01-04 Last Date:2014-01-02
+RALY First Date:2013-08-14 Last Date:2014-01-02
+RAM First Date:2012-01-18 Last Date:2023-03-23
+RARX First Date:2018-11-29 Last Date:2020-04-01
+RASF First Date:2018-09-14 Last Date:2018-09-21
+RAS First Date:2010-01-04 Last Date:2018-05-23
+RATE First Date:2011-06-28 Last Date:2014-01-02
+RAVN First Date:2012-06-22 Last Date:2021-11-29
+RAX First Date:2010-01-04 Last Date:2014-01-02
+RA First Date:2010-01-04 Last Date:2012-10-01
+RBAC First Date:2020-12-15 Last Date:2022-08-17
+RBCN First Date:2010-01-04 Last Date:2014-01-02
+RBN First Date:2010-01-04 Last Date:2013-01-02
+RBS First Date:2010-01-04 Last Date:2020-07-22
+RBYCF First Date:2016-01-12 Last Date:2016-06-03
+RBY First Date:2010-01-04 Last Date:2014-01-02
+RCAPQ First Date:2016-02-02 Last Date:2016-06-03
+RCAP First Date:2014-08-21 Last Date:2016-02-02
+RCD First Date:2021-04-14 Last Date:2023-06-07
+RCII First Date:2010-01-04 Last Date:2023-02-27
+RCNI First Date:2010-01-04 Last Date:2010-08-26
+RCPI First Date:2014-06-04 Last Date:2016-04-15
+RCPT First Date:2014-05-08 Last Date:2015-09-17
+RCRC First Date:2010-01-04 Last Date:2011-04-28
+RDA First Date:2010-11-30 Last Date:2014-01-02
+RDBX First Date:2022-06-03 Last Date:2022-08-10
+RDC First Date:2010-01-04 Last Date:2019-04-10
+RDDYQ First Date:2012-04-16 Last Date:2012-05-18
+RDDY First Date:2011-12-29 Last Date:2012-04-13
+RDEA First Date:2010-05-06 Last Date:2012-06-19
+RDEN First Date:2010-01-04 Last Date:2014-01-02
+RDK First Date:2010-01-04 Last Date:2012-03-30
+RDS First Date:2018-01-02 Last Date:2022-01-28
+RDUS First Date:2018-01-02 Last Date:2022-08-12
+RECN First Date:2010-01-04 Last Date:2020-04-01
+REDFY First Date:2016-05-09 Last Date:2016-07-21
+REDF First Date:2010-01-04 Last Date:2014-01-02
+REDU First Date:2018-02-23 Last Date:2022-06-10
+REED First Date:2018-01-02 Last Date:2023-02-15
+REEMF First Date:2016-02-29 Last Date:2016-02-29
+REGI First Date:2012-10-19 Last Date:2022-06-10
+REIS First Date:2018-01-02 Last Date:2018-10-31
+REMY First Date:2015-01-15 Last Date:2015-11-19
+RENN First Date:2011-05-12 Last Date:2023-06-16
+REN First Date:2010-12-17 Last Date:2019-02-28
+REPH First Date:2018-01-02 Last Date:2022-03-22
+REPYY First Date:2011-03-07 Last Date:2011-09-16
+REP First Date:2010-01-04 Last Date:2011-03-04
+RESN First Date:2018-01-02 Last Date:2022-03-25
+REV First Date:2010-01-04 Last Date:2022-10-20
+REXI First Date:2010-01-04 Last Date:2014-01-02
+REXX First Date:2010-01-04 Last Date:2018-05-21
+RFMD First Date:2010-01-04 Last Date:2014-01-02
+RFP First Date:2012-05-24 Last Date:2023-03-01
+RGC First Date:2010-01-04 Last Date:2018-03-09
+RGDO First Date:2014-07-03 Last Date:2015-05-04
+RGI First Date:2021-07-14 Last Date:2023-06-07
+RGNC First Date:2010-01-04 Last Date:2011-08-08
+RGSE First Date:2014-02-24 Last Date:2015-09-18
+RHB First Date:2010-01-04 Last Date:2011-05-31
+RHE First Date:2018-01-02 Last Date:2018-02-16
+RHS First Date:2022-03-09 Last Date:2023-06-07
+RHT First Date:2010-01-04 Last Date:2019-07-08
+RICE First Date:2014-02-06 Last Date:2021-09-22
+RIC First Date:2011-04-18 Last Date:2014-01-02
+RIGP First Date:2014-08-22 Last Date:2016-12-12
+RIGZ First Date:2022-01-06 Last Date:2023-01-06
+RIMG First Date:2013-01-08 Last Date:2013-09-13
+RIMM First Date:2010-01-04 Last Date:2013-01-02
+RINO First Date:2010-01-04 Last Date:2012-12-21
+RIOM First Date:2013-03-11 Last Date:2014-01-02
+RISK First Date:2010-01-29 Last Date:2010-06-01
+RJA First Date:2010-06-02 Last Date:2022-10-21
+RJETQ First Date:2016-03-08 Last Date:2016-07-15
+RJET First Date:2010-01-04 Last Date:2014-01-02
+RJI First Date:2010-06-09 Last Date:2022-10-21
+RJN First Date:2010-06-15 Last Date:2022-10-21
+RJZ First Date:2021-06-11 Last Date:2022-10-21
+RKHYL First Date:2012-03-07 Last Date:2012-03-07
+RKH First Date:2010-01-04 Last Date:2014-01-02
+RKLY First Date:2021-09-15 Last Date:2023-01-24
+RKUS First Date:2012-12-20 Last Date:2014-01-02
+RLD First Date:2010-07-27 Last Date:2014-01-02
+RLGY First Date:2012-10-23 Last Date:2022-06-08
+RLG First Date:2015-10-21 Last Date:2017-12-29
+RLH First Date:2012-10-17 Last Date:2021-03-18
+RLOC First Date:2011-02-08 Last Date:2014-01-02
+RLV First Date:2015-10-21 Last Date:2017-12-29
+RLYP First Date:2014-05-15 Last Date:2016-09-21
+RMGB First Date:2021-04-09 Last Date:2021-08-30
+RMG First Date:2010-01-04 Last Date:2010-01-28
+RMIXQ First Date:2010-05-12 Last Date:2010-08-31
+RMIX First Date:2010-01-04 Last Date:2010-05-07
+RMN First Date:2010-01-04 Last Date:2010-10-05
+RMO First Date:2021-02-08 Last Date:2022-10-14
+RMP First Date:2018-01-02 Last Date:2018-07-23
+RMTR First Date:2010-05-04 Last Date:2012-11-20
+RNDY First Date:2012-03-12 Last Date:2014-01-02
+RND First Date:2010-01-04 Last Date:2011-03-18
+RNET First Date:2018-01-02 Last Date:2021-04-30
+RNF First Date:2011-11-17 Last Date:2014-01-02
+RNN First Date:2018-01-02 Last Date:2019-04-11
+RNOW First Date:2010-01-04 Last Date:2012-01-25
+RNO First Date:2012-09-11 Last Date:2014-01-02
+RNWKD First Date:2011-09-01 Last Date:2011-09-28
+RNWK First Date:2010-01-04 Last Date:2022-12-22
+ROCC First Date:2021-10-26 Last Date:2023-06-20
+ROCM First Date:2012-10-17 Last Date:2013-01-02
+ROC First Date:2010-01-04 Last Date:2014-01-02
+ROIAK First Date:2014-01-22 Last Date:2017-05-05
+ROLL First Date:2011-08-23 Last Date:2022-09-23
+ROSE First Date:2010-01-04 Last Date:2014-01-02
+ROSG First Date:2012-08-27 Last Date:2014-01-02
+ROVI First Date:2010-01-04 Last Date:2014-01-02
+ROYL First Date:2011-03-03 Last Date:2014-01-02
+ROYT First Date:2012-08-13 Last Date:2020-08-05
+RPAI First Date:2012-04-18 Last Date:2021-10-21
+RPLA First Date:2021-02-04 Last Date:2021-04-23
+RPRXD First Date:2010-10-19 Last Date:2010-11-10
+RPTP First Date:2010-06-14 Last Date:2014-01-02
+RPXC First Date:2011-05-19 Last Date:2018-07-11
+RP First Date:2010-08-27 Last Date:2021-04-21
+RRD First Date:2010-01-04 Last Date:2022-02-25
+RRI First Date:2010-01-04 Last Date:2010-11-19
+RRMS First Date:2011-12-30 Last Date:2014-01-02
+RRTS First Date:2012-10-01 Last Date:2019-03-15
+RSE First Date:2012-03-07 Last Date:2014-01-02
+RSHCQ First Date:2015-02-09 Last Date:2015-10-09
+RSHC First Date:2015-02-04 Last Date:2015-02-06
+RSH First Date:2010-01-04 Last Date:2014-01-02
+RSOL First Date:2013-05-28 Last Date:2014-01-02
+RSO First Date:2010-02-18 Last Date:2018-05-25
+RSPP First Date:2018-01-02 Last Date:2018-07-20
+RSTI First Date:2010-01-04 Last Date:2014-01-02
+RST First Date:2010-01-04 Last Date:2020-10-14
+RSU First Date:2010-01-04 Last Date:2013-01-02
+RSVA First Date:2021-04-09 Last Date:2021-07-21
+RSW First Date:2010-01-04 Last Date:2013-01-02
+RSX First Date:2010-01-04 Last Date:2022-05-11
+RSYS First Date:2010-01-04 Last Date:2018-12-11
+RTEC First Date:2010-01-04 Last Date:2019-10-25
+RTHYL First Date:2012-01-19 Last Date:2012-12-21
+RTIX First Date:2011-07-21 Last Date:2020-07-22
+RTI First Date:2010-01-04 Last Date:2014-01-02
+RTKHQ First Date:2017-12-20 Last Date:2017-12-29
+RTKH First Date:2017-10-17 Last Date:2017-12-19
+RTK First Date:2013-02-06 Last Date:2014-01-02
+RTLR First Date:2019-07-26 Last Date:2022-08-23
+RTM First Date:2021-07-14 Last Date:2023-06-07
+RTN First Date:2010-01-04 Last Date:2020-04-02
+RTPY First Date:2021-08-10 Last Date:2021-11-03
+RTP First Date:2010-01-04 Last Date:2021-08-10
+RTRX First Date:2018-01-02 Last Date:2020-11-18
+RTW First Date:2018-11-29 Last Date:2020-07-06
+RT First Date:2010-01-04 Last Date:2014-01-02
+RUBI First Date:2018-01-02 Last Date:2020-06-30
+RUBY First Date:2019-04-10 Last Date:2023-06-15
+RUE First Date:2010-01-04 Last Date:2013-01-02
+RUF First Date:2010-01-04 Last Date:2011-02-18
+RUSL First Date:2011-11-14 Last Date:2022-03-03
+RUSS First Date:2011-11-14 Last Date:2020-03-27
+RUTH First Date:2010-01-04 Last Date:2023-06-14
+RUTMINI First Date:2010-10-06 Last Date:2012-08-17
+RVAC First Date:2022-07-14 Last Date:2022-08-26
+RVBD First Date:2010-01-04 Last Date:2014-01-02
+RVI First Date:2011-05-02 Last Date:2022-04-06
+RVLT First Date:2018-01-02 Last Date:2019-10-11
+RVM First Date:2011-05-26 Last Date:2014-01-02
+RVSN First Date:2010-01-04 Last Date:2012-06-04
+RVX First Date:2018-01-02 Last Date:2014-01-02
+RWC First Date:2010-04-07 Last Date:2014-01-02
+RWGV First Date:2022-02-10 Last Date:2022-09-23
+RWVG First Date:2022-03-23 Last Date:2022-09-02
+RXDX First Date:2018-01-02 Last Date:2023-06-16
+RXII First Date:2010-01-27 Last Date:2016-10-21
+RXN First Date:2012-04-11 Last Date:2021-10-07
+RX First Date:2010-01-04 Last Date:2010-02-25
+RYB First Date:2018-02-23 Last Date:2022-05-23
+RYCE First Date:2020-03-31 Last Date:2020-04-17
+RYE First Date:2021-07-14 Last Date:2023-06-07
+RYF First Date:2021-07-14 Last Date:2023-06-07
+RYH First Date:2018-01-02 Last Date:2023-06-06
+RYLPF First Date:2015-11-19 Last Date:2015-11-20
+RYL First Date:2010-01-04 Last Date:2014-01-02
+RYT First Date:2021-07-14 Last Date:2023-06-07
+RYU First Date:2021-08-11 Last Date:2023-06-07
+RZ First Date:2010-01-04 Last Date:2010-11-02
+SAAS First Date:2011-07-18 Last Date:2014-01-02
+SABA First Date:2011-04-21 Last Date:2013-01-02
+SAFM First Date:2010-01-04 Last Date:2022-07-21
+SAII First Date:2021-04-09 Last Date:2021-08-13
+SAIL First Date:2018-01-02 Last Date:2022-08-15
+SAI First Date:2010-01-04 Last Date:2013-01-02
+SALE First Date:2013-08-02 Last Date:2014-01-02
+SALM First Date:2018-01-02 Last Date:2019-08-16
+SALT First Date:2018-01-02 Last Date:2020-05-15
+SAMA First Date:2020-11-25 Last Date:2020-12-17
+SAPE First Date:2010-01-04 Last Date:2014-01-02
+SATCQ First Date:2012-10-26 Last Date:2013-01-02
+SATC First Date:2010-08-04 Last Date:2012-10-25
+SAYCY First Date:2010-10-14 Last Date:2011-03-18
+SAY First Date:2010-01-04 Last Date:2010-10-13
+SBBP First Date:2018-08-15 Last Date:2021-10-08
+SBEA First Date:2021-12-01 Last Date:2022-02-09
+SBE First Date:2020-10-20 Last Date:2021-02-26
+SBGL First Date:2018-01-02 Last Date:2020-02-21
+SBG First Date:2021-06-11 Last Date:2021-07-15
+SBIB First Date:2010-01-04 Last Date:2011-07-27
+SBM First Date:2021-09-28 Last Date:2022-05-02
+SBTX First Date:2021-09-15 Last Date:2022-11-09
+SBUG First Date:2021-06-22 Last Date:2022-12-15
+SBX First Date:2011-10-05 Last Date:2013-01-02
+SBY First Date:2013-01-28 Last Date:2014-01-02
+SCAI First Date:2015-06-10 Last Date:2017-03-27
+SCBT First Date:2013-07-08 Last Date:2014-01-02
+SCEI First Date:2011-03-01 Last Date:2012-11-16
+SCG First Date:2010-01-04 Last Date:2018-12-31
+SCHSQ First Date:2013-02-06 Last Date:2013-04-19
+SCHS First Date:2010-01-04 Last Date:2013-01-02
+SCIF First Date:2011-02-08 Last Date:2020-04-30
+SCLN First Date:2010-01-04 Last Date:2014-01-02
+SCMP First Date:2011-08-31 Last Date:2018-02-28
+SCMR First Date:2011-03-01 Last Date:2013-01-02
+SCNB First Date:2015-12-18 Last Date:2017-03-20
+SCOK First Date:2010-03-26 Last Date:2014-01-02
+SCON First Date:2011-03-11 Last Date:2016-12-16
+SCPB First Date:2014-07-24 Last Date:2014-12-03
+SCR First Date:2011-01-07 Last Date:2021-10-18
+SCSS First Date:2010-01-04 Last Date:2014-01-02
+SCTY First Date:2012-12-27 Last Date:2014-01-02
+SC First Date:2018-01-02 Last Date:2022-01-28
+SDLP First Date:2012-11-08 Last Date:2019-07-01
+SDOCQ First Date:2016-05-17 Last Date:2016-10-14
+SDOC First Date:2016-01-08 Last Date:2016-05-16
+SDR First Date:2012-04-26 Last Date:2019-11-11
+SDTH First Date:2010-01-04 Last Date:2011-08-15
+SDT First Date:2011-12-14 Last Date:2019-11-18
+SDXC First Date:2010-01-04 Last Date:2010-04-30
+SEAH First Date:2021-04-09 Last Date:2022-01-28
+SECO First Date:2018-02-23 Last Date:2023-05-19
+SEED First Date:2010-01-04 Last Date:2018-10-19
+SEH First Date:2010-01-04 Last Date:2013-01-02
+SEMG First Date:2012-03-23 Last Date:2019-12-04
+SEMI First Date:2015-07-22 Last Date:2016-12-23
+SEND First Date:2018-01-02 Last Date:2019-01-31
+SEP First Date:2010-01-04 Last Date:2018-12-14
+SERV First Date:2018-01-02 Last Date:2020-10-02
+SESN First Date:2018-01-22 Last Date:2023-03-08
+SFC First Date:2010-01-04 Last Date:2014-01-02
+SFD First Date:2010-01-04 Last Date:2013-01-02
+SFG First Date:2010-01-04 Last Date:2014-01-02
+SFI First Date:2010-01-04 Last Date:2013-01-02
+SFLY First Date:2010-01-04 Last Date:2019-09-24
+SFN First Date:2010-01-04 Last Date:2011-09-02
+SFR First Date:2016-01-06 Last Date:2017-11-27
+SFSF First Date:2010-01-04 Last Date:2012-02-22
+SFS First Date:2018-01-02 Last Date:2019-06-19
+SFTW First Date:2021-04-13 Last Date:2021-09-16
+SFUN First Date:2018-01-02 Last Date:2021-01-15
+SFXEQ First Date:2016-02-10 Last Date:2016-08-19
+SFXE First Date:2013-10-21 Last Date:2014-01-02
+SFYWQ First Date:2016-01-05 Last Date:2016-04-15
+SFYW First Date:2015-12-23 Last Date:2016-01-04
+SGBK First Date:2015-12-03 Last Date:2017-10-05
+SGFY First Date:2021-04-09 Last Date:2023-03-29
+SGGB First Date:2018-02-09 Last Date:2018-11-15
+SGGFF First Date:2018-09-14 Last Date:2018-10-19
+SGG First Date:2011-02-15 Last Date:2023-06-09
+SGI First Date:2010-01-04 Last Date:2014-01-02
+SGLB First Date:2021-04-09 Last Date:2022-05-18
+SGMS First Date:2010-01-04 Last Date:2022-04-28
+SGNT First Date:2014-02-12 Last Date:2016-09-16
+SGOC First Date:2021-09-15 Last Date:2021-11-16
+SGYP First Date:2012-09-05 Last Date:2019-03-08
+SGY First Date:2010-01-04 Last Date:2018-05-09
+SHAW First Date:2010-01-04 Last Date:2013-01-02
+SHFL First Date:2010-01-04 Last Date:2013-01-02
+SHF First Date:2012-10-17 Last Date:2012-12-14
+SHI First Date:2010-01-04 Last Date:2013-01-02
+SHLDQ First Date:2018-11-29 Last Date:2020-07-15
+SHLD First Date:2010-01-04 Last Date:2018-10-24
+SHLL First Date:2020-08-06 Last Date:2020-10-01
+SHLM First Date:2010-01-04 Last Date:2018-08-31
+SHLO First Date:2018-01-02 Last Date:2020-09-09
+SHLX First Date:2018-01-02 Last Date:2022-10-18
+SHOR First Date:2010-11-16 Last Date:2014-01-02
+SHOS First Date:2012-10-23 Last Date:2019-10-24
+SHPGY First Date:2010-01-04 Last Date:2012-07-10
+SHPG First Date:2012-07-11 Last Date:2019-01-04
+SHS First Date:2011-04-21 Last Date:2013-01-02
+SHZ First Date:2011-01-05 Last Date:2013-01-02
+SIAL First Date:2010-01-04 Last Date:2014-01-02
+SIC First Date:2021-09-15 Last Date:2021-10-20
+SIEGY First Date:2014-05-16 Last Date:2014-12-19
+SIGAQ First Date:2015-03-24 Last Date:2015-08-21
+SIGM First Date:2010-01-04 Last Date:2018-11-30
+SILC First Date:2017-01-10 Last Date:2017-07-21
+SIMG First Date:2010-01-04 Last Date:2014-01-02
+SIM First Date:2010-01-04 Last Date:2014-01-02
+SINA First Date:2010-01-04 Last Date:2021-03-22
+SINO First Date:2021-04-09 Last Date:2022-01-06
+SINV First Date:2021-09-21 Last Date:2022-07-15
+SIN First Date:2010-01-04 Last Date:2011-09-09
+SIOX First Date:2020-12-15 Last Date:2023-05-12
+SIRO First Date:2010-01-04 Last Date:2014-01-02
+SIR First Date:2012-04-17 Last Date:2018-12-31
+SIVB First Date:2010-01-04 Last Date:2023-03-28
+SI First Date:2010-01-04 Last Date:2023-05-12
+SJI First Date:2010-01-04 Last Date:2023-02-01
+SJR First Date:2011-09-06 Last Date:2023-04-04
+SKA First Date:2010-01-04 Last Date:2014-01-02
+SKH First Date:2010-09-24 Last Date:2014-01-02
+SKIS First Date:2018-01-02 Last Date:2019-09-25
+SKS First Date:2010-01-04 Last Date:2013-01-02
+SKUL First Date:2011-08-02 Last Date:2014-01-02
+SKYH First Date:2022-04-06 Last Date:2022-08-19
+SLCR First Date:2022-08-19 Last Date:2022-09-28
+SLE First Date:2010-01-04 Last Date:2012-06-28
+SLH First Date:2010-01-04 Last Date:2014-01-02
+SLNO First Date:2020-08-06 Last Date:2023-02-24
+SLTD First Date:2015-07-29 Last Date:2016-02-29
+SLT First Date:2010-01-04 Last Date:2013-01-02
+SLW First Date:2010-01-04 Last Date:2014-01-02
+SLXP First Date:2010-01-04 Last Date:2014-01-02
+SLY First Date:2021-07-16 Last Date:2023-06-09
+SMA First Date:2010-01-04 Last Date:2014-01-02
+SMBL First Date:2010-01-04 Last Date:2011-12-30
+SMED First Date:2018-01-02 Last Date:2022-08-22
+SMFR First Date:2021-08-10 Last Date:2023-01-10
+SMHYL First Date:2012-01-10 Last Date:2012-12-17
+SMI First Date:2011-03-24 Last Date:2011-07-27
+SMK First Date:2010-01-05 Last Date:2011-02-18
+SML First Date:2010-01-04 Last Date:2012-02-17
+SMMX First Date:2010-01-04 Last Date:2010-06-30
+SMOD First Date:2010-01-27 Last Date:2011-08-26
+SMSC First Date:2010-01-04 Last Date:2012-08-01
+SMSMY First Date:2013-10-11 Last Date:2014-01-02
+SMS First Date:2010-01-04 Last Date:2013-01-02
+SMTA First Date:2018-08-15 Last Date:2019-10-23
+SMTS First Date:2010-01-04 Last Date:2010-07-27
+SMTX First Date:2010-08-10 Last Date:2021-04-01
+SMT First Date:2010-07-23 Last Date:2014-01-02
+SNAK First Date:2010-12-09 Last Date:2014-01-02
+SNBC First Date:2011-04-14 Last Date:2018-02-12
+SNC First Date:2016-06-01 Last Date:2017-12-06
+SNDA First Date:2010-01-04 Last Date:2012-02-14
+SNDK First Date:2010-01-04 Last Date:2014-01-02
+SNEC First Date:2019-05-14 Last Date:2019-05-14
+SNE First Date:2010-01-04 Last Date:2021-03-31
+SNHY First Date:2011-11-01 Last Date:2019-06-14
+SNH First Date:2010-01-04 Last Date:2019-12-31
+SNIC First Date:2010-01-04 Last Date:2011-02-17
+SNII First Date:2022-01-05 Last Date:2022-03-01
+SNI First Date:2010-01-04 Last Date:2018-03-15
+SNMX First Date:2010-10-26 Last Date:2018-11-14
+SNPR First Date:2021-02-04 Last Date:2021-09-02
+SNP First Date:2010-01-04 Last Date:2022-09-09
+SNR First Date:2018-01-02 Last Date:2021-09-20
+SNSS First Date:2012-07-12 Last Date:2021-02-24
+SNTA First Date:2010-01-04 Last Date:2014-01-02
+SNTS First Date:2010-01-04 Last Date:2013-01-02
+SNT First Date:2021-10-06 Last Date:2022-10-21
+SNWL First Date:2010-01-04 Last Date:2010-07-23
+SN First Date:2012-04-13 Last Date:2019-02-19
+SOAC First Date:2021-02-17 Last Date:2021-09-16
+SOA First Date:2010-01-04 Last Date:2012-07-02
+SODA First Date:2011-04-19 Last Date:2018-12-05
+SOGCQ First Date:2015-07-16 Last Date:2015-12-18
+SOGC First Date:2015-01-13 Last Date:2015-07-15
+SOGO First Date:2018-01-02 Last Date:2021-09-24
+SOGU First Date:2022-03-23 Last Date:2023-06-26
+SOLF First Date:2010-01-04 Last Date:2011-02-14
+SOLR First Date:2010-01-04 Last Date:2011-08-05
+SOLY First Date:2021-09-15 Last Date:2021-12-15
+SOMX First Date:2010-03-25 Last Date:2013-01-02
+SONC First Date:2010-01-04 Last Date:2018-12-06
+SONE First Date:2010-01-04 Last Date:2012-02-13
+SONS First Date:2010-01-04 Last Date:2014-01-02
+SORL First Date:2010-05-06 Last Date:2020-05-14
+SPAK First Date:2020-12-16 Last Date:2022-08-29
+SPAQ First Date:2020-09-30 Last Date:2020-10-29
+SPAR First Date:2010-01-04 Last Date:2020-05-29
+SPA First Date:2018-01-02 Last Date:2019-03-05
+SPFR First Date:2021-07-15 Last Date:2021-10-05
+SPF First Date:2010-01-04 Last Date:2014-01-02
+SPHS First Date:2018-01-02 Last Date:2020-07-15
+SPIL First Date:2010-01-04 Last Date:2018-06-27
+SPKE First Date:2018-08-15 Last Date:2021-08-09
+SPLS First Date:2010-01-04 Last Date:2014-01-02
+SPNC First Date:2010-01-04 Last Date:2014-01-02
+SPNE First Date:2018-01-02 Last Date:2023-01-06
+SPNV First Date:2021-04-09 Last Date:2021-09-08
+SPN First Date:2010-01-04 Last Date:2020-09-17
+SPPJY First Date:2013-10-04 Last Date:2015-06-16
+SPP First Date:2010-01-04 Last Date:2013-01-02
+SPRD First Date:2010-06-24 Last Date:2013-01-02
+SPRQ First Date:2021-03-08 Last Date:2021-07-09
+SPRT First Date:2010-08-05 Last Date:2021-09-17
+SPU First Date:2010-11-04 Last Date:2014-01-02
+SPWRA First Date:2010-01-04 Last Date:2011-11-16
+SPWRB First Date:2010-01-04 Last Date:2011-11-16
+SPW First Date:2010-01-04 Last Date:2014-01-02
+SPXPM First Date:2011-10-04 Last Date:2014-01-02
+SPXZ First Date:2021-04-12 Last Date:2022-08-17
+SPYJ First Date:2013-05-10 Last Date:2014-01-02
+SQBG First Date:2018-01-02 Last Date:2021-02-19
+SQI First Date:2012-09-11 Last Date:2014-01-02
+SQNM First Date:2010-01-04 Last Date:2014-01-02
+SQZ First Date:2021-07-15 Last Date:2023-07-03
+SRAC First Date:2020-12-15 Last Date:2021-08-12
+SRAQ First Date:2016-10-06 Last Date:2016-10-11
+SRCI First Date:2018-01-02 Last Date:2020-01-14
+SREV First Date:2011-04-14 Last Date:2022-07-20
+SRGA First Date:2020-08-05 Last Date:2022-11-18
+SRLP First Date:2018-01-02 Last Date:2022-10-31
+SRNE First Date:2018-01-02 Last Date:2023-03-21
+SRNG First Date:2021-07-15 Last Date:2021-09-23
+SRRA First Date:2018-01-05 Last Date:2022-06-30
+SRX First Date:2010-01-04 Last Date:2011-07-20
+SRZ First Date:2010-01-04 Last Date:2013-01-02
+SSCC First Date:2010-07-28 Last Date:2011-05-27
+SSC First Date:2018-01-02 Last Date:2018-11-12
+SSEIQ First Date:2016-06-08 Last Date:2016-08-02
+SSEI First Date:2016-05-19 Last Date:2016-06-07
+SSE First Date:2014-07-02 Last Date:2016-05-26
+SSH First Date:2012-07-30 Last Date:2014-01-02
+SSI First Date:2010-01-04 Last Date:2020-05-08
+SSLT First Date:2013-09-19 Last Date:2014-01-02
+SSNI First Date:2018-01-02 Last Date:2014-01-02
+SSNYY First Date:2017-11-21 Last Date:2017-12-29
+SSN First Date:2011-03-07 Last Date:2014-01-02
+SSPK First Date:2021-02-17 Last Date:2021-06-15
+SSRG First Date:2014-12-08 Last Date:2015-06-19
+SSRI First Date:2010-01-04 Last Date:2014-01-02
+SSRX First Date:2010-01-04 Last Date:2013-01-02
+SSS First Date:2010-01-04 Last Date:2014-01-02
+SSW First Date:2010-01-04 Last Date:2020-02-27
+STAB First Date:2021-09-14 Last Date:2023-06-16
+STAN First Date:2012-07-30 Last Date:2013-01-02
+STAR First Date:2018-01-02 Last Date:2023-03-30
+STAY First Date:2018-01-02 Last Date:2021-06-15
+STBZ First Date:2012-06-01 Last Date:2018-11-16
+STB First Date:2012-03-02 Last Date:2018-05-30
+STCK First Date:2014-07-02 Last Date:2016-06-03
+STD First Date:2010-01-04 Last Date:2012-06-13
+STEC First Date:2010-01-04 Last Date:2013-01-02
+STEI First Date:2010-01-04 Last Date:2013-01-02
+STEL First Date:2012-10-17 Last Date:2013-01-02
+STFC First Date:2012-09-11 Last Date:2022-02-28
+STIC First Date:2021-02-04 Last Date:2021-06-01
+STIR First Date:2011-05-16 Last Date:2011-06-10
+STI First Date:2010-01-04 Last Date:2019-12-06
+STJ First Date:2010-01-04 Last Date:2014-01-02
+STL First Date:2010-01-04 Last Date:2022-01-31
+STML First Date:2018-01-02 Last Date:2020-06-09
+STMP First Date:2010-01-04 Last Date:2021-10-04
+STNR First Date:2012-08-01 Last Date:2014-01-02
+STON First Date:2010-10-28 Last Date:2022-11-03
+STOR First Date:2018-01-02 Last Date:2023-02-03
+STO First Date:2010-01-04 Last Date:2018-05-16
+STPFQ First Date:2013-11-11 Last Date:2014-01-02
+STPK First Date:2021-02-04 Last Date:2021-04-28
+STP First Date:2010-01-04 Last Date:2013-01-02
+STRI First Date:2010-05-06 Last Date:2014-01-02
+STRM First Date:2012-10-17 Last Date:2014-01-02
+STRP First Date:2018-01-02 Last Date:2018-03-09
+STRY First Date:2022-04-12 Last Date:2023-02-16
+STRZA First Date:2013-01-15 Last Date:2014-01-02
+STSA First Date:2010-01-04 Last Date:2023-06-08
+STSI First Date:2012-08-07 Last Date:2014-01-02
+STST First Date:2010-01-04 Last Date:2010-08-04
+STS First Date:2015-12-03 Last Date:2017-10-06
+STVVY First Date:2017-05-24 Last Date:2017-08-18
+STV First Date:2010-01-04 Last Date:2014-01-02
+STWO First Date:2021-10-08 Last Date:2021-10-15
+SUBCY First Date:2011-03-08 Last Date:2011-07-15
+SUBC First Date:2011-01-10 Last Date:2011-03-07
+SUBK First Date:2015-12-17 Last Date:2015-12-17
+SUBZ First Date:2021-04-12 Last Date:2022-04-06
+SUF First Date:2010-01-04 Last Date:2010-11-19
+SUG First Date:2010-01-04 Last Date:2012-03-26
+SUMO First Date:2020-11-25 Last Date:2023-05-12
+SUNEQ First Date:2016-04-22 Last Date:2017-12-15
+SUNE First Date:2013-06-03 Last Date:2014-01-02
+SUNHD First Date:2010-11-18 Last Date:2010-11-19
+SUNH First Date:2010-01-04 Last Date:2012-12-03
+SUNS First Date:2018-01-02 Last Date:2022-03-31
+SUPG First Date:2010-01-04 Last Date:2011-09-09
+SUPX First Date:2010-01-04 Last Date:2014-01-02
+SUSP First Date:2012-10-17 Last Date:2014-01-02
+SUSQ First Date:2010-01-04 Last Date:2014-01-02
+SUSS First Date:2012-01-10 Last Date:2014-01-02
+SUTR First Date:2010-02-25 Last Date:2014-01-02
+SVAC First Date:2021-03-08 Last Date:2021-07-29
+SVA First Date:2010-01-04 Last Date:2019-02-22
+SVBI First Date:2021-10-08 Last Date:2021-10-29
+SVFAU First Date:2021-09-28 Last Date:2023-01-26
+SVFA First Date:2021-06-11 Last Date:2023-01-27
+SVMK First Date:2018-11-29 Last Date:2021-06-14
+SVMLF First Date:2015-09-14 Last Date:2016-02-19
+SVNTQ First Date:2013-10-18 Last Date:2014-01-02
+SVNT First Date:2010-01-04 Last Date:2013-01-02
+SVN First Date:2010-07-28 Last Date:2013-01-02
+SVO First Date:2010-01-04 Last Date:2013-01-02
+SVR First Date:2010-01-04 Last Date:2011-01-12
+SVU First Date:2010-01-04 Last Date:2018-10-31
+SVVS First Date:2010-01-04 Last Date:2011-07-14
+SV First Date:2021-10-08 Last Date:2022-05-02
+SWAR First Date:2022-07-15 Last Date:2023-04-24
+SWAY First Date:2014-02-20 Last Date:2016-01-05
+SWCH First Date:2018-01-02 Last Date:2022-12-06
+SWC First Date:2010-01-04 Last Date:2014-01-02
+SWEB First Date:2022-06-10 Last Date:2023-06-20
+SWFT First Date:2011-01-06 Last Date:2014-01-02
+SWHC First Date:2010-01-04 Last Date:2014-01-02
+SWHYL First Date:2012-02-15 Last Date:2012-07-17
+SWH First Date:2010-01-04 Last Date:2012-01-04
+SWIR First Date:2010-01-04 Last Date:2023-01-13
+SWM First Date:2010-01-04 Last Date:2022-07-06
+SWSH First Date:2011-04-14 Last Date:2014-01-02
+SWSI First Date:2010-01-04 Last Date:2010-09-10
+SWS First Date:2010-01-04 Last Date:2014-01-02
+SWVL First Date:2022-07-14 Last Date:2023-06-16
+SWY First Date:2010-01-04 Last Date:2014-01-02
+SXCI First Date:2010-01-04 Last Date:2012-07-10
+SXCP First Date:2018-01-02 Last Date:2019-06-27
+SXE First Date:2010-01-04 Last Date:2019-02-27
+SXL First Date:2010-01-04 Last Date:2014-01-02
+SYA First Date:2010-04-13 Last Date:2014-01-02
+SYKE First Date:2010-01-04 Last Date:2021-08-26
+SYMC First Date:2010-01-04 Last Date:2019-11-04
+SYMM First Date:2011-04-18 Last Date:2013-11-25
+SYMX First Date:2011-05-05 Last Date:2014-01-02
+SYNC First Date:2012-07-30 Last Date:2021-03-31
+SYNL First Date:2018-01-02 Last Date:2022-08-10
+SYNM First Date:2013-08-23 Last Date:2014-01-02
+SYNO First Date:2010-01-04 Last Date:2012-02-14
+SYNT First Date:2010-01-04 Last Date:2018-10-31
+SYQ First Date:2016-04-25 Last Date:2017-12-29
+SYRG First Date:2012-12-12 Last Date:2014-01-02
+SYT First Date:2010-01-04 Last Date:2014-01-02
+SYX First Date:2010-01-04 Last Date:2021-06-18
+SZMK First Date:2014-03-05 Last Date:2016-10-07
+SZR First Date:2010-01-04 Last Date:2010-12-17
+SZYM First Date:2011-06-09 Last Date:2014-01-02
+TACO First Date:2018-01-02 Last Date:2022-03-07
+TAHO First Date:2012-06-29 Last Date:2019-02-21
+TAM First Date:2010-01-04 Last Date:2014-01-02
+TAOM First Date:2011-08-23 Last Date:2014-01-02
+TAO First Date:2010-09-21 Last Date:2020-02-14
+TASR First Date:2010-01-04 Last Date:2014-01-02
+TAT First Date:2010-10-12 Last Date:2019-05-17
+TAXI First Date:2010-01-04 Last Date:2014-01-02
+TAYC First Date:2012-09-11 Last Date:2014-01-02
+TA First Date:2011-02-08 Last Date:2023-05-15
+TBA First Date:2021-02-17 Last Date:2021-06-28
+TBK First Date:2019-04-10 Last Date:2022-12-02
+TBL First Date:2010-01-04 Last Date:2011-09-13
+TBRA First Date:2015-05-06 Last Date:2016-11-22
+TBSIQ First Date:2012-02-16 Last Date:2012-03-09
+TBSI First Date:2010-01-04 Last Date:2012-02-15
+TCAP First Date:2011-08-25 Last Date:2018-08-02
+TCB First Date:2010-01-04 Last Date:2014-01-02
+TCDA First Date:2019-11-29 Last Date:2023-02-17
+TCF First Date:2018-01-02 Last Date:2021-06-08
+TCK First Date:2010-01-04 Last Date:2014-01-02
+TCLP First Date:2010-01-04 Last Date:2011-12-09
+TCL First Date:2010-08-05 Last Date:2013-01-02
+TCO First Date:2010-01-04 Last Date:2020-12-28
+TCPTF First Date:2016-01-15 Last Date:2016-05-20
+TCP First Date:2011-12-12 Last Date:2021-03-02
+TCRD First Date:2018-01-02 Last Date:2020-07-31
+TCRR First Date:2019-11-29 Last Date:2023-06-01
+TC First Date:2010-01-04 Last Date:2014-01-02
+TDTT First Date:2014-08-07 Last Date:2014-10-03
+TEAR First Date:2012-05-01 Last Date:2014-01-02
+TEA First Date:2011-08-18 Last Date:2012-12-28
+TECD First Date:2010-01-04 Last Date:2020-06-29
+TECUA First Date:2011-08-24 Last Date:2014-01-02
+TECU First Date:2014-05-05 Last Date:2015-10-09
+TEGP First Date:2018-01-02 Last Date:2018-06-29
+TEG First Date:2010-01-04 Last Date:2014-01-02
+TELK First Date:2010-01-04 Last Date:2010-02-23
+TENG First Date:2022-02-10 Last Date:2022-09-23
+TENX First Date:2018-01-02 Last Date:2018-07-20
+TEN First Date:2010-01-04 Last Date:2022-11-16
+TEP First Date:2018-01-02 Last Date:2018-07-10
+TEQ First Date:2016-04-25 Last Date:2017-12-29
+TERP First Date:2018-01-02 Last Date:2020-07-30
+TESO First Date:2010-01-04 Last Date:2014-01-02
+TEUM First Date:2019-04-10 Last Date:2020-11-13
+TEU First Date:2011-05-16 Last Date:2014-01-02
+TE First Date:2010-01-04 Last Date:2014-01-02
+TFM First Date:2010-11-17 Last Date:2014-01-02
+TGA First Date:2010-01-04 Last Date:2022-10-13
+TGE First Date:2011-12-14 Last Date:2020-04-16
+TGP First Date:2010-01-04 Last Date:2022-01-12
+THBR First Date:2021-02-04 Last Date:2021-06-10
+THCA First Date:2021-02-17 Last Date:2022-12-23
+THCB First Date:2021-02-17 Last Date:2021-07-23
+THI First Date:2010-01-04 Last Date:2014-01-02
+THLD First Date:2012-02-14 Last Date:2014-01-02
+THM First Date:2011-01-07 Last Date:2014-01-02
+THOR First Date:2010-01-04 Last Date:2020-01-22
+THQI First Date:2010-01-04 Last Date:2012-07-20
+THRX First Date:2010-01-04 Last Date:2014-01-02
+TIBX First Date:2010-01-04 Last Date:2014-01-02
+TICC First Date:2010-01-04 Last Date:2014-01-02
+TIER First Date:2018-01-02 Last Date:2019-06-14
+TIE First Date:2010-01-04 Last Date:2013-01-02
+TIF First Date:2010-01-04 Last Date:2021-01-06
+TIG First Date:2021-09-15 Last Date:2023-04-21
+TII First Date:2010-01-04 Last Date:2010-08-25
+TIN First Date:2010-01-04 Last Date:2012-02-10
+TIPD First Date:2022-06-10 Last Date:2023-04-24
+TIPL First Date:2022-06-10 Last Date:2023-04-24
+TISI First Date:2010-01-04 Last Date:2023-05-19
+TIS First Date:2018-01-02 Last Date:2019-03-29
+TIVO First Date:2010-01-04 Last Date:2020-05-29
+TIV First Date:2010-01-04 Last Date:2011-05-20
+TI First Date:2010-10-14 Last Date:2019-07-05
+TKAI First Date:2016-06-01 Last Date:2017-05-10
+TKLC First Date:2010-01-04 Last Date:2012-01-27
+TKMR First Date:2014-01-30 Last Date:2015-07-31
+TKTM First Date:2010-01-04 Last Date:2010-01-25
+TLAB First Date:2010-01-04 Last Date:2013-01-02
+TLB First Date:2010-01-04 Last Date:2012-08-03
+TLCR First Date:2010-01-04 Last Date:2011-05-31
+TLEO First Date:2010-01-04 Last Date:2012-04-05
+TLGD First Date:2010-01-04 Last Date:2011-05-10
+TLGT First Date:2018-01-02 Last Date:2020-09-23
+TLK First Date:2010-01-04 Last Date:2018-09-21
+TLLP First Date:2011-05-16 Last Date:2014-01-02
+TLMD First Date:2020-12-15 Last Date:2022-04-05
+TLMR First Date:2014-04-07 Last Date:2016-09-09
+TLM First Date:2010-01-04 Last Date:2014-01-02
+TLND First Date:2018-05-03 Last Date:2021-07-29
+TLN First Date:2015-06-03 Last Date:2016-12-28
+TLOG First Date:2015-03-27 Last Date:2015-11-20
+TLP First Date:2011-01-14 Last Date:2019-02-26
+TLRA First Date:2018-11-29 Last Date:2020-03-31
+TLRD First Date:2018-01-02 Last Date:2020-07-31
+TLVTF First Date:2011-10-21 Last Date:2011-12-14
+TLVT First Date:2010-03-24 Last Date:2011-10-20
+TLXLY First Date:2010-08-31 Last Date:2010-09-09
+TMH First Date:2011-05-16 Last Date:2014-01-02
+TMK First Date:2010-01-04 Last Date:2019-08-08
+TMRK First Date:2010-01-04 Last Date:2011-04-08
+TMS First Date:2013-02-11 Last Date:2013-10-16
+TMX First Date:2010-01-04 Last Date:2022-10-11
+TNAV First Date:2011-09-06 Last Date:2021-02-16
+TNB First Date:2010-01-04 Last Date:2012-05-16
+TNE First Date:2010-01-04 Last Date:2012-04-05
+TNGO First Date:2012-03-29 Last Date:2014-01-02
+TNS First Date:2010-01-04 Last Date:2013-01-02
+TNXP First Date:2018-01-02 Last Date:2018-12-24
+TNX First Date:2010-01-04 Last Date:2011-02-17
+TNY First Date:2010-01-04 Last Date:2011-03-17
+TOCA First Date:2018-01-02 Last Date:2020-06-15
+TOMO First Date:2010-01-04 Last Date:2011-06-10
+TONE First Date:2010-01-04 Last Date:2010-07-16
+TOO First Date:2010-12-13 Last Date:2020-01-22
+TORC First Date:2019-09-25 Last Date:2020-09-15
+TOR First Date:2015-06-29 Last Date:2015-11-20
+TOT First Date:2010-01-04 Last Date:2021-06-10
+TOWR First Date:2018-01-02 Last Date:2019-09-27
+TPCG First Date:2011-03-28 Last Date:2012-12-20
+TPCO First Date:2018-11-29 Last Date:2021-05-24
+TPGY First Date:2021-02-04 Last Date:2022-10-07
+TPIV First Date:2018-08-15 Last Date:2018-10-17
+TPI First Date:2010-03-29 Last Date:2014-01-02
+TPLM First Date:2011-03-11 Last Date:2014-01-02
+TPL First Date:2019-05-02 Last Date:2019-05-31
+TPRE First Date:2018-01-02 Last Date:2021-02-26
+TPST First Date:2021-07-14 Last Date:2021-12-17
+TPTX First Date:2019-09-25 Last Date:2022-08-16
+TPUB First Date:2014-08-21 Last Date:2016-06-28
+TQNT First Date:2010-01-04 Last Date:2014-01-02
+TRAD First Date:2010-01-04 Last Date:2011-06-10
+TRAK First Date:2010-01-04 Last Date:2014-01-02
+TRA First Date:2010-01-04 Last Date:2010-04-15
+TRCO First Date:2018-01-02 Last Date:2019-09-18
+TRDF First Date:2022-06-07 Last Date:2022-06-23
+TREB First Date:2021-06-11 Last Date:2022-01-27
+TREC First Date:2018-01-02 Last Date:2022-06-24
+TRE First Date:2010-01-04 Last Date:2011-06-10
+TRGL First Date:2010-01-04 Last Date:2012-02-21
+TRGT First Date:2010-01-04 Last Date:2014-01-02
+TRH First Date:2010-01-04 Last Date:2012-03-05
+TRIDQ First Date:2012-01-23 Last Date:2012-06-15
+TRID First Date:2010-01-04 Last Date:2012-01-18
+TRIL First Date:2018-01-02 Last Date:2021-11-16
+TRIT First Date:2020-12-15 Last Date:2022-02-02
+TRK First Date:2018-01-02 Last Date:2019-09-18
+TRLA First Date:2013-03-07 Last Date:2014-01-02
+TRLG First Date:2010-01-04 Last Date:2013-01-02
+TRMAQ First Date:2010-09-08 Last Date:2011-02-18
+TRMA First Date:2010-01-04 Last Date:2010-09-07
+TRMS First Date:2010-01-04 Last Date:2011-08-19
+TRNC First Date:2018-01-02 Last Date:2018-10-09
+TRNE First Date:2020-09-30 Last Date:2020-12-09
+TRNX First Date:2011-02-17 Last Date:2014-01-02
+TROV First Date:2018-01-02 Last Date:2018-12-24
+TRQ First Date:2012-08-08 Last Date:2022-12-16
+TRR First Date:2015-12-10 Last Date:2017-08-02
+TRWH First Date:2019-09-25 Last Date:2020-11-06
+TRW First Date:2010-01-04 Last Date:2014-01-02
+TRXC First Date:2018-01-02 Last Date:2021-03-04
+TRXT First Date:2012-03-15 Last Date:2012-04-03
+TRYP First Date:2021-09-28 Last Date:2022-07-22
+TSC First Date:2022-03-16 Last Date:2022-05-31
+TSG First Date:2018-01-02 Last Date:2020-05-04
+TSIA First Date:2021-04-09 Last Date:2021-06-04
+TSLI First Date:2022-09-21 Last Date:2023-06-20
+TSON First Date:2011-04-18 Last Date:2013-01-02
+TSO First Date:2010-01-04 Last Date:2014-01-02
+TSPT First Date:2011-09-21 Last Date:2014-01-02
+TSRA First Date:2010-01-04 Last Date:2014-01-02
+TSRO First Date:2018-01-02 Last Date:2019-01-18
+TSRX First Date:2012-03-21 Last Date:2013-01-02
+TSS First Date:2010-01-04 Last Date:2019-09-17
+TSTC First Date:2010-11-24 Last Date:2013-01-02
+TSU First Date:2010-03-04 Last Date:2020-10-12
+TSYS First Date:2010-01-04 Last Date:2014-01-02
+TTCMY First Date:2013-06-10 Last Date:2013-08-08
+TTES First Date:2010-01-04 Last Date:2011-01-10
+TTH First Date:2010-01-04 Last Date:2011-12-23
+TTM First Date:2010-01-04 Last Date:2023-01-27
+TTPH First Date:2018-01-02 Last Date:2020-04-17
+TTS First Date:2018-01-02 Last Date:2019-11-08
+TUBE First Date:2015-02-05 Last Date:2017-01-10
+TUEM First Date:2021-07-15 Last Date:2023-01-31
+TUES First Date:2010-03-26 Last Date:2019-05-17
+TUFN First Date:2019-07-26 Last Date:2022-08-24
+TUMI First Date:2012-05-07 Last Date:2014-01-02
+TUZ First Date:2010-01-04 Last Date:2010-09-17
+TVIAQ First Date:2017-08-11 Last Date:2017-12-29
+TVIA First Date:2016-05-11 Last Date:2017-08-11
+TVL First Date:2012-10-17 Last Date:2013-01-02
+TVPT First Date:2018-01-02 Last Date:2019-05-31
+TVTY First Date:2018-01-02 Last Date:2022-06-27
+TWCT First Date:2021-04-09 Last Date:2021-09-03
+TWC First Date:2010-01-04 Last Date:2014-01-02
+TWER First Date:2011-01-14 Last Date:2014-01-02
+TWGP First Date:2010-01-04 Last Date:2014-01-02
+TWLL First Date:2010-01-04 Last Date:2010-02-19
+TWND First Date:2021-08-10 Last Date:2023-02-01
+TWTC First Date:2010-01-04 Last Date:2014-01-02
+TWTR First Date:2018-01-02 Last Date:2022-10-27
+TWX First Date:2010-01-04 Last Date:2018-06-26
+TXCCQ First Date:2013-11-25 Last Date:2014-01-02
+TXCC First Date:2011-04-07 Last Date:2013-01-02
+TXI First Date:2010-01-04 Last Date:2014-01-02
+TXTR First Date:2013-10-16 Last Date:2014-01-02
+TYC First Date:2010-01-04 Last Date:2014-01-02
+TYH First Date:2010-01-04 Last Date:2012-06-28
+TYME First Date:2018-08-15 Last Date:2022-09-16
+TYNE First Date:2022-07-18 Last Date:2023-02-21
+TYPE First Date:2011-03-16 Last Date:2019-10-10
+TYP First Date:2010-01-04 Last Date:2012-06-28
+TYX First Date:2010-01-04 Last Date:2010-11-19
+UAM First Date:2010-01-04 Last Date:2014-01-02
+UAUA First Date:2010-01-04 Last Date:2010-09-30
+UBET First Date:2010-01-04 Last Date:2010-06-02
+UBIO First Date:2018-01-02 Last Date:2020-03-27
+UBNK First Date:2011-04-14 Last Date:2019-10-31
+UBNT First Date:2011-11-14 Last Date:2019-08-19
+UBSH First Date:2018-01-02 Last Date:2019-05-17
+UCBID First Date:2011-06-21 Last Date:2011-07-18
+UCFC First Date:2018-01-02 Last Date:2019-12-10
+UCP First Date:2015-09-09 Last Date:2016-10-21
+UDF First Date:2015-12-17 Last Date:2016-06-17
+UDRL First Date:2011-04-21 Last Date:2012-11-05
+UEPS First Date:2010-01-04 Last Date:2022-05-24
+UFS First Date:2010-01-04 Last Date:2021-11-29
+UIL First Date:2010-01-04 Last Date:2014-01-02
+UKS First Date:2016-08-17 Last Date:2016-08-24
+UKX First Date:2010-01-04 Last Date:2011-05-20
+ULBR First Date:2018-01-30 Last Date:2018-07-20
+ULTI First Date:2010-01-04 Last Date:2019-05-02
+ULTR First Date:2011-09-01 Last Date:2012-08-17
+UMPQ First Date:2010-01-04 Last Date:2023-03-01
+UNISQ First Date:2017-04-21 Last Date:2017-08-18
+UNIS First Date:2010-04-27 Last Date:2014-01-02
+UNS First Date:2010-01-04 Last Date:2014-01-02
+UNTD First Date:2010-01-04 Last Date:2014-01-02
+UNT First Date:2010-01-04 Last Date:2020-05-22
+UNXLQ First Date:2017-09-12 Last Date:2017-12-29
+UNXL First Date:2012-12-13 Last Date:2014-01-02
+UN First Date:2010-01-04 Last Date:2020-11-27
+UPI First Date:2010-06-28 Last Date:2014-01-02
+UPLMQ First Date:2016-05-04 Last Date:2017-04-24
+UPL First Date:2010-01-04 Last Date:2019-08-07
+UQM First Date:2010-03-29 Last Date:2018-08-17
+URRE First Date:2010-12-06 Last Date:2014-01-02
+URS First Date:2010-01-04 Last Date:2014-01-02
+URZ First Date:2010-12-06 Last Date:2014-01-02
+USAK First Date:2019-03-01 Last Date:2022-09-14
+USAT First Date:2018-01-02 Last Date:2021-04-16
+USCR First Date:2018-01-02 Last Date:2021-08-25
+USEG First Date:2010-01-04 Last Date:2014-01-02
+USER First Date:2022-06-03 Last Date:2023-01-12
+USGGF First Date:2015-12-21 Last Date:2015-12-22
+USG First Date:2010-01-04 Last Date:2019-04-23
+USLB First Date:2022-04-19 Last Date:2023-03-31
+USMO First Date:2010-01-04 Last Date:2014-01-02
+USOD First Date:2019-04-10 Last Date:2019-11-27
+USOU First Date:2019-04-10 Last Date:2019-12-13
+USQ First Date:2016-04-25 Last Date:2017-12-29
+USTR First Date:2010-01-04 Last Date:2014-01-02
+USU First Date:2010-01-04 Last Date:2013-01-02
+USX First Date:2018-08-15 Last Date:2023-07-03
+UTA First Date:2010-01-04 Last Date:2011-05-24
+UTEK First Date:2010-01-04 Last Date:2014-01-02
+UTH First Date:2010-01-04 Last Date:2011-12-23
+UTIW First Date:2010-01-04 Last Date:2014-01-02
+UTR First Date:2010-01-04 Last Date:2011-08-24
+UTSI First Date:2010-01-04 Last Date:2023-01-20
+UTX First Date:2010-01-04 Last Date:2020-04-02
+UVSPY First Date:2011-04-20 Last Date:2011-06-10
+UXG First Date:2010-07-01 Last Date:2010-11-01
+VACQ First Date:2021-07-15 Last Date:2021-08-31
+VALE First Date:2010-01-04 Last Date:2017-12-05
+VARI First Date:2010-01-04 Last Date:2010-05-14
+VAR First Date:2010-01-04 Last Date:2021-04-14
+VASC First Date:2010-01-04 Last Date:2014-01-02
+VA First Date:2014-11-24 Last Date:2016-12-23
+VCBI First Date:2012-10-17 Last Date:2014-01-02
+VCI First Date:2010-01-04 Last Date:2014-01-02
+VCLK First Date:2010-01-04 Last Date:2014-01-02
+VCLO First Date:2022-01-03 Last Date:2023-05-01
+VCRA First Date:2012-10-01 Last Date:2022-02-22
+VCVC First Date:2021-02-17 Last Date:2021-07-22
+VDSI First Date:2010-01-04 Last Date:2018-06-01
+VEC First Date:2018-01-02 Last Date:2022-07-07
+VEDL First Date:2018-01-02 Last Date:2021-11-23
+VELTF First Date:2013-12-16 Last Date:2014-01-02
+VELT First Date:2011-07-21 Last Date:2013-01-02
+VEOEY First Date:2014-12-24 Last Date:2015-06-19
+VER First Date:2018-01-02 Last Date:2021-10-29
+VE First Date:2010-01-04 Last Date:2014-01-02
+VGAC First Date:2021-02-04 Last Date:2021-06-16
+VG First Date:2011-02-01 Last Date:2022-07-20
+VHI First Date:2013-08-23 Last Date:2014-01-02
+VHS First Date:2011-06-30 Last Date:2013-01-02
+VIAB First Date:2011-12-01 Last Date:2019-12-06
+VIACA First Date:2020-01-17 Last Date:2022-02-17
+VIAC First Date:2019-12-11 Last Date:2022-02-17
+VICL First Date:2010-01-04 Last Date:2019-08-30
+VIEWF First Date:2015-05-05 Last Date:2015-08-21
+VIE First Date:2020-12-15 Last Date:2021-03-12
+VIH First Date:2021-02-04 Last Date:2021-10-19
+VIIX First Date:2011-04-21 Last Date:2020-07-02
+VIMC First Date:2014-02-26 Last Date:2015-12-18
+VINO First Date:2021-08-10 Last Date:2023-05-19
+VIP First Date:2010-01-04 Last Date:2014-01-02
+VISI First Date:2011-01-27 Last Date:2019-09-06
+VISN First Date:2010-01-04 Last Date:2017-02-17
+VITA First Date:2010-01-04 Last Date:2011-06-27
+VITC First Date:2010-01-04 Last Date:2011-03-18
+VIT First Date:2010-01-04 Last Date:2012-11-09
+VIVE First Date:2018-01-02 Last Date:2019-09-18
+VIVO First Date:2010-01-04 Last Date:2023-01-31
+VJET First Date:2018-01-02 Last Date:2021-01-15
+VLCCF First Date:2010-01-04 Last Date:2014-01-02
+VLCM First Date:2010-01-04 Last Date:2011-06-23
+VLDR First Date:2020-10-16 Last Date:2023-02-13
+VLNC First Date:2010-01-04 Last Date:2012-02-17
+VLP First Date:2018-01-02 Last Date:2019-01-09
+VLTA First Date:2021-09-14 Last Date:2023-03-31
+VLTC First Date:2013-04-10 Last Date:2013-04-23
+VLTR First Date:2010-01-04 Last Date:2013-01-02
+VMAX First Date:2016-10-18 Last Date:2018-08-29
+VMED First Date:2010-01-04 Last Date:2013-01-02
+VMEMQ First Date:2016-12-19 Last Date:2017-04-24
+VMEM First Date:2013-10-09 Last Date:2014-01-02
+VMIN First Date:2018-01-02 Last Date:2018-11-30
+VNCE First Date:2018-01-02 Last Date:2018-05-18
+VNE First Date:2018-08-15 Last Date:2022-03-31
+VNRSQ First Date:2017-02-14 Last Date:2017-06-16
+VNR First Date:2010-01-12 Last Date:2014-01-02
+VNTR First Date:2018-01-02 Last Date:2023-05-16
+VNTV First Date:2012-04-03 Last Date:2014-01-02
+VOCS First Date:2011-03-01 Last Date:2014-01-02
+VOG First Date:2011-03-09 Last Date:2012-08-31
+VOLC First Date:2010-01-04 Last Date:2014-01-02
+VOLT First Date:2019-11-29 Last Date:2022-04-25
+VOL First Date:2010-01-04 Last Date:2011-01-26
+VORB First Date:2022-01-05 Last Date:2023-04-12
+VPCO First Date:2014-07-30 Last Date:2015-11-20
+VPFG First Date:2011-04-14 Last Date:2014-01-02
+VPHM First Date:2010-01-04 Last Date:2014-01-02
+VPRT First Date:2010-01-04 Last Date:2014-01-02
+VQ First Date:2010-01-04 Last Date:2012-10-03
+VRGY First Date:2010-01-04 Last Date:2011-07-01
+VRML First Date:2011-05-20 Last Date:2020-06-11
+VRNG First Date:2012-04-17 Last Date:2014-01-02
+VRNM First Date:2010-10-07 Last Date:2013-01-02
+VRSZQ First Date:2016-01-27 Last Date:2016-07-14
+VRSZ First Date:2015-09-23 Last Date:2016-01-26
+VRS First Date:2010-01-04 Last Date:2022-03-30
+VRTS First Date:2014-09-18 Last Date:2015-06-19
+VRTU First Date:2011-09-20 Last Date:2021-02-10
+VRUS First Date:2010-06-28 Last Date:2012-01-17
+VRX First Date:2010-01-04 Last Date:2018-07-13
+VSAR First Date:2018-01-02 Last Date:2018-10-15
+VSEA First Date:2010-01-04 Last Date:2011-11-09
+VSI First Date:2010-01-04 Last Date:2019-12-16
+VSLR First Date:2018-01-02 Last Date:2020-10-07
+VSM First Date:2018-01-02 Last Date:2019-10-04
+VSPR First Date:2021-02-04 Last Date:2021-05-05
+VSR First Date:2014-10-30 Last Date:2015-10-16
+VSTRP First Date:2012-08-02 Last Date:2012-08-02
+VS First Date:2021-07-15 Last Date:2023-03-17
+VTAE First Date:2016-03-30 Last Date:2016-11-15
+VTAL First Date:2010-01-04 Last Date:2011-06-16
+VTIQ First Date:2020-04-30 Last Date:2020-06-03
+VTIV First Date:2010-01-04 Last Date:2010-08-04
+VTL First Date:2018-01-02 Last Date:2019-04-12
+VTSS First Date:2011-03-16 Last Date:2014-01-02
+VTTI First Date:2014-09-23 Last Date:2017-09-15
+VTUS First Date:2011-12-20 Last Date:2014-01-02
+VVC First Date:2010-01-04 Last Date:2019-01-31
+VVNT First Date:2020-08-06 Last Date:2023-03-10
+VVTV First Date:2011-02-08 Last Date:2014-01-02
+VVUS First Date:2010-01-04 Last Date:2020-07-16
+VWR First Date:2014-10-15 Last Date:2017-12-12
+VWTR First Date:2021-04-07 Last Date:2022-05-24
+VXEEM First Date:2012-01-31 Last Date:2014-01-02
+VXEWZ First Date:2012-03-06 Last Date:2014-01-02
+VXQ First Date:2016-04-25 Last Date:2017-12-29
+VXST First Date:2014-04-10 Last Date:2015-06-17
+VXXB First Date:2018-01-23 Last Date:2019-05-01
+VXZB First Date:2018-01-23 Last Date:2019-05-01
+VYGG First Date:2021-08-10 Last Date:2022-10-05
+WAC First Date:2010-01-04 Last Date:2018-02-20
+WAGE First Date:2012-09-11 Last Date:2019-08-29
+WAG First Date:2010-01-04 Last Date:2014-01-02
+WAIR First Date:2011-08-11 Last Date:2020-01-08
+WATG First Date:2010-01-04 Last Date:2011-09-15
+WAVD First Date:2022-06-03 Last Date:2023-05-12
+WAVXQ First Date:2016-02-12 Last Date:2016-06-16
+WAVX First Date:2010-03-08 Last Date:2014-01-02
+WBAI First Date:2018-01-02 Last Date:2021-04-19
+WBC First Date:2010-01-04 Last Date:2020-05-28
+WBMD First Date:2010-01-04 Last Date:2014-01-02
+WBSN First Date:2010-01-04 Last Date:2013-01-02
+WBT First Date:2018-01-02 Last Date:2022-07-28
+WCBOD First Date:2011-05-23 Last Date:2011-06-16
+WCBO First Date:2011-02-08 Last Date:2013-01-02
+WCG First Date:2010-01-04 Last Date:2020-01-23
+WCIC First Date:2015-09-09 Last Date:2017-03-01
+WCRX First Date:2010-01-04 Last Date:2013-01-02
+WDR First Date:2010-01-04 Last Date:2021-04-30
+WEBR First Date:2021-09-15 Last Date:2023-02-21
+WEB First Date:2018-01-02 Last Date:2018-10-31
+WEJO First Date:2022-02-02 Last Date:2023-07-06
+WETF First Date:2011-08-24 Last Date:2022-11-04
+WFD First Date:2013-08-23 Last Date:2014-01-02
+WFMI First Date:2010-01-04 Last Date:2011-05-05
+WFM First Date:2011-05-06 Last Date:2014-01-02
+WFR First Date:2010-01-04 Last Date:2013-01-02
+WFSL First Date:2010-01-04 Last Date:2012-02-17
+WFT First Date:2010-01-04 Last Date:2019-05-10
+WGL First Date:2010-01-04 Last Date:2018-07-18
+WGOV First Date:2010-01-04 Last Date:2011-01-28
+WGP First Date:2018-01-02 Last Date:2019-02-28
+WG First Date:2010-01-04 Last Date:2018-03-27
+WHXT First Date:2015-02-18 Last Date:2015-08-21
+WHX First Date:2011-04-01 Last Date:2014-01-02
+WHZT First Date:2016-01-07 Last Date:2016-05-20
+WHZ First Date:2012-04-04 Last Date:2014-01-02
+WIBC First Date:2011-05-09 Last Date:2014-01-02
+WIFI First Date:2012-04-17 Last Date:2021-06-01
+WILN First Date:2011-08-24 Last Date:2014-01-02
+WINN First Date:2010-01-04 Last Date:2012-03-09
+WINT First Date:2016-04-19 Last Date:2017-09-15
+WIN First Date:2010-01-04 Last Date:2019-03-05
+WLBA First Date:2018-09-14 Last Date:2018-09-21
+WLB First Date:2012-10-17 Last Date:2018-05-03
+WLH First Date:2018-01-02 Last Date:2020-02-05
+WLL First Date:2010-01-04 Last Date:2022-06-30
+WLP First Date:2010-01-04 Last Date:2014-01-02
+WLTGQ First Date:2015-07-16 Last Date:2016-12-16
+WLTG First Date:2015-07-10 Last Date:2015-07-15
+WLTW First Date:2018-01-02 Last Date:2022-01-11
+WLT First Date:2010-01-04 Last Date:2014-01-02
+WL First Date:2010-01-04 Last Date:2011-05-13
+WMAR First Date:2012-10-17 Last Date:2014-01-02
+WMGI First Date:2010-01-04 Last Date:2020-11-10
+WMIH First Date:2018-08-15 Last Date:2018-10-10
+WMLP First Date:2015-01-08 Last Date:2015-01-15
+WMTSY First Date:2011-06-13 Last Date:2012-04-30
+WMX First Date:2010-01-04 Last Date:2011-03-18
+WNRL First Date:2013-11-01 Last Date:2014-01-02
+WNR First Date:2010-01-04 Last Date:2014-01-02
+WORK First Date:2019-07-26 Last Date:2021-07-20
+WPF First Date:2021-04-09 Last Date:2021-07-02
+WPG First Date:2018-01-02 Last Date:2021-09-30
+WPI First Date:2010-01-04 Last Date:2013-01-02
+WPPGY First Date:2010-01-04 Last Date:2014-01-02
+WPX First Date:2012-01-03 Last Date:2021-01-06
+WPZ First Date:2010-01-04 Last Date:2018-08-21
+WP First Date:2018-01-16 Last Date:2019-07-30
+WRC First Date:2010-01-04 Last Date:2013-01-02
+WRD First Date:2018-01-02 Last Date:2019-01-31
+WRESQ First Date:2016-06-09 Last Date:2016-10-18
+WRES First Date:2010-01-04 Last Date:2014-01-02
+WRE First Date:2010-01-04 Last Date:2022-10-20
+WRI First Date:2010-01-04 Last Date:2021-08-03
+WRLS First Date:2012-07-10 Last Date:2013-01-02
+WRSPQ First Date:2010-01-04 Last Date:2010-01-15
+WRTC First Date:2019-06-07 Last Date:2020-11-30
+WR First Date:2010-01-04 Last Date:2018-06-04
+WSH First Date:2010-01-04 Last Date:2014-01-02
+WSII First Date:2010-01-04 Last Date:2010-07-01
+WSTC First Date:2013-04-04 Last Date:2014-01-02
+WSTL First Date:2014-03-27 Last Date:2015-03-20
+WTNY First Date:2010-01-04 Last Date:2011-06-03
+WTRH First Date:2019-06-07 Last Date:2022-11-21
+WTR First Date:2010-01-04 Last Date:2020-01-31
+WTSLA First Date:2010-01-04 Last Date:2013-01-02
+WTSLQ First Date:2015-01-28 Last Date:2015-02-10
+WTSL First Date:2013-02-25 Last Date:2014-01-02
+WUBA First Date:2018-01-02 Last Date:2020-09-18
+WVSPY First Date:2011-05-03 Last Date:2011-06-10
+WWAV First Date:2012-11-12 Last Date:2014-01-02
+WWOW First Date:2022-03-07 Last Date:2022-09-02
+WWWW First Date:2011-03-01 Last Date:2014-01-02
+WXS First Date:2010-01-04 Last Date:2013-01-02
+WX First Date:2010-01-04 Last Date:2014-01-02
+WYND First Date:2018-01-22 Last Date:2021-02-16
+WYN First Date:2010-01-04 Last Date:2018-06-11
+XAL First Date:2010-01-04 Last Date:2013-01-29
+XAN First Date:2018-01-22 Last Date:2021-02-16
+XBD First Date:2010-01-04 Last Date:2010-03-19
+XBUY First Date:2021-09-16 Last Date:2022-02-09
+XCO First Date:2010-01-04 Last Date:2014-01-02
+XCRA First Date:2018-01-02 Last Date:2018-10-10
+XDM First Date:2010-01-04 Last Date:2012-03-13
+XDV First Date:2010-03-22 Last Date:2012-02-29
+XEC First Date:2010-01-04 Last Date:2021-09-30
+XEH First Date:2010-01-04 Last Date:2012-03-12
+XENT First Date:2018-01-02 Last Date:2022-05-12
+XETA First Date:2011-02-15 Last Date:2011-05-31
+XEV First Date:2010-01-04 Last Date:2012-02-29
+XFQ First Date:2017-09-01 Last Date:2017-12-29
+XG First Date:2011-04-21 Last Date:2012-08-21
+XIDEQ First Date:2013-06-24 Last Date:2013-11-15
+XIDE First Date:2010-01-04 Last Date:2013-01-02
+XINGF First Date:2012-05-11 Last Date:2012-08-17
+XING First Date:2010-01-04 Last Date:2012-05-09
+XIN First Date:2010-01-04 Last Date:2023-06-16
+XLFS First Date:2015-10-22 Last Date:2016-11-23
+XLNX First Date:2010-01-04 Last Date:2022-02-11
+XLQ First Date:2017-03-16 Last Date:2017-12-29
+XLRN First Date:2018-01-02 Last Date:2021-11-19
+XLS First Date:2011-11-01 Last Date:2014-01-02
+XL First Date:2010-01-04 Last Date:2022-11-11
+XM First Date:2021-02-17 Last Date:2023-06-28
+XNG First Date:2010-01-04 Last Date:2011-05-23
+XNPT First Date:2010-01-04 Last Date:2014-01-02
+XOG First Date:2018-01-02 Last Date:2021-11-01
+XOI First Date:2010-01-04 Last Date:2010-03-19
+XONE First Date:2018-01-02 Last Date:2021-11-11
+XON First Date:2018-01-02 Last Date:2020-01-31
+XOOM First Date:2013-03-18 Last Date:2014-01-02
+XOQ First Date:2018-01-02 Last Date:2018-03-28
+XOXO First Date:2011-06-28 Last Date:2018-12-20
+XPDI First Date:2021-11-15 Last Date:2022-01-20
+XPLR First Date:2018-01-02 Last Date:2018-08-29
+XPOA First Date:2021-04-09 Last Date:2022-08-05
+XRA First Date:2010-01-04 Last Date:2014-01-02
+XRDC First Date:2015-12-04 Last Date:2016-09-16
+XRF First Date:2018-01-02 Last Date:2020-07-17
+XRIT First Date:2011-12-14 Last Date:2012-05-14
+XRM First Date:2012-10-17 Last Date:2018-10-26
+XRS First Date:2010-11-02 Last Date:2014-01-02
+XRTX First Date:2010-01-04 Last Date:2014-01-02
+XSPAM First Date:2013-11-04 Last Date:2014-01-02
+XSPA First Date:2018-01-08 Last Date:2022-10-25
+XTEX First Date:2010-01-04 Last Date:2014-01-02
+XTLY First Date:2016-11-03 Last Date:2017-08-09
+XTO First Date:2010-01-04 Last Date:2010-06-25
+XTXI First Date:2010-01-04 Last Date:2014-01-02
+XUE First Date:2010-11-12 Last Date:2014-01-02
+XXIA First Date:2010-01-04 Last Date:2014-01-02
+YAO First Date:2010-01-04 Last Date:2019-02-20
+YDKN First Date:2013-08-23 Last Date:2014-01-02
+YDLE First Date:2014-10-23 Last Date:2015-11-27
+YGE First Date:2010-01-04 Last Date:2018-07-10
+YGYI First Date:2018-11-29 Last Date:2020-11-20
+YHOO First Date:2010-01-04 Last Date:2014-01-02
+YMI First Date:2011-05-05 Last Date:2013-01-02
+YMLP First Date:2018-01-02 Last Date:2019-11-29
+YMTX First Date:2021-02-04 Last Date:2022-12-16
+YNDX First Date:2011-06-02 Last Date:2022-02-25
+YOKU First Date:2010-12-16 Last Date:2014-01-02
+YONG First Date:2010-01-04 Last Date:2014-01-02
+YRCWD First Date:2010-10-04 Last Date:2011-12-29
+YRCW First Date:2010-01-04 Last Date:2021-02-05
+YSI First Date:2010-01-04 Last Date:2011-09-16
+YTEC First Date:2010-01-04 Last Date:2012-12-27
+YTEN First Date:2017-01-09 Last Date:2017-06-07
+YUII First Date:2011-01-03 Last Date:2012-01-19
+YUK First Date:2010-01-04 Last Date:2014-01-02
+YUME First Date:2018-01-02 Last Date:2018-02-14
+YZCAY First Date:2017-02-21 Last Date:2017-07-14
+YZC First Date:2010-01-04 Last Date:2014-01-02
+Y First Date:2018-01-02 Last Date:2022-10-18
+ZAGG First Date:2010-01-04 Last Date:2021-02-23
+ZAYO First Date:2018-01-02 Last Date:2020-03-06
+ZAZA First Date:2012-02-22 Last Date:2014-01-02
+ZBIO First Date:2018-01-02 Last Date:2020-03-27
+ZEN First Date:2018-01-02 Last Date:2022-11-21
+ZEP First Date:2011-11-15 Last Date:2014-01-02
+ZEST First Date:2021-09-15 Last Date:2023-03-21
+ZFGN First Date:2018-01-02 Last Date:2020-05-28
+ZGEN First Date:2010-01-04 Last Date:2010-10-12
+ZGNX First Date:2018-01-02 Last Date:2022-03-04
+ZHNE First Date:2013-09-23 Last Date:2014-01-02
+ZIGO First Date:2010-01-04 Last Date:2012-03-16
+ZINCQ First Date:2016-02-11 Last Date:2016-08-19
+ZINC First Date:2010-01-04 Last Date:2014-01-02
+ZIOP First Date:2010-01-13 Last Date:2022-01-26
+ZIXI First Date:2010-01-04 Last Date:2021-12-22
+ZLCS First Date:2013-10-11 Last Date:2014-01-02
+ZLC First Date:2010-01-04 Last Date:2014-01-02
+ZLIG First Date:2015-12-18 Last Date:2015-12-18
+ZLTQ First Date:2012-03-15 Last Date:2014-01-02
+ZMH First Date:2010-01-04 Last Date:2014-01-02
+ZNGA First Date:2011-12-27 Last Date:2022-05-20
+ZNH First Date:2010-01-04 Last Date:2023-02-03
+ZNTE First Date:2021-02-04 Last Date:2022-05-09
+ZNT First Date:2010-01-04 Last Date:2010-05-20
+ZN First Date:2010-03-02 Last Date:2020-09-01
+ZOES First Date:2018-01-02 Last Date:2018-11-30
+ZOLL First Date:2010-01-04 Last Date:2012-04-26
+ZOLT First Date:2010-01-04 Last Date:2014-01-02
+ZOOM First Date:2011-05-16 Last Date:2013-01-02
+ZPIN First Date:2014-09-11 Last Date:2016-07-15
+ZQKSQ First Date:2015-09-11 Last Date:2016-02-25
+ZQK First Date:2010-01-04 Last Date:2014-01-02
+ZRAN First Date:2010-01-04 Last Date:2011-08-30
+ZSPH First Date:2015-05-14 Last Date:2015-12-17
+ZU First Date:2013-11-26 Last Date:2014-01-02
+ZVO First Date:2019-07-25 Last Date:2022-11-09
+ZX First Date:2011-05-27 Last Date:2018-06-15
+ZY First Date:2021-06-11 Last Date:2022-10-18
