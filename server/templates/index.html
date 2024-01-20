@@ -70,7 +70,25 @@
     <div id="content-container">
         <div id="left-edge">
             <h3>Left Edge Text</h3>
-            <!-- Add your additional text content here -->
+
+            <form id="ticker-form">
+                <label for="ticker">Select Ticker:</label>
+                <select id="ticker" name="ticker">
+                    <option value="AAPL">AAPL</option>
+                    <option value="META">META</option>
+                    <option value="TSLA">TSLA</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="/vol_surface">Volatility Surface</a>
+                </li>
+                <li>
+                    <a href="/vol_surface_volume">Volatility Surface with Volume</a>
+                </li>
+            </ul>
         </div>
 
         <div id="chart">

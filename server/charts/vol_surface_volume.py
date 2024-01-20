@@ -2,7 +2,7 @@ import plotly.express as px
 import pandas as pd
 
 
-def vol_surface(ticker):
+def vol_surface_volume(ticker):
     filename = "../frd_complete_plus_options_sample/option_chain_" + ticker + ".csv"
     df = pd.read_csv(filename)
     df["ticker"] = ticker
@@ -19,6 +19,7 @@ def vol_surface(ticker):
         z="Bid Implied Volatility",
         color="Call/Put",
         color_continuous_scale="viridis",
+        size="Volume",
         labels={
             "STrike": "Strike",
             "DTE": "Days to Expiry",
@@ -27,8 +28,8 @@ def vol_surface(ticker):
         title="Volatility Surface for "
         + ticker
         + " Option Chain - Bid Implied Volatility",
-        height=1000,
-        width=1500,
+        height=1200,
+        width=1200,
     )
     fig.update_layout(coloraxis_colorbar=dict(title="Implied Volatility"))
 
