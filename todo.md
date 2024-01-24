@@ -11,6 +11,9 @@
     - computing alpha against range of benchmarks: 
       - sharpe ratio, max drawdown
       - alpha against index, alpha against underlying 
+  - Save results in two formats: 
+    - A one pager: CSV or text file that contains typical benchmarks. The point here is to decide if there's anything interesitng to look at.
+    - The data dump: the transaction dataframes. These can be paired with starter evaluation notebook for deeper digging. 
 
 - Other ideas for things to try: 
   - random forrest combining many simple backtests / indicators
