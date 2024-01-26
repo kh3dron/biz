@@ -8,56 +8,20 @@ class Backtest_Strategy():
 
         self.enteredLong = False
         self.enteredShort = False
-        pass
 
-    def LongEnter(self):
-        if self.enteredShort or self.enteredLong:
-            return False
-        else:
-            pass
-        pass
+        self.entryTime = None
 
-    def LongProfit(self):
-        if not self.enteredLong:
-            return False
-        else:
-            pass
+    def LongEnter(self, row):
+        return not (self.enteredLong or self.enteredShort) and row["RSI14"] < 50
 
-    def LongStopLoss(self):
-        if not self.enteredLong:
-            return False
-        else:
-            pass
+    def LongProfit(self, row):
+        return self.enteredLong and row["RSI14"] > 70
 
-    def LongTimeout(self):
-        if not self.enteredLong:
-            return False
-        else:
-            pass
+    def LongStopLoss(self, row):
+        return self.enteredLong and row["RSI14"] < 50
 
-    def ShortEnter(self):
-        if self.enteredShort or self.enteredLong:
-            return False
-        else:
-            pass
-
-    def ShortProfit(self):
-        if not self.enteredShort:
-            return False
-        else:
-            pass
-
-    def ShortStopLoss(self):
-        if not self.enteredShort:
-            return False
-        else:
-            pass
-
-    def ShortTimeout(self):
-        if not self.enteredShort:
-            return False
-        else:
-            pass
+    def LongTimeout(self, row):
+        return self.enteredLong and self.entryTime + 60 < row["Time"]
 
     def Backtest(self, df):
         # This function accepts a df of historic stock data and an indicator logic object.
@@ -66,7 +30,7 @@ class Backtest_Strategy():
         cols = ['Ticker', 'Date', 'Time', 'Action']
         results = pd.DataFrame(columns=cols)
 
-        for row in df:
+        for index, row in df.iterrows():
             action = None
             if self.LongEnter(row):
                 action = "LongEnter"
@@ -74,20 +38,10 @@ class Backtest_Strategy():
                 action = "LongProfit"
             elif self.LongStopLoss(row):
                 action = "LongStopLoss"
-            elif self.LongTimeout():
+            elif self.LongTimeout(row):
                 action = "LongTimeout"
-            elif self.ShortEnter():
-                action = "ShortEnter"
-            elif self.ShortProfit():
-                action = "ShortProfit"
-            elif self.ShortStopLoss():
-                action = "ShortStopLoss"
-            elif self.ShortTimeout():
-                action = "ShortTimeout"
-            else:
-                pass
 
-            if action is not None: 
-                results.append({"Ticker": row["Ticker"], "Date": row["Date"], "Time": row["Time"], "Action": row["Action"]}, ignore_index=True)
+            if action is not None:
+                results = results.append(row[cols].to_dict(), ignore_index=True)
 
         return results
