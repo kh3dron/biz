@@ -6,22 +6,29 @@ class Backtest_Strategy():
 
     def __init__(self):
 
-        self.enteredLong = False
-        self.enteredShort = False
-
         self.entryTime = None
+        self.enteredLong = False
 
     def LongEnter(self, row):
-        return not (self.enteredLong or self.enteredShort) and row["RSI14"] < 50
+        if not self.enteredLong and row["RSI14"] < 50:
+            self.enteredLong = True
+            self.entryTime = row["Time"]
+            return True
 
     def LongProfit(self, row):
-        return self.enteredLong and row["RSI14"] > 70
+        if self.enteredLong and row["RSI14"] > 70:
+            self.enteredLong = False
+            return True
 
     def LongStopLoss(self, row):
-        return self.enteredLong and row["RSI14"] < 50
+        if self.enteredLong and row["RSI14"] < 50:
+            self.enteredLong = False
+            return True
 
     def LongTimeout(self, row):
-        return self.enteredLong and self.entryTime + 60 < row["Time"]
+        if self.enteredLong and self.entryTime + 60 < row["Time"]:
+            self.enteredLong = False
+            return True
 
     def Backtest(self, df):
         # This function accepts a df of historic stock data and an indicator logic object.
@@ -42,6 +49,9 @@ class Backtest_Strategy():
                 action = "LongTimeout"
 
             if action is not None:
-                results = results.append(row[cols].to_dict(), ignore_index=True)
+                results = pd.concat([results, pd.DataFrame([[row["Ticker"], row["Date"], row["Time"], action]], columns=cols)])
 
         return results
+    
+
+testing = Backtest_Strategy()
