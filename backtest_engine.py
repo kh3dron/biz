@@ -1,4 +1,5 @@
 import pandas as pd
+import datetime
 
 from data_importing import *
 
@@ -16,21 +17,26 @@ class Backtest():
             self.enteredLong = True
             self.entryTime = row["time"]
             return True
+        return False
 
     def LongProfit(self, row):
         if self.enteredLong and row["rsi14"] > 70:
             self.enteredLong = False
             return True
+        return False
 
     def LongStopLoss(self, row):
         if self.enteredLong and row["rsi14"] < 50:
             self.enteredLong = False
             return True
+        return False
 
     def LongTimeout(self, row):
-        if self.enteredLong and self.entryTime + datetime.timedelta(hours=1) < row["time"]:
-            self.enteredLong = False
-            return True
+        if self.enteredLong:
+            if row["time"] > self.entryTime + datetime.timedelta(minutes=30) or row["time"] >= datetime.time(16, 00):
+                self.enteredLong = False
+                return True
+        return False
 
     def test(self, df):
         # This function accepts a df of historic stock data and an indicator logic object.
