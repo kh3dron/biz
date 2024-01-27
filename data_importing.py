@@ -35,7 +35,16 @@ def RSI(df, n):
     AVG_Loss = abs(df["down"].rolling(window=n).mean())
     RS = AVG_Gain / AVG_Loss
     RSI = 100.0 - (100.0 / (1.0 + RS))
-    df["RSI_14"] = RSI.round(4)
+    df["rsi" + str(n)] = RSI.round(4)
     df = df.drop(columns=["up", "down"])
 
+    return df
+
+def MACD(df, n_fast, n_slow):
+    """function to calculate MACD
+       typical values a = 12; b =26, c =9"""
+    EMAfast = df["close"].ewm(span=n_fast, min_periods=n_slow).mean()
+    EMAslow = df["close"].ewm(span=n_slow, min_periods=n_slow).mean()
+    MACD = EMAfast - EMAslow
+    df["macd"] = MACD.round(4)
     return df

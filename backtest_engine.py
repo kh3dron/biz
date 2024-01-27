@@ -1,6 +1,8 @@
 import pandas as pd
 
-class Backtest_Strategy():
+from data_importing import *
+
+class Backtest():
     # This class should contain all the logic for a trading strategy to conduct a backtest. 
     # It will make assumptions about columns in the dataframe that is used with.
 
@@ -10,31 +12,31 @@ class Backtest_Strategy():
         self.enteredLong = False
 
     def LongEnter(self, row):
-        if not self.enteredLong and row["RSI14"] < 50:
+        if not self.enteredLong and row["rsi14"] < 50:
             self.enteredLong = True
-            self.entryTime = row["Time"]
+            self.entryTime = row["time"]
             return True
 
     def LongProfit(self, row):
-        if self.enteredLong and row["RSI14"] > 70:
+        if self.enteredLong and row["rsi14"] > 70:
             self.enteredLong = False
             return True
 
     def LongStopLoss(self, row):
-        if self.enteredLong and row["RSI14"] < 50:
+        if self.enteredLong and row["rsi14"] < 50:
             self.enteredLong = False
             return True
 
     def LongTimeout(self, row):
-        if self.enteredLong and self.entryTime + 60 < row["Time"]:
+        if self.enteredLong and self.entryTime + datetime.timedelta(hours=1) < row["time"]:
             self.enteredLong = False
             return True
 
-    def Backtest(self, df):
+    def test(self, df):
         # This function accepts a df of historic stock data and an indicator logic object.
         # It will return a new dataframe of times when the indicator logic enters and exits long and short positions. 
         
-        cols = ['Ticker', 'Date', 'Time', 'Action']
+        cols = ['ticker', 'date', 'time', 'action']
         results = pd.DataFrame(columns=cols)
 
         for index, row in df.iterrows():
@@ -49,9 +51,17 @@ class Backtest_Strategy():
                 action = "LongTimeout"
 
             if action is not None:
-                results = pd.concat([results, pd.DataFrame([[row["Ticker"], row["Date"], row["Time"], action]], columns=cols)])
+                results = pd.concat([results, pd.DataFrame([[row["ticker"], row["date"], row["time"], action]], columns=cols)])
 
         return results
-    
 
-testing = Backtest_Strategy()
+df = pd.read_csv("data/SPY_1min_firstratedata.csv")
+df["ticker"] = "SPY"
+
+df = timestamp_to_date_and_time(df)
+df = RSI(df, 14)
+df = market_hours_only(df)
+
+testing = Backtest()
+results = testing.test(df)
+results.to_csv("results.csv", index=False)
