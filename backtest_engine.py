@@ -12,13 +12,11 @@ class Backtest():
         self.entryTime = None
         self.enteredLong = False
 
-        self.enteredTrades = 0
         self.maxDailyTrades = 1
 
     def LongEnter(self, row):
-        if not self.enteredLong and row["rsi14"] < 50 and (self.enteredTrades < self.maxDailyTrades):
+        if not self.enteredLong and row["rsi14"] < 50:
             self.enteredLong = True
-            self.enteredTrades += 1
             self.entryTime = row["time"]
             return True
         return False
@@ -30,11 +28,12 @@ class Backtest():
         return False
 
     def LongStopLoss(self, row):
-        if self.enteredLong and row["rsi14"] < 50:
+        if self.enteredLong and row["rsi14"] < 40:
             self.enteredLong = False
             return True
         return False
 
+    # TODO: Add a timeout for trades that are open for too long
     def LongTimeout(self, row):
         if self.enteredLong:
             if row["time"] == datetime.time(15, 59, 0):
@@ -48,21 +47,28 @@ class Backtest():
         
         cols = ['ticker', 'date', 'time', 'action']
         results = pd.DataFrame(columns=cols)
+        
+        days = list_of_day_dfs(df)
+        for day in days:
+            executed_trades = 0
 
-        for index, row in df.iterrows():
-            print(row["date"])
-            action = None
-            if self.LongEnter(row):
-                action = "LongEnter"
-            elif self.LongProfit(row):
-                action = "LongProfit"
-            elif self.LongStopLoss(row):
-                action = "LongStopLoss"
-            elif self.LongTimeout(row):
-                action = "LongTimeout"
+            for index, row in day.iterrows():
+                if executed_trades >= self.maxDailyTrades:
+                    break
+                print(row["date"])
+                action = None
+                if self.LongEnter(row):
+                    action = "LongEnter"
+                elif self.LongProfit(row):
+                    action = "LongProfit"
+                elif self.LongStopLoss(row):
+                    action = "LongStopLoss"
+                elif self.LongTimeout(row):
+                    action = "LongTimeout"
 
-            if action is not None:
-                results = pd.concat([results, pd.DataFrame([[row["ticker"], row["date"], row["time"], action]], columns=cols)])
+                if action is not None:
+                    results = pd.concat([results, pd.DataFrame([[row["ticker"], row["date"], row["time"], action]], columns=cols)])
+                    executed_trades += 1
 
         return results
 
@@ -73,10 +79,6 @@ df = timestamp_to_date_and_time(df)
 df = RSI(df, 14)
 df = market_hours_only(df)
 
-days = list_of_day_dfs(df)
-print(days[0])
-
-
-# testing = Backtest()
-# results = testing.test(df)
-# results.to_csv("results.csv", index=False)
+testing = Backtest()
+results = testing.test(df)
+results.to_csv("results.csv", index=False)
