@@ -12,9 +12,13 @@ class Backtest():
         self.entryTime = None
         self.enteredLong = False
 
+        self.enteredTrades = 0
+        self.maxDailyTrades = 1
+
     def LongEnter(self, row):
-        if not self.enteredLong and row["rsi14"] < 50:
+        if not self.enteredLong and row["rsi14"] < 50 and (self.enteredTrades < self.maxDailyTrades):
             self.enteredLong = True
+            self.enteredTrades += 1
             self.entryTime = row["time"]
             return True
         return False
@@ -46,6 +50,7 @@ class Backtest():
         results = pd.DataFrame(columns=cols)
 
         for index, row in df.iterrows():
+            print(row["date"])
             action = None
             if self.LongEnter(row):
                 action = "LongEnter"
