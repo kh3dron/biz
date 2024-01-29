@@ -54,6 +54,18 @@ class Backtest():
                     executed_trades += 1
 
         return pd.DataFrame(results, columns=cols)
+    
+    def evaluate(self, underlying, backtest):
+        # determine the alpha and beta of the strategy
+        d1 = list_of_day_dfs(underlying)
+        d2 = list_of_day_dfs(backtest)
+
+        # calculate the daily returns of the underlying
+
+        # calculate the returns of the trading
+
+        # claculate holding the underlying for the same time period as the trading
+
 
 df = pd.read_csv("data/SPY_1min_firstratedata.csv")
 df["ticker"] = "SPY"
@@ -61,6 +73,11 @@ df = timestamp_to_date_and_time(df)
 df = RSI(df, 14)
 df = market_hours_only(df)
 
-testing = Backtest()
-results = testing.test(df)
-results.to_csv("results.csv", index=False)
+rsi_swing = Backtest()
+trades = rsi_swing.test(df)
+
+print(rsi_swing.evaluate(df, trades))
+
+
+
+
