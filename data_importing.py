@@ -20,6 +20,12 @@ def option_hours_only(df):
     df = df[(df["time"] >= datetime.time(9, 30)) & (df["time"] <= datetime.time(16, 0))]
     return df
 
+def list_of_day_dfs(df):
+    days = []
+    for day in df["date"].unique():
+        days.append(df[df["date"] == day])
+    return days
+
 ### INDICATORS
 
 def RSI(df, n):

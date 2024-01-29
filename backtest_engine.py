@@ -73,6 +73,10 @@ df = timestamp_to_date_and_time(df)
 df = RSI(df, 14)
 df = market_hours_only(df)
 
-testing = Backtest()
-results = testing.test(df)
-results.to_csv("results.csv", index=False)
+days = list_of_day_dfs(df)
+print(days[0])
+
+
+# testing = Backtest()
+# results = testing.test(df)
+# results.to_csv("results.csv", index=False)
