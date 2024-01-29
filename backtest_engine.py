@@ -33,7 +33,7 @@ class Backtest():
 
     def LongTimeout(self, row):
         if self.enteredLong:
-            if row["time"] > self.entryTime + datetime.timedelta(minutes=30) or row["time"] >= datetime.time(16, 00):
+            if row["time"] == datetime.time(15, 59, 0):
                 self.enteredLong = False
                 return True
         return False
