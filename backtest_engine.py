@@ -5,7 +5,7 @@ from data_importing import *
 class Backtest():
     MAX_DAILY_TRADES = 1
     RSI_OVERSOLD_THRESHOLD = 50
-    RSI_OVERBOUGHT_THRESHOLD = 70
+    RSI_OVERBOUGHT_THRESHOLD = 55
     RSI_STOP_LOSS_THRESHOLD = 40
     TIMEOUT_EXIT = datetime.time(15, 59)  # Market closing time - 1 minute
 
@@ -44,7 +44,7 @@ class Backtest():
             executed_trades = 0
 
             for index, row in day.iterrows():
-                if executed_trades >= self.MAX_DAILY_TRADES:
+                if executed_trades >= self.MAX_DAILY_TRADES*2:
                     break
 
                 action = self.execute_action(row)
