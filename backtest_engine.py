@@ -1,6 +1,6 @@
 import pandas as pd
 import datetime
-from data_importing import *
+from utilities import *
 
 class Backtest():
     MAX_DAILY_TRADES = 1
@@ -61,11 +61,12 @@ class Backtest():
         d2 = list_of_day_dfs(backtest)
 
         # calculate the daily returns of the underlying
+        daily_returns = []
+        for day in d1:
+            daily_returns.append(day.iloc[-1]["close"] / day.iloc[0]["close"] - 1)
+        daily_returns = pd.DataFrame(daily_returns, columns=["underlying"])
 
         # calculate the returns of the trading
-
-        # claculate holding the underlying for the same time period as the trading
-
 
 df = pd.read_csv("data/SPY_1min_firstratedata.csv")
 df["ticker"] = "SPY"
