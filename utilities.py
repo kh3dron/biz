@@ -2,6 +2,29 @@
 
 import pandas as pd
 import datetime
+import os
+
+### DATA LOADING
+# These directories might have different structures for index/futures/stocks, so each gets their own loading function. 
+
+def load_indexes(limit_read = -1):
+    path = "data/index_full_1min_n1q56ok/"
+    data = []
+    for filename in os.listdir(path):
+        if limit_read == 0:
+            return data
+        limit_read -= 1
+        if filename.endswith(".txt"):
+            df = pd.read_csv(path + filename)
+            df.columns = ["timestamp", "open", "high", "low", "close"]
+
+            ticker = filename.replace("_full_1min.txt", "")
+            df["ticker"] = ticker
+
+            df = timestamp_to_date_and_time(df)
+            data.append(df)
+
+    return data
 
 ### TIME
 
@@ -9,7 +32,7 @@ def timestamp_to_date_and_time(df):
     df["timestamp"] = pd.to_datetime(df["timestamp"])
     df['date'] = df['timestamp'].dt.date
     df['time'] = df['timestamp'].dt.time
-    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S')
+    df = df.drop(columns=["timestamp"])
     return df
 
 def market_hours_only(df):
