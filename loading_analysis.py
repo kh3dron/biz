@@ -6,9 +6,12 @@ import os
 indexes_path = "data/index_full_1min_n1q56ok/"
 
 
-def load_data(path):
+def load_data(path, limit_read = 5):
     data = []
     for filename in os.listdir(path):
+        if limit_read == 0:
+            return data
+        limit_read -= 1
         if filename.endswith(".txt"):
             df = pd.read_csv(path + filename)
             # remove tjhe file extension from the date
@@ -22,4 +25,5 @@ def load_data(path):
 
 # load the data into a list of dataframes
 data = load_data(indexes_path)
-print(data[0].head())
+
+print("Loaded", len(data), "tickers")
