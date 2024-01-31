@@ -49,6 +49,10 @@ def list_of_day_dfs(df):
         days.append(df[df["date"] == day])
     return days
 
+def time_to_numeric(df):
+    df["minute"] = df["time"].apply(lambda x: x.hour*60 + x.minute)
+    return df
+
 ### DATA SANITIZING
 
 #TODO: rewrite this, just moving this here to delete files
