@@ -26,8 +26,13 @@ def load_indexes(limit_read = -1):
 
     return data
 
-def load_stocks():
-    pass
+def load_stock(ticker):
+    df = pd.read_csv(f'../data/stocks/{ticker}_full_1min_adjsplit.txt')
+    df.columns = ["timestamp", "open", "high", "low", "close", "volume"]
+    df["ticker"] = ticker
+    df = timestamp_to_date_and_time(df)
+
+    return df
 
 ### TIME
 
@@ -44,6 +49,10 @@ def market_hours_only(df):
 def option_hours_only(df):
     df = df[(df["time"] >= datetime.time(9, 30)) & (df["time"] <= datetime.time(16, 0))]
     return df
+
+def count_days(df):
+    df['date'] = df['timestamp'].dt.date
+    return len(df["date"].unique())
 
 def list_of_day_dfs(df):
     days = []
