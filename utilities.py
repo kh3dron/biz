@@ -8,7 +8,7 @@ import os
 # These directories might have different structures for index/futures/stocks, so each gets their own loading function. 
 
 def load_indexes(limit_read = -1):
-    path = "data/index_full_1min_n1q56ok/"
+    path = "../data/index_full_1min_n1q56ok/"
     data = []
     for filename in os.listdir(path):
         if limit_read == 0:
@@ -26,17 +26,19 @@ def load_indexes(limit_read = -1):
 
     return data
 
+def load_stocks():
+    pass
+
 ### TIME
 
 def timestamp_to_date_and_time(df):
     df["timestamp"] = pd.to_datetime(df["timestamp"])
     df['date'] = df['timestamp'].dt.date
     df['time'] = df['timestamp'].dt.time
-    df = df.drop(columns=["timestamp"])
     return df
 
 def market_hours_only(df):
-    df = df[(df["time"] >= datetime.time(9, 00)) & (df["time"] <= datetime.time(16, 0))]
+    df = df[(df["time"] >= datetime.time(9, 30)) & (df["time"] <= datetime.time(16, 0))]
     return df
 
 def option_hours_only(df):
@@ -73,6 +75,10 @@ def missing_minutes(df):
             gaps.append(int(time_diff) - 1)
 
     print("Number of missing minutes:", missing_minutes, "out of", len(df), "total minutes", "(" + str(round(missing_minutes / len(df) * 100, 2)) + "%)")
+
+def missing_markethours(df):
+    df = market_hours_only(df)
+    return 1-(len(df) / (len(df["date"].unique()) * 390))
 
 ### DATA RESHAPING
 
