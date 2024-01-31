@@ -1,6 +1,5 @@
-temp/*
+temp/
 data/
-
-frd_complete_plus_options_sample
-
 venv
+
+data_cleaning/stocks/all_ticker_misses.csv
