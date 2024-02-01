@@ -31,6 +31,7 @@ def load_stock(ticker):
     df.columns = ["timestamp", "open", "high", "low", "close", "volume"]
     df["ticker"] = ticker
     df = timestamp_to_date_and_time(df)
+    df = time_to_numeric(df)
 
     return df
 
@@ -127,14 +128,19 @@ def RSI(df, n):
     RSI = 100.0 - (100.0 / (1.0 + RS))
     df["rsi" + str(n)] = RSI.round(4)
     df = df.drop(columns=["up", "down"])
-
     return df
 
-def MACD(df, n_fast, n_slow):
-    """function to calculate MACD
-       typical values a = 12; b =26, c =9"""
+def MACD(df, n_fast=12, n_slow=26, n_signal=9):
     EMAfast = df["close"].ewm(span=n_fast, min_periods=n_slow).mean()
     EMAslow = df["close"].ewm(span=n_slow, min_periods=n_slow).mean()
     MACD = EMAfast - EMAslow
     df["macd"] = MACD.round(4)
+    signal = MACD.ewm(span=n_signal, min_periods=n_signal).mean()
+    df["signal"] = signal.round(4)
+    df["histogram"] = (MACD - signal).round(4)
+    return df
+
+def EMA(df, n):
+    EMA = df["close"].ewm(span=n, min_periods=n).mean()
+    df["ema" + str(n)] = EMA.round(4)
     return df
