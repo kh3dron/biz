@@ -1,5 +1,6 @@
 temp/
 data/
-venv
+cleaned_data/
 
+venv
 data_cleaning/stocks/all_ticker_misses.csv
