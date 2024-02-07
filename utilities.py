@@ -26,6 +26,13 @@ def load_indexes(limit_read = -1):
 
     return data
 
+def load_index(ticker):
+    df = pd.read_csv(f'../data/etfs/{ticker}_full_1min_adjsplit.txt')
+    df.columns = ["timestamp", "open", "high", "low", "close", 'volume']
+    df["ticker"] = ticker
+    df = timestamp_to_date_and_time(df)
+    return df
+
 def load_stock(ticker):
     df = pd.read_csv(f'../data/stocks/{ticker}_full_1min_adjsplit.txt')
     df.columns = ["timestamp", "open", "high", "low", "close", "volume"]
