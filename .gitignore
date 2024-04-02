@@ -2,5 +2,7 @@ temp/
 data/
 cleaned_data/
 
+models/*.csv
+
 venv
 data_cleaning/stocks/all_ticker_misses.csv
